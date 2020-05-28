@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to the OFN User Guide](README.md)
+* [Добро Пожаловать в Руководство пользователя ОСП](README.md)
 * [Local OFN organisations and contacts](local-ofn-organizations-and-contacts.md)
 * [Где мой бизнес вписывается в ОСП?](your-quick-start-on-ofn-given-who-you-are.md)
 * [Краткое Руководство](quick-start-guides/README.md)
