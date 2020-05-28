@@ -1,30 +1,30 @@
 ---
-description: Identify the classification of your food enterprise within the OFN platform.
+description: Определите классификацию вашего предприятия на платформе ОСП.
 ---
 
-# Where does my business fit in OFN?
+# Где мой бизнес вписывается в ОСП?
 
-Depending on the type of food enterprise you are running, you will use the Open Food Network platform differently.
+В зависимости от типа предприятия, в котором вы работаете, вы будете использовать платформу Открытая Сеть Продуктов по-разному.
 
-We classify food enterprises in three ways: [Profiles](your-quick-start-on-ofn-given-who-you-are.md#profile), [Shops](your-quick-start-on-ofn-given-who-you-are.md#shop) or [Hubs](your-quick-start-on-ofn-given-who-you-are.md#hub).
+Мы классифицируем пищевые предприятия тремя способами: [Профиль](your-quick-start-on-ofn-given-who-you-are.md#profile), [Магазин](your-quick-start-on-ofn-given-who-you-are.md#shop) or [Центр](your-quick-start-on-ofn-given-who-you-are.md#hub).
 
 ![](.gitbook/assets/l-flowchart%20%281%29.png)
 
-_The flexibility of the Open Food Network software allows you to change from profile,_ _to shop, to hub \(or vice versa\) as your business grows and/or needs change._
+_Гибкость программного обеспечения Открытой Сети Продуктов позволяет вам переходить от профиля к магазину, к хабу \(или наоборот\) по мере роста вашего бизнеса и/или изменения потребностей._
 
-## Hub
+## Центр
 
 {% hint style="success" %}
-Farmers' Market, Veg box scheme, Crofting Groups, Social Food Community groups, Food Coops, Food hubs, CSA, Market/City gardens,  Retail shops, Food Banks, Wholesale Distributors...
+Фермерский рынок, Схема вегетарианского ящика, Crofting Groups, Социальное продовольственное сообщество, Продовольственные кооперативы, CSA, Рынки/Городские ярмарки, Розничные магазины, Продовольственные банки, Оптовые дистрибьюторы ...
 {% endhint %}
 
-Hubs can take many forms but, in essence, your enterprise is best classified as a 'Hub' on OFN if you wish to **sell produce made by others.** You can retail your own products alongside those of other farmers, bakers, growers... \(a '**Producer Hub**'\) or act solely as a distributor to sell a collection of groceries made by \(local\) enterprises \(a '**Non-Producer Hub**'\).
+Центры могут принимать разные формы, но по сути, ваше предприятие лучше всего классифицировать как «Центр» в ОСП, если вы хотите продавать продукцию, произведенную другими**.** You can retail your own products alongside those of other farmers, bakers, growers... \(a '**Producer Hub**'\) or act solely as a distributor to sell a collection of groceries made by \(local\) enterprises \(a '**Non-Producer Hub**'\).
 
 {% hint style="info" %}
 If you'd prefer to sell only products that **you** make then the '[shop](your-quick-start-on-ofn-given-who-you-are.md#shop)' classification suites your needs better.
 {% endhint %}
 
-#### OFN can help your hub thrive and prosper by:
+### OFN can help your hub thrive and prosper by:
 
 1. Increasing your online visibility.
 2. Providing your customers with a virtual 'farmers' market' experience
@@ -55,7 +55,7 @@ As a shop; as well as selling directly to customers through your shop front; you
 If you'd prefer not to organise sales to customers directly but would like to **only** supply an OFN hub with goods then the '[Profile](your-quick-start-on-ofn-given-who-you-are.md#profile)' classification suits your needs better.
 {% endhint %}
 
-#### OFN can help your shop thrive and prosper by:
+### OFN can help your shop thrive and prosper by:
 
 1. Increasing your online visibility.
 2. Streamlining your admin tasks with stock levels, orders, finances, packing reports all in one place.
@@ -78,7 +78,7 @@ An OFN profile is ideal for **increasing your online visibility** and gives you 
 If you'd prefer to organise sales to customers yourself then the '[shop](your-quick-start-on-ofn-given-who-you-are.md#shop)' or '[Hub](your-quick-start-on-ofn-given-who-you-are.md#hub)' classification is better suited to your needs.
 {% endhint %}
 
-#### OFN can help your food enterprise thrive and prosper by:
+### OFN can help your food enterprise thrive and prosper by:
 
 1. Increasing your online visibility.
 2. Helping to build strong working relationships with local food distributors and retailers \(OFN hubs\) to whom you supply goods.
