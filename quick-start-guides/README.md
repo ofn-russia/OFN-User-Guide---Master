@@ -1,16 +1,16 @@
 ---
-description: Simple steps to start your OFN journey
+description: 'Простые шаги, чтобы начать переход на ОСП'
 ---
 
-# Quick Start Guides
+# Краткое Руководство
 
-Getting started on the Open Food Network can be as easy as 1-5!
+Начать работу в Открытой Сети Продуктов так же просто, как 1,2,3!
 
-Follow the quick set up list for your enterprise:
+Следуйте краткому списку настроек для вашего предприятия:
 
-* [Hub](multi-producers-shop-hub-quick-setup-guide.md)
-* [Shop](producer-shop-quick-setup-guide.md)
-* [Profile](profile-only-quick-setup-guide.md)
+* [Центр](multi-producers-shop-hub-quick-setup-guide.md)
+* [Магазин](producer-shop-quick-setup-guide.md)
+* [Профиль](profile-only-quick-setup-guide.md)
 
-Not sure which enterprise you are? Have a look at this [page](../your-quick-start-on-ofn-given-who-you-are.md).
+Не уверены, какое предприятие вам подходит? Посмотрите на эту [страницу](../your-quick-start-on-ofn-given-who-you-are.md).
 

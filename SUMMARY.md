@@ -3,7 +3,7 @@
 * [Welcome to the OFN User Guide](README.md)
 * [Local OFN organisations and contacts](local-ofn-organizations-and-contacts.md)
 * [Где мой бизнес вписывается в ОСП?](your-quick-start-on-ofn-given-who-you-are.md)
-* [Quick Start Guides](quick-start-guides/README.md)
+* [Краткое Руководство](quick-start-guides/README.md)
   * [Hub](quick-start-guides/multi-producers-shop-hub-quick-setup-guide.md)
   * [Shop](quick-start-guides/producer-shop-quick-setup-guide.md)
   * [Profile](quick-start-guides/profile-only-quick-setup-guide.md)
