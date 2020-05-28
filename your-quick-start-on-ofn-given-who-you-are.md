@@ -6,7 +6,7 @@ description: Определите классификацию вашего пре
 
 В зависимости от типа предприятия, в котором вы работаете, вы будете использовать платформу Открытая Сеть Продуктов по-разному.
 
-Мы классифицируем пищевые предприятия тремя способами: [Профиль](your-quick-start-on-ofn-given-who-you-are.md#profile), [Магазин](your-quick-start-on-ofn-given-who-you-are.md#shop) or [Центр](your-quick-start-on-ofn-given-who-you-are.md#hub).
+Мы классифицируем пищевые предприятия тремя способами: [Профиль](your-quick-start-on-ofn-given-who-you-are.md#profile), [Магазин](your-quick-start-on-ofn-given-who-you-are.md#shop) или [Центр](your-quick-start-on-ofn-given-who-you-are.md#hub).
 
 ![](.gitbook/assets/l-flowchart%20%281%29.png)
 
@@ -18,35 +18,41 @@ _Гибкость программного обеспечения Открыто
 Фермерский рынок, Схема вегетарианского ящика, Crofting Groups, Социальное продовольственное сообщество, Продовольственные кооперативы, CSA, Рынки/Городские ярмарки, Розничные магазины, Продовольственные банки, Оптовые дистрибьюторы ...
 {% endhint %}
 
-Центры могут принимать разные формы, но по сути, ваше предприятие лучше всего классифицировать как «Центр» в ОСП, если вы хотите продавать продукцию, произведенную другими**.** You can retail your own products alongside those of other farmers, bakers, growers... \(a '**Producer Hub**'\) or act solely as a distributor to sell a collection of groceries made by \(local\) enterprises \(a '**Non-Producer Hub**'\).
+Центры могут принимать разные формы, но по сути, ваше предприятие лучше всего классифицировать как «Центр» в ОСП, если вы хотите продавать продукцию, произведенную другими**.** Вы можете продавать свои собственные продукты вместе с продуктами других фермеров, пекарей, производителей ... \('**Центр Производителя**'\) или выступать исключительно в качестве дистрибьютора для продажи продуктов, произведенных \(местными\) предприятиями \('**Центр не Производителя**'\).
 
 {% hint style="info" %}
-If you'd prefer to sell only products that **you** make then the '[shop](your-quick-start-on-ofn-given-who-you-are.md#shop)' classification suites your needs better.
+Если вы предпочитаете продавать только продукты, которые **вы** производите, то классификация '[магазин](your-quick-start-on-ofn-given-who-you-are.md#shop)' лучше соответствует вашим потребностям.
 {% endhint %}
 
-### OFN can help your hub thrive and prosper by:
+**ОСП может помочь процветать вашему центру путем:**
 
-1. Increasing your online visibility.
-2. Providing your customers with a virtual 'farmers' market' experience
-3. Streamlining your admin tasks with stock levels, orders, finances, packing reports all in one place.
-4. Being able to take orders periodically to fit in with seasonal supply, production rotas and more...
-5. Helping organise regular repeating orders such as veg box schemes.
-6. Helping to build strong working relationships with local producers and food enterprises who supply you with goods.
+1. Увеличение вашей онлайн видимости.
+2. Предоставление вашим клиентам опыта виртуального «фермерского рынка»
+3. Оптимизации ваших административных задач с уровнем запасов, заказов, финансов, отчетов в едином месте.
+4. Возможность периодически принимать заказы, чтобы соответствовать сезонным поставкам и другое ...
+5. Помощь в организации регулярных повторяющихся заказов, таких как овощные наборы.
+6. Помогаем строить прочные деловые отношения с местными производителями и продовольственными предприятиями, которые поставляют вам товары.
 
-_The Hub enterprise has the most flexibility of the three enterprise types in OFN and you may find it necessary to adjust your enterprise type to 'hub' in order to unlock some of the more complex features we can offer._
+## 
 
-**Setting up on OFN** can be as simple following 5 steps, just follow our quick starter's guide [here](quick-start-guides/multi-producers-shop-hub-quick-setup-guide.md).
+## 
 
-## Shop
+Предприятие Центр обладает наибольшей гибкостью из трех типов предприятия в ОСП и вам может потребоваться настроить тип предприятия на «Центр», чтобы разблокировать некоторые из более сложных функций, которые мы можем предложить.
+
+Настройка на ОСП может быть простой, в 5 шагов, просто следуйте нашему краткому руководству [тут](quick-start-guides/multi-producers-shop-hub-quick-setup-guide.md).
+
+## Магазин
 
 {% hint style="success" %}
-Farmers, Bakers, Growers, Individual Crofters, Cottage Enterprises, Small Holders....
+Фермеры, пекари, садоводы, индивидуальные арендаторы ферм, дачные предприятия, мелкие фермеры...
 {% endhint %}
 
-Shops can take many forms but in essence, your enterprise is best classified as a 'Shop' on OFN if you wish to **sell** _**only**_ **produce** that **you** make.
+
+
+Магазины могут принимать разные формы, но по сути, ваше предприятие лучше всего классифицировать как «Магазин» в ОСП, если вы хотите **продавать только ту продукцию**, которую **вы** производите.
 
 {% hint style="danger" %}
-If you'd wish to sell products made by others as well as yourself then it is necessary to register as a '[Hub](your-quick-start-on-ofn-given-who-you-are.md#hub)'.
+Если вы хотите продавать товары, сделанные не только вами, но и другими людьми, необходимо зарегистрироваться как '[Центр](your-quick-start-on-ofn-given-who-you-are.md#hub)'.
 {% endhint %}
 
 As a shop; as well as selling directly to customers through your shop front; you can also supply other OFN retailers \(Hubs\) with your produce.
