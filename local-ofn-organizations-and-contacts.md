@@ -1,4 +1,4 @@
-# Local OFN organisations and contacts
+# Местные ОСП организации и контакты
 
 You can access the Open Food Network platform in various languages, and from various providers, depending on where you are located.
 
