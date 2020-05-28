@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Добро Пожаловать в Руководство пользователя ОСП](README.md)
+* [Добро Пожаловать в Руководство Пользователя ОСП](README.md)
 * [Местные ОСП организации и контакты](local-ofn-organizations-and-contacts.md)
 * [Где мой бизнес вписывается в ОСП?](your-quick-start-on-ofn-given-who-you-are.md)
 * [Краткое Руководство](quick-start-guides/README.md)
