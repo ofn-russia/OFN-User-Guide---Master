@@ -8,7 +8,7 @@ description: Определите классификацию вашего пре
 
 Мы классифицируем пищевые предприятия тремя способами: [Профиль](your-quick-start-on-ofn-given-who-you-are.md#profile), [Магазин](your-quick-start-on-ofn-given-who-you-are.md#shop) или [Центр](your-quick-start-on-ofn-given-who-you-are.md#hub).
 
-![](.gitbook/assets/l-flowchart%20%281%29.png)
+![](.gitbook/assets/l-flowchart-1-.ru.png)
 
 _Гибкость программного обеспечения Открытой Сети Продуктов позволяет вам переходить от профиля к магазину, к хабу \(или наоборот\) по мере роста вашего бизнеса и/или изменения потребностей._
 
