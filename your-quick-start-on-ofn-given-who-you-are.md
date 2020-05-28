@@ -24,7 +24,7 @@ _Гибкость программного обеспечения Открыто
 Если вы предпочитаете продавать только продукты, которые **вы** производите, то классификация '[магазин](your-quick-start-on-ofn-given-who-you-are.md#shop)' лучше соответствует вашим потребностям.
 {% endhint %}
 
-**ОСП может помочь процветать вашему центру путем:**
+## **ОСП может помочь процветать вашему центру путем:**
 
 1. Увеличение вашей онлайн видимости.
 2. Предоставление вашим клиентам опыта виртуального «фермерского рынка»
@@ -55,39 +55,39 @@ _Гибкость программного обеспечения Открыто
 Если вы хотите продавать товары, сделанные не только вами, но и другими людьми, необходимо зарегистрироваться как '[Центр](your-quick-start-on-ofn-given-who-you-are.md#hub)'.
 {% endhint %}
 
-As a shop; as well as selling directly to customers through your shop front; you can also supply other OFN retailers \(Hubs\) with your produce.
+Как магазин; а также продавать напрямую клиентам через ваш магазин; Вы также можете поставлять свою продукцию другим ОСП розничным торговцам \(Центрам\).
 
 {% hint style="warning" %}
-If you'd prefer not to organise sales to customers directly but would like to **only** supply an OFN hub with goods then the '[Profile](your-quick-start-on-ofn-given-who-you-are.md#profile)' classification suits your needs better.
+Если вы предпочитаете не организовывать продажи клиентам напрямую, а хотите снабжать товарами только центр ОСП, тогда классификация '[Профильe](your-quick-start-on-ofn-given-who-you-are.md#profile)' лучше соответствует вашим потребностям.
 {% endhint %}
 
-### OFN can help your shop thrive and prosper by:
+## ОСП может помочь вашему магазину процветать путём:
 
-1. Increasing your online visibility.
-2. Streamlining your admin tasks with stock levels, orders, finances, packing reports all in one place.
-3. Being able to sell in a manner which suits your needs, whether it is periodic orders to fit in with a seasonal potato harvest or a weekly cycle which matches your baking production... it's up to you!
-4. Helping to build strong working relationships with local food distributors.
+1. Увеличения вашей онлайн видимости.
+2. Оптимизации ваших административных задач с уровнем запасов, заказов, финансов, отчетов в едином месте.
+3. Возможности продавать в соответствии с вашими потребностями, будь то периодические заказы на сезонный сбор урожая картофеля или еженедельный цикл, соответствующий вашей выпечке ... это ваше дело!
+4. Помощи строить прочные деловые отношения с местными дистрибьюторами продуктов.
 
-**Setting up on OFN** can be a simple 5-step process, just follow our quick starters guide [here](quick-start-guides/producer-shop-quick-setup-guide.md).
+**Установка на ОСП** может быть простым процессом в 5 шагов, просто следуйте нашему краткому руководству [тут](quick-start-guides/producer-shop-quick-setup-guide.md).
 
-## Profile
+## Профиль
 
 {% hint style="success" %}
-Farmers, Bakers, Growers, Individual Crofters, Cottage Enterprises, Small Holders....
+Фермеры, пекари, садоводы, индивидуальные арендаторы ферм, дачные предприятия, мелкие фермеры...
 {% endhint %}
 
-The 'Profile' is the most basic enterprise classification on OFN and is ideal for micro enterprises or individuals who prefer to concentrate on growing, making, baking and/or producing food.
+'Профиль' является самой основной классификацией предприятий в ОСП и идеально подходит для микропредприятий или частных лиц, которые предпочитают концентрироваться на выращивании, производстве, выпечке и/или производстве продуктов питания.
 
-An OFN profile is ideal for **increasing your online visibility** and gives you the opportunity to connect in a simple manner with local retailers \(hubs\) who can manage customer sales for you.
+Профиль ОСП идеально подходит **для повышения вашей онлайн видимости**  и дает вам возможность легко связаться с местными розничными продавцами \(центрами\), которые для вас могут управлять продажами потребителям.
 
 {% hint style="warning" %}
-If you'd prefer to organise sales to customers yourself then the '[shop](your-quick-start-on-ofn-given-who-you-are.md#shop)' or '[Hub](your-quick-start-on-ofn-given-who-you-are.md#hub)' classification is better suited to your needs.
+Если вы предпочитаете сами организовывать продажи клиентам, тогда классификация '[Магазин](your-quick-start-on-ofn-given-who-you-are.md#shop)' or '[Центр](your-quick-start-on-ofn-given-who-you-are.md#hub)' лучше подходит для ваших нужд.
 {% endhint %}
 
-### OFN can help your food enterprise thrive and prosper by:
+### OFN может помочь вашему пищевому предприятию процветать путём:
 
-1. Increasing your online visibility.
-2. Helping to build strong working relationships with local food distributors and retailers \(OFN hubs\) to whom you supply goods.
+1. Увеличения вашей онлайн видимости
+2. Помощь в установлении прочных деловых отношений с местными дистрибьюторами и розничными торговцами \(центрами ОСП\), которым вы поставляете товары.
 
-**Setting up on OFN** can be a simple 4-step process; just follow our quick starters' guide [here](quick-start-guides/profile-only-quick-setup-guide.md).
+**Установка на ОСП** может быть простым процессом в 4 шага, просто следуйте нашему краткому руководству [тут](quick-start-guides/profile-only-quick-setup-guide.md).
 

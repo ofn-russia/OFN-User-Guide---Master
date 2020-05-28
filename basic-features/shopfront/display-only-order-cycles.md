@@ -9,7 +9,7 @@ To setup a display only order cycle:
 
 ![](../../.gitbook/assets/dummypay.jpg)
 
-Your shop will now be in the ‘display only’ state.   
+Your shop will now be in the ‘display only’ state.  
 Below is an example of how the shop appears to customers. It’s clearly marked as closed, but customers can see the product range. If they do try to add items to cart or checkout, they’ll be stopped.
 
 ![](../../.gitbook/assets/display-only.png)
@@ -19,6 +19,6 @@ When you next open a live order cycle from which you wish to sell produce, you w
 {% endhint %}
 
 {% hint style="warning" %}
-In order to create the order cycle for your 'display only' shop front you will need to have at least one Payment Method active else the order cycle will not work.  It is **only after it has been set up** that you must deactivate the Payment methods in order to create a display only shop front.
+In order to create the order cycle for your 'display only' shop front you will need to have at least one Payment Method active else the order cycle will not work. It is **only after it has been set up** that you must deactivate the Payment methods in order to create a display only shop front.
 {% endhint %}
 
