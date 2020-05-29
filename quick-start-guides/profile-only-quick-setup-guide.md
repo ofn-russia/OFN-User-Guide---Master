@@ -28,11 +28,11 @@ description: 'Простые шаги, чтобы начать как Профи
 Вы можете сделать свой профиль производителя доступным для поиска по товарной категории, даже если вы фактически не хотите продавать товары, выполнив следующие [шаги](../basic-features/enterprise-profile/making-a-producer-profile-searchable-by-product-category.md).
 {% endhint %}
 
-## More advanced features you might need
+## Более продвинутые функции, которые могут вам понадобиться
 
-* Your products: 
-  * Specify special [credentials](../basic-features/products-1/product-properties.md) they may have have \(eg. organic, plastic free...\)
-  * If you have a product which can be sold in different forms \(eg. potatoes sold in 500g, 1kg and 2 kg quantities\) then you can simplify your listings by adding [variants](../basic-features/products-1/product-variants.md).
-  * If you sell irregular items like meat or vegetables \(eg. a whole chicken, a large pumpkin\) which are priced by weight then you can learn [how to do this here.](../basic-features/products-1/pricing-irregular-items-kg.md)
-  * You can [import](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products) your all your product listings at once if they are in an Excel spread sheet.
+* Ваши товары: 
+  * Укажите специфичные [свойства](../basic-features/products-1/product-properties.md), которые они могут иметь \(напр. органический, без пластика и т.п.\)
+  * Если у вас есть товары, которые могут продаваться в различных формах \(напр. картофель продается по 1кг, 3кг, 5кг\) тогда вы можете упростить свои списки товаров, добавив [варианты](../basic-features/products-1/product-variants.md).
+  * Если вы продаете не регулярные товары, такие как мясо или овощи \(напр. целая курица или большая тыква\), которые оцениваются по весу, [узнаете тут](../basic-features/products-1/pricing-irregular-items-kg.md), что можно сделать.
+  * Вы можете [импоритровать](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products) весь ваш список товаров за раз, если он формате Excel таблицы.
 
