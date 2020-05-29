@@ -6,26 +6,26 @@ description: 'Простые шаги, чтобы начать как Профи
 
 Начать работу с OFN легко, просто следуйте инструкциям ниже:
 
-![Four steps to start your OFN journey.](../.gitbook/assets/quick-set-up-in-5-steps-profile.png)
+![&#x427;&#x435;&#x442;&#x44B;&#x440;&#x435; &#x448;&#x430;&#x433;&#x430; &#x434;&#x43B;&#x44F; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B; &#x432; &#x41E;&#x421;&#x41F;.](../.gitbook/assets/quick-set-up-in-5-steps-profile.png)
 
 1. [Зарегистрируйте ваше предприятие](../basic-features/register-and-create-your-profile.md).
 
    Выберите [типы пакетов](../basic-features/enterprise-profile/package-types.md) 'Производитель', а затем 'Профиль' и завершите [настройки вашего предприятия](../basic-features/enterprise-profile/enterprise-settings.md), указав юридическую информацию.
 
 2. Перечислите ваши [товары](../basic-features/products-1/products.md).
-3. Get in contact with OFN hubs through which you would like to sell your products- this might be as simple as talking to the hub manager when collecting your shopping or sending them an email.
-4. Connect through OFN to the hub where you would like your goods to be sold by setting up the appropriate [enterprise permissions](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md).
+3. Свяжитесь с центрами ОСП, через которые вы хотели бы продавать свои продукты. Это так же просто, как поговорить с менеджером центра при сборе покупок или отправьте им электронное письмо.
+4. Подключитесь через ОСП к центру, где вы хотите продавать свои товары, настроив соответствующие [разрешения предприятия](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md).
 
-Congrats! Your job is done!
+Поздравляем! Вы сделали свою работу!
 
-The hub managing your sales should periodically send you orders based on the time scales you agreed. Order notifications can be automated by the Hub to get to you by email.
+Центр, управляющий вашими продажами, должен периодически отправлять вам заказы на основе согласованных вами временных интервалов. Уведомления о заказах могут быть автоматизированы Центром, чтобы получать их по электронной почте.
 
 {% hint style="info" %}
-If you want to use OFN to be visible on the internet only then there is no need to complete steps 2-4 above.
+Если вы хотите использовать ОСП, чтобы только быть видимым в Интернете, то нет необходимости выполнять шаги 2-4 выше.
 {% endhint %}
 
 {% hint style="success" %}
-You can make your producer profile searchable by product category, even if you don't wish to actually sell goods by following these [steps](../basic-features/enterprise-profile/making-a-producer-profile-searchable-by-product-category.md).
+Вы можете сделать свой профиль производителя доступным для поиска по товарной категории, даже если вы фактически не хотите продавать товары, выполнив следующие [шаги](../basic-features/enterprise-profile/making-a-producer-profile-searchable-by-product-category.md).
 {% endhint %}
 
 ## More advanced features you might need
