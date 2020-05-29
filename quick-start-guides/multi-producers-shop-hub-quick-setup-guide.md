@@ -9,20 +9,20 @@ description: 'Простые шаги, чтобы начать свой пере
 ![&#x41F;&#x44F;&#x442;&#x44C; &#x448;&#x430;&#x433;&#x43E;&#x432; &#x434;&#x43B;&#x44F; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x426;&#x435;&#x43D;&#x442;&#x440;&#x430; &#x432; &#x41E;&#x421;&#x41F;](../.gitbook/assets/set-up-in-5-steps-draft.png)
 
 1. [Зарегистрируйте ваше предприятие](../basic-features/register-and-create-your-profile.md). Если вы хотите продавать товары, которые вы производите, а так же товары других производителей, выберите [типы пакетов](../basic-features/enterprise-profile/package-types.md) 'Производитель', а затем 'Центр'; тогда как, если вы хотите продавать только товары, сделанные другими, выберите варианты пакетов 'Не Производитель' и 'Центр'. Завершите [настройки вашего предприятия](../basic-features/enterprise-profile/enterprise-settings.md) указав юридическую информацию.
-2. Перечислите свои товары. Если вы 'Центр Производителя' тогда [создайте](../basic-features/products-1/products.md) \(или [импортируйте](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products)\) список продукции для товаров, которые вы сами производите. Для обоих 'Производитель' и 'Не Производитель' центров, свяжитесь с местными ОСП предприятиями, которые хотят, чтобы их товары отображались на ветрине вашего магазина. Попросите их настроить Корпоративные разрешения для подключения вас к их предприятию. Ask them to set up [Enterprise permissions](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) to connect to their business to yours through OFN.
-3. Set up a choice of [payment methods](../basic-features/shopfront/payment-methods.md) available to your customers  \(cash on delivery, credit card online payment, etc.\)
-4. Set up a choice of [shipping options](../basic-features/shopfront/shipping-methods.md) available to your customers  \('click and collect' service with a pick up time and location, home delivery, etc...\)
-5. Set up an [order cycle](../basic-features/shopfront/order-cycle/order-cycles-for-hubs.md) : this will open your shop at the start date you defined!  An order cycle is a period during which shoppers can place orders for collection or delivery at a particular time.  Some enterprises have a weekly order cycle.  Some have a permanently open order cycle.
+2. Перечислите свои товары. Если вы 'Центр Производителя' тогда [создайте](../basic-features/products-1/products.md) \(или [импортируйте](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products)\) список продукции для товаров, которые вы сами производите. Для обоих 'Производитель' и 'Не Производитель' центров, свяжитесь с местными ОСП предприятиями, которые хотят, чтобы их товары отображались на ветрине вашего магазина. Попросите их настроить [Корпоративные разрешения](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) для подключения вас к их предприятию через ОСП.
+3. Добавьте[ способы оплаты, ](../basic-features/shopfront/payment-methods.md)доступные вашим клиентам \(наличные при получении, банковской картой и т.п.\).
+4. Добавьте [опции доставки](../basic-features/shopfront/shipping-methods.md), доступные вашим клиентам \('собрать и отложить' сервис, с временем когда и где можно забрать, доставка на дом и т.п.\).
+5. Добавьте [цикл заказа](../basic-features/shopfront/order-cycle/order-cycles-for-hubs.md) : это откроет ваш магазин в дату начала, которую вы определили! Цикл заказа - это период, в течение которого покупатели могут размещать заказы на получение или доставку в определенное время. Некоторые предприятия имеют еженедельный цикл заказов. У некоторых есть постоянно открытый цикл заказа.
 
-Congrats! Your shop is now live!
+Поздравляем! Ваш магазин готов!
 
 {% hint style="info" %}
-To earn a little revenue to cover the cost of organising sales you may like to add an '[Enterprise Fee](../basic-features/shopfront/enterprise-fees.md)'- this mark-up is added to the selling price of products on your shopfront.
+Чтобы получить небольшой доход для покрытия расходов на организацию продаж, вы можете добавить '[Сборы Предприятия](../basic-features/shopfront/enterprise-fees.md)'- эта наценка добавляется к отпускной цене товаров в вашем магазине.
 {% endhint %}
 
-When you start receiving orders, you can manage them in the [orders](../basic-features/orders/) section.
+Когда вы начнёте получать заказы, вы сможете управлять ими в разделе [заказы](../basic-features/orders/).
 
-All the data you need to prepare and deliver the groceries to your customers can be found in the [reports](../basic-features/reports.md) section.
+Все данные, необходимые для подготовки и доставки товаров вашим покупателям, можно найти в разделе [отчёты](../basic-features/reports.md).
 
 ## More advanced features you might need
 
