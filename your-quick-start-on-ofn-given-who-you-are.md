@@ -6,7 +6,7 @@ description: Определите классификацию вашего пре
 
 В зависимости от типа предприятия, в котором вы работаете, вы будете использовать платформу Открытая Сеть Продуктов по-разному.
 
-Мы классифицируем пищевые предприятия тремя способами: [Профиль](your-quick-start-on-ofn-given-who-you-are.md#профиль), [Магазин](your-quick-start-on-ofn-given-who-you-are.md#shop) или [Центр](your-quick-start-on-ofn-given-who-you-are.md#hub).
+Мы классифицируем пищевые предприятия тремя способами: [Профиль](your-quick-start-on-ofn-given-who-you-are.md#profile), [Магазин](your-quick-start-on-ofn-given-who-you-are.md#shop) или [Центр](your-quick-start-on-ofn-given-who-you-are.md#hub).
 
 ![](.gitbook/assets/l-flowchart%20%281%29.png)
 
