@@ -8,7 +8,7 @@
   * [Магазин](quick-start-guides/producer-shop-quick-setup-guide.md)
   * [Профиль](quick-start-guides/profile-only-quick-setup-guide.md)
 * [Особенности](basic-features/README.md)
-  * [Register and Create an Enterprise Account](basic-features/register-and-create-your-profile.md)
+  * [Регистрация и Создание Профиля Предприятия](basic-features/register-and-create-your-profile.md)
   * [Dashboard](basic-features/dashboard.md)
   * [Enterprise profile](basic-features/enterprise-profile/README.md)
     * [Package / profile types](basic-features/enterprise-profile/package-types.md)

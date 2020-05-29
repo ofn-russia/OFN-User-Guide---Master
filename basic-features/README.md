@@ -1,28 +1,28 @@
 ---
 description: >-
-  В этом разделе мы рассмотрим все функции, предлагаемые программной платформой
-  ОСП.
+  In this section we explore all the features offered by the OFN software
+  platform.
 ---
 
-# Особенности
+# Features
 
-Вы можете просматривать эти функции в любое время, но для тех, кто только начинает, мы рекомендуем наши [краткое руководство](../quick-start-guides/).
+You can browse these features at any time but for those just starting out we recommend our [quick start guides](../quick-start-guides/).
 
 {% hint style="info" %}
-Чтобы найти объяснение конкретной функции, которая вам нужна, используйте поле 'Поиск' \(верхний правый угол\).
+To find the explanation of a specific feature that you need, please use the 'Search' field \(top right hand corner\).
 {% endhint %}
 
-Далее функции ОСП объясняются 'двойным хронологическим способом' с порядком секций, организованных на основе логического порядка настройки:
+In what follows, the features of OFN are explained in a "double chronological way" with the order of sections organised based on a logical order for setting up:
 
-* [регистрация](register-and-create-your-profile.md)
-* [настройка профиля предприятия](enterprise-profile/)
-* [товары](products-1/)
-* [ветрина магазина](shopfront/)
-* [заказы](orders/)
-* [подписки](subscriptions/)
-* [отчёты](reports.md)
-* [панель](dashboard.md)
-* [группы](groups/)
+* [registration](register-and-create-your-profile.md)
+* [enterprise profile setup](enterprise-profile/)
+* [products](products-1/)
+* [shopfront](shopfront/)
+* [orders](orders/)
+* [subscriptions](subscriptions/)
+* [reports](reports.md)
+* [dashboard](dashboard.md)
+* [groups](groups/)
 
-и в каждом представлено содержимое от базового использования до более продвинутого.
+and the content within each presented from basic usage to more advanced.
 

@@ -1,6 +1,6 @@
-# Register and Create an Enterprise Account
+# Регистрация и Создание Профиля Предприятия
 
-## Create your user account
+## Создание профиля пользователя
 
 * From homepage, click on "Login" on the top right corner, then "Sign up" 
 
