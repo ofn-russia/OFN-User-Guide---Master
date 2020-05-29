@@ -34,9 +34,9 @@ description: 'Простые шаги, чтобы начать свой пере
   * Если у вас есть товары, которые могут продаваться в различных формах \(напр. картофель продается по 1кг, 3кг, 5кг\) тогда вы можете упростить свои списки товаров, добавив [варианты](../basic-features/products-1/product-variants.md).
   * Если вы продаете не регулярные товары, такие как мясо или овощи \(напр. целая курица или большая тыква\), которые оцениваются по весу, [узнаете тут](../basic-features/products-1/pricing-irregular-items-kg.md), что можно сделать.
   * Вы можете [импоритровать](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products) весь ваш список товаров за раз, если он формате Excel таблицы.
-* Your shopfront:
-  * You can [restrict access](../basic-features/shopfront/private-shopfront.md) to your shop if want your shop to be only accessible to "members" or invited customers.   For example you may offer discounted produce to members of the community who have all contributed to your business, or if you wished to only sell to specific commercial customers.
-  * You can offer different prices, or display different goods, to specific groups of customers using [customer grouping \(through "tags"\)](../basic-features/shopfront/customer-management-and-conditional-displays-prices/tags-and-tag-rules.md) and [custom display and pricing](../basic-features/shopfront/customer-management-and-conditional-displays-prices/).
-  * If you would like to be visible on OFN only but not actually sell goods through the platform then you can setup a [display only shopfront](../basic-features/shopfront/display-only-order-cycles.md).
-  * You can [embed](multi-producers-shop-hub-quick-setup-guide.md) the OFN shop front in your own website.
+* Ваша ветрина магазина:
+  * Вы можете [ограничить доступ](../basic-features/shopfront/private-shopfront.md) к вашему магазину, если хотите, чтобы ваш магазин был доступен только 'членам' или приглашенным клиентам. Например, вы можете предлагать продукты со скидкой членам сообщества, которые внесли свой вклад в ваш бизнес, или если вы хотите продавать только определенным коммерческим клиентам.
+  * Вы можете предлагать разные цены или отображать разные товары для определенных групп клиентов, используя [группировку клиентов \(через "метки"\)](../basic-features/shopfront/customer-management-and-conditional-displays-prices/tags-and-tag-rules.md), а так же [cнастраиваемое отображение и цены](../basic-features/shopfront/customer-management-and-conditional-displays-prices/).
+  * Если вы хотите чтобы вас только видели в ОСП, но не продавать товары через платформу, тогда вы можете настроить[ только отображение витрины магазина](../basic-features/shopfront/display-only-order-cycles.md).
+  * Вы можете [встроить](multi-producers-shop-hub-quick-setup-guide.md) ОСП витрину магазина на вашем сайте.
 
