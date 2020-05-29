@@ -1,14 +1,14 @@
 ---
-description: Simple steps to start your OFN journey as a SHOP
+description: 'Простые шаги, чтобы начать свой переход на ОСП как Магазин'
 ---
 
-# Shop
+# Магазин
 
-It's easy to get started on OFN, just follow the steps below:
+Начать работу с ОСП легко, просто следуйте инструкциям ниже:
 
-![Five steps to opening your OFN shop.](../.gitbook/assets/set-up-in-5-steps-draft.png)
+![&#x41F;&#x44F;&#x442;&#x44C; &#x448;&#x430;&#x433;&#x43E;&#x432; &#x434;&#x43B;&#x44F; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x430; &#x432; &#x41E;&#x421;&#x41F;.](../.gitbook/assets/set-up-in-5-steps-draft.png)
 
-1. [Register your enterprise](../basic-features/register-and-create-your-profile.md).  Choose the 'Producer' and then 'Shop' [package types ](../basic-features/enterprise-profile/package-types.md)and complete your [enterprise settings](../basic-features/enterprise-profile/enterprise-settings.md) with your business details.
+1. [Зарегистрируйте ваше предприятие](../basic-features/register-and-create-your-profile.md). Choose the 'Producer' and then 'Shop' [package types ](../basic-features/enterprise-profile/package-types.md)and complete your [enterprise settings](../basic-features/enterprise-profile/enterprise-settings.md) with your business details.
 2. List your [products](../basic-features/products-1/products.md).
 3. Set up a choice of [payment methods](../basic-features/shopfront/payment-methods.md) available to your customers  \(cash on delivery, credit card online payment, etc.\)
 4. Set up a choice of [shipping options](../basic-features/shopfront/shipping-methods.md) available to your customers  \('click and collect' service with a pick up time and location, home delivery, ...\)
