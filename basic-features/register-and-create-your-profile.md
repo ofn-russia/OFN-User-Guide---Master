@@ -2,7 +2,7 @@
 
 ## Создание профиля пользователя
 
-* From homepage, click on "Login" on the top right corner, then "Sign up" 
+* С домашней страницы, нажмите на "Войти" в правом верхнем углу, затем "Зарегистрироваться" 
 
 ![](../.gitbook/assets/loginsetup.jpg)
 
