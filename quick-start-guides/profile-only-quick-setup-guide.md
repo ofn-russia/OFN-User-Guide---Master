@@ -1,10 +1,10 @@
 ---
-description: Simple steps to get started as a OFN profile.
+description: 'Простые шаги, чтобы начать как Профиль OFN.'
 ---
 
-# Profile
+# Профиль
 
-It's easy to get started on OFN, just follow the steps below:
+Начать работу с OFN легко, просто следуйте инструкциям ниже:
 
 ![Four steps to start your OFN journey.](../.gitbook/assets/quick-set-up-in-5-steps-profile.png)
 
