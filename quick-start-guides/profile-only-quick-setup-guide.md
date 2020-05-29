@@ -8,8 +8,11 @@ description: 'Простые шаги, чтобы начать как Профи
 
 ![Four steps to start your OFN journey.](../.gitbook/assets/quick-set-up-in-5-steps-profile.png)
 
-1. [Register your enterprise](../basic-features/register-and-create-your-profile.md).  Choose the 'Producer' and then 'Profile' [package types ](../basic-features/enterprise-profile/package-types.md)and complete your [enterprise settings](../basic-features/enterprise-profile/enterprise-settings.md) with your business details.
-2. List your [products](../basic-features/products-1/products.md).
+1. [Зарегистрируйте ваше предприятие](../basic-features/register-and-create-your-profile.md).
+
+   Выберите [типы пакетов](../basic-features/enterprise-profile/package-types.md) 'Производитель', а затем 'Профиль' и завершите [настройки вашего предприятия](../basic-features/enterprise-profile/enterprise-settings.md), указав юридическую информацию.
+
+2. Перечислите ваши [товары](../basic-features/products-1/products.md).
 3. Get in contact with OFN hubs through which you would like to sell your products- this might be as simple as talking to the hub manager when collecting your shopping or sending them an email.
 4. Connect through OFN to the hub where you would like your goods to be sold by setting up the appropriate [enterprise permissions](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md).
 
