@@ -6,15 +6,15 @@
 
 ![](../.gitbook/assets/loginsetup.jpg)
 
-* Enter your email address and choose a password.
-* You will receive an email in the next few minutes with a confirmation link. Click on it and you'll be redirected to the login page.  
-* Login
+* Введите свой email и выберите пароль.
+* В следующие пару минут вам придет email с сылкой подтверждения. Нажмите на неё и вы будете перенаправлены на страницу входа.  
+* Войдите
 
 {% hint style="info" %}
-If you don't receive an confirmation email from us promptly it may have gone to your spam/junk box.
+Если вы не получили от нас электронное письмо с подтверждением, возможно оно попало в папку СПАМ/SPAM/JUNK вашего почтового ящика.
 {% endhint %}
 
-## Create your first "enterprise" account
+## Создайте профиль вашего первого "предприятия"
 
 * Once logged in, click on the top grey banner "Interested in selling through the Open Food Network? **Register here**."
 
