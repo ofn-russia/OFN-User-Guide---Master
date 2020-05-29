@@ -24,16 +24,16 @@ description: 'Простые шаги, чтобы начать свой пере
 
 Все данные, необходимые для подготовки и доставки товаров вашим покупателям, можно найти в разделе [отчёты](../basic-features/reports.md).
 
-## More advanced features you might need
+## Более продвинутые функции, которые могут вам понадобиться
 
-* Your enterprise profile:
-  * As a **Producer Hub** you can give other local hubs [permission ](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md)to sell your products on their shopfront as well as your own.
-  * You may wish to [add hub managers](../basic-features/enterprise-profile/transfer-ownership.md) so that no one person has to do all the admin!
-* Your products \(**Producer Hub** only\): 
-  * Specify special [credentials](../basic-features/products-1/product-properties.md) they may have have \(eg. organic, plastic free, etc...\)
-  * If you have a product which can be sold in different forms \(eg. potatoes sold in 500g, 1kg and 2 kg quantities\) then you can simplify your listings by adding [variants](../basic-features/products-1/product-variants.md).
-  * If you sell irregular items like meat or vegetables \(eg. a whole chicken, a large pumpkin\) which are priced by weight then you can learn [how to do this here.](../basic-features/products-1/pricing-irregular-items-kg.md)
-  * You can [import](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products) your all your product listings at once if they are in an Excel spread sheet.
+* Ваш профиль предприятия:
+  * Как **Центр Производителя** вы можете [разрешить](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) другим местным центрам продавать ваши товары в их магазинах, а так же в своих собственных.
+  * Вы можете [добавить управляющих центром](../basic-features/enterprise-profile/transfer-ownership.md) так что никто не будет делать всю административную работу!
+* Ваши товары \(только для **Центра Производителя**\): 
+  * Укажите специфичные [свойства](../basic-features/products-1/product-properties.md), которые они могут иметь \(напр. органический, без пластика и т.п.\)
+  * Если у вас есть товары, которые могут продаваться в различных формах \(напр. картофель продается по 1кг, 3кг, 5кг\) тогда вы можете упростить свои списки товаров, добавив [варианты](../basic-features/products-1/product-variants.md).
+  * Если вы продаете не регулярные товары, такие как мясо или овощи \(напр. целая курица или большая тыква\), которые оцениваются по весу, [узнаете тут](../basic-features/products-1/pricing-irregular-items-kg.md), что можно сделать.
+  * Вы можете [импоритровать](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products) весь ваш список товаров за раз, если он формате Excel таблицы.
 * Your shopfront:
   * You can [restrict access](../basic-features/shopfront/private-shopfront.md) to your shop if want your shop to be only accessible to "members" or invited customers.   For example you may offer discounted produce to members of the community who have all contributed to your business, or if you wished to only sell to specific commercial customers.
   * You can offer different prices, or display different goods, to specific groups of customers using [customer grouping \(through "tags"\)](../basic-features/shopfront/customer-management-and-conditional-displays-prices/tags-and-tag-rules.md) and [custom display and pricing](../basic-features/shopfront/customer-management-and-conditional-displays-prices/).
