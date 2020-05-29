@@ -1,15 +1,15 @@
 ---
-description: Simple steps to start your OFN journey as a HUB
+description: 'Простые шаги, чтобы начать свой переход на ОСП как Центр'
 ---
 
-# Hub
+# Центр
 
-It's easy to get started on OFN, just follow the steps below:
+Начать работу с ОСП легко, просто следуйте инструкциям ниже:
 
-![Five steps to opening your OFN hub.](../.gitbook/assets/set-up-in-5-steps-draft.png)
+![&#x41F;&#x44F;&#x442;&#x44C; &#x448;&#x430;&#x433;&#x43E;&#x432; &#x434;&#x43B;&#x44F; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x426;&#x435;&#x43D;&#x442;&#x440;&#x430; &#x432; &#x41E;&#x421;&#x41F;](../.gitbook/assets/set-up-in-5-steps-draft.png)
 
-1. [Register your enterprise](../basic-features/register-and-create-your-profile.md).  If you wish to sell goods that you make as well as those of others then choose the 'Producer' and then 'Hub' [package types](../basic-features/enterprise-profile/package-types.md); whereas, if you only want to sell good made by others then choose the 'Non-Producer' and 'Hub' package options. Complete your [enterprise settings](../basic-features/enterprise-profile/enterprise-settings.md) with your business details.
-2. List your products.  If you are a 'Producer Hub' then [make](../basic-features/products-1/products.md) \(or [import](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products)\) product listings for the goods you make yourself. For both 'Producer' and 'Non-Producer' hubs, contact local OFN enterprises who want their goods to be displayed on your shop front.  Ask them to set up [Enterprise permissions](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) to connect to their business to yours through OFN.
+1. [Зарегистрируйте ваше предприятие](../basic-features/register-and-create-your-profile.md). Если вы хотите продавать товары, которые вы производите, а так же товары других производителей, выберите [типы пакетов](../basic-features/enterprise-profile/package-types.md) 'Производитель', а затем 'Центр'; тогда как, если вы хотите продавать только товары, сделанные другими, выберите варианты пакетов 'Не Производитель' и 'Центр'. Завершите [настройки вашего предприятия](../basic-features/enterprise-profile/enterprise-settings.md) указав юридическую информацию.
+2. Перечислите свои товары. Если вы 'Центр Производителя' тогда [создайте](../basic-features/products-1/products.md) \(или [импортируйте](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products)\) список продукции для товаров, которые вы сами производите. Для обоих 'Производитель' и 'Не Производитель' центров, свяжитесь с местными ОСП предприятиями, которые хотят, чтобы их товары отображались на ветрине вашего магазина. Попросите их настроить Корпоративные разрешения для подключения вас к их предприятию. Ask them to set up [Enterprise permissions](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) to connect to their business to yours through OFN.
 3. Set up a choice of [payment methods](../basic-features/shopfront/payment-methods.md) available to your customers  \(cash on delivery, credit card online payment, etc.\)
 4. Set up a choice of [shipping options](../basic-features/shopfront/shipping-methods.md) available to your customers  \('click and collect' service with a pick up time and location, home delivery, etc...\)
 5. Set up an [order cycle](../basic-features/shopfront/order-cycle/order-cycles-for-hubs.md) : this will open your shop at the start date you defined!  An order cycle is a period during which shoppers can place orders for collection or delivery at a particular time.  Some enterprises have a weekly order cycle.  Some have a permanently open order cycle.
