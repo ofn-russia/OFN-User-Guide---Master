@@ -42,9 +42,9 @@
 
 ![](../.gitbook/assets/newregister.jpg)
 
-**Your first "enterprise" is now created and you have started to fill in your profile, but it's not finished!**
+Ваше первое 'предприятие' создано и вы начали заполнять свой профиль, но он еще не завершен!
 
-**The next step is to** [**choose the OFN package**](enterprise-profile/package-types.md) **\(= profile type\) which best represents your** [**business model**](../your-quick-start-on-ofn-given-who-you-are.md)**.**
+**Следующий шаг -** [**выбрать пакет ОСП**](enterprise-profile/package-types.md) **\(= тип профиля\), который лучше всего подходит вашей** [**модели бизнеса**](../your-quick-start-on-ofn-given-who-you-are.md)**.**
 
 ![](../.gitbook/assets/newchoose.jpg)
 
