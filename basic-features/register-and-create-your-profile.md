@@ -16,7 +16,7 @@
 
 ## Создайте профиль вашего первого "предприятия"
 
-* Once logged in, click on the top grey banner "Interested in selling through the Open Food Network? **Register here**."
+* Открыв сайт, нажмите на верхний серый баннер "Заинтересованы в продажах через Открытую Сеть Продуктов? **Регистрируйтесь тут**" 
 
 ![](../.gitbook/assets/registerenterprise.jpg)
 
