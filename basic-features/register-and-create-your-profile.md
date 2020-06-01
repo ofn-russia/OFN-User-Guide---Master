@@ -36,9 +36,9 @@
 
 ![](../.gitbook/assets/laststep.jpg)
 
-* Click the ‘create profile’ button.  You'll receive an email confirming that the profile is created. You can stop here and fill in the missing information later, or continue and follow the steps to complete your profile now. 
-* Fill in your enterprise description, add images, website/social media links, business details, etc.
-* When you have finished, you will be redirected to the [Enterprise Profile Menu](enterprise-profile/).
+* Нажмите кнопку 'Создать профиль'.  Вы получите электронное письмо, подтверждающее, что профиль создан. Вы можете здесь остановиться и заполнить недостающую информацию позже, или продолжить и следовать инструкциям, чтобы заполнить свой профиль сейчас.
+* Заполните описание своего предприятия, добавьте изображения, ссылки на веб-сайты/социальные сети, юридическую информацию и т.д.
+* Когда закончите, вы будете перенаправлены на [Меню Профиля Предприятия](enterprise-profile/).
 
 ![](../.gitbook/assets/newregister.jpg)
 
