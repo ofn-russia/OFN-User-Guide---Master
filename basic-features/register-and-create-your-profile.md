@@ -26,13 +26,13 @@
 
 ![](../.gitbook/assets/letsgetstarted.jpg)
 
-* Fill in your enterprise name and contact details.
+* Заполните имя вашего предприятия и контакты.
 
 {% hint style="info" %}
-Your address will be used to add your business to our map of OFN enterprises and hence increase your visibility.
+Ваш адрес будет использован для добавления вашей компании на нашу карту предприятий ОСП и следовательно, для повышения вашей видимости.
 {% endhint %}
 
-* Choose between 'Producer' \(you make/bake/grow products yourself\) or 'Non Producer' \(you distribute and sell food made by others\).
+* Выберите между 'Производитель' \(Вы сами делаете/печете/выращиваете продукты\) или 'Не Производитель' \(Вы распространяете и продаете еду, сделанную другими\).
 
 ![](../.gitbook/assets/laststep.jpg)
 
