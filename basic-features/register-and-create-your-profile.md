@@ -22,7 +22,7 @@
 
 ![](../.gitbook/assets/welcome1.jpg)
 
-* Click the ‘I agree to the above Terms of Service’ box and select ‘Let’s Get Started!’
+* Нажмтие 'Начнём!'
 
 ![](../.gitbook/assets/letsgetstarted.jpg)
 
