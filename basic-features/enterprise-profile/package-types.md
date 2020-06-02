@@ -17,20 +17,18 @@
 ![](../../.gitbook/assets/prod_choosenew.jpg)
 
 {% tabs %}
-{% tab title="Producer Profile" %}
-With this option not only will your enterprise will be visible on the OFN map and to customers searching our platform, but you will be able to manage a product catalog. Your products can be distributed and sold through other enterprises which are part of the OFN network.
+{% tab title="Профиль Производителя" %}
+С этой опцией ваше предприятие не только будет видно на карте ОСП и для клиентов, которые ищут нашу платформу, но вы сможете управлять каталогом товаров. Ваши товары могут распространяться и продаваться через другие предприятия, входящие в сеть ОСП.
 
-As a 'Producer Profile' you will not be able to manage your own online shop front. For more information on the quick setup guide for this type of profile, [click here](../../quick-start-guides/).
+Как 'Профиль Производителя' вы не сможете управлять своим интернет-магазином. Для дополнительной информации о руководстве быстрой настройки для это типа профидля, [нажмите тут](../../quick-start-guides/).
 
 {% hint style="info" %}
-If you'd like to retail your products on an existing online sales platform and just use OFN to increase your visibility then the 'Producer Profile' package is for you!
-
-You can put the link to your online shop in your enterprise description.
+Если вы хотите продавать свои продукты на существующей платформе онлайн-продаж и использовать ОСП просто для повышения своей наглядности, тогда пакет 'Профиль Производителя' для вас! Вы можете поместить ссылку на ваш интернет-магазин в описании вашего предприятия.
 {% endhint %}
 {% endtab %}
 
-{% tab title="Producer shop" %}
-### You would like to sell only your own products on OFN
+{% tab title="Магазин Производителя" %}
+## Вы хотели бы продавать только свои товары на ОСП
 
 This option allows you to run a shopfront which retails only those products in your own catalog. Note that 'Producer Shops' can conduct sales through their own shopfront and/or act as a supplier to other shopfronts \(hubs\).
 
