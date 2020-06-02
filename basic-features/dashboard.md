@@ -20,14 +20,14 @@
 {% endtab %}
 {% endtabs %}
 
-## Hubs
+## Центры
 
 {% tabs %}
-{% tab title="Hub Profile Only" %}
+{% tab title="Только Профиль Центра" %}
 ![](../.gitbook/assets/hub-dashboard-profile-only.png)
 {% endtab %}
 
-{% tab title="Hub Profile and Shop" %}
+{% tab title="Профиль и Магазин Центра" %}
 ![](../.gitbook/assets/hub-dashboard-shopfront.png)
 {% endtab %}
 {% endtabs %}
