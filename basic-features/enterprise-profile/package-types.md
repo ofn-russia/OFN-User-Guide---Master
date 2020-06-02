@@ -65,12 +65,12 @@ For more information on the quick setup guide for this type of profile, click [h
 {% endhint %}
 {% endtab %}
 
-{% tab title="Non-Producer Hub \(Multi-producer shop\)" %}
-### You would like to create an online shop
+{% tab title="Центр Не Производителя" %}
+### Вы хотели бы создать интернет-магазин
 
-This option allows you to manage a shop which retails products made by others. You can retail products from any Producer who has given you [permission](create-or-connect-with-your-supplying-producers.md) to do so.
+Эта опция позволяет вам управлять магазином, в котором продаются товары других производителей. Вы можете продавать товары от любого Производителя, кто дал вам соответствующие [разрешения](create-or-connect-with-your-supplying-producers.md) для этого.
 
-For more information on the quick setup guide for this type of profile, [click here](../../quick-start-guides/multi-producers-shop-hub-quick-setup-guide.md).
+Для дополнительной информации о руководстве быстрой настройки это типа профиля, нажмите, [нажмите тут](../../quick-start-guides/multi-producers-shop-hub-quick-setup-guide.md).
 {% endtab %}
 {% endtabs %}
 
@@ -84,7 +84,7 @@ For more information on the quick setup guide for this type of profile, [click h
 
 ![](../../.gitbook/assets/change-package.png)
 
-## Next step
+## Следующий шаг
 
-Once you have chosen the correct profile type for your food business you can complete any missing information and further refine your setup under the [Enterprise Settings](enterprise-settings.md) menu.
+После того как вы выбрали соответствующий тип профиля для вашей модели бизнеса, вы можете заполнить любую недостающую информацию и дополнительно уточнить настройки в меню [Настройки Предприятия](enterprise-settings.md).
 
