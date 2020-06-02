@@ -6,16 +6,16 @@
 
 ![](../.gitbook/assets/dash1.jpg)
 
-The options you will see on your dashboard will depend on which enterprise type you choose on [registration](register-and-create-your-profile.md). The screenshots below show the dashboard view for different types of users.
+Параметры, которые вы увидите на своей панели, будут зависеть от того, какой тип предприятия вы выберете во [регитсрации](register-and-create-your-profile.md). На снимках экрана ниже показан вид панели инструментов для разных типов пользователей.
 
-## Producers
+## Производители
 
 {% tabs %}
-{% tab title="Producer Profile Only" %}
+{% tab title="Только Профиль Производителя" %}
 ![](../.gitbook/assets/dashboard-profile-only.png)
 {% endtab %}
 
-{% tab title="Producer Profile and Shop" %}
+{% tab title="Профиль и Магазин Производителя" %}
 ![](../.gitbook/assets/dashboard-shop.png)
 {% endtab %}
 {% endtabs %}
