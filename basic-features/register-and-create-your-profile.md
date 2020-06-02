@@ -50,11 +50,7 @@
 
 **После этого ваше предприятие будет добавлено на карту ОСП!**
 
-**A short clip of registering your enterprise on OFN:**
+## Доступ к Панели Управления Предприятием
 
-![](../.gitbook/assets/registration.gif)
-
-## Access your Enterprise Administration Dashboard
-
-Once you have created an Enterprise, you can manage your profile using the Dashboard. To access your Enterprise Dashboard log in to the Open Food Network and click on "Profile &gt; Administration" in the top right corner. See [Dashboard ](dashboard.md)for more information.
+Создав Предприятие, вы можете управлять своим профилем с помощью панели инструментов. Чтобы получить доступ к корпоративной информационной панели, войдите в Открытую Сеть Продуктов и нажмите 'Профиль &gt; Управление' в правом верхнем углу. Для информации смотрите [Панель](dashboard.md).
 
