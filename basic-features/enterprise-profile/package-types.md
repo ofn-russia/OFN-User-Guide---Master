@@ -28,9 +28,9 @@
 {% endtab %}
 
 {% tab title="Магазин Производителя" %}
-## Вы хотели бы продавать только свои товары на ОСП
+## Вы хотели бы продавать на ОСП только свои товары
 
-This option allows you to run a shopfront which retails only those products in your own catalog. Note that 'Producer Shops' can conduct sales through their own shopfront and/or act as a supplier to other shopfronts \(hubs\).
+Эта опция позволяет вам запускать интернет-магазины, которые продают в розницу товары только из вашего каталога. Обратите внимание, что 'Магазины Производителей' могут осуществлять продажи через собственную витрину и/или выступать в качестве поставщика для других магазинов \(центров\).
 
 For more information on the quick setup guide for this type of profile, click [here](../../quick-start-guides/).
 {% endtab %}
