@@ -11,7 +11,7 @@
   * [Регистрация и Создание Профиля Предприятия](basic-features/register-and-create-your-profile.md)
   * [Панель](basic-features/dashboard.md)
   * [Профиль предприятия](basic-features/enterprise-profile/README.md)
-    * [Package / profile types](basic-features/enterprise-profile/package-types.md)
+    * [Пакет / типы профиля](basic-features/enterprise-profile/package-types.md)
     * [Enterprise Settings](basic-features/enterprise-profile/enterprise-settings.md)
     * [Create or connect with your supplying producers](basic-features/enterprise-profile/create-or-connect-with-your-supplying-producers.md)
     * [Making a producer profile searchable by product category](basic-features/enterprise-profile/making-a-producer-profile-searchable-by-product-category.md)

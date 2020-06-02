@@ -1,18 +1,18 @@
-# Package / profile types
+# Пакет / типы профиля
 
-After completing your [enterprise registration](../register-and-create-your-profile.md) you have an option to be taken directly to the [enterprise settings page](enterprise-settings.md).
+После завершения [регистрации вашего предприятия](../register-and-create-your-profile.md), будет возможность напрямую перейти на [страницу настроек предприятия](enterprise-settings.md).
 
 ![](../../.gitbook/assets/newregister.jpg)
 
-From here you will need to choose the OFN profile which [best matches your business model](../../your-quick-start-on-ofn-given-who-you-are.md). **Without this step, your enterprise account will not be created and, hence, your enterprise will remain invisible on our map.**
+Отсюда вам нужно будет выбрать ОСП профиль, который [лучше всего подходит вашей модели бизнеса](../../your-quick-start-on-ofn-given-who-you-are.md). **Без этого шага ваш профиль предприятия не будет создан и следовательно ваше предприятие останется невидимым на нашей карте.**
 
 ![](../../.gitbook/assets/newchoose.jpg)
 
-Open Food Network offers three types of enterprise profiles that will differ depending on whether you are a producer or not, and whether or not you want to open an online shop to sell on the Open Food Network. The profiles types vary a little bit depending on if you are are a producer or not, so we describe them below under two main sections: the profiles for producers and then the profiles for distributors \(or "hubs" in the Open Food Network world :-\)\).
+Открытая Сеть Продуктов предлагает три типа профиля предприятий, которые будут различаться в зависимости от того, являетесь ли вы производителем или нет и хотите ли вы открыть онлайн-магазин для продажи в Открытой Сети Продуктов. Типы профилей немного различаются в зависимости от того, являетесь ли вы производителем или нет, поэтому мы опишем их ниже в двух основных разделах: профили для производителей и профили для дистрибьюторов \(или 'Центров' в мире Открытой Сети Продуктов\).
 
-## For Producers
+## Для Производителей
 
-There are three types of profiles for producers:
+Существует три типа профиля для производителей:
 
 ![](../../.gitbook/assets/prod_choosenew.jpg)
 
