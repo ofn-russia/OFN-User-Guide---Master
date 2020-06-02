@@ -9,7 +9,7 @@
   * [Профиль](quick-start-guides/profile-only-quick-setup-guide.md)
 * [Особенности](basic-features/README.md)
   * [Регистрация и Создание Профиля Предприятия](basic-features/register-and-create-your-profile.md)
-  * [Dashboard](basic-features/dashboard.md)
+  * [Панель](basic-features/dashboard.md)
   * [Enterprise profile](basic-features/enterprise-profile/README.md)
     * [Package / profile types](basic-features/enterprise-profile/package-types.md)
     * [Enterprise Settings](basic-features/enterprise-profile/enterprise-settings.md)
