@@ -49,24 +49,24 @@ description: >-
 
 ### Контакты
 
-**Contact Name:** We ask for a contact name for the OFN’s records. This name will not be displayed on your profile, but will be included in order confirmation emails if you're running a shop.
+**Имя контакта**: Мы запрашиваем контактное имя для записей ОСП. Это имя не будет отображаться в вашем профиле, но будет включено в электронные письма с подтверждением заказа, если вы управляете магазином.
 
-**Email, Phone & Website:** These contact points will be listed on your OFN profile and shopfront, as a means for others to make contact with you.
+**Электронная почта, телефон и веб-сайт**: эти контактные данные будут указаны в вашем профиле OFN и на витрине магазина, чтобы другие могли связаться с вами.
 
-### Social
+### Социальные Сети:
 
-**Facebook, Instagram, LinkedIn, Twitter:** Links to these pages will be created on your profile and shopfront.
+**Facebook, Instagram, LinkedIn, Twitter**: ссылки на эти страницы будут создаваться в вашем профиле и на витрине магазина.
 
-### About
+### О Нас
 
-**Short description:** This will be displayed when your profile is viewed in the list. It should be under 1-2 sentences which briefly describe what you do.
+**Краткое описание**: отображается при просмотре вашего профиля в списке. Должно быть около 1-2 предложения, которые кратко описывают, что вы делаете.
 
-**About Us:** This is a longer description of your enterprise. It will be shown when your profile is viewed in full. It should be half to one page long.
+О нас: это более подробное описание вашего предприятия. Оно будет показано, когда ваш профиль будет полностью просматриваться. Должно быть от половины до одной страницы.
 
-### Business Details
+### Юридическая Информация
 
 {% hint style="warning" %}
-These differ from country to country and they depend on local regulations and laws.
+Тут отличия от страны к стране и зависят от местных норм и законов.
 {% endhint %}
 
 {% tabs %}
