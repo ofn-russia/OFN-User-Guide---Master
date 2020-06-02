@@ -23,7 +23,9 @@
 Как 'Профиль Производителя' вы не сможете управлять своим интернет-магазином. Для дополнительной информации о руководстве быстрой настройки это типа профиля, [нажмите тут](../../quick-start-guides/).
 
 {% hint style="info" %}
-Если вы хотите продавать свои продукты на существующей платформе онлайн-продаж и использовать ОСП просто для повышения своей наглядности, тогда пакет 'Профиль Производителя' для вас! Вы можете поместить ссылку на ваш интернет-магазин в описании вашего предприятия.
+Если вы хотите продавать свои продукты на существующей платформе онлайн-продаж и использовать ОСП просто для повышения своей наглядности, тогда пакет 'Профиль Производителя' для вас!
+
+Вы можете поместить ссылку на ваш интернет-магазин в описании вашего предприятия.
 {% endhint %}
 {% endtab %}
 
@@ -44,22 +46,22 @@ For more information on the quick setup guide for this type of profile, click [h
 {% endtab %}
 {% endtabs %}
 
-## For Non-Producers \(Hubs\)
+## Для Не Производителей \(Центры\)
 
-Two types of profiles are available to non-producers \(distributors / hubs\):
+Для не производителей \(дистрибьюторов/хабов\) доступны два типа профилей:
 
 ![](../../.gitbook/assets/nonprod_new.jpg)
 
 {% tabs %}
-{% tab title="Non-Producer Profile" %}
-With this option your enterprise will be visible on the OFN map and to customers searching our platform.
+{% tab title="Профиль Не Производителя" %}
+С помощью этой опции ваше предприятие будет видно на карте ОСП и для клиентов, ищущих на нашей платформе.
 
-For more information on the quick setup guide for this type of profile, click [here](../../quick-start-guides/).
+Для дополнительной информации о руководстве быстрой настройки это типа профиля, нажмите [тут](../../quick-start-guides/).
 
 {% hint style="info" %}
-If you'd like to retail products made by a collection of producers on an existing online sales platform and just use OFN to increase your visibility then the 'Non-Producer Profile' package is for you!
+Если вы хотите продавать товары, изготовленные группой производителей на существующей платформе онлайн-продаж и использовать ОСП просто для повышения своей наглядности, тогда пакет 'Профиль Не Производителя' для вас!
 
-You can put the link to your online shop in your enterprise description.
+Вы можете поместить ссылку на ваш интернет-магазин в описании вашего предприятия.
 {% endhint %}
 {% endtab %}
 
@@ -72,13 +74,13 @@ For more information on the quick setup guide for this type of profile, [click h
 {% endtab %}
 {% endtabs %}
 
-## Changing your profile type
+## Изменение типа профиля
 
-You can change your profile type \(package\) at any time in the future. _\*\*_First log in to your OFN admin account:
+В будущем вы можете в любое время изменить ваш тип профиля \(пакет\). Сначала войдите в свой ОСП профиль администратора:
 
 ![](../../.gitbook/assets/access1%20%281%29.jpg)
 
-and then visit your [Enterprise Settings menu](enterprise-settings.md). From the table, select the correct option\(s\) from the drop down menus. \(You will need to be the '[Owner](enterprise-settings.md#users)' of the enterprise to do this.\)
+затем пройдите в [меню Настроек Предприятия](enterprise-settings.md). В таблице, выберите необходимые опции в выпадающем меню. \(Чтобы сделать это, вы должны быть '[Владельцем](enterprise-settings.md#users)' предприятия\)
 
 ![](../../.gitbook/assets/change-package.png)
 
