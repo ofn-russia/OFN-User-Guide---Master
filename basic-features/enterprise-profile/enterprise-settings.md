@@ -1,57 +1,53 @@
 ---
 description: >-
-  Enterprise settings are where you can manage details relating to your profile
-  and/or shopfront.
+  В настройках предприятия вы можете управлять деталями, относящимися к вашему
+  профилю и/или витрине магазина.
 ---
 
-# Enterprise Settings
+# Настройки Предприятия
 
-## Access your Enterprise Settings
+## Доступ к Настройкам вашего Предприятия
 
-1. Once logged in, and accessing your admin dashboard, select "Enterprises" on the blue horizontal menu
-2. Select 'Settings' next to your enterprise
+1. После входа в систему и доступа к панели администратора выберите 'Предприятия' в синем горизонтальном меню.
+2. Выберите 'Настройки' рядом с вашим предприятием
 
 ![](../../.gitbook/assets/esettings.jpg)
 
 {% hint style="danger" %}
-To save a change of profile type, do not forget to click on "save" at the bottom of the window on the right.
+Чтобы сохранить изменение типа профиля, не забудьте нажать кнопку "Сохранить" в нижней части окна справа.
 {% endhint %}
 
-You will then access a menu with multiple options. The exact options available varies between Enterprise type. This is example is for a Hub:
+Затем вы получите доступ к меню с несколькими параметрами. Точные параметры зависят от типа предприятия. Это пример для Центра:
 
 ![](../../.gitbook/assets/esettingsmenu.jpg)
 
 {% hint style="danger" %}
-To save your changes, you must click "update" at the bottom of the page. It is recommended to save each page before changing pages.
+Чтобы сохранить изменения, вы должны нажать "обновить" внизу страницы. Рекомендуется сохранять каждую страницу перед переходом на другую страницу.
 {% endhint %}
 
-This short video gives a quick insight into the steps and options detailed below:
+## Основная информация
 
-![](../../.gitbook/assets/enterprisesettings.gif)
+**Имя**: это название вашего предприятия. Оно будет заголовком вашего профиля \(и магазина\).
 
-## Primary Details
-
-**Name:** This is the name of your enterprise. It will be the title of your profile \(and shop\).
-
-**Primary Producer:** Select the producer box if you are a producer.
+**Основной производитель**: установите флажок производителя, если вы являетесь производителем.
 
 {% hint style="warning" %}
-Only enterprises marked as Producers can add products to OFN. [Non-Producer Hubs](package-types.md#for-non-producers-hubs) only need to select this option if they retail mixed boxes which they pack and contain items from multiple producers.
+Только предприятия, отмеченные как Производители, могут добавлять товары в ОСП. [Центрам Не Производителям](package-types.md#for-non-producers-hubs) нужно выбирать эту опцию только в том случае, если они продают смешанные коробки, которые они упаковывают и содержат товары от нескольких производителей.
 {% endhint %}
 
-**Visible in Search:** If your profile is ready to go public, select 'visible', and your business will appear in the OFN's directory and map. If you’re still making adjustments, select 'not visible', until you are ready.
+**Видимый в поиске**: если ваш профиль готов к публикации, выберите 'видимый' и ваша компания появится в каталоге и на карте ОСП. Если вы все еще вносите изменения, выберите 'не видно', пока не будете готовы.
 
-**Permalink:** You can customise part of the web address which will host to your shop.
+**Постоянная ссылка**: Вы можете именить часть веб-адреса, который будет размещен в вашем магазине.
 
-**Link to Shop Front:** This is the web address of your shop on the OFN \(if you've chosen a profile type with shopfront\). You can customise part of the URL above.
+**Ссылка на фронт магазина**: это веб-адрес вашего магазина в ОСП \(если вы выбрали тип профиля с витриной\). Вы можете настроить часть URL выше.
 
-**OFN ID:** This identifier makes it possible to recognize without ambiguity your enterprise even if you decide to change its name for example, and simplifies the work of the support team if necessary.
+**ОСП UID**: этот идентификатор позволяет точно определеить ваше предприятие, даже если вы решите, например, изменить его название и при необходимости упрощает работу службы поддержки.
 
-### Address
+### Адрес
 
-This information is used to geolocate your enterprise the OFN map. Your exact address won't show if you are only registered as a Producer or Non-Producer Profile. However if you are registered as a Shop or Hub your address will show in text form in your shop front's contact details tab.
+Эта информация используется для определения местоположения вашего предприятия на карте ОСП. Ваш точный адрес не будет отображаться, если вы зарегистрированы только как Профиль Производителя или Не Производителя. Однако, если вы зарегистрированы как Магазин или Центр, ваш адрес будет отображаться в текстовом виде на вкладке контактной информации вашего магазина.
 
-### Contact
+### Контакты
 
 **Contact Name:** We ask for a contact name for the OFN’s records. This name will not be displayed on your profile, but will be included in order confirmation emails if you're running a shop.
 
