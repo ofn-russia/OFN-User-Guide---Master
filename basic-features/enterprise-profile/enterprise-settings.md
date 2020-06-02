@@ -79,9 +79,9 @@ description: >-
 
 
 
-**Siret:** This information will not be public. It is important for shop owners when they want to issue invoices from the platform.
+**Сирет:** Эта информация не будет общедоступной. Это важно для владельцев магазинов, когда они хотят выставлять счета с платформы.
 
-**N° intra-Community VAT:** This information will not be public.
+**№ НДС внутри Сообщества**: эта информация не будет общедоступной.
 
 **In VAT scheme?** If you are within the VAT scheme, select "yes".
 
