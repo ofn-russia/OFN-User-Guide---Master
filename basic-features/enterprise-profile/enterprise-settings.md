@@ -133,35 +133,35 @@ description: >-
 
 Вы также можете указать свойства только для определенных продуктов. Это полезно, например, если вы храните как сертифицированные, так и обычные продукты. Более подробную информацию об этом можно найти [здесь](../products-1/product-properties.md).
 
-### Shipping Methods, Payment Methods & Enterprise Fees
+### Способы Доставки, Способы Оплаты и Сборы Предпрития
 
 {% hint style="warning" %}
-Visible to Shops or Hubs registered enterprises only \(ie invisible for Producer/Non-Producer Profiles\)
+Видимо только для зарегистрированных предприятий или торговых центров \(то есть невидимо для профилей Производителей/Не Производителей\)
 {% endhint %}
 
-The [Shipping Methods](../shopfront/shipping-methods.md), [Payment Methods](../shopfront/payment-methods.md) and [Enterprise Fees](../shopfront/enterprise-fees.md) are covered in greater detail in later chapters in this user manual.
+[Способы Доставки](../shopfront/shipping-methods.md), [Способы Оплаты](../shopfront/payment-methods.md) и [Сборы Предприятия](../shopfront/enterprise-fees.md) более подробно рассмматриваются в следующих главах данного руководства пользователя.
 
 {% hint style="danger" %}
-At least one method of **payment** and **delivery** must be setup to be able to open your online shopfront.
+Чтобы открыть ваш интернет-магазин, необходимо настроить хотя бы один способ **оплаты** и **доставки**.
 {% endhint %}
 
-### Inventory Settings
+### Настройка Товарной Номенклатуры
 
 {% hint style="warning" %}
-Visible to Shop and Hub registered enterprises only.
+Видимо только для зарегистрированных предприятий Магазин и Центр.
 {% endhint %}
 
-For most enterprises the recommended setting can be used.
+Для большинства предприятий можно использовать рекомендуемые настройки.
 
-Advanced users who need greater flexibility with product management should consult the [Inventory](../products-1/inventory-tool.md) page of this guide before changing the settings.
+Опытные пользователи, которым требуется большая гибкость в управлении товарами, должны проконсультироваться на странице [Товарная Номенклатура](../products-1/inventory-tool.md) этого руководства пользователя прежде чем изменять настройки.
 
-### Tag Rules
+### Правила Меток
 
 {% hint style="warning" %}
-Visible to Shop and Hub registered enterprises only.
+Видимо только для зарегистрированных предприятий Магазин и Центр.
 {% endhint %}
 
-Under this menu are all the 'tags' which have been assigned to the customers of your enterprise.
+В этом меню находятся все 'теги', которые были назначены клиентам вашего предприятия.
 
 'Tags' are labels you apply to customers, products and other settings to assign differential access, pricing or other benefits to specific groups. They are particularly useful if you wish to charge loyal customers or 'members' of your food hub preferential prices or allow them to pay by BACS rather than PayPal/Stripe.
 
