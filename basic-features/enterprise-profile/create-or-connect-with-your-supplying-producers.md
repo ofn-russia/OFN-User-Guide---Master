@@ -4,22 +4,22 @@
 Эта страница актуальна только для тех пользователей, которые зарегистрировали предприятия как Производитель или Не Производитель.
 {% endhint %}
 
-For such Hub enterprises, connecting with existing OFN producers or creating accounts for your producers is a necessary precursor to adding your product range to your shop.
+Для таких предприятий Центров, связь с существуюшими ОСП производителями или создание учетных записей для ваших производителей, является необходимым условием для добавления вашего ассортимента товаров в свой магазин.
 
 {% hint style="info" %}
-All producers supplying / selling products on the Open Food Network must have an enterprise account on the platform. The products are entered in the producer's catalog and then "displayed" \(with potentially different prices and stocks\) on the shopfront of the producer and/or shopfronts of other distributors to whom the producer has given [permission](enterprise-to-enterprise-permissions-e2es.md). This is an important feature on the OFN, as it enables customers to trace the origin of products.
+Все производители, поставщики/продавцы товаров в Открытой Сети Продуктов, должны иметь на платформе профиль. Товары вносятся в каталог производителя и затем "отображаются" \(с потенциально разными ценами и запасами\) на витрине производителя и/или на витринах других дистрибьюторов, которым производитель дал разрешение. Это важная особенность ОСП, поскольку она позволяет клиентам отслеживать происхождение продуктов.
 {% endhint %}
 
-An example of how this displays in the shopfront is shown below:
+Пример того, как это отображается в витрине, показан ниже:
 
 ![](../../.gitbook/assets/producernote.png)
 
-As a hub, before being able to add products to your shopfront, you have two options:
+Как центр, прежде чем вы сможете добавлять товары в витрину, у вас есть два варианта:
 
-1. Create OFN profiles for the producers who supply you \(if they don't already have a profile\)
-2. Request [permission](enterprise-to-enterprise-permissions-e2es.md) to sell the products of existing OFN-registered producers.
+1. Создайте профили ОСП для производителей, которые поставляют вам \(если у них еще нет профиля\)
+2. Запросить [разрешение](enterprise-to-enterprise-permissions-e2es.md) продавать товары существующих в ОСП производителей.
 
-If you are not sure if your supplier already has an OFN profile then you can find out by going to the main 'Producers' menu and searching.
+Если вы не уверены, что у вашего поставщика есть профиль в ОСП, вы можете узнать об этом, перейдя в главное меню 'Производители' и выполнив поиск.
 
 ![](../../.gitbook/assets/searchproducer.jpg)
 
