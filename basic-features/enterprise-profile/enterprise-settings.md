@@ -195,7 +195,7 @@ description: >-
 
 ![&#x417;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x430;&#x44F; &#x432;&#x438;&#x442;&#x440;&#x438;&#x43D;&#x430; &#x441; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;&#x43C; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E;](../../.gitbook/assets/orderscloseddefault.jpg)
 
-**Shopfront Category Ordering**: By default, products are arranged alphabetically in your shop. You can choose to display the products in order of category according to your wish. In this case, the products will be displayed in order of category and then in alphabetical order within their category. E.g. you may wish to have your Meat & Fish products to appear at the top, with your less important Pickles & Preserves appearing further down the shopfront.
+**Порядок Расположения Категорий На Витрине**: по умолчанию товары в вашем магазине располагаются в алфавитном порядке. Вы можете выбрать для отображения продуктов в порядке категории по вашему желанию. В этом случае товары будут отображаться в порядке категорий, а затем в алфавитном порядке внутри их категории. Например, вы можете пожелать, чтобы ваши продукты из мяса и рыбы появлялись наверху, а наименее важные соленья и консервы - внизу магазина.
 
 **Sort order cycles on shopfront by:** If your shopfront has [more than one order cycle open at the same time](../shopfront/order-cycle/opening-more-than-one-order-cycle.md) you can select the order in which they appear on the shopfront. You may opt to sort them by closing date \(closing soonest first\) or by opening date \(opening soonest first\).
 

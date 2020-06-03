@@ -1,4 +1,4 @@
-# Управление клиентами и условные отображения/цены
+# Customer management and conditional displays/prices
 
 Often an enterprise may want to offer individual customers and wholesale retailers different prices \(or even different products- such as bulk buys\).
 
