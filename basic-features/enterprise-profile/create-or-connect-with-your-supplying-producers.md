@@ -1,7 +1,7 @@
-# Create or connect with your supplying producers
+# Создайте или свяжитесь с вашими поставщиками
 
 {% hint style="success" %}
-This page is relevant for users who have registered **Producer or Non-Producer Hub** enterprises only.
+Эта страница актуальна только для тех пользователей, которые зарегистрировали предприятия как Производитель или Не Производитель.
 {% endhint %}
 
 For such Hub enterprises, connecting with existing OFN producers or creating accounts for your producers is a necessary precursor to adding your product range to your shop.
