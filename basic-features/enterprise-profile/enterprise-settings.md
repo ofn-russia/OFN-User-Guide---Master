@@ -83,33 +83,33 @@ description: >-
 
 **№ НДС внутри Сообщества**: эта информация не будет общедоступной.
 
-**In VAT scheme?** If you are within the VAT scheme, select "yes".
+**В схеме НДС?** Если вы находитесь в схеме НДС, выберите "да".
 
-**Display the logo on the invoice:** You can choose to display or not the logo of your enterprise on the invoices issued from the platform.
+**Отображать логотип на счете**: вы можете выбрать, отображать или нет логотип вашего предприятия на счетах, выставленных с платформы.
 
-**Add a specific mention at the bottom of the invoices:** You can add a specific mention that you would have the obligation or the wish to add on your invoices.
+**Добавлять определенный текст внизу счетов**: Вы можете добавить произвольный текст, который будет автоматически вставляться в счета.
 
-**Company Number:** For businesses registered at Companies House this is your unique identifying number.
+**ИНН:** Идентификационный номер налогоплательщика, присвоенный вашему предприятию.
 
-**Charity Number:** If your enterprise is a registered charity
+**Номер благотворительной организации**: если ваше предприятие зарегистрировано
 
-**Charges VAT:** VAT registered businesses should select this option so that VAT is managed appropriately on invoices and reports.
+**Сборы НДС**: предприятия, зарегистрированные с НДС, должны выбрать эту опцию, чтобы НДС корректно обрабатывался в счетах и отчетах.
 
-For advise on selling as a VAT registered enterprise please see this document:
+Для получения информации по продажам в качестве предприятия, зарегистрированного по НДС, см. этот документ:
 
 {% file src="../../.gitbook/assets/vat-for-open-food-network-enterprises.pdf" caption="Selling as VAT registered enterprise" %}
 
-**Display Logo on Invoices:** if desired.
+**Показывать Логотип на Счетах:** при желании.
 
-**Add Customised Text at the end of Invoices:** such as payment details \(if payments are accepted by BACS\) or terms and conditions.
+**Добавить пользовательский текст в конце счетов-фактур**: например, данные платежа \(если платежи принимаются BACS\) или условия.
 
-**ABN:** this will not be displayed publicly. It is required for shop users who want to print invoices.
+**ABN**: это не будет отображаться публично. Необходим для пользователей магазина, которые хотят распечатать счета.
 
-**ACN:** this will not be displayed publicly.
+**ACN**: это не будет отображаться публично.
 
-**Charge GST?**– If you wish to charge GST for your products select ‘yes’.
+**Сборы GST?** - Если вы хотите взимать GST за ваши продукты, выберите 'да'.
 
-### Images
+### Изображения
 
 **Logo image:** This will be visible when your profile is viewed in brief, as a pop up window. It will also show on your profile. This image must be square \(i.e. 100 x 100\), or it will be cropped/warped.
 
