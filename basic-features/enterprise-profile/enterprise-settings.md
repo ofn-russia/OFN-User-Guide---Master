@@ -213,9 +213,9 @@ description: >-
 
 **Владелец:** Это электронная почта основного пользователя, ответственного за это предприятие. Они имеют право изменить все аспекты профиля. Только владелец может сменить владельца, выбрав из списка менеджеров предприятия. Этот пользователь будет иметь звездочку рядом с его именем в поле менеджера.
 
-**Notifications:** This is the email of the user to whom the OFN system correspondence will be directed, i.e. order confirmations etc. Only the owner can nominate the user who will receive the notifications, among the enterprise managers list. This user will have an envelope symbol next to their name in the managers' field.
+**Уведомления:** Электронная почта пользователя, которому будут направлены системные сообщения ОСП, например подтверждения заказа и т.д. Только владелец может назначить пользователя из списка менеджеров предприятия, который будет получать уведомления. Этот пользователь будет иметь символ конверта рядом с его именем в поле менеджера.
 
-**Managers:** Other OFN users who have been granted permission to manage this account. Want to add a new manager? You can search for existing emails of users who have registered for an OFN account and add them as managers. If you don't find any user for the email you are looking for, the user doesn't exist yet on the OFN, you need to invite them \(see next point\).
+**Менеджеры:** Другие пользователи ОСП, которым предоставлено разрешение на управление этой учетной записью. Хотите добавить нового менеджера? Вы можете посмотреть существующие адреса электронной почты пользователей, которые зарегистрировались для учетной записи ОСП и добавить их в качестве менеджеров. Если вы не нашли ни одного пользователя по электронной почте, то пользователь еще не существует в ОСП, вам необходимо пригласить его \(см. следующий пункт\).
 
-**Invite manager:** This is for adding a manager who is not registered with OFN. When you add them, they'll be sent an email confirmation and when they confirm their email they'll be able to set a password, and login to administer this enterprise.
+**Пригласить Менеджера:** Это для добавления менеджера, который не зарегистрирован в ОСП. Когда вы добавите его, ему будет отправлено подтверждение по электронной почте и когда он подтвердит, то сможет установить пароль и войти в систему для администрирования этого предприятия.
 

@@ -1,4 +1,4 @@
-# Частная витрина магазина
+# Private shopfront
 
 If you don’t want your shopfront to be visible to the public \(ie. you would like to host a shop front from which only members can place orders\), there are two ways that you can make your shop more private:
 
