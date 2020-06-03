@@ -111,27 +111,27 @@ description: >-
 
 ### Изображения
 
-**Logo image:** This will be visible when your profile is viewed in brief, as a pop up window. It will also show on your profile. This image must be square \(i.e. 100 x 100\), or it will be cropped/warped.
+**Изображение логотипа**: его будет видно, если просмотреть ваш профиль в виде всплывающего окна. Также будет отображаться в вашем профиле. Это изображение должно быть квадратным \(т.е. 100х100 пикселей\), иначе будет обрезано.
 
-**Promo image:** This image will run horizontally along the top of your profile page. It should be 1200 x 260 pixels in size.
+**Промо-изображение**: это изображение будет проходить горизонтально вдоль верхней части страницы вашего профиля. Оно должно быть размером 1200х260 пикселей, иначе будет обрезано.
 
-An example profile is shown below in its complete version \(from the map or shopfront pages\).
+Пример профиля показан ниже в его полной версии \(со страницы карты или магазина\).
 
 ![](../../.gitbook/assets/demohubimages1.jpg)
 
-And now in its condensed version \(from the producer listing page\).
+А теперь в сокращенном виде \(со страницы со списком производителей\).
 
 ![](../../.gitbook/assets/demohubimages2.jpg)
 
-### Properties
+### Свойства
 
 {% hint style="warning" %}
-Visible to **Producers** only
+Видимо только **Производителям**
 {% endhint %}
 
-You can add properties \(such as free range or certified organic\) to your enterprise. These properties will then be automatically applied to **all** of your products.
+Вы можете добавить свойства \(такие как свободный диапазон или сертифицирован как органика\) в ваше предприятие. Эти свойства будут автоматически применены ко **всем** вашим продуктам.
 
-You can also specify properties for particular products only. This is useful if you stock both certified organic and ordinary groceries, for example. More information about this can be found [here](../products-1/product-properties.md).
+Вы также можете указать свойства только для определенных продуктов. Это полезно, например, если вы храните как сертифицированные, так и обычные продукты. Более подробную информацию об этом можно найти [здесь](../products-1/product-properties.md).
 
 ### Shipping Methods, Payment Methods & Enterprise Fees
 
