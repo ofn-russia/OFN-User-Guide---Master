@@ -163,37 +163,37 @@ description: >-
 
 В этом меню находятся все 'теги', которые были назначены клиентам вашего предприятия.
 
-'Tags' are labels you apply to customers, products and other settings to assign differential access, pricing or other benefits to specific groups. They are particularly useful if you wish to charge loyal customers or 'members' of your food hub preferential prices or allow them to pay by BACS rather than PayPal/Stripe.
+'Теги' - это ярлыки, которые вы применяете к клиентам, товарам и другим параметрам, чтобы назначать дифференцированный доступ, ценообразование или другие преимущества конкретным группам. Они особенно полезны, если вы хотите взимать с постоянных клиентов или 'членов' вашего продовольственного центра по льготным ценам или разрешать им платить через BACS, а не через PayPal/Stripe.
 
-For more information, visit the ['customer management and conditional displays/prices' section](../shopfront/customer-management-and-conditional-displays-prices/).
+Для более одробной информации, перейдите в раздел ['управление клиентами и условные отображения/цены'](../shopfront/customer-management-and-conditional-displays-prices/).
 
-### Shop Preferences
+### Параметры Магазина
 
 {% hint style="warning" %}
-Visible to Shop and Hub registered enterprises only.
+Видимо только для зарегистрированных предприятий Магазин и Центр.
 {% endhint %}
 
-**Shopfront Message**: This message is optional. If completed the message will be visible under a 'Notices' tab on the top menu bar. Your shop \(and it's products\) will appear under the 'Shop' tab.
+**Сообщение Витрины**: Это сообщение не является обязательным. После завершения сообщение будет отображаться на вкладке 'Уведомления' в верхней строке меню. Ваш магазин \(и его товары\) появится на вкладке 'Магазин'.
 
-![Shop front with Notices for single order cycle](../../.gitbook/assets/notices-singleoc.jpg)
+![&#x41C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D; &#x441; &#x443;&#x432;&#x435;&#x434;&#x43E;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438; &#x434;&#x43B;&#x44F; &#x43E;&#x434;&#x43D;&#x43E;&#x433;&#x43E; &#x446;&#x438;&#x43A;&#x43B;&#x430; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430;](../../.gitbook/assets/notices-singleoc.jpg)
 
-![Shop front with notices for multiple concurrent order cycles](../../.gitbook/assets/notices.jpg)
+![&#x41C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D; &#x441; &#x443;&#x432;&#x435;&#x434;&#x43E;&#x43C;&#x43B;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438; &#x43E; &#x43D;&#x435;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x438;&#x445; &#x43E;&#x434;&#x43D;&#x43E;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x44B;&#x445; &#x446;&#x438;&#x43A;&#x43B;&#x430;&#x445; &#x437;&#x430;&#x43A;&#x430;&#x437;&#x430;](../../.gitbook/assets/notices.jpg)
 
-The Shop Front message or 'Notice' is an opportunity to provide basic information to the customer about how your store works. For example, you may explain how your order cycles are structured, or any membership requirements. It could also be a friendly greeting, or a chance to promote specials. You can include links to external websites \(perhaps to showcase where your products are grown\), social media and more.
+Сообщение магазина или 'Уведомление' - это возможность предоставить покупателю основную информацию о том, как работает ваш магазин. Например, вы можете объяснить, как структурированы ваши циклы заказов, или какие-либо требования к членству. Это также может быть дружеское приветствие или возможность рекламировать специальные предложения. Вы можете включить ссылки на внешние веб-сайты \(возможно, чтобы продемонстрировать, где выращиваются ваши продукты\), социальные сети и многое другое.
 
-If left blank the 'Notices' tab will not appear on your shop front.
+Если оставить это поле пустым, вкладка 'Уведомления' не будет отображаться на передней панели вашего магазина.
 
 ![](../../.gitbook/assets/notices-none.jpg)
 
-**Shopfront Closed Message**: This message will be displayed under both the 'Notices' AND 'Shop' tabs when your shopfront is closed \(no active order cycle\). It’s a chance to tell customers when the shop will next be open and accepting orders.
+**Сообщение При Закрытии Витрины**: это сообщение будет отображаться на вкладках 'Уведомления' и 'Магазин', когда ваша торговая витрина закрыта \(без активного цикла заказа\). Это возможность сообщить покупателям, когда магазин будет открыт и начнёт принимать заказы.
 
 {% hint style="success" %}
-TIP: Copy and paste your 'ShopFront Message' into the Shopfront Closed Message. Then you can inform customers about how your shop works, link to external websites with more information about your products and ethics etc as well as inform them of when the next order cycle will open.
+СОВЕТ: Скопируйте и вставьте свое 'Сообщение Витрины' в 'Сообщение При Закрытии Витрины'. Затем вы можете информировать клиентов о том, как работает ваш магазин, ссылаться на внешние веб-сайты с дополнительной информацией о ваших продуктах, этике и т.д., а также информировать их о том, когда откроется следующий цикл заказа.
 {% endhint %}
 
-![Closed shopfront with customised message](../../.gitbook/assets/ordersclosednew1.jpg)
+![&#x417;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x430;&#x44F; &#x432;&#x438;&#x442;&#x440;&#x438;&#x43D;&#x430; &#x441; &#x438;&#x43D;&#x434;&#x438;&#x432;&#x438;&#x434;&#x443;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x43C; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;&#x43C;](../../.gitbook/assets/ordersclosednew1.jpg)
 
-![Closed shopfront with default message](../../.gitbook/assets/orderscloseddefault.jpg)
+![&#x417;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x430;&#x44F; &#x432;&#x438;&#x442;&#x440;&#x438;&#x43D;&#x430; &#x441; &#x441;&#x43E;&#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435;&#x43C; &#x43F;&#x43E; &#x443;&#x43C;&#x43E;&#x43B;&#x447;&#x430;&#x43D;&#x438;&#x44E;](../../.gitbook/assets/orderscloseddefault.jpg)
 
 **Shopfront Category Ordering**: By default, products are arranged alphabetically in your shop. You can choose to display the products in order of category according to your wish. In this case, the products will be displayed in order of category and then in alphabetical order within their category. E.g. you may wish to have your Meat & Fish products to appear at the top, with your less important Pickles & Preserves appearing further down the shopfront.
 
