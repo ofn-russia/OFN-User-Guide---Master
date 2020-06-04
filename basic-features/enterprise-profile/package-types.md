@@ -37,12 +37,12 @@
 Для дополнительной информации о руководстве быстрой настройки это типа профиля, нажмите [тут](../../quick-start-guides/).
 {% endtab %}
 
-{% tab title="Producer Hub \(multi-producer shop\)" %}
-### You would like to sell your products as well as those of other producers / suppliers
+{% tab title="Центр Производителя" %}
+## Вы хотели бы продавать свою продукцию, а также продукцию других производителей/поставщиков
 
-This option allows you to manage a shop which retails both products made by yourself and those made by other local producers. You can retail products from any Producer who has given you [permission](create-or-connect-with-your-supplying-producers.md) to do so.
+Эта опция позволяет вам управлять магазином, в котором продаются товары, сделанные вами и другими местными производителями. Вы можете продавать товары от любого Производителя, кто вам дал для этого соответствующие [разрешения](create-or-connect-with-your-supplying-producers.md).
 
-For more information on the quick setup guide for this type of profile, click [here](../../quick-start-guides/).
+Для дополнительной информации о руководстве быстрой настройки это типа профиля, нажмите [тут](../../quick-start-guides/).
 {% endtab %}
 {% endtabs %}
 
@@ -68,7 +68,7 @@ For more information on the quick setup guide for this type of profile, click [h
 {% tab title="Центр Не Производителя" %}
 ### Вы хотели бы создать интернет-магазин
 
-Эта опция позволяет вам управлять магазином, в котором продаются товары других производителей. Вы можете продавать товары от любого Производителя, кто дал вам соответствующие [разрешения](create-or-connect-with-your-supplying-producers.md) для этого.
+Эта опция позволяет вам управлять магазином, в котором продаются товары других производителей. Вы можете продавать товары от любого Производителя, кто вам дал для этого соответствующие [разрешения](create-or-connect-with-your-supplying-producers.md).
 
 Для дополнительной информации о руководстве быстрой настройки это типа профиля, нажмите, [нажмите тут](../../quick-start-guides/multi-producers-shop-hub-quick-setup-guide.md).
 {% endtab %}

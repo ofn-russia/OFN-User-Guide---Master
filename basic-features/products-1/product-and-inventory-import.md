@@ -109,7 +109,9 @@ Note that all fields are case sensitive. E.g. you must use mL not ml , or Dairy 
     </tr>
   </thead>
   <tbody></tbody>
-</table>| available\_on | N | Leave blank |  |
+</table>
+
+| available\_on | N | Leave blank |  |
 | :--- | :--- | :--- | :--- |
 
 

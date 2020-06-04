@@ -1,12 +1,12 @@
-# Enterprise profile
+# Профиль предприятия
 
-Once you have [created your Enterprise account](../register-and-create-your-profile.md#create-your-first-enterprise-account), you must log in to your Administration [Dashboard](../dashboard.md) to continue setting up your Enterprise profile.
+[Создав проифиль вашего Предприятия](../register-and-create-your-profile.md#create-your-first-enterprise-account), вы должны войти в вашу [Панель](../dashboard.md) Управления, чтобы продолжить настройку профиля вашего Предприятия.
 
-First you will be asked to [choose the OFN package](package-types.md) \(or type of profile\) which best represents your [business model](../../your-quick-start-on-ofn-given-who-you-are.md).
+Снача вас попросят [cвыбрать ОСП пакет](package-types.md) \(или тип профиля\),  который лучше всего подходит вашей [модели бизнеса](../../your-quick-start-on-ofn-given-who-you-are.md).
 
-In this section we detail the different menus that you can complete to refine your enterprise profile and, by doing so, access business-specific features that you may need.
+В этом разделе мы детализируем различные меню, которые вы можете заполнить, чтобы уточнить свой профиль предприятия и таким образом получить доступ к специфическим для бизнеса функциям, которые могут вам понадобиться.
 
 {% hint style="info" %}
-It is important to complete the whole process otherwise your enterprise might not appear on the map, or appear with a partially filled in profile, which can affect your image.
+Важно завершить весь процесс, иначе ваше предприятие может не появиться на карте или появиться с частично заполненным профилем, что может повлиять на ваш имидж.
 {% endhint %}
 
