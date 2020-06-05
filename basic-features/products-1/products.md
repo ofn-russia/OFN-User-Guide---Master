@@ -86,15 +86,15 @@
 Варианты полезны, например, когда вы продаете лимоны как по отдельности, так и в упаковках по 5 штук. Вместо того, чтобы иметь два товара, для одного и того же продукта могут быть доступны два варианта.
 {% endhint %}
 
-Если вы хотите создать ПОХОЖИЙ товар, вы можете продублировать товары, выбрав значок двойной страницы справа от элемента \(красная рамка\). При последующем выборе значка карандаша и бумаги \(зеленое поле\) скопированный продукт можно редактировать, а детали изменять для второго элемента.
+Если вы хотите создать ПОХОЖИЙ товар, вы можете продублировать товары, выбрав значок двойной страницы справа от элемента \(красная рамка\). При последующем выборе значка карандаша и бумаги \(зеленая рамка\), скопированный продукт можно редактировать, а детали изменять для второго элемента.
 
 ![](../../.gitbook/assets/productspagecopy.jpg)
 
-## Refine product attributes
+## Уточнить атрибуты товара
 
-Using OFN you can add **properties or labels** to your products. This allows customers to find your items when searching for specific criteria \(eg. certified Organic\) and highlights specific qualities your products may have. Find out more [here](product-properties.md).
+Используя ОСП, вы можете добавлять **свойства или метки** к вашим продуктам. Это позволяет клиентам находить ваши товары при поиске по определенным критериям \(например, сертифицированным органическим\) и подчеркивает конкретные качества, которые могут иметь ваши продукты. Узнайте больше [здесь](product-properties.md).
 
-For tips on how to manage sales of **"irregular" products** such as meat or large vegetables sold in units but costed by weight, please read [here](pricing-irregular-items-kg.md).
+Для получения советов о том, как управлять продажами "**не регулярных**" продуктов, таких как мясо или крупные овощи, продаваемые в единицах, но рассчитанные по весу, пожалуйста, прочитайте [здесь](pricing-irregular-items-kg.md).
 
-Our **Group Buy** tool enables you to manage and organise sales of products in bulk lots. Find out more [here](group-buy-for-bulk-ordering.md).
+Наш инструмент для Групповых Покупок позволяет вам управлять и организовывать продажи продуктов партиями. Узнать больше [здесь](group-buy-for-bulk-ordering.md).
 
