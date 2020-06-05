@@ -98,7 +98,7 @@
 
 Клиенты также могут фильтровать товары в магазине по их свойствам:
 
-![Filter by properties on PC](../../.gitbook/assets/propertiesscreenlaptop.jpg)
+![&#x424;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430;&#x446;&#x438;&#x44F; &#x43F;&#x43E; &#x441;&#x432;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430;&#x43C; &#x43D;&#x430; &#x41F;&#x41A;](../../.gitbook/assets/propertiesscreenlaptop.jpg)
 
 ![&#x424;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430;&#x446;&#x438; &#x43F;&#x43E; &#x441;&#x432;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430;&#x43C; &#x43D;&#x430; &#x442;&#x435;&#x43B;&#x435;&#x444;&#x43E;&#x43D;&#x435;](../../.gitbook/assets/propertiesscreenphone.jpg)
 
