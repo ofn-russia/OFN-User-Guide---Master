@@ -1,114 +1,114 @@
-# Разрешения Предприятия
+# Enterprise Permissions
 
-## Разрешения Предприятия
+## Enterprise Permissions
 
-В ОСП Разрешениях Предприятия есть правила, регулирующие торговые отношения между предприятиями: поставщиками и дистрибьюторами. Эти правила должны быть установлены до того, как одна компания \(Профиль Производителя или Магазин Производителя\) может стать поставщиком другой \(Центр\) или наоборот. Разрешение \(или 'права'\) предоставляется одной компанией другой в отношении доступа/изменения товаров и профиля. На этой странице подробно описаны различные разрешения и способы их распределения.
+Within the OFN Enterprise Permissions are rules which govern the trading relationships between businesses: suppliers and distributors. These rules must be set up before one company \(Producer Profile or Producer Shop\) can become a supplier of another \(Hub\), or vice versa. A permission \(or 'right'\) is granted by one company to another regarding access / modification of products and profile. This page details the different permissions and how to allocate them.
 
-Чтобы получить доступ к разрешениям вашего предприятия:
+To access your enterprise permissions:
 
 ![](../../.gitbook/assets/permissions.gif)
 
-Наконец, мы исследуем эту тему с точки зрения:
+Lastly, we explore this topic from the point of view of:
 
-* [Центр](enterprise-to-enterprise-permissions-e2es.md#hub-perspective) \(дистрибьютор\)
-* [Профиль или Магазин Производителя](enterprise-to-enterprise-permissions-e2es.md#producers-perspective) \(поставщик\)
+* [a Hub](enterprise-to-enterprise-permissions-e2es.md#hub-perspective) \(the distributor\)
+* [a producer profile or shop](enterprise-to-enterprise-permissions-e2es.md#producers-perspective) \(the supplier\)
 
-## Четыре Разрешения
+## The Four Permissions
 
-Существует 4 различных типа разрешений Предприятия. Они могут комбинироваться различными способами, чтобы предоставить компаниям больше или меньше прав в соответствии с их профилями.
+There are 4 different types of Enterprise permissions. They can combine in different ways to give companies more or less rights according to their profiles.
 
 ![](../../.gitbook/assets/e2emenu2.jpg)
 
-**Разрешение на добавление в цикл заказа**: поставщик \(производитель\) позволяет дистрибьютору \(ОСП Центр\) добавлять товары в циклы заказа последнего. Таким образом, товары от поставщика могут появиться на витрине Центра.
+**Permission to add to order cycle**: the supplier \(producer\) allows the distributor \(an OFN Hub\) to add products to the latter's order cycles. Thus, products from the supplier can appear on the hub's shopfront.
 
-**Разрешение на управление товарами**: поставщик разрешает другому зарегистрированному предприятию ОСП \(обычно центру\) создавать, удалять и изменять товары непосредственно в своем каталоге поставщика.
+**Permission to manage products**: the supplier authorises another OFN registered enterprise \(typically a hub\) to create, delete and modify products directly in its supplier catalog.
 
 {% hint style="danger" %}
-Это может потенциально повлиять на все центры, которые производитель снабжает товарами через ОСП.
+This can potentially impact all hubs which the producer supplies with goods through OFN.
 {% endhint %}
 
-> _Например, если Фермер Иван поставляет картофель в Центры А и В, но предоставляет Центру А разрешение на управление своей продукцией, то если Центр А меняет цену на картофель, то это изменение цены \(при стандартных настройках\) будет отражено на витринах обоих магазинов  Центров A и B._
+> _For example, if Farmer Jo supplies potatoes to Hubs A and B but grants Hub A permission to manage its products then if Hub A changes the price of the potatoes then this price change \(under standard settings\) will be reflected on the shop fronts of both hubs A and B._
 
-**Разрешение на редактирование профиля**: одна компания позволяет другой изменять данные в своем [Профиле Предприятия](./) \(контактные данные, адрес, описание, ...\).
+**Permission to edit profile:** one company allows another to modify details in their [Enterprise Profile](./) \(contact details, address, description, ...\).
 
-**Разрешение на добавление продуктов в товарную номенклатуру**: поставщик \(производитель\) уполномочивает дистрибьютора \(центр\) добавлять свои товары в каталог магазина \(или '[Товарную Номенклатуру](../products-1/inventory-tool.md)'\) центра.
+**Permission to add products to inventory**: the supplier \(producer\) authorises the distributor \(hub\) to add its products to the shop catalog \(or '[Inventory](../products-1/inventory-tool.md)'\) of the hub.
 
 {% hint style="info" %}
-Если производитель поставляет товары более чем одному центру, то для того, чтобы каждый из этих центров мог независимо управлять ценами и уровнями запасов своих товаров, мы рекомендуем добавить это разрешение между двумя предприятиями и для Центров для изменения своих [настроек Товарной Номенклатуры](enterprise-settings.md#inventory-settings).
+If a producer supplies more than one hub with goods, then to allow each of these hubs to manage pricing and stock levels of their products independently we recommend adding this permission between the two enterprises and for the Hubs to change their [Inventory settings](enterprise-settings.md#inventory-settings).
 {% endhint %}
 
-## Предоставление и Управление Разрешениями
+## Granting and Managing Permissions
 
-Чтобы изменить, добавить или удалить разрешения, перейдите в панель администратора, затем выберите 'Предприятия' в синем меню и 'Разрешения' в зеленом подменю.
+To modify, add or delete permissions, go to the admin dashboard and then to 'Enterprises' on the blue menu and 'Permissions' on the green sub-menu.
 
 ![](../../.gitbook/assets/e2emenu.jpg)
 
-Чтобы дать разрешение:
+To give permission:
 
-* Выберите ваше предприятие из выпадающего меню в первом столбце \(вы являетесь производителем, который поставляет другим\)
-* Во втором столбце выберите название предприятия \(центра\), которому вы хотите предоставить.
-* Отметьте разрешения, которые вы хотите предоставить дистрибьютору ваших товаров \(центру\) или чтобы предоставить несколько разрешений, выберите 'любые'.
-* Нажмите на 'Создать'.
+* Select your enterprise from the drop down menu in the first column \(you are a producer who supplies others\)
+* Select the name of the enterprise \(hub\) you wish to supply from the the second column.
+* Tick the permissions you wish to grant the distributor of your goods \(hub\) or to grant multiple permissions select 'everything'.
+* Click on 'Create'.
 
-  Обратите внимание, что вы можете удалить или изменить эти разрешения в любое время.
-
-{% hint style="warning" %}
-Только пользователи указанные как [Менеджеры](enterprise-settings.md#users) предприятия могут менять его разрешения.
-{% endhint %}
-
-Если вам нужно, чтобы другое предприятие предоставило вам разрешения, вам нужно связаться с ними по электронной почте или по телефону. Для этого в ОСП нет встроенной функции.
-
-## Автоматически Созданные Разрешения
-
-Когда пользователь является главным менеджером нескольких предприятий на платформе, [четыре разрешения](enterprise-to-enterprise-permissions-e2es.md#the-four-permissions) создаются автоматически для каждого предприятия. Это не тот случай, когда предприятия управляются разными пользователями.
-
-## С точки зрения Центра
-
-В следующих распространенных сценариях демонстрируются разрешения предприятия-предприятия, которые вам могут понадобиться для настройки вашего центра.
-
-> Я [**создал Профили Производителей для каждого моего поставщика**](create-or-connect-with-your-supplying-producers.md#supplier-does-not-have-an-ofn-profile)**. Какие разрешения мне нужно настроить, прежде чем я смогу разместить их товары в магазине Центра?**
-
-Система настроена таким образом, что для центров, создающих профили производителей,  _по умолчанию будут установлены правильные разрешения_, чтобы они могли сразу добавлять товары и торговать с этими профилями производителей.
-
-> **У моего** [**sпоставщика уже есть предприятие, зарегистрированное в ОСП**](create-or-connect-with-your-supplying-producers.md#supplyingproducer)**. Я хотел бы добавить их товары на ветрину моего центра**.
-
-Вы должны связаться с вашим поставщиком лично. Его контактные данные \(номер телефона, адрес и адрес электронной почты\) будут указаны в их профиле ОСП.
-
-Если вы собираетесь только **размещать у себя их продукты** и не хотите помогать им управлять остальными частями их профиля ОСП, попросите производителя предоставить разрешение на **добавление в цикл заказа** и разрешение на **добавление в товарную номенклатуру**.
-
-Если поставщик желает, чтобы вы, как менеджер Центра, помогли им организовать их предприятие ОСП, он может предоставить вам все четыре разрешения. В этом случае вы сможете редактировать их профиль и управлять их продуктами.
-
-> **Мой Центр распространяет через группы покупателей. Какие разрешения понадобятся группе покупателей для моего центра и моих производителей?**
+  Note that you can delete or change these permissions at any time.
 
 {% hint style="warning" %}
-Это пример того, как хаб, управляющий \(координирующий\) циклами заказов, отличается от предприятия, с которого клиенты собирают свои покупки.
-
-_Если Центр A управляет \(координирует\) циклом заказа для группы покупателей \(Центр B\), то цикл заказа будет отображаться на витрине ОСП магазина Центра B._
+Only users listed as [Managers](enterprise-settings.md#users) of an enterprise can change its permissions.
 {% endhint %}
 
-Группе покупателей \(Центр B, см. выше\) потребуется предоставить координатору цикла заказа \(Центр A, см. выше\) разрешение на добавление в цикл заказа \(и в идеале разрешение на добавление в товарную номенклатуру\).
+If you need another enterprise to give you permissions, you need to contact them by email or phone. There is no online feature to do this.
 
-Производители, которые поставляют в Центр А товары, которые также должны продаваться группой покупателей \(Центр В\), должны предоставить и Центрам А и В разрешение на добавление в цикл заказа \(и в идеале разрешение на добавление в товарную номенклатуру\).
+## Automatically Generated Permissions
 
-## С точки зрения Производителя
+When a user is the main manager of several enterprises on the platform, [the four permissions](enterprise-to-enterprise-permissions-e2es.md#the-four-permissions) are created automatically between each enterprise. This is not the case when enterprises are managed by different users.
 
-Когда производитель хочет начать продавать свою продукцию через другие предприятия \(центры или группы покупателей\), он должен установить соответствующие разрешения для предприятия-к-предприятию. Существуют разные уровни разрешений, которые производитель может предоставить, в зависимости от того, какую возможности он хочет предоставить центру для управления своими товарами и профилем. \(см. [начало страницы](enterprise-to-enterprise-permissions-e2es.md#the-four-permissions)\).
+## Hub perspective
 
-Эти примеры показывают некоторые распространенные сценарии.
+The following common scenarios demonstrate enterprise-enterprise permissions you may need to set up for your hub.
 
-> **Я производитель и хотел бы, чтобы местный ОСП центр размещал и продавал мою продукцию.**
+> **I have** [**created Producer Profiles for each of my suppliers**](create-or-connect-with-your-supplying-producers.md#supplier-does-not-have-an-ofn-profile)**. Which permissions do I need to set up before I can stock their products on my Hub shopfront?**
 
-**Важно**: чтобы центр мог добавить ваши товары на свою витрину, вам нужно дать им 'разрешение на добавление в цикл заказа'.
+The system is configured so that hubs creating producer profiles will have the _correct permissions installed as default_, so that they can start adding products and trading with these producer profiles right away.
 
-**Не обязательно**: Возможно, вы также захотите дать центру разрешение на управление вашими товарами, редактирования вашего профиля или добавление в Товарную Номенклатуру.
+> **My** [**supplier already has an enterprise registered with OFN**](create-or-connect-with-your-supplying-producers.md#supplyingproducer)**. I would like to add their products to my hub shopfront.**
 
-> **Центр, в который я поставляю, распространяет через группы покупателей.**
+You must contact your supplier in person. Their contact details \(phone number, address and email address\) will be located in their OFN profile.
 
-Чтобы ваши товары распространялись по группам покупателей, вам минимум необходимо добавить разрешения 'добавить в цикл заказов' для предприятия группы покупателей, _а также для центра_, в который вы поставляете напрямую.
+If you only intend to _**stock their products**_ and don't wish to help them manage the rest of their OFN profile then ask the producer to grant permission _**to add to order cycle**_ and permission _**to add to inventory.**_
 
-> **Я Магазин Производителя, который поставляет в местный Центр, а также управляет собственной витриной. Центр хотел бы управлять уровнем запасов и ценами на мои товары. Я** _**также**_ **хотел бы управлять уровнем запасов и ценами моих товаров.**
+If the supplier wishes for you, as a Hub manager, to help them organise their OFN enterprise then they may grant you all four permissions. Should this occur then you will be able to edit their profile and manage their products.
 
-Этот сценарий можно решить, предоставив центру разрешение на добавление в товарную номенклатуру, а также разрешение на добавление в цикл заказа.
+> **My Hub distributes through buying groups. Which permissions will the buying group need with my hub and my producers?**
 
-Это позволяет центру складировать ваши товары в их магазине, но устанавливать собственные цены и уровни запасов. Когда вы будете снабжать свой магазин своими товарами, они будут продолжать отражать установленные вами цены и уровень запасов.
+{% hint style="warning" %}
+This is an example of where the hub managing \(co-ordinating\) an order cycle differs from the enterprise from which customers collect their purchases.
+
+_If Hub A manages \(co-ordinates\) an order cycle for a buying group \(Hub B\) then the order cycle will be displayed on Hub B's OFN shopfront._
+{% endhint %}
+
+The buying group \(Hub B above\) will need to grant the order cycle co-ordinator \(Hub A above\) permission to add to order cycle \(and ideally permission to add to inventory\).
+
+Producers who supply Hub A with products that are to also be sold by the buying group \(Hub B\) must grant both Hubs A and B permission to add to order cycle \(and ideally permission to add to inventory\).
+
+## Producer's perspective
+
+When a producer wants to start selling their products through other enterprises \(hubs or buying groups\) the must establish the appropriate enterprise-to-enterprise permissions. There are different levels of permission that a producer can grant, depending on how much power they want to give the hub to manage their products and profile \(see [top of page](enterprise-to-enterprise-permissions-e2es.md#the-four-permissions)\).
+
+These examples explore some common scenarios.
+
+> **I am a producer and would like a local OFN hub to stock and sell my products.**
+
+**Essential:** For the hub to add your products to their shopfront, you’ll need to grant them _'permission to add to order cycle'_.
+
+**Optional:** You might also want to give the hub permission to manage your products, to edit your profile or to add to Inventory.
+
+> **A hub that I supply distributes through buying groups.**
+
+In order for your products to be distributed by the buying groups you will have to add a minimum of permission 'to add to order cycle' for the buying group enterprise _as well as_ the hub you supply directly.
+
+> **I am a Producer Shop who supplies a local Hub as well as running my own shopfront. The hub would like to manage the stock levels and prices of my products. I would like to** _**also**_ **manage stock levels and prices of my products.**
+
+This scenario can be solved by granting the hub permission to add to Inventory as well as permission to add to order cycle.
+
+This allows the hub to stock your products in their shop, but to set their own prices and inventory levels. When you stock your own shop with your products, they will continue to reflect the prices and stock levels that you have set.
 

@@ -1,4 +1,4 @@
-# Местные ОСП организации и контакты
+# Local OFN organisations and contacts
 
 You can access the Open Food Network platform in various languages, and from various providers, depending on where you are located.
 
@@ -24,9 +24,7 @@ Want to learn more about what is the Open Food Network? [Check our global websit
     </tr>
   </thead>
   <tbody></tbody>
-</table>
-
-| Australia | Open Food Services | [https://openfoodnetwork.org.au/](https://openfoodnetwork.org.au/) | English |
+</table>| Australia | Open Food Services | [https://openfoodnetwork.org.au/](https://openfoodnetwork.org.au/) | English |
 | :--- | :--- | :--- | :--- |
 
 
@@ -47,9 +45,7 @@ Want to learn more about what is the Open Food Network? [Check our global websit
     </tr>
   </thead>
   <tbody></tbody>
-</table>
-
-| Brasil\*\* | [REDE de Intecâmbio de Tecnologias Alternativas](http://redemg.org.br/) | Coming soon | Portuguese |
+</table>| Brasil\*\* | [REDE de Intecâmbio de Tecnologias Alternativas](http://redemg.org.br/) | Coming soon | Portuguese |
 | :--- | :--- | :--- | :--- |
 
 
@@ -67,9 +63,7 @@ Want to learn more about what is the Open Food Network? [Check our global websit
     </tr>
   </thead>
   <tbody></tbody>
-</table>
-
-<table>
+</table><table>
   <thead>
     <tr>
       <th style="text-align:left">France</th>
@@ -83,9 +77,7 @@ Want to learn more about what is the Open Food Network? [Check our global websit
     </tr>
   </thead>
   <tbody></tbody>
-</table>
-
-| Italy\*\* | Under construction | [https://staging.pixelwise.it/](https://staging.pixelwise.it/%20) \(testing mode\) | Italian English |
+</table>| Italy\*\* | Under construction | [https://staging.pixelwise.it/](https://staging.pixelwise.it/%20) \(testing mode\) | Italian English |
 | :--- | :--- | :--- | :--- |
 
 
@@ -112,9 +104,7 @@ Want to learn more about what is the Open Food Network? [Check our global websit
     </tr>
   </thead>
   <tbody></tbody>
-</table>
-
-| South Africa | Open Food Network South Africa | [https://openfoodnetwork.org.za/](https://openfoodnetwork.org.za/) | English |
+</table>| South Africa | Open Food Network South Africa | [https://openfoodnetwork.org.za/](https://openfoodnetwork.org.za/) | English |
 | :--- | :--- | :--- | :--- |
 
 

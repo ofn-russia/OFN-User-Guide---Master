@@ -1,41 +1,42 @@
 ---
-description: 'Простые шаги, чтобы начать свой переход на ОСП как Центр'
+description: Simple steps to start your OFN journey as a HUB
 ---
 
-# Центр
+# Hub
 
-Начать работу с ОСП легко, просто следуйте инструкциям ниже:
+It's easy to get started on OFN, just follow the steps below:
 
-![&#x41F;&#x44F;&#x442;&#x44C; &#x448;&#x430;&#x433;&#x43E;&#x432; &#x434;&#x43B;&#x44F; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x426;&#x435;&#x43D;&#x442;&#x440;&#x430; &#x432; &#x41E;&#x421;&#x41F;](../.gitbook/assets/set-up-in-5-steps-draft.png)
+![Five steps to opening your OFN hub.](../.gitbook/assets/set-up-in-5-steps-draft.png)
 
-1. [Зарегистрируйте ваше предприятие](../basic-features/register-and-create-your-profile.md). Если вы хотите продавать товары, которые вы производите, а так же товары других производителей, выберите [типы пакетов](../basic-features/enterprise-profile/package-types.md) 'Производитель', а затем 'Центр'; тогда как, если вы хотите продавать только товары, сделанные другими, выберите варианты пакетов 'Не Производитель' и 'Центр'. Завершите [настройки вашего предприятия](../basic-features/enterprise-profile/enterprise-settings.md) указав юридическую информацию.
-2. Перечислите свои [товары](../basic-features/products-1/products.md).  Если вы 'Центр Производителя' тогда [создайте](../basic-features/products-1/products.md) \(или [импортируйте](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products)\) список продукции для товаров, которые вы сами производите. Для обоих 'Производитель' и 'Не Производитель' центров, свяжитесь с местными ОСП предприятиями, которые хотят, чтобы их товары отображались на ветрине вашего магазина. Попросите их настроить [Корпоративные разрешения](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) для подключения вас к их предприятию через ОСП.
-3. Добавьте[ способы оплаты, ](../basic-features/shopfront/payment-methods.md)доступные вашим клиентам \(наличные при получении, банковской картой и т.п.\).
-4. Добавьте [опции доставки](../basic-features/shopfront/shipping-methods.md), доступные вашим клиентам \('собрать и отложить' сервис, с временем когда и где можно забрать, доставка на дом и т.п.\).
-5. Добавьте [цикл заказа](../basic-features/shopfront/order-cycle/order-cycles-for-hubs.md) : это откроет ваш магазин в дату начала, которую вы определили! Цикл заказа - это период, в течение которого покупатели могут размещать заказы на получение или доставку в определенное время. Некоторые предприятия имеют еженедельный цикл заказов. У некоторых есть постоянно открытый цикл заказа.
+1. [Register your enterprise](../basic-features/register-and-create-your-profile.md).  If you wish to sell goods that you make as well as those of others then choose the 'Producer' and then 'Hub' [package types](../basic-features/enterprise-profile/package-types.md); whereas, if you only want to sell good made by others then choose the 'Non-Producer' and 'Hub' package options. Complete your [enterprise settings](../basic-features/enterprise-profile/enterprise-settings.md) with your business details.
+2. List your products.  If you are a 'Producer Hub' then [make](../basic-features/products-1/products.md) \(or [import](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products)\) product listings for the goods you make yourself. For both 'Producer' and 'Non-Producer' hubs, contact local OFN enterprises who want their goods to be displayed on your shop front.  Ask them to set up [Enterprise permissions](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) to connect to their business to yours through OFN.
+3. Set up a choice of [payment methods](../basic-features/shopfront/payment-methods.md) available to your customers  \(cash on delivery, credit card online payment, etc.\)
+4. Set up a choice of [shipping options](../basic-features/shopfront/shipping-methods.md) available to your customers  \('click and collect' service with a pick up time and location, home delivery, etc...\)
+5. Set up an [order cycle](../basic-features/shopfront/order-cycle/order-cycles-for-hubs.md) : this will open your shop at the start date you defined!  An order cycle is a period during which shoppers can place orders for collection or delivery at a particular time.  Some enterprises have a weekly order cycle.  Some have a permanently open order cycle.
 
-Поздравляем! Ваш магазин готов!
+Congrats! Your shop is now live!
 
 {% hint style="info" %}
-Чтобы получить небольшой доход для покрытия расходов на организацию продаж, вы можете добавить '[Сборы Предприятия](../basic-features/shopfront/enterprise-fees.md)'- эта наценка добавляется к отпускной цене товаров в вашем магазине.
+To earn a little revenue to cover the cost of organising sales you may like to add an '[Enterprise Fee](../basic-features/shopfront/enterprise-fees.md)'- this mark-up is added to the selling price of products on your shopfront.
 {% endhint %}
 
-Когда вы начнёте получать заказы, вы сможете управлять ими в разделе [заказы](../basic-features/orders/).
+When you start receiving orders, you can manage them in the [orders](../basic-features/orders/) section.
 
-Все данные, необходимые для подготовки и доставки товаров вашим покупателям, можно найти в разделе [отчёты](../basic-features/reports.md).
+All the data you need to prepare and deliver the groceries to your customers can be found in the [reports](../basic-features/reports.md) section.
 
-## Более продвинутые функции, которые могут вам понадобиться
+## More advanced features you might need
 
-* Профиль вашего предприятия:
-  * Как **Центр Производителя** вы можете [разрешить](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) другим местным центрам продавать ваши товары в их магазинах, а так же в своих собственных.
-  * Вы можете [добавить управляющих центром](../basic-features/enterprise-profile/transfer-ownership.md) так что никто не будет делать всю административную работу!
-* Ваши товары \(только для **Центра Производителя**\): 
-  * Укажите специфичные [свойства](../basic-features/products-1/product-properties.md), которые они могут иметь \(напр. органический, без пластика и т.п.\)
-  * Если у вас есть товары, которые могут продаваться в различных формах \(напр. картофель продается по 1кг, 3кг, 5кг\) тогда вы можете упростить свои списки товаров, добавив [варианты](../basic-features/products-1/product-variants.md).
-  * Если вы продаете не регулярные товары, такие как мясо или овощи \(напр. целая курица или большая тыква\), которые оцениваются по весу, [узнаете тут](../basic-features/products-1/pricing-irregular-items-kg.md), что можно сделать.
-  * Вы можете [импоритровать](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products) весь ваш список товаров за раз, если он формате Excel таблицы.
-* Ветрина вашего магазина:
-  * Вы можете [ограничить доступ](../basic-features/shopfront/private-shopfront.md) к вашему магазину, если хотите, чтобы ваш магазин был доступен только 'членам' или приглашенным клиентам. Например, вы можете предлагать продукты со скидкой членам сообщества, которые внесли свой вклад в ваш бизнес, или если вы хотите продавать только определенным коммерческим клиентам.
-  * Вы можете предлагать разные цены или отображать разные товары для определенных групп клиентов, используя [группировку клиентов \(через "метки"\)](../basic-features/shopfront/customer-management-and-conditional-displays-prices/tags-and-tag-rules.md), а так же [настраиваемое отображение и цены](../basic-features/shopfront/customer-management-and-conditional-displays-prices/).
-  * Если вы хотите, чтобы вас только видели в ОСП, но не продавать товары через платформу, тогда вы можете настроить[ только отображение витрины магазина](../basic-features/shopfront/display-only-order-cycles.md).
+* Your enterprise profile:
+  * As a **Producer Hub** you can give other local hubs [permission ](../basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md)to sell your products on their shopfront as well as your own.
+  * You may wish to [add hub managers](../basic-features/enterprise-profile/transfer-ownership.md) so that no one person has to do all the admin!
+* Your products \(**Producer Hub** only\): 
+  * Specify special [credentials](../basic-features/products-1/product-properties.md) they may have have \(eg. organic, plastic free, etc...\)
+  * If you have a product which can be sold in different forms \(eg. potatoes sold in 500g, 1kg and 2 kg quantities\) then you can simplify your listings by adding [variants](../basic-features/products-1/product-variants.md).
+  * If you sell irregular items like meat or vegetables \(eg. a whole chicken, a large pumpkin\) which are priced by weight then you can learn [how to do this here.](../basic-features/products-1/pricing-irregular-items-kg.md)
+  * You can [import](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products) your all your product listings at once if they are in an Excel spread sheet.
+* Your shopfront:
+  * You can [restrict access](../basic-features/shopfront/private-shopfront.md) to your shop if want your shop to be only accessible to "members" or invited customers.   For example you may offer discounted produce to members of the community who have all contributed to your business, or if you wished to only sell to specific commercial customers.
+  * You can offer different prices, or display different goods, to specific groups of customers using [customer grouping \(through "tags"\)](../basic-features/shopfront/customer-management-and-conditional-displays-prices/tags-and-tag-rules.md) and [custom display and pricing](../basic-features/shopfront/customer-management-and-conditional-displays-prices/).
+  * If you would like to be visible on OFN only but not actually sell goods through the platform then you can setup a [display only shopfront](../basic-features/shopfront/display-only-order-cycles.md).
+  * You can [embed](multi-producers-shop-hub-quick-setup-guide.md) the OFN shop front in your own website.
 

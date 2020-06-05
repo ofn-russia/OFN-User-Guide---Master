@@ -58,35 +58,35 @@
 Если вы используете изображение из Интернета, убедитесь, что оно не имеет авторских прав.
 {% endhint %}
 
-**Tax category:** Select the applicable tax category from the drop-down list. Tax \(VAT in the UK\) depends on the nature of the product and the country in which you are retailing in.
+Налоговая Категория: выберите соответствующую категорию налога из выпадающего списка. Налог \(НДС\) зависит от характера товара и страны, в которой вы продаете.
 
 {% hint style="danger" %}
-Tax will only be collected when enterprises have selected 'charges VAT = yes' under their enterprise settings -&gt; Business Details.
+Налог будет взиматься только в том случае, если предприятия выбрали 'Сбор налога с продаж = Да' в настройках своего предприятия -&gt; Юридическая информация.
 {% endhint %}
 
-**Product description:** Tell your customers a little bit about this product. You might like to include a story about the specific tomato variety, include hyperlinks to any certification it may have etc.
+**Описание продукта**: Расскажите своим покупателям об этом продукте. Возможно, вы захотите включить рассказ о конкретном сорте томата, включить гиперссылки на любую сертификацию, которую он может иметь и т.д.
 
 {% hint style="info" %}
-Don't forget to click on the "create" or "create and add new" button at the bottom of the page once all mandatory fields have been entered \(those indicated by a red asterisk\).
+После того как все обязательные поля будут заполнены \(которые отмечены красной звездочкой\), не забудьте нажать кнопку "Создать" или "Создать и добавить новый" внизу страницы.
 {% endhint %}
 
-A short demonstration of the steps outlined above:
+Короткая демонстрация шагов, изложенных выше:
 
 ![](../../.gitbook/assets/productsadd.gif)
 
-When you have finished creating a product, you are redirected to the "products" page where you will find all your products:
+Когда вы закончите создавать товар, вы будете перенаправлены на страницу 'Товары', где вы найдете все свои товары:
 
 ![](../../.gitbook/assets/productspage.jpg)
 
-## Listing Similar / variations of a Product
+## Список Похожих/вариаций Товара
 
-If you are listing a product which comes in a number of different options \(say different sizes or flavours, each of which may or may not have a different price\), it is best to create a ‘variant’ for that product, rather than creating multiple, separate products. Creating product variants is discussed fully on the [next page](product-variants.md).
+Если вы делаете список товаров, которые имеют несколько различных вариантов \(скажем, разных размеров или вкусов, каждый из которых может иметь или не иметь разную стоимость\), лучше создать 'вариант' этого товара, чем создавать несколько отдельных. Создание вариантов товара обсуждается на [следующей странице](product-variants.md).
 
 {% hint style="success" %}
-Variants are useful if, for example, you sell lemons singularly as well as in 'packs' of 5. Rather than have two product listings the two options can be available for the same product.
+Варианты полезны, например, когда вы продаете лимоны как по отдельности, так и в упаковках по 5 штук. Вместо того, чтобы иметь два товара, для одного и того же продукта могут быть доступны два варианта.
 {% endhint %}
 
-If you would like to create a SIMILAR product then you can duplicate products by selecting the double page icon to the right of an item \(red box\). By subsequently selecting the pencil and paper icon \(green box\) the copied product can be edited and the details amended for the second item.
+Если вы хотите создать ПОХОЖИЙ товар, вы можете продублировать товары, выбрав значок двойной страницы справа от элемента \(красная рамка\). При последующем выборе значка карандаша и бумаги \(зеленое поле\) скопированный продукт можно редактировать, а детали изменять для второго элемента.
 
 ![](../../.gitbook/assets/productspagecopy.jpg)
 
