@@ -1,4 +1,4 @@
-# Product properties
+# Свойства товара
 
 You can apply product properties to your products, as a way of letting your customers know more about how your products are produced and what their characteristics are. Current product properties that can be applied include:
 
