@@ -1,104 +1,104 @@
 # Свойства товара
 
-You can apply product properties to your products, as a way of letting your customers know more about how your products are produced and what their characteristics are. Current product properties that can be applied include:
+Вы можете применить свойства продукта к своим товарам, чтобы дать вашим клиентам больше информации о том, как производятся ваши продукты и каковы их характеристики. Текущие свойства продукта, которые могут быть применены, включают:
 
-* Certified Organic/ Fair Trade / Biodynamic
-* Produced within 15 / 30 / 50 miles
-* RSPCA assured
-* Grown in Polycultures
-* Gluten-free
-* Nut-free
-* Plastic-free
-* Dairy-free
-* Special Dietary Requirements
-* Vegan
-* Vegetarian
-* Special Offer
-* Green Coffee Shop Scheme
+* Сертифицированная органика / Справедливая Торговля / Биодинамика
+* Произведено в пределах 15 / 30 / 50 км
+* Заверено RSPCA
+* Выращенный в Поликультурах
+* Не содержит Глютен
+* Не содержит Орехов
+* Не содержит Пластик
+* Не содержит Молоко
+* Особые Диетические Требования
+* Вегетарианский
+* Вегетарианец
+* Специальное Предложение
+* Схема Зеленого Кафе
 
 {% hint style="info" %}
-If you'd like to apply a property which is not listed above then please get in touch. We consider any new properties which might have widespread appeal.
+Если вы хотите применить свойство, которого нет в списке, свяжитесь с нами. Мы рассматриваем любые новые свойства, которые могут иметь широкое распространение.
 {% endhint %}
 
-There are two ways to assign properties to your products:
+Есть два способа назначить свойства вашим продуктам:
 
-1\) You can assign a property to an enterprise, so that all products belonging to that enterprise will carry this property \(unless it’s manually removed, which is covered in the **“Inherited Properties”** section below\).
+1\) Вы можете назначить свойство для предприятия, чтобы все продукты, принадлежащие этому предприятию, имели это свойство \(если только оно не удалено вручную, как описано в разделе "**Унаследованные свойства**" ниже\).
 
-2\) You can assign properties to particular products, on an individual basis.
+2\) Вы можете назначать свойства отдельным продуктам на индивидуальной основе.
 
-## Assigning a property to an enterprise
+## Назначение свойств в предприятии
 
-When you assign a property to an enterprise, all products belonging to that enterprise will, by default, carry that product property. For instance, if all of your products are ‘Certified Organic’, you can assign this property to your enterprise, to save you from needing to manually apply this property to every product. If a property only applies to a few of your products, it’s better to apply it to the product, instead of the enterprise \(instructions below\).
+Когда вы назначаете свойство для предприятия, все товары, принадлежащие этому предприятию, по умолчанию будут иметь это свойство продукта. Например, если все ваши продукты являются "Сертифицированной органикой", вы можете назначить это свойство своему предприятию, чтобы избавить вас от необходимости вручную применять это свойство к каждому продукту. Если свойство относится только к нескольким вашим продуктам, лучше применить его к продукту, а не к предприятию \(инструкции ниже\).
 
-You can access enterprise properties in your [Enterprise Settings](../enterprise-profile/enterprise-settings.md): in your Admin dashboard go to Enterprises -&gt; Settings -&gt; Properties
+Вы можете получить доступ к корпоративным свойствам в [Настройках Предприятия](../enterprise-profile/enterprise-settings.md): на панели администратора выберите Предприятия -&gt; Настройки -&gt; Свойства.
 
 ![](../../.gitbook/assets/properties1.jpg)
 
 {% hint style="warning" %}
-Properties only apply to [Producer](../enterprise-profile/package-types.md#for-producers) profiles, shops and hubs. This option will not be available to Non Producer Hubs.
+Свойства относятся только к профилям [Производителя](../enterprise-profile/package-types.md#for-producers), магазинам и центрам. Эта опция не будет доступна для Центров Не Производителям
 {% endhint %}
 
-Next, there are 2 fields when applying an enterprise property:
+Далее, есть 2 поля при применении свойства предприятия:
 
-**Property Name:** You can select a pre-defined product property from the drop-down list. This is the name of the property that your products will be tagged with, and which customers will be able to filter for in your shop.
+**Имя свойства**: вы можете выбрать предопределенное свойство продукта из выпадающего списка. Это название свойства, которым будут помечены ваши продукты, и которое клиенты смогут фильтровать в вашем магазине.
 
-**Description:** You can add a small description to give more information about your label. For example you may wish to add a certificate number.
+**Описание**: Вы можете добавить небольшое описание, чтобы дать больше информации о вашей метке. Например, вы можете добавить номер сертификата.
 
 {% hint style="info" %}
-You can add as many properties as you wish to your enterprise.
+Вы можете добавить вашему предприятию столько свойств, сколько пожелаете.
 {% endhint %}
 
 {% hint style="warning" %}
-Don't forget to save your changes by clicking 'Update' in the red box, bottom right.
+Не забудьте сохранить изменения, нажав 'Обновить' в красном поле справа внизу.
 {% endhint %}
 
-## Assigning a property to a product
+## Назначение свойства товару
 
-To assign a property to a single product, rather than an enterprise’s entire product range, click on **Products** in the horizontal blue banner, and then edit an existing product \(you cannot apply a product property when you are first creating a product\).
+Чтобы назначить свойство отдельному продукту, а не всему ассортименту продукции предприятия, нажмите **Продукты** в горизонтальном синем баннере, а затем отредактируйте существующий продукт \(вы не можете применить свойство продукта при создании продукта\).
 
-To edit a product, click on the edit icon \(pencil and paper\) on the right hand side of the table.
+Чтобы отредактировать продукт, нажмите на значок редактирования \(карандаш и бумага\) в правой части таблицы.
 
 ![](../../.gitbook/assets/property-to-product.png)
 
-Once editing the product you can add or change its properties by selecting 'Product Properties' from the right hand menu.
+После редактирования товара вы можете добавить или изменить его свойства, выбрав 'Свойства продукта' в правом меню.
 
 ![](../../.gitbook/assets/properties2.jpg)
 
-There are 2 fields when applying a product property:
+Далее, есть 2 поля при применении свойства товару:
 
-**Property Name:**You can select a pre-defined product property from the drop-down list. This is the name of the property that your product will be tagged with, and which customers will be able to filter for in your shop.
+**Имя свойства**: вы можете выбрать предопределенное свойство продукта из выпадающего списка. Это название свойства, которым будет помечен ваш товар, и которое клиенты смогут фильтровать в вашем магазине.
 
-**Description:** You can add a small description to give more information about your label. For example you may wish to add a certificate number.
+**Описание**: Вы можете добавить небольшое описание, чтобы дать больше информации о вашей метке. Например, вы можете добавить номер сертификата.
 
-You can apply multiple product properties by clicking “**+ Add Product Properties**“
+Вы можете применить несколько свойств продукта, нажав "+ Добавить свойства товара"
 
 {% hint style="warning" %}
-Remember to click **update** when you are finished.
+Когда закончите, не забудьте нажать кнопку **обновить**.
 {% endhint %}
 
-## Inherited Properties
+## Унаследованные Свойства
 
-As discussed [above](product-properties.md#assigning-a-property-to-an-enterprise), when an enterprise is assigned a property, all products belonging to that enterprise will ‘inherit’ this property. However, it is possible to override this automatic inheritance.
+Как обсуждалось [выше](product-properties.md#assigning-a-property-to-an-enterprise), когда предприятию присваивается свойство, все продукты, принадлежащие этому предприятию, 'наследуют' это свойство. Однако это автоматическое наследование можно переопределить.
 
-When editing a product’s properties you will see a checkbox titled **“Inherit properties from \(Enterprise Name\)\(Unless Overridden Above\)”.** By default, when an enterprise has a property, this box will be checked for all products belonging to the enterprise. Unchecking this box will remove any enterprise properties that have been inherited.
+При редактировании свойств продукта вы увидите флажок "**Унаследовать свойства от \(название предприятия\) \(если не указано выше\)**". По умолчанию, когда у предприятия есть свойство, этот флажок будет установлен для всех продуктов, принадлежащих предприятию. Если снять этот флажок, все свойства предприятия будут удалены.
 
 ![](../../.gitbook/assets/properties3.jpg)
 
 {% hint style="warning" %}
-If you left the box checked and you add a property to the product, which already exists at the enterprise level, the description of the property added at the product level will be preferred to the description at the enterprise level.
+Если вы оставили флажок и добавили свойство к продукту, которое уже существует на уровне предприятия, описание свойства, добавленного на уровне продукта, будет предпочтительнее описания на уровне предприятия.
 
-This is useful if you would like to modify only the description of a label on selected products. \(For example, if all your products are 'Certified Organic', but two products have a different certificate number to the rest then you can add the main certificate number to the enterprise property description and the other number to the two products which are different using these product property descriptions.\)
+Это полезно, если вы хотите изменить только описание метки на выбранных продуктах. \(Например, если все ваши продукты являются "Сертифицированными органическими продуктами", но два продукта имеют другой номер сертификата, то вы можете добавить основной номер сертификата в описание свойств предприятия, а другой номер - в два продукта, которые отличаются, используя эти описания свойств продукта.\)
 {% endhint %}
 
-## View Product Properties in online shop
+## Просмотр Свойств Товара в интернет-магазине
 
-By clicking on the profile of a producer, Enterprise Properties appear on the pop out page:
+Если щелкнуть профиль производителя, на всплывающей странице появятся Свойства Предприятия:
 
 ![](../../.gitbook/assets/viewproperty.jpg)
 
-Customers can also filter products in a shop based on their properties:
+Клиенты также могут фильтровать товары в магазине по их свойствам:
 
 ![Filter by properties on PC](../../.gitbook/assets/propertiesscreenlaptop.jpg)
 
-![Filter by properties on smart phone](../../.gitbook/assets/propertiesscreenphone.jpg)
+![&#x424;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430;&#x446;&#x438; &#x43F;&#x43E; &#x441;&#x432;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430;&#x43C; &#x43D;&#x430; &#x442;&#x435;&#x43B;&#x435;&#x444;&#x43E;&#x43D;&#x435;](../../.gitbook/assets/propertiesscreenphone.jpg)
 
