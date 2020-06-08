@@ -56,21 +56,21 @@
 
 Это не проблема, так как заказы могут быть изменены \(путем добавления, изменения или удаления товаров\) при необходимости. Для получения дополнительной информации см. [Заказы](../orders/).
 
-## Reimbursing or Charging customers the difference: How does it work?
+## Возврат сдачи клиентам или Доплата клиентами: Как это работает?
 
-If a customer _**pays for their goods on their collection**_ or delivery, then the hub manager will have been able to modify the order before payment according to the actual weight and the products actually delivered. Hence in this instance there will be no need to reimburse or re-bill customer.
+Если клиент **оплачивает свои товары при их сборе** или доставке, то менеджер центра сможет изменить заказ до оплаты в соответствии с фактическим весом и фактически доставленными продуктами. Следовательно, в этом случае не будет необходимости возмещать или переплачивать клиенту.
 
-If an order is _**paid online before delivery**_, then you must refund or invoice for the the difference between monies already received and that owing for the precise products to be delivered. Click here to see [how](../orders/refund-payments.md).
+Если заказ **оплачивается онлайн перед доставкой**, то вы должны возместить или выставить счет на разницу между уже полученными деньгами и суммой, необходимой для полной стоимости товаров. Нажмите здесь, чтобы увидеть [как](../orders/refund-payments.md).
 
 {% hint style="danger" %}
-An alternative is to use an online payment system to temporarily store the amount "pending" until the order has been validated.
+Альтернативой является использование системы онлайн-платежей для временного хранения суммы "в ожидании", пока заказ не будет проверен.
 
-_This feature is not yet implemented in Open Food Network. We are also working on the automated implementation of "credits" allowing a hub to reimburse in the form of a credit note which could be used by the customer as part payment for their next order._
+_Эта функция еще не реализована в Открытой Сети Продуктов. Мы также работаем над автоматизированным внедрением "кредитов", позволяющих центру возмещать расходы в форме кредитного остатка, который клиент может использовать в качестве части оплаты для своего следующего заказа._
 {% endhint %}
 
-## Inform the buyer about your pricing policy
+## Сообщите покупателю о своей ценовой политике
 
-You can notify your customers about your pricing policies for variable weight items \(such as meat\) in the [message box](../enterprise-profile/enterprise-settings.md#shop-preferences) displayed at the top of your shop front. This is found in the Enterprise Settings -&gt; Shop Preferences.
+Вы можете уведомить своих клиентов о своей политике ценообразования для товаров с переменным весом \(например, мяса\) в [окне сообщений](../enterprise-profile/enterprise-settings.md#shop-preferences), отображаемом в верхней части витрины вашего магазина. Это можно найти в Настройках Предприятия -&gt; Настройки магазина.
 
-It might be useful to also add a reminder of these pricing policies in the description box of [Payment Methods](../shopfront/payment-methods.md). For example, you may wish to add : "Remember that the final price may vary by 10% depending on weight if you have purchased non-divisible items such as meat or large vegetables.".
+Также может быть полезно добавить напоминание об этих ценовых политиках в поле описания [Методов Оплаты](../shopfront/payment-methods.md) способов оплаты. Например, вы можете добавить следующее: "Помните, что окончательная цена может отличаться на 10% в зависимости от веса, если вы приобрели неделимые товары, такие как мясо или овощи".
 
