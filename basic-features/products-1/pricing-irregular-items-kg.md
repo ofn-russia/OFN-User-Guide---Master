@@ -1,60 +1,60 @@
-# Pricing Meat & other 'complete' products of unknown weight
+# Цены на Мясо и другие 'готовые' товары с неизвестным весом
 
-Here we refer to products as _**'irregular'**_ if they are sold according to weight/volume but the exact quantity is not known until time of harvest/distribution.
+Здесь мы называем продукты 'не регулярными, если они продаются по весу/объему, но точное количество неизвестно до момента сбора/распределения.
 
-For example joints of meat, slices of cheese, large vegetables.
+Например куски мяса, ломтики сыра, крупные овощи.
 
-There are a number of different tools available on the OFN platform to help manage and organise these sales.
+Существует ряд различных инструментов, доступных на платформе ОСП, чтобы помочь управлять и организовать такие продажи.
 
-## Option One: Set an average weight / price and reimburse
+## Первый Вариант: Установить средний вес/цену и возвращать
 
-You can charge the average price of the product, and then reimburse or charge the customer extra, if the actual weight deviates from the mean.
+Вы можете назначить среднюю цену продукта, а затем возвращать или взимать с клиента дополнительную плату, если фактический вес отклоняется от среднего значения.
 
-When you know the true weight of the products \(ie. when you are preparing orders for collection by customers\), log into "Bulk Order Management" \(Orders -&gt; Bulk Order Management\) and add the Weight / Volume column to the table.
+Когда вы знаете точный вес продуктов \(т.е. когда вы готовите заказы для получения клиентами\), войдите в "Пакетное Управление Заказами" \(Заказы -&gt; Пакетное Управление Заказами\) и добавьте столбец Вес/Объем в таблицу.
 
 ![](../../.gitbook/assets/bom1.jpg)
 
-You can then change the weight shown for each buyer for a given order and a given product. The price will be recalculated automatically according to the quantity entered.
+Затем вы можете изменить вес, указанный для каждого покупателя для данного заказа и данного товара. Цена автоматически будет пересчитана в соответствии с введенным количеством.
 
 {% hint style="info" %}
-Don't forget to resend an order confirmation email to the customer to notify them of the price difference and any monies they may subsequently owe.
+Не забудьте повторно отправить клиенту электронное письмо с подтверждением заказа, чтобы уведомить их о разнице в цене и любых денежных средствах, которые они могут впоследствии выплатить.
 {% endhint %}
 
-## Option Two: Display price ranges
+## Второй Вариант: Показать ценовые диапазоны
 
-Same logic as Option One, but simply instead of displaying an average price initially, indicate a price range. This solution has the advantage of clearly indicating to the buyer that the final price is likely to be modified.
+Та же логика, что и в первом варианте, но вместо того, чтобы первоначально отображать среднюю цену, указывается диапазон цен. Это решение имеет то преимущество, что четко указывает покупателю, что окончательная цена может быть изменена.
 
-[Variants](product-variants.md) can also be utilised to create different ranges.
+[Варианты](product-variants.md) также могут быть использованы для создания различных диапазонов.
 
-> **Example 1** \(single product and one variant\):  
-> Product = Chicken \(between 8 and 12 kg with price according to weight, £10 / kg\)
+> **Пример 1** \(один товар и один вариант\):   
+> Продукт = курица \(от 8 до 12кг с ценой в зависимости от веса, 100руб. / кг\)
 >
-> **Example 2** \(two variants for one product\):  
-> Product = Chicken \(£10 / kg\)  
-> Variant 1 = Small chicken \(between 8 and 12 kg, price according to actual weight\)  
-> Variant 2 = Large chicken \(between 13 and 20 kg, price according to actual weight\) ...
+> **Пример 2** \(два варианта для одного товара\):  
+> Продукт = курица \(100руб. / кг\)  
+> Вариант 1 = маленькая курица \(от 8 до 12 кг, цена в соответствии с фактическим весом\)  
+> Вариант 2 = Крупная курица \(от 13 до 20 кг, цена зависит от фактического веса\) ...
 
-## Option Three: Create variants with fixed prices
+## Третий Вариант: Создание вариантов с фиксированными ценами
 
-A slightly simpler version of Option Two is to create variants for your products based on weight ranges but charge a **fixed price** for all items that fall within the range.  
-For example if butternut squash costs £1/kg then you could list the variants with the following fixed prices:
+Несколько более простая версия Второго Варианта заключается в создании вариантов для ваших продуктов на основе диапазонов веса, но с фиксированной ценой для всех элементов, попадающих в этот диапазон.  
+Например, если тыква с орехами стоит 100руб / кг, вы можете перечислить варианты со следующими фиксированными ценами:
 
-* Small \(0.7 - 0.9 kg\)           £0.80
-* Medium \(0.9 - 1.1 kg\)      £1.00
-* Large \(1.1 - 1.3 kg\)           £1.20
-* Extra Large \(1.3 - 1.5 kg\) £1.40
+* Маленький \(0.7 - 0.9 кг\)           80руб
+* Средний \(0.9 - 1.1 кг\)      100руб
+* Большой \(1.1 - 1.3 кг\)           120руб
+* Очень Большой \(1.3 - 1.5 кг\) 140руб
 
-## Option Four: Create variants with known weights
+## Четвёртый Вариант: Создание вариантов с известным весом
 
-If you know the weight of all your whole fish, for example, in advance you can use the variant functionality to directly display the precise price for each item. Example:
+Например, если вы заранее знаете вес всей своей рыбы, вы можете использовать функциональность варианта, чтобы напрямую отобразить точную цену для каждого товара. Пример:
 
 ![](../../.gitbook/assets/bom2.jpg)
 
-## Editing Orders
+## Редактирование Заказов
 
-It may be difficult for meat producers to know in advance about product availability or prepare their packaging accordingly. \(Until slaughter the weight of a chicken or a leg of lamb maybe unknown.\)
+Производителям мяса может быть сложно заранее узнать о наличии продуктов или соответствующим образом подготовить их упаковку. \(До того, как забить, вес курицы или бараньей ноги, возможно неизвестен.\)
 
-This is not a problem since orders can be modified \(by adding, modifying or deleting products\) if necessary. For more information, see [Orders](../orders/).
+Это не проблема, так как заказы могут быть изменены \(путем добавления, изменения или удаления товаров\) при необходимости. Для получения дополнительной информации см. [Заказы](../orders/).
 
 ## Reimbursing or Charging customers the difference: How does it work?
 
