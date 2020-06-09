@@ -22,7 +22,7 @@
     * [Варианты товара](basic-features/products-1/product-variants.md)
     * [Свойства товара](basic-features/products-1/product-properties.md)
     * [Цены на Мясо и другие 'готовые' товары с неизвестным весом](basic-features/products-1/pricing-irregular-items-kg.md)
-    * [Inventory tool](basic-features/products-1/inventory-tool.md)
+    * [Инструмент товарной номенклатуры](basic-features/products-1/inventory-tool.md)
     * [Group Buy - for bulk ordering](basic-features/products-1/group-buy-for-bulk-ordering.md)
     * [Product and Inventory import](basic-features/products-1/product-and-inventory-import.md)
   * [Shopfront](basic-features/shopfront/README.md)
