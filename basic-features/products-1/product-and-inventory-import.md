@@ -32,66 +32,68 @@ description: >-
 {% endhint %}
 
 {% hint style="danger" %}
-Not all fields can be captured and uploaded/updated using this tool. Currently, [Images](products.md), [Properties](product-properties.md) and [Group Buy ](group-buy-for-bulk-ordering.md)Settings must be uploaded manually for each product.
-
-We hope to include these in future developments.
+Не все поля могут быть захвачены и загружены/обновлены с помощью этого инструмента. В настоящее время[ Изображения](products.md), [Свойства](product-properties.md) и параметры [Групповой Покупки](group-buy-for-bulk-ordering.md) необходимо загружать вручную для каждого товара.
 {% endhint %}
-
-## Import New Products
-
-Use these instructions if you want to add new products to a producer's profile.
-
-{% hint style="success" %}
-You can simultaneously upload new products and update existing products with a single CSV upload. The instructions in this guide are separated for clarity but you can combine new products and updates in the same spreadsheet.
-{% endhint %}
-
-### Prepare the CSV file for import
-
-Firstly, download the **Product List Template CSV** file from the **Product Import** page and open it with Libre Office \(Excel or equivalent\).
-
-You'll see that the template gives all the column headings required to successfully import a product. Each row is for a new product or variant. Below is a description of how to fill in each column.
 
 {% hint style="danger" %}
-Note that all fields are case sensitive. E.g. you must use mL not ml , or Dairy not dairy.
+Мы надеемся включить их в будущие разработки.
 {% endhint %}
 
-| Column Title | Required? | Description | Example |
+## Импорт Новых Товаров
+
+Используйте эти инструкции, если вы хотите добавить новые товары в профиль производителя.
+
+{% hint style="success" %}
+Вы можете одновременно загружать новые товары и обновлять существующие с помощью одной загрузки CSV. Инструкции в этом руководстве разделены для ясности, но вы можете объединить новые новары и обновления существующих в одной электронной таблице.
+{% endhint %}
+
+### Подготовка CSV файла для импорта
+
+Сначала загрузите **CSV-файл шаблона списка товаров** со страницы **Импорт товара** и откройте его в Libre Office \(Excel или аналогичный\).
+
+Вы увидите, что шаблон содержит все заголовки столбцов, необходимые для успешного импорта товара. Каждая строка для нового продукта или варианта. Ниже приводится описание того, как заполнять каждый столбец.
+
+{% hint style="danger" %}
+Обратите внимание, что все поля чувствительны к регистру. Например. Вы должны использовать _мл_, а не _Мл_ или _Молочные_ продукты, а не _молочные_.
+{% endhint %}
+
+| Заголовок Столбца | Обязательный? | Описание | Пример |
 | :--- | :--- | :--- | :--- |
 
 
-| producer | Y | This is the name of the producer profile that this product will be assigned to | Four Mile Farm |
+| producer | Да | Это имя профиля производителя, которому будет присвоен этот товар | Демо Ферма дяди Вани |
 | :--- | :--- | :--- | :--- |
 
 
-| sku | N | The SKU code for this product | AD001265 |
+| sku | Нет | SKU код для этого товара | AD001265 |
 | :--- | :--- | :--- | :--- |
 
 
-| name | Y | This is the name of the product | Yoghurt |
+| name | Да | Имя/название товара | Йогурт |
 | :--- | :--- | :--- | :--- |
 
 
-| display name | N | This field applies if you are creating variants \(see instructions below\). If you're not creating a variant leave this field blank. | Rasberry Yoghurt |
+| display\_name | Нет | Это поле применяется если вы создаете варианты \(см. инструкции ниже\). Если вы не создаете варинт, оставьте это поле пустым. | Малиновый Йогурт |
 | :--- | :--- | :--- | :--- |
 
 
-| category | Y | Which category does this product sit in? The categories available are listed on the Product Import page | Dairy |
+| category | Да | В какой категории находится этот товар? Доступные категории перечислены на странице Импорта Товара. | Молочка |
 | :--- | :--- | :--- | :--- |
 
 
-| units | Y | The weight, volume or quantity value | 500 |
+| units | Да | Значения веса, объема и количества | 500 |
 | :--- | :--- | :--- | :--- |
 
 
-| unit\_type | Maybe | What unit is it sold in \(g, kg, T, mL, L\)? If sold as an item \(e.g. bunch\) leave blank | g |
+| unit\_type | Возможно | В каких единицах продается \(г, кг, мл, л\)? Если продается как предмет \(например, связка\), оставьте пустым | г |
 | :--- | :--- | :--- | :--- |
 
 
-| variant\_unit\_name | Maybe | If the product is sold as an item \(e.g loaf, bunch, pumpkin\) write the item type here | Bunch |
+| variant\_unit\_name | Возможно | Если товар продается как предмет \(например, буханка, куча, тыква\), напишите здесь тип предмета | Bunch |
 | :--- | :--- | :--- | :--- |
 
 
-| price | Y | The price of the product. If the item carries tax, this must be the tax inclusive price. | 3.70 |
+| price | Да | Цена товара. Если товар облагается налогом, это должна быть цена с учетом налога. | 3.70 |
 | :--- | :--- | :--- | :--- |
 
 
@@ -102,33 +104,42 @@ Note that all fields are case sensitive. E.g. you must use mL not ml , or Dairy 
         <p>On_Hand</p>
         <p>(in_stock)</p>
       </th>
-      <th style="text-align:left">Maybe</th>
-      <th style="text-align:left">If you have limited stock for the product type the stock level here. If
-        you have infinite stock available (you can always source it) enter 0 and
-        use the unlimited column</th>
+      <th style="text-align:left">&#x412;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;</th>
+      <th style="text-align:left">&#x415;&#x441;&#x43B;&#x438; &#x443; &#x432;&#x430;&#x441; &#x435;&#x441;&#x442;&#x44C;
+        &#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x439;
+        &#x437;&#x430;&#x43F;&#x430;&#x441; &#x434;&#x43B;&#x44F; &#x442;&#x438;&#x43F;&#x430;
+        &#x442;&#x43E;&#x432;&#x430;&#x440;&#x430;, &#x443;&#x440;&#x43E;&#x432;&#x435;&#x43D;&#x44C;
+        &#x437;&#x430;&#x43F;&#x430;&#x441;&#x430; &#x437;&#x434;&#x435;&#x441;&#x44C;.
+        &#x415;&#x441;&#x43B;&#x438; &#x443; &#x432;&#x430;&#x441; &#x435;&#x441;&#x442;&#x44C;
+        &#x431;&#x435;&#x441;&#x43A;&#x43E;&#x43D;&#x435;&#x447;&#x43D;&#x44B;&#x439;
+        &#x437;&#x430;&#x43F;&#x430;&#x441; (&#x432;&#x44B; &#x432;&#x441;&#x435;&#x433;&#x434;&#x430;
+        &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x435;&#x433;&#x43E; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x44C;),
+        &#x432;&#x432;&#x435;&#x434;&#x438;&#x442;&#x435; 0 &#x438; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x439;&#x442;&#x435;
+        &#x43D;&#x435;&#x43E;&#x433;&#x440;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x439;
+        &#x441;&#x442;&#x43E;&#x43B;&#x431;&#x435;&#x446;</th>
       <th style="text-align:left">40</th>
     </tr>
   </thead>
   <tbody></tbody>
 </table>
 
-| available\_on | N | Leave blank |  |
+| available\_on | Нет | Оставьте пустым |  |
 | :--- | :--- | :--- | :--- |
 
 
-| On\_demand \(unlimited\) | Y | If you have infinite stock available for this product, type 1, if you're using on\_hand leave blank. If you enter a number in in\_stock _and_ 1 in unlimited, the product will be unlimited. | 1 |
+| On\_demand \(unlimited\) | Да | Если у вас есть бесконечные запасы для этого товара, введите 1, если вы используете on\_hand, оставьте пустым. Если вы введете число в in\_stock _и_ 1 в неограниченном количестве, товар будет неограниченным. | 1 |
 | :--- | :--- | :--- | :--- |
 
 
-| shipping\_category | Y | Which shipping category does this product sit in? The shipping categories available are listed on the Product Import page |  |
+| shipping\_category | Да | В какой категории доставки находится этот товар? Доступные категории доставки перечислены на странице импорта товара. |  |
 | :--- | :--- | :--- | :--- |
 
 
-| tax\_category | N | If the price of your product includes tax type GST, if not leave blank | GST |
+| tax\_category | Нет | Если цена вашего товара включает налог типа GST, если нет, оставьте пустым | GST |
 | :--- | :--- | :--- | :--- |
 
 
-| description | N | You can create a description, but you cannot update one. Please make sure that the text you wrote matches the current description in case of an update. | This Yoghurt is made from local raspberries |
+| description | Нет | Вы можете создать описание, но не можете его обновить. Пожалуйста, убедитесь, что текст, который вы написали, соответствует текущему описанию в случае обновления. | Этот Йогурт сделан из местной малины |
 | :--- | :--- | :--- | :--- |
 
 
