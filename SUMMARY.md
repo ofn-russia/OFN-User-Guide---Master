@@ -24,7 +24,7 @@
     * [Цены на Мясо и другие 'готовые' товары с неизвестным весом](basic-features/products-1/pricing-irregular-items-kg.md)
     * [Инструмент товарной номенклатуры](basic-features/products-1/inventory-tool.md)
     * [Групповая Покупка - для массового заказа](basic-features/products-1/group-buy-for-bulk-ordering.md)
-    * [Product and Inventory import](basic-features/products-1/product-and-inventory-import.md)
+    * [Импорт Товара и Товарной Номенклатуры](basic-features/products-1/product-and-inventory-import.md)
   * [Shopfront](basic-features/shopfront/README.md)
     * [Shipping Methods](basic-features/shopfront/shipping-methods.md)
     * [Payment Methods](basic-features/shopfront/payment-methods.md)

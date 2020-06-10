@@ -1,33 +1,34 @@
 ---
 description: >-
-  This page explains how both producers can to import product details and
-  distributors can set up their hub inventory in bulk.
+  На этой странице объясняется, как оба производителя могут импортировать
+  сведения о товаре, а дистрибьюторы могут настраивать свои складские запасы
+  оптом.
 ---
 
-# Product and Inventory import
+# Импорт Товара и Товарной Номенклатуры
 
-The product and inventory import tool lets you upload a .csv file to add and update your stock. This can be much quicker and efficient than adding or updating products one by one. For producers who already update a catalogue of their products in an Excel spreadsheet regularly, this can save a lot of time!
+Инструмент импорта товаров и товарной номенклатуры позволяет загружать файл .csv для добавления и обновления вашего запаса. Это может быть намного быстрее и эффективнее, чем добавление или обновление продуктов один за другим. Для производителей, которые уже регулярно обновляют каталог своей продукции в электронной таблице Excel, это может сэкономить много времени!
 
-The product and inventory import tool can be found by clicking **Products** in the horizontal blue menu, and **product import** in the green menu.
+Инструмент для импорта товаров и товарной номенклатуры можно найти, щелкнув **Товары** в горизонтальном синем меню и **импорт товара** в зеленом меню.
 
-There's four main ways you can use the tool:
+Существует четыре основных способа использования инструмента:
 
-1. Import new [products](./)
-2. Update existing product details
-3. Import products to a new shop/hub [inventory](inventory-tool.md) 
-4. Update products in a shop/hub inventory
+1. Импорт новых [товаров](./)
+2. Обновление информации существующих товаров
+3. Импорт товаров в [товарную номенклатуру ](inventory-tool.md)нового магазина/центра 
+4. Обновление товаров в товарной номенклатуре магазина/центра
 
 {% hint style="info" %}
-If you need this functionality, please let [your local OFN](https://openfoodnetwork.org/ofn-local/) know. We welcome your feedback.
+Если вам нужна эта функциональность, сообщите об этом [в ОСП](https://openfoodnetwork.ru). Мы приветствуем ваши отзывы.
 {% endhint %}
 
-In all cases the process involves downloading a csv template, filling in the fields and then uploading your csv file back into OFN.
+Во всех случаях этот процесс включает в себя загрузку шаблона csv, заполнение полей, а затем загрузку файла csv обратно в ОСП.
 
 {% hint style="warning" %}
-**Important note on CSV files**: Microsoft Excel does not open .cvs files directly.  
-If you can, we suggest you download the free Libre Office suite [https://www.libreoffice.org/download/download/](https://www.libreoffice.org/download/download/)  
-With Libre Office Calc, you will be able to open and edit CSV very easily and save them in the right encoding format UTF-8.  
-If you can't use Libre Office, then in order to open a CSV file in Microsoft Excel, you need to follow the following steps: [https://support.office.com/en-gb/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba](https://support.office.com/en-gb/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba)
+**Важное примечание к файлам CSV**: Microsoft Excel не открывает файлы .csv напрямую.  
+Если можете, мы рекомендуем скачать бесплатный офисный пакет LibreOffice [https://www.libreoffice.org/download/download/](https://www.libreoffice.org/download/download/)  
+С Libre Office Calc, вы сможете очень легко открывать и редактировать CSV и сохранять их в нужном формате кодировки UTF-8.  
+Если вы не можете использовать Libre Office, тогда чтобы открыть файл CSV в Microsoft Excel, вам нужно выполнить следующие шаги: [https://support.office.com/en-gb/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba](https://support.office.com/en-gb/article/import-or-export-text-txt-or-csv-files-5250ac4c-663c-47ce-937b-339e391393ba)
 {% endhint %}
 
 {% hint style="danger" %}
@@ -109,7 +110,9 @@ Note that all fields are case sensitive. E.g. you must use mL not ml , or Dairy 
     </tr>
   </thead>
   <tbody></tbody>
-</table>| available\_on | N | Leave blank |  |
+</table>
+
+| available\_on | N | Leave blank |  |
 | :--- | :--- | :--- | :--- |
 
 
