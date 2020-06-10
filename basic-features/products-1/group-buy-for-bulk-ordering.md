@@ -45,20 +45,20 @@
 * **Предметы**: например продажа букетов цветов, но в общей сложности необходимо купить 100 букетов, а тогда необходимо ввести '100' в этом поле.
 {% endhint %}
 
-## Adjusting Orders to make complete Batches
+## Корректировка Заказов для создания полных Партий
 
-Under Orders-&gt; [bulk order management](../orders/view-orders.md#bulk-order-management) you can view and edit customer orders for Bulk Buy products to make the combined order from all customers reach your required threshold.
+В разделе 'Заказы' -&gt; [пакетное управление заказами](../orders/view-orders.md#bulk-order-management) вы можете просматривать и редактировать заказы клиентов для товаров Групповой Покупки, чтобы объединенный заказ от всех клиентов достиг требуемого порога.
 
-1. Select the order cycle or date range of interest.
-2. Search for the product \(Fish in the example below\).
-3. Make sure the ‘Max’ column is displayed so you can see the upper limit each customers is prepared to purchase.
-4. Next, click on the value \('test fish: Fish One' in the example below\) in the **Product : Unit** column, to display the orders total box \(in blue\) for the product in question. 
-5. Using the information in the column **Max**, you can increase the quantities ordered to reach the threshold for a complete batch. 
-6. Click update to save changes to customer orders.
+1. Выберите интересующий цикл заказа или диапазон дат.
+2. Найдите товар \(Рыба в примере ниже\).
+3. Убедитесь, что отображается столбец 'Макс', чтобы вы могли видеть верхний предел, который каждый покупатель готов приобрести.
+4. Затем щелкните значение \(«test fish: Fish One» в приведенном ниже примере\) в столбце '**Товар: Единица**', чтобы отобразить поле общей суммы заказов \(синим цветом\) для рассматриваемого товара. 
+5. Используя информацию в столбце **Максимум**, вы можете увеличить количество, заказанное для достижения порогового значения для полной партии. 
+6. Нажмите Обновить, чтобы сохранить изменения в заказах клиентов.
 
 ![](../../.gitbook/assets/bulkorder2.jpg)
 
-**Current Fulfilled Units** divides your total quantity ordered by the group buy unit size. If this figure is greater than 1, it tells you that the existing customer order satisfy or exceed your required group buy unit size. If this figure is less than 1, existing customer orders don’t meet that threshold. As you raise the quantity of customer orders, this figure will raise.
+**Текущие Выполненные Единицы** делят ваше общее количество, упорядоченное по размеру единицы групповой покупки. Если этот показатель больше 1, это говорит о том, что существующий заказ клиента удовлетворяет или превышает требуемый размер групповой покупки. Если этот показатель меньше 1, существующие заказы клиентов не соответствуют этому пороговому значению. По мере увеличения количества заказов клиентов эта цифра будет расти.
 
-**Max Fulfilled Units** takes the sum or all of the customer’s MAX order quantities and divides this by the Group Buy Unit Size. If the number is over 1, then you know that the total of your MAX orders exceeds the required group buy quantity. If it’s below zero, it means that even the MAX order quantities won’t reach the threshold.
+**Максимальное количество выполненных единиц** берет сумму или всё МАКС количество заказов клиентов и делится на Размер Групповой Закупки. Если число превышает 1, то вы знаете, что общее МАКС количество заказов превышает требуемое количество групповой покупки. Если он ниже нуля, это означает, что даже МАКС количество заказа не достиг порогового значения.
 
