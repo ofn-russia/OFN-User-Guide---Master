@@ -143,16 +143,16 @@ description: >-
 | :--- | :--- | :--- | :--- |
 
 
-In the import process, variants are distinguished by the units \(such as salad sold as 500 g and 750 g bags\) or display\_name fields \(such as a yoghurt sold in multiple flavours\). As long as the product name is the same, the rows will be imported as variants. The example below shows a salad that comes in 500g and 750g variants, and a yoghurt that comes in multiple flavours.
+В процессе импорта варианты различаются по единицам \(например, салат продается в упаковках по 500г и 750г\) или по полям display\_name \(например, йогурт продается в нескольких вариантах\). Пока имя товара совпадает, строки будут импортированы как варианты. В приведенном ниже примере показан салат, предлагаемый в вариантах 500г и 750г и йогурт, который представлен в нескольких вариантах.
 
 | name | display\_name | price | units | unit\_type |
 | :--- | :--- | :--- | :--- | :--- |
-| Salad Bag |  | 3.50 | 500 | g |
-| Salad Bag |  | 5.50 | 750 | g |
-| Yoghurt | Banana | 4 | 500 | g |
-| Yoghurt | Strawberry | 4 | 500 | g |
+| Пакет Салата |  | 3.50 | 500 | г |
+| Пакет Салата |  | 5.50 | 750 | г |
+| Йогурт | Банан | 4 | 500 | г |
+| Йогурт | Клубника | 4 | 500 | г |
 
-The image below shows how these products will display in the shop. Note that the 'name' field becomes the primary heading, and the 'display\_name' field becomes the secondary heading. In the case of the Salad Bag, the 'display\_name' field is blank, so the 'name' is used by default.
+Изображение ниже показывает, как эти товары будут отображаться в магазине. Обратите внимание, что поле 'name' становится первичным заголовком, а поле 'display\_name' становится вторичным заголовком. В случае с Пакет Салата поле 'display\_name' пустое, поэтому по умолчанию используется 'name'.
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 
