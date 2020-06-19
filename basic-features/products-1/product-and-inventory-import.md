@@ -156,52 +156,52 @@ description: >-
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 
-#### Примеры типов единиц
+#### Unit type examples
 
-Ниже приведены некоторые примеры, показывающие, как следует загружать продукты с разными единицами измерения \(г, мл, кг и единицы\).
+Below are some examples to show how products with different units \(g, ml, kg and items\) should be uploaded.
 
 | producer | **name** | **category** | **price** | **units** | **unit\_type** | **variant\_unit\_name** |
 | :--- | :--- | :--- | :--- | :--- | :---: | :---: |
-| Сью Салаты | Пакет Салата | Овощи | 3.50 | 500 | г |  |
-| Генри Орчардс | Фруктовый Сок | Напитки | 3.50 | 300 | мл |  |
-| Ферма Макарыча | Картофель | Овощи | 9.50 | 5 | кг |  |
-| Пекарня Бублик | Хлеб из цельнозерновой муки | Выпечка | 3.00 | 1 |  | буханка |
+| Sue's Salads | Salad Bag | Vegetables | 3.50 | 500 | g |  |
+| Henry Orchards | Fruit Juice | Drinks | 3.50 | 300 | ml |  |
+| Fernwell Produce | Potatoes | Vegetables | 9.50 | 5 | kg |  |
+| Tom's Bakery | Wholemeal Bread | Baked goods | 3.00 | 1 |  | loaf |
 
-### Импорт CSV файла
+### Import the CSV
 
-Заполнив **CSV-шаблон Списка Товаров**, вы готовы загрузить его в ОСП.
+Once you have filled out the **Product List Template CSV** you are ready to upload it into OFN.
 
-1. Перейдите в **Товары** &gt; **Импорт Товара.**
-2. **Выберите тип импорта:** Список товара
-3. **Выберите таблицу для загрузки:** Найдите файл CSV, который вы хотите загрузить.
+1. Go to **Products** &gt;  **Product Import.**
+2. **Select import type:** Select Product List
+3. **Select a spreadsheet to upload:** Find the csv file you wish to upload.
 
-   Поскольку вы загружаете новые продукты, вы можете не устанавливать флажок '_Установить запас на ноль для всех существующих продуктов, отсутствующих в файле_'.
+   Because you are uploading new products, you can leave the '_Set stock to zero for all exiting products not present in the file_' checkbox unchecked.
 
-4. Нажмите **Загрузить**.
+4. Click **Upload**.
 
-Вам будет показана сводка вашей загрузки, включая любые ошибки. Вам также сообщат, сколько товаров вы создаете и сколько вы обновляете. Если вы довольны результатами загрузки, нажмите **сохранить**.
+You'll be shown a summary of your upload, including any errors. You'll also be told how many products you are creating and how many you are updating. If you're happy with the upload results, click **save**.
 
 {% hint style="success" %}
-Хорошей практикой является проверка того, что товары загружены / обновлены так, как вы хотели.
+It's good practice to check that the products uploaded/updated as you intended.
 {% endhint %}
 
-Затем вы можете загрузить другую таблицу или перейти на страницу товаров, чтобы просмотреть новые товары.
+You can then upload another spreadsheet or go to the products page to view your new products.
 
-## Обновление сведений о существующем товаре
+## Update Existing Product Details
 
-Приведенные ниже инструкции относятся к обновлению деталей существующего товара. Этот инструмент предназначен для быстрого обновления цен на товары и уровня запасов.
+The instructions below relate to updating the details of an existing product. This tool is intended as a quick way to update product prices and stock levels.
 
 {% hint style="info" %}
-Вы можете одновременно загружать новые товары и обновлять существующие товары с помощью одной загрузки CSV. Инструкции в этом руководстве разделены для ясности, но вы можете объединить новые товары и обновления в одной электронной таблице.
+You can simultaneously upload new products and update existing products with a single CSV upload. The instructions in this guide are separated for clarity but you can combine new products and updates in the same spreadsheet.
 {% endhint %}
 
-### Подготовка файла CSV для импорта
+### Prepare the CSV file for import
 
-Процесс обновления сведений о товаре аналогичен [загрузке товых товаров](product-and-inventory-import.md#import-new-products). Первым шагом является загрузка **Шаблона Списка Товаров** и заполнение названий товаров и поставщиков. Если у вас есть эта таблица под рукой от предыдущей загрузки, еще лучше.
+The process for updating product details is similar to [uploading new products](product-and-inventory-import.md#import-new-products). The first step is to download the **Product List Template** and fill in the product names and the supplier names. If you have this spreadsheet on hand from a previous upload even better.
 
-Система требует семь полей для правильной идентификации товара, который вы хотите обновить. Есть четыре поля, которые можно обновить и четыре поля, которые нельзя использовать с помощью этого инструмента.
+The system requires seven fields to correctly identify the product you want to update. There are four fields which can be updated and four fields which cannot using this tool.
 
-| Обязательные поля \(вы не можете обновить\) | Поля, которые вы можете обновить | Поля, которые не будут обновляться и не являются обязательными |
+| Required fields \(you can't update\) | Fields you can update | Fields that won't update and aren't required |
 | :--- | :--- | :--- |
 | \*producer | sku | ^variant\_unit\_name |
 | \*name | price | ^tax\_category |
@@ -211,59 +211,59 @@ description: >-
 | ^variant\_unit\_name \(if applicable\) |  |  |
 | \*display\_name |  |  |
 
-_^ если вы попытаетесь обновить эти поля, вы увидите сообщение об ошибке_
+_^ if you try to update these fields you'll see an error message_
 
-_\* если вы попытаетесь обновить эти поля, вы фактически создадите новые товары или варианты, а не обновите существующий товар._
+_\*If you try to update these fields you'll actually create new products or variants, rather than update an existing product._
 
-После завершения, .csv можно [импортировать](product-and-inventory-import.md#import-the-csv) же, как и новые товары.
-
-{% hint style="info" %}
-**Установить запас в ноль для всех существующих товаров, отсутствующих в файле**:  
-Если вы установите этот флажок, система установит значение 'В наличии' на ноль для _всех товаров, уже входящих в ваш список товаров_.  
-Если товар был '_Неограниченным_', он останется '_Неограниченным_'.  
-Товары в этом импорте сохранят уровень запаса, установленный в .csv
-{% endhint %}
-
-## Импортировать Новую Товарную Номенклатуру или обновить существующую
-
-Используйте эти инструкции, если вы хотите добавить или обновить новые товары вашей [товарной номенклатуры](inventory-tool.md).
-
-### Подготовка CSV файла для импорта
-
-Сначала загрузите файл **CSV Шаблона Товарной Номенклатуры** со страницы **Импорта Товара**.
-
-Вы увидите, что шаблон содержит все заголовки столбцов, необходимые для успешного импорта товара. Каждая строка предназначена для нового товара или варианта. Ниже приводится описание того, как заполнять каждый столбец.
+Once complete, the .csv can be [imported](product-and-inventory-import.md#import-the-csv) in the same manner as for new products.
 
 {% hint style="info" %}
-Обратите внимание, что все поля чувствительны к регистру. Например, Вы должны использовать мл, а не мЛ или Молочные, а не молочные.
+**Set stock to zero for all exiting products not present in the file:**  
+If you select this tickbox the system will set the 'In Stock' value to zero for _all products already your product list_.  
+If a product was 'Unlimited' it will remain 'Unlimited'.  
+The Products in this import will retain the stock level set in the .csv
 {% endhint %}
 
-| Название колонки | Обязательный? | Описание | Пример |
+## Import New Inventory or update your inventory
+
+Use these instructions if you want to add or update new products to your [inventory](inventory-tool.md).
+
+### Prepare the CSV file for import
+
+Firstly, download the **Inventory Template CSV** file from the **Product Import** page.
+
+You'll see that the template gives all the column headings required to successfully import a product. Each row is for a new product or variant. Below is a description of how to fill in each column.
+
+{% hint style="info" %}
+Note that all fields are case sensitive. E.g. you must use mL not ml , or Dairy not dairy.
+{% endhint %}
+
+| Column Title | Required? | Description | Example |
 | :--- | :--- | :--- | :--- |
-| producer | Да | Это имя профиля производителя, которому будет присвоен этот товар | Четырехмильная Ферма |
-| distributor | Да | Это имя профиля центра, которому будет назначен элемент товарной номенклатуры. | Демо Центр |
-| name | Да | Это название товара | Йогурт |
-| display name | Нет | Это поле применяется, если вы создаете варианты \(см. инструкции ниже\). Если вы не создаете вариант, оставьте это поле пустым. | Малиновый Йогурт |
-| variant\_unit\_name | Да | Если товар продается как предмет \(например, буханка, пучок, тыква\), напишите тип предмета здесь | Пучок |
-| units | Да | Вес, объем или количество | 500 |
-| unit\_type | Да | В каких единицах продается \(г, кг, т, мл, л\)? Если продается как предмет \(например, пучок\), оставьте пустым | г |
-| price | Да | Цена товара. Если товар облагается налогом, это должна быть цена с учетом налога. | 3.70 |
-| On\_Hand  \(in\_stock\) | Да | Пожалуйста, проверьте правила для неограниченного ниже | оставьте пустым, неограниченное значение равно 1 |
-| On\_demand \(unlimited\) | Да | Если пусто - читайте как 'Использовать настройки производителя', поэтому 'in\_stock' должно быть пустым. Если вы установите значение '1' - читайте неограниченное значение 'Да', поэтому 'in\_stock' должно быть пустым. Если вы установите '0' - считайте неограниченное значение 'Нет', поэтому 'in\_stock' обязательно. | 1 |
-| sku | Нет | SKU код для этого товара | AD001265 |
+| producer | Y | This is the name of the producer profile that this inventory item will be assigned to | Four Mile Farm |
+| distributor | Y | This is the name of the hub profile the inventory item will be assigned to | Demo Hub |
+| name | Y | This is the name of the product | Yoghurt |
+| display name | N | This field applies if you are creating variants \(see instructions below\). If you're not creating a variant leave this field blank. | Rasberry Yoghurt |
+| variant\_unit\_name | Y | If the product is sold as an item \(e.g loaf, bunch, pumpkin\) write the item type here | Bunch |
+| units | Y | The weight, volume or quantity value | 500 |
+| unit\_type | Y | What unit is it sold in \(g, kg, T, mL, L\)? If sold as an item \(e.g. bunch\) leave blank | g |
+| price | Y | The price of the product. If the item carries tax, this must be the tax inclusive price. | 3.70 |
+| On\_Hand  \(in\_stock\) | Y | Please check the rules for unlimited below | leave blank as unlimited is set to 1 |
+| On\_demand \(unlimited\) | Y | If blank - Read as "Use producer stock settings", so "in\_stock" should be blank.   If you set it to "1" - Read as unlimited of "Yes", so "in\_stock" should be blank.     If you set it to "0" - Read as unlimited of "No", so "in\_stock" is required. | 1 |
+| sku | N | The SKU code for this product | AD001265 |
 
-### Импорт CSV <a id="import-the-csv"></a>
+### Import the CSV <a id="import-the-csv"></a>
 
-После того, как вы заполните CSV-шаблон товарной номенклатуры, вы готовы загрузить его в ОСП.
+Once you have filled out the **Inventory Template CSV** you are ready to upload it into OFN.
 
-1. Перейдите в **Товары** &gt;  **Импорт Товара.**
-2. **Выберите тип импорта:** Товарная номенклатура
-3. **Выберите таблицу для загрузки**
-4. Нажмите **Загрузить**.
+1. Go to **Products** &gt;  **Product Import.**
+2. **Select import type:** Select Inventories
+3. **Select a spreadsheet to upload**
+4. Click **Upload**.
 
-Вам будет показана сводка вашей загрузки, включая любые ошибки. Вам также сообщат, сколько товаров вы создаете и сколько обновляете. Если вы довольны результатами загрузки, нажмите **Сохранить**.
+You'll be shown a summary of your upload, including any errors. You'll also be told how many products you are creating and how many you are updating. If you're happy with the upload results, click **save**.
 
 {% hint style="success" %}
-Хорошей практикой является проверка того, что товары загружены / обновлены так, как вы хотели.
+It's good practice to check that the products uploaded/updated as you intended.
 {% endhint %}
 
