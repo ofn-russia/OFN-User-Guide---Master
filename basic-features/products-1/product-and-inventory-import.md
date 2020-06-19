@@ -248,22 +248,22 @@ _\* если вы попытаетесь обновить эти поля, вы 
 | units | Да | Вес, объем или количество | 500 |
 | unit\_type | Да | В каких единицах продается \(г, кг, т, мл, л\)? Если продается как предмет \(например, пучок\), оставьте пустым | г |
 | price | Да | Цена товара. Если товар облагается налогом, это должна быть цена с учетом налога. | 3.70 |
-| On\_Hand  \(in\_stock\) | Да | Пожалуйста, проверьте правила для неограниченного ниже | leave blank as unlimited is set to 1 |
-| On\_demand \(unlimited\) | Да | If blank - Read as "Use producer stock settings", so "in\_stock" should be blank.   If you set it to "1" - Read as unlimited of "Yes", so "in\_stock" should be blank.     If you set it to "0" - Read as unlimited of "No", so "in\_stock" is required. | 1 |
-| sku | Нет | The SKU code for this product | AD001265 |
+| On\_Hand  \(in\_stock\) | Да | Пожалуйста, проверьте правила для неограниченного ниже | оставьте пустым, неограниченное значение равно 1 |
+| On\_demand \(unlimited\) | Да | Если пусто - читайте как 'Использовать настройки производителя', поэтому 'in\_stock' должно быть пустым. Если вы установите значение '1' - читайте неограниченное значение 'Да', поэтому 'in\_stock' должно быть пустым. Если вы установите '0' - считайте неограниченное значение 'Нет', поэтому 'in\_stock' обязательно. | 1 |
+| sku | Нет | SKU код для этого товара | AD001265 |
 
-### Import the CSV <a id="import-the-csv"></a>
+### Импорт CSV <a id="import-the-csv"></a>
 
-Once you have filled out the **Inventory Template CSV** you are ready to upload it into OFN.
+После того, как вы заполните CSV-шаблон товарной номенклатуры, вы готовы загрузить его в ОСП.
 
-1. Go to **Products** &gt;  **Product Import.**
-2. **Select import type:** Select Inventories
-3. **Select a spreadsheet to upload**
-4. Click **Upload**.
+1. Перейдите в **Товары** &gt;  **Импорт Товара.**
+2. **Выберите тип импорта:** Товарная номенклатура
+3. **Выберите таблицу для загрузки**
+4. Нажмите **Загрузить**.
 
-You'll be shown a summary of your upload, including any errors. You'll also be told how many products you are creating and how many you are updating. If you're happy with the upload results, click **save**.
+Вам будет показана сводка вашей загрузки, включая любые ошибки. Вам также сообщат, сколько товаров вы создаете и сколько обновляете. Если вы довольны результатами загрузки, нажмите **Сохранить**.
 
 {% hint style="success" %}
-It's good practice to check that the products uploaded/updated as you intended.
+Хорошей практикой является проверка того, что товары загружены / обновлены так, как вы хотели.
 {% endhint %}
 
