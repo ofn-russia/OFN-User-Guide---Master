@@ -25,7 +25,7 @@
     * [Инструмент товарной номенклатуры](basic-features/products-1/inventory-tool.md)
     * [Групповая Покупка - для массового заказа](basic-features/products-1/group-buy-for-bulk-ordering.md)
     * [Импорт Товара и Товарной Номенклатуры](basic-features/products-1/product-and-inventory-import.md)
-  * [Shopfront](basic-features/shopfront/README.md)
+  * [Витрина](basic-features/shopfront/README.md)
     * [Shipping Methods](basic-features/shopfront/shipping-methods.md)
     * [Payment Methods](basic-features/shopfront/payment-methods.md)
     * [Enterprise Fees](basic-features/shopfront/enterprise-fees.md)
