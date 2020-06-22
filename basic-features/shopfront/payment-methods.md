@@ -176,37 +176,37 @@ For Pin Payments you only require your API key. You need to set up an account wi
 
 ### Калькуляторы Сбора
 
-**Flat Percent:** This fee is charged as a percentage of the total amount charged in the order.
+**Фиксированный Процент** - эта комиссия взимается в процентах от общей суммы, потраченной в заказе.
 
-**Flat Rate \(per order\):** This fee is applied as standard fee to all orders, regardless of the size of the order.
+**Фиксированный Процент \(за заказ\)** - этот сбор применяется в качестве стандартного сбора для всех заказов, независимо от размера заказа.
 
-**Flexible Rate** – This fee calculator is especially useful if you'd like to encourage customers to place large orders: the cost of payment can be reduced or zero when the threshold number of items has been reached.
+**Гибкая Ставка** - этот калькулятор сборов особенно полезен, если вы хотите поощрять клиентов размещать крупные заказы: стоимость доставки может быть уменьшена или равна нулю при достижении порогового количества товаров.
 
-* ‘First Item Cost’: The fee charged for the first item in the order.
-* ‘Additional Item Cost’: The fee charged for items beyond the first item.
-* ‘Max Items’: The maximum number of items on which the fee will be applied. Items purchased beyond this amount will be not be charged the fee.
+* 'Стоимость первого товара': сбор за первый товар в заказе.
+* 'Дополнительная стоимость товара': сбор взимаемая за товары, не входящие в первую позицию.
+* 'Максимальное количество позиций': максимальное количество предметов, на которые будет взиматься сбор. За товары, приобретенные сверх этой суммы, плата не взимается.
 
 ![](../../.gitbook/assets/paymentflex.jpg)
 
-> For Example: if the 'First Item Cost' is set to £0.20, 'Additional Item Cost' is £0.10 and 'Max Items' is 3 then a customer who purchases 5 items will be charged £0.40 in payment fees \(£0.20 for the first item, £0.10 for items two and three, and £0.00 for items four and five\).
+> Например: 'Стоимость первого товара' установлена в 0.20руб, 'Дополнительная стоимость товара' равна 0.10руб. и 'Максимальное количество позиций' равно 3, тогда клиент, покупающий 5 позиций заплатит сбор/комиссию 0.40руб\(0.20руб за первую позицию, по 0.10руб за позиции два и три и 0.00руб за позиции четыре и пять\).
 
-**Flat Rate \(per item\):** This fee is a constant fee, applied to products listed as ‘items’. \(It is not applied to products sold by weight or volume. Hence there will be no associated payment method fee charged to a customer who, for example, buys rice by kg.\)
+**Единая ставка \(за единицу\)** - эта сумма является постоянной и применяется к товарам, перечисленным как 'предметы'. \(Не применяется к товарам, продаваемым по весу или объему. Следовательно, с клиента не взимается соответствующая стоимость доставки, например, покупая рис по кг\).
 
-**Price Sack:** This is a flexible payment fee method charged by _total monetary sale_, rather than number of items purchased \(Flexible Rate above\)
+**Ценовой пакет** - это гибкий метод оплаты за доставку, который определяется _общей суммой продаж_, а не количеством приобретенных товаров \(Гибкая Ставка выше\)
 
-* ‘Minimum Amount’: Monetary value of the threshold between Normal Payment Method fee and Discounted Payment Method fee. 
-* 'Normal Amount': Payment Method fee applied to sales below the threshold stated in 'Minimum Amount'.
-* ‘Discount Amount’: Payment Method fee applied to sales above the threshold stated in 'Minimum Amount'.
+* 'Минимальная сумма': Денежное значение порога между Обычной стоимостью доставки и стоимостью Скидки на доставку.
+* 'Обычная сумма': Стоимость доставки применяется к продажам ниже порогового значения, указанного в 'Минимальной сумме'.
+* ‘Сумма скидки’: стоимость доставки применяется к продажам, превышающим порог, указанный в 'Минимальной сумме'.
 
 ![](../../.gitbook/assets/paymentpc.jpg)
 
 {% hint style="info" %}
-Payment portals often charge businesses a fixed amount per transaction plus a small % of the total cost. Thus fees encountered by a Hub or Shop for customers who purchase the same total amount in multiple small sales will be higher than if the customer did all their shopping at once.
+Порталы оплаты часто взимают с компаний фиксированную сумму за транзакцию плюс небольшой % от общей стоимости. Таким образом, комиссионные, с которыми сталкиваются Центр или Магазин, для клиентов, которые покупают одну и ту же общую сумму в нескольких небольших покупках будут выше, чем если бы покупатель делал все свои покупки одновременно.
 
-The Flexible Rate and Price Sack calculators, applied to payment method fees, may prove useful to counter balance this.
+Калькуляторы Гибких Тарифов и Ценовых Пакетов, применяемые к сбору за метод оплаты, могут оказаться полезными для противодействия этому балансу.
 {% endhint %}
 
-## Refunds
+## Возвраты
 
-Issuing and managing refunds depends on how a customer originally paid for their order. More details are found [here](../orders/refund-payments.md).
+Выдача и управление возвратами зависит от того, как клиент изначально оплатил свой заказ. Более подробную информацию можно найти [здесь](../orders/refund-payments.md).
 
