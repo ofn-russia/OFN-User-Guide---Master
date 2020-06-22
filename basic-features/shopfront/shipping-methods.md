@@ -1,65 +1,66 @@
-# Методы Доставки
+# Shipping Methods
 
 {% hint style="warning" %}
-Вы **должны** создать хотя бы один способ доставки, прежде чем открыть свой магазин.
+You **must** create at least one shipping method before you can open your shop.
 {% endhint %}
 
-Прежде чем продолжить, вам может понадобиться краткая демонстрация того, как настроить свой первый способ доставки:
+Before you read on, you might like to have look at a quick demonstration of how to set up your first shipping method:
 
 ![](../../.gitbook/assets/shippingmethod.gif)
 
-## Настройка способа доставки
+## Setting up a shipping method
 
-* Перейдите на страницу Способы доставки, нажав **Предприятия** в синем горизонтальном меню, а затем нажмите **Настройки** рядом с вашим предприятием. Страница **Способов Доставки** находится в меню слева.
-* Нажмите **Создать новый способ доставки +**. Вы будете перенаправлены на такую страницу:
+* Go to the Shipping Methods page by clicking on **Enterprises** in the blue horizontal menu, and then click **Settings** next to your enterprise. The **Shipping Methods** page is found in the menu on the left hand side.
+* Click **Create new shipping method +** . You will be directed to a page like this:
 
 ![](../../.gitbook/assets/newshipping.jpg)
 
-* Установите флажок рядом с вашим предприятием в правой части страницы в разделе 'Центры'. Это означает, что метод доставки, который вы собираетесь создать, будет применяться к этому предприятию. При желании вы можете выбрать несколько предприятий.
-* **Название**: Выберите название для метода. Это имя будет отображаться клиенту во время процесса покупки и в письмах с подтверждением заказа. Пример:
+* Check the box next to your enterprise on the right hand side of the page under 'Hubs'. This indicates that the shipping method you are about to create will apply to that enterprise.  You can select multiple enterprises, if desired.
+* **Name**: Choose a name for the method. This name will be displayed to the customer during their purchase process and on order confirmation emails. Example:
 
 ![](../../.gitbook/assets/shippinginfo.jpg)
 
-* **Описание**: Добавьте дополнительные сведения, такие как точный адрес пункта сбора. Эти детали будут видны покупателям в сером цвете рядом с именем \(см. скриншот выше\).
-* **Категория**: Это метод доставки или самовывоза?
-* **Метки**: введите метки здесь, если вы хотите различать клиентов. Метки могут быть полезны, если вы хотите предложить бесплатную доставку подгруппе клиентов или предлагать доставку только тем, у кого есть зарегистрированный адрес, который находится рядом. Узнайте больше[ здесь](customer-management-and-conditional-displays-prices/)
-* **Калькулятор**: выберите как будет добавляться сбор за доставку к этому способу доставки. Обратите внимание, что стоимость доставки может быть равна нулю. Подробности смотрите ниже.
-* **Категории**: Условия транспортировки \(охлаждение, заморозка, по умолчанию\), связанные с этим способом доставки.
-* **Зоны**: выберите соответствующую зону \(это необходимо для правильного расчета налога\).
+* **Description:** Add additional details, such as the precise address of the collection point. These details will be visible to customers in grey next to the name \(see screenshot above\).
+* **Category:** Is this method a delivery or pick-up?
+* **Tags:** enter labels here if you wish to differentiate between customers. Tags could be useful if you want to offer free shipping to a sub set of customers or only offer delivery to those who have a registered address which is close by.  Read more [here](customer-management-and-conditional-displays-prices/).
+* **Calculator:** Select the way that shipping fees will be added to this shipping method.  Note that a shipping fee may be zero. See below for more details.
+* **Categories:** Transport conditions \(refrigeration, frozen, default\) associated with this shipping method.
+* **Zones:** Select the appropriate zone \(this is to enable correct tax calculations\).
 
-Нажав кнопку **Создать**, будет создан способ доставки и вам будут предоставлены новые поля, чтобы добавить сведения о расходах на способ доставки. Представленные поля будут зависеть от того, какой калькулятор стоимости доставки вы выбрали.
+By clicking **Create,** the shipping method will be created, and you will then be provided with new fields, to add details of the shipping method charges. The fields presented will depend upon which shipping fee calculator you have selected.
 
 {% hint style="info" %}
-Если вы измените тип калькулятора для способа доставки, вы должны сначала **сохранить** его, прежде чем сможете редактировать настройки калькулятора.
+If you change the calculator type for a shipping method, you must **save first** before you can edit the calculator settings.
 {% endhint %}
 
-## Калькуляторы Сборов
+## Fee Calculators
 
 ![](../../.gitbook/assets/shippingcalc.jpg)
 
-**Вес \(за кг\)** - этот сбор применяется к товарам за килограмм. Плата будет _применяться только к товарам, которые оцениваются по цене за килограмм_, а не к товарам, перечисленным в качестве предметов \(например, товар, обозначенный как '1 пучок петрушки', не будет вноситься в общую плату, которая взымается с клиента за доставку\)
+**Weight \(per kg\)** – this fee is applied to products on a per kg basis. The fee will _only be applied to products which are priced at a per kg rate_, not products listed as items \(e.g. A product listed as ‘1 bunch of parsley’ will not contribute to the overall fee a customer is charged for shipping\)
 
-**Фиксированный Процент** - эта комиссия взимается в процентах от общей суммы, потраченной в заказе.
+**Flat Percent** – This fee is charged as a percentage of the total amount spent in the order.
 
-**Фиксированный Процент \(за заказ\)** - этот сбор применяется в качестве стандартного сбора для всех заказов, независимо от размера заказа.
+**Flat Rate \(per order\)** – This fee is applied as standard fee to all orders, regardless of the size of the order.
 
-**Гибкая Ставка** - этот калькулятор сборов особенно полезен, если вы хотите поощрять клиентов размещать крупные заказы: стоимость доставки может быть уменьшена или равна нулю при достижении порогового количества товаров.
+**Flexible Rate** – This fee calculator is especially useful if you'd like to encourage customers to place large orders: the cost of shipping can be reduced or zero when the threshold number of items has been reached.
 
-* 'Стоимость первого товара': сбор за первый товар в заказе.
-* 'Дополнительная стоимость товара': сбор взимаемая за товары, не входящие в первую позицию.
-* 'Максимальное количество позиций': максимальное количество предметов, на которые будет взиматься сбор. За товары, приобретенные сверх этой суммы, плата не взимается.
+* ‘First Item Cost’: The fee charged for the first item in the order.
+* ‘Additional Item Cost’: The fee charged for items beyond the first item.
+* ‘Max Items’: The maximum number of items on which the fee will be applied. Items purchased beyond this amount will be not be charged the fee.
 
 ![](../../.gitbook/assets/shippingfeeflex.jpg)
 
-> Например: если сбор за доставку для 'Стоимость первого товара' составляет 2 рубля, 'Дополнительная стоимость товара' = 1 рубль, а 'Максимальное количество позиций' = 3. С клиента, купившего 5 товаров, будет взиматься плата за доставку в размере 4 рублей \(2 рубля за первый товар, 1 рубль за товары два и три и 0 рублей за товары четыре и пять\)
+> For example: If the shipping fee for the 'First item cost' is £2, 'Additional Item Cost' = £1 and 'Max items' = 3.  
+> A customer who purchases 5 items, will be charged £4 shipping \(£2 for the first item, £1 for items two and three, and £0 for items four and five\).
 
-**Единая ставка \(за единицу\)** - эта сумма является постоянной и применяется к товарам, перечисленным как 'предметы'. \(Не применяется к товарам, продаваемым по весу или объему. Следовательно, с клиента не взимается соответствующая стоимость доставки, например, покупая рис по кг\).
+**Flat Rate \(per item\)** – This fee is a constant fee, applied to products listed as ‘items’. \(It is not applied to products sold by weight or volume. Hence there will be no associated shipping cost charged to a customer who, for example, buys rice by kg\).
 
-**Ценовой пакет** - это гибкий метод оплаты за доставку, который определяется _общей суммой продаж_, а не количеством приобретенных товаров \(Гибкая Ставка выше\)
+**Price Sack** – This is a flexible shipping fee method charged by _total monetary sale_, rather than number of items purchased \(Flexible Rate above\)
 
-* 'Минимальная сумма': Денежное значение порога между Обычной стоимостью доставки и стоимостью Скидки на доставку.
-* 'Обычная сумма': Стоимость доставки применяется к продажам ниже порогового значения, указанного в 'Минимальной сумме'.
-* ‘Сумма скидки’: стоимость доставки применяется к продажам, превышающим порог, указанный в 'Минимальной сумме'.
+* ‘Minimum Amount’: Monetary value of the threshold between Normal shipping fee and Discounted shipping fee. 
+* 'Normal Amount': Shipping fee applied to sales below the threshold stated in 'Minimum Amount'.
+* ‘Discount Amount’: Shipping fee applied to sales above the threshold stated in 'Minimum Amount'.
 
 ![](../../.gitbook/assets/shippingfeepc.jpg)
 
