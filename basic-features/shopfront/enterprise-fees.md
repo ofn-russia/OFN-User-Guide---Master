@@ -1,45 +1,45 @@
-# Enterprise Fees
+# Сборы Предприятия
 
-Enterprise fees are useful for producers and hubs who are working together: it allows costs associate with admin, packing, transport, sales and fundraising to be allocated to different parties.
+Сборы Предприятия полезны для производителей и центров, которые работают вместе: это позволяет распределять расходы, связанные с администрированием, упаковкой, транспортировкой, продажами и сбором средств, между различными сторонами.
 
-For example a hub may choose to add an enterprise fee of 10% to all the products they sell, to cover their administration costs \(storage of products prior to distribution, salaries of people who manage and coordinate sales...\)
+Например, центр может выбрать добавление корпоративного сбора в размере 10% ко всем товарам, которые они продают, чтобы покрыть свои административные расходы \(хранение товаров до распределения, зарплаты людей, которые управляют продажами и координируют их ...\)
 
-For producers selling their own products directly, these costs are already present in the price of the product, so applying Enterprise Fees may not seem necessary.
+Для производителей, продающих свои собственные товары напрямую, эти затраты уже присутствуют в стоимости товара, поэтому необходмости в применении Сборов Предприятия нет.
 
-One of the many benefits to OFN customers is price transparency. Shoppers can see the percentage of an item's price assigned to admin, packing etc. This information is displayed by clicking on the pie chart next to the price of a product on the shop front:
+Одним из многих преимуществ для клиентов ОСП является прозрачность цен. Покупатели могут видеть процент от цены товара, назначенной администратору, упаковке и т.д. Эта информация отображается при нажатии на круговую диаграмму рядом с ценой товара на витрине магазина:
 
-![An enterprise fee in a shopfront](../../.gitbook/assets/enterprsie-fee-in-shopfront.png)
+![&#x421;&#x431;&#x43E;&#x440; &#x41F;&#x440;&#x435;&#x434;&#x43F;&#x440;&#x438;&#x44F;&#x442;&#x438;&#x44F; &#x432; &#x432;&#x438;&#x442;&#x440;&#x438;&#x43D;&#x435; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x430;](../../.gitbook/assets/enterprsie-fee-in-shopfront.png)
 
-Before you move on you might like to have a look at a quick demonstration of setting up your first enterprise fee:
+Прежде чем двигаться дальше, вы можете взглянуть на быструю демонстрацию настройки вашего первого сбора предприятия:
 
 ![](../../.gitbook/assets/enterprisefeefirst.gif)
 
-## Setting up an Enterprise Fee
+## Настройка Сборов Предприятия
 
-* Go to the Enterprise Fee page by clicking on **Enterprises** in the blue horizontal menu, and then click **Settings** next to your enterprise. The **Enterprise Fee** page is found in the menu on the left hand side.
-* Click **Create one now**  \(or **Manage Enterprise Fees** if you have already set one up and would like to edit it\). You will be directed to a page like this:
+* Перейдите на страницу Сборы Предприятия, нажав на **Предприятия** в синем горизонтальном меню, а затем нажмите **Настройки** рядом с вашим предприятием. Страница **Сборы Предприятия** находится в меню слева.
+* Нажмите **Создать сейчас** \(или **Управление Сборами Предприятия**, если вы уже настроили и хотите изменить\). Вы будете перенаправлены на такую страницу:
 
 ![](../../.gitbook/assets/enterprisefeecreate.jpg)
 
-**Enterprise:** In the first column, select the enterprise to which the fee applies.
+**Предприятие**: в первом столбце выберите предприятие, к которому применяется сбор.
 
-**Fee Type:** Select the service that this fee applied to. The options are Packing Fee, Transport Fee, Admin Fee, Sales Fee or Fundraising Fee.
+**Тип Сбора**: выберите услугу, к которой применяется данный сбор. Возможные варианты: Оплата Упаковки, Транспортный Сбор, Административный Сбор, Сбор с Продаж или Сбор на Пожертвования.
 
-**Name:** Choose a name for this fee.
+**Название**: выберите имя для этого сбора.
 
-**Tax Category:** Select the appropriate tax rate. In most cases the VAT rate for the enterprise fee will be inherited from the product. If the enterprise fee is associated with a service added to the product the fee may be subject to VAT but the product itself not. In which case choose between 'Zero rated', 'Full Rate' and 'Reduced Rate' of VAT to applied to Enterprise fees.
+**Налоговая Категория**: выберите соответствующую налоговую ставку. В большинстве случаев ставка НДС для сбора с предприятия будет унаследована от товара. Если сбор предприятия связан с услугой, добавленной к товару, этот сбор может облагаться НДС, а сам товар - нет. В этом случае выберите 'Нулевая ставка', 'Полная ставка' и 'Пониженная ставка' НДС, применяемого к Cборам Предприятия.
 
-**Calculator:** The fee can be calculated in a number of ways. Select the calculator which best applies.
+**Калькулятор:** сбор может быть рассчитан несколькими способами. Выберите калькулятор, который лучше всего подходит.
 
-Click Update, to create the enterprise fee.
+Нажмите Обновить, чтобы создать сбор предприятия.
 
 {% hint style="info" %}
-You will only be able to specify rates or values \(in the 'calculator values' column after the Enterprise Fee has been created.
+Вы сможете указывать только тарифы или значения \(в столбце 'значения калькулятора' после создания Cбора Предприятия\).
 {% endhint %}
 
 ![](../../.gitbook/assets/enterprisefee2.jpg)
 
-## Fee Calculators
+## Калькуляторы Сбора
 
 ![](../../.gitbook/assets/enterprisefee3.jpg)
 
