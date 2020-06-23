@@ -29,7 +29,7 @@
     * [Методы Доставки](basic-features/shopfront/shipping-methods.md)
     * [Методы Оплаты](basic-features/shopfront/payment-methods.md)
     * [Сборы Предприятия](basic-features/shopfront/enterprise-fees.md)
-    * [Order cycles](basic-features/shopfront/order-cycle/README.md)
+    * [Циклы заказа](basic-features/shopfront/order-cycle/README.md)
       * [Order Cycles \(for Hubs\)](basic-features/shopfront/order-cycle/order-cycles-for-hubs.md)
       * [Order Cycles \(for Shops\)](basic-features/shopfront/order-cycle/order-cycles-for-producers.md)
       * [Opening more than one order cycle](basic-features/shopfront/order-cycle/opening-more-than-one-order-cycle.md)

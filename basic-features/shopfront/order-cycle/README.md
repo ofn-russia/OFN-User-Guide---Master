@@ -1,4 +1,4 @@
-# Order cycles
+# Циклы заказа
 
 Online stores can be opened and closed by creating 'order cycles' on the Open Food Network platform.
 
