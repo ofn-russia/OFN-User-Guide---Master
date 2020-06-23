@@ -1,9 +1,9 @@
-# Order Cycles \(for Hubs\)
+# Циклы Заказа \(для Центров\)
 
 {% hint style="warning" %}
-Read on if you selected the Enterprise Profile '[Producer or Non Producer Hub](../../../your-quick-start-on-ofn-given-who-you-are.md#hub)'.
-
-Visit this [page](order-cycles-for-producers.md), if you registered as a '[Producer Shop](../../../your-quick-start-on-ofn-given-who-you-are.md#shop)' and want to set up an order cycle for your shop front.
+Читайте дальше, если вы выбрали профиль Предприятия '[Центр Производителя или Не Производителя](../../../your-quick-start-on-ofn-given-who-you-are.md#hub)'.  
+  
+Посетите эту [страницу](order-cycles-for-producers.md), если вы зарегистрировались как '[Магазин Производителя](../../../your-quick-start-on-ofn-given-who-you-are.md#shop)' и хотите настроить цикл заказов для своего магазина.
 {% endhint %}
 
 You open you shop by creating an Order Cycle. When you make an order cycle you select when you shop is open \(from and until\), which products will go into the shop, and any fees that you'll apply.
