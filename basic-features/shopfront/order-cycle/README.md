@@ -1,10 +1,10 @@
-# Циклы заказа
+# Order cycles
 
-Интернет-магазины можно открывать и закрывать, создавая 'циклы заказов' на платформе Открытая Сеть Продуктов.
+Online stores can be opened and closed by creating 'order cycles' on the Open Food Network platform.
 
-Веб-адрес ОСП для вашего магазина будет отображать ваш список товаров для покупки только тогда, когда открыт цикл заказа.
+The OFN web address for your shop will only display your list of products for purchase when an order cycle is open.
 
-Формат настройки [цикла заказа для 'центра'](order-cycles-for-hubs.md) \(многопрофильный магазин\) несколько отличается от формата [для 'магазина'](order-cycles-for-producers.md) \(магазин с одним производителем\).
+The format of setting up an [order cycle for a 'hub'](order-cycles-for-hubs.md) \(multi producer shop\) differs slightly from that for [a 'shop'](order-cycles-for-producers.md) \(single producer shop\).
 
-Можно предложить одновременно [несколько циклов заказа](opening-more-than-one-order-cycle.md), например, разрешить покупку для доставки через 1, 2 или 3 недели.
+It's possible to offer [multiple order cycles](opening-more-than-one-order-cycle.md) simultaneously, for example to allow a purchase for delivery in 1, 2 or 3 weeks.
 

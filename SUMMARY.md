@@ -32,7 +32,7 @@
     * [Циклы заказа](basic-features/shopfront/order-cycle/README.md)
       * [Циклы Заказа \(для Центров\)](basic-features/shopfront/order-cycle/order-cycles-for-hubs.md)
       * [Циклы Заказа \(для Магазинов\)](basic-features/shopfront/order-cycle/order-cycles-for-producers.md)
-      * [Opening more than one order cycle](basic-features/shopfront/order-cycle/opening-more-than-one-order-cycle.md)
+      * [Открытие более одного цикла заказа](basic-features/shopfront/order-cycle/opening-more-than-one-order-cycle.md)
       * [Permissions in multi-enterprise order cycles](basic-features/shopfront/order-cycle/permissions-in-multi-enterprise-order-cycles.md)
     * [Управление клиентами и условные отображения/цены](basic-features/shopfront/customer-management-and-conditional-displays-prices/README.md)
       * [Customer Management](basic-features/shopfront/customer-management-and-conditional-displays-prices/customers.md)
