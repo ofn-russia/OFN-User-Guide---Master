@@ -1,118 +1,118 @@
-# Tags and Tag Rules
+# Метки и Правила Меток
 
-Once customers have been grouped into categories with tags, you will be able to customise their shopping experience in the following ways:
+После того как клиенты будут сгруппированы в категории с метками, вы сможете настроить возможности возможности покупок следующими способами:
 
-* Making particular variants visible/invisible
-* Making certain shipping methods visible/invisible
-* Making certain payment methods visible/invisible
-* Making order cycles visible/invisible
+* Сделать определенные варианты видимыми/невидимыми
+* Сделать некоторые способы доставки видимыми/невидимыми
+* Сделать некоторые способы оплаты видимыми/невидимыми
+* Сделать циклы заказа видимыми/невидимыми
 
-Most often this feature is required by enterprises who have different shop setups for members/non-members or different groups of customers such as wholesale/retail customers.
+Чаще всего эта функция требуется предприятиям, имеющих различные настройки магазина для участников/не участников или различных групп клиентов, таких как оптовые/розничные клиенты.
 
-## How to set up a Tag rule
+## Как настроить правило метки
 
-To access Tag Rules go to Enterprises -&gt; Settings -&gt; Tag Rules
+Для доступа к Правилам Меток перейдите по Предприятия -&gt; Настройки -&gt; Правила Меток
 
 ![](../../../.gitbook/assets/newtagrule1.jpg)
 
-## By Default
+## По Умолчанию
 
-By default, _**all items** will be visible to **all customers**_ whether they are tagged or not.  
-You can change the default display rules by selecting **+add new default rule**. Int the example below, by default, all Order Cycles which are tagged 'wholesale' will be invisible.  
-\(For this example, only those customers who are tagged with the label 'wholesalecustomer' can view \(and hence purchase from\) Order Cycles tagged 'wholesale'.\)
+По умолчанию _**все элементы**_ _будут видны_ _**всем клиентам**_ независимо от того, помечены они или нет.  
+Вы можете изменить правила отображения по умолчанию, выбрав **+добавить новое правило по умолчанию**. В приведенном ниже примере по умолчанию все Циклы Заказа, помеченные как 'оптовые', будут невидимыми.  
+\(В этом примере только те клиенты, которые помечены как 'оптовыйклиент', могут просмотреть \(и следовательно, приобретать\) циклы заказа, помеченные как 'оптовые'.
 
 ![](../../../.gitbook/assets/defaulttag.jpg)
 
-## Tag Rules
+## Правила Меток
 
-Once you have defined default rules, you can then set up exceptions to these rules for specific customer groups.
+После определения правил по умолчанию можно настроить исключения из этих правил для определенных групп клиентов.
 
-* First define the customer group to which the exception will occur.  In the example above, the exception was applied to all customers with the tag 'wholesalecustomer'.
-* Then, for this customer group, you can choose to customise their shopping experience in one of four ways:
+* Сначала определите группу клиентов, к которой будет относиться особая ситуация. В приведенном выше примере исключение было применено ко всем клиентам с меткой 'оптовыйклиент'.
+* Затем, для этой группы клиентов, можно выбрать настройку их возможностей покупок одним из четырех способов:
 
 ![](../../../.gitbook/assets/rule-typess.png)
 
 {% hint style="warning" %}
-Remember to add the relevant tags to variants, shipping or payment methods, or order cycles, as well as to customers after you have set up a default or conditional tag rule!
+Не забудьте добавить соответствующие метки к вариантам, способам доставки или оплаты, или циклам заказа, а также к клиентам после настройки правила метки по умолчанию или условной метки!
 {% endhint %}
 
-We now look at each option, one-by-one:
+Теперь мы рассмотрим каждый вариант, один за другим:
 
-### **Show or Hide Variants in my shopfront**
+### Показать или Скрыть Варианты в моем магазине
 
-This rule lets you make particular variants visible/invisible to tagged customers. For this rule to operate you need to have tagged the customer and the product variant **in your inventory** \(not in the producer's product list\) with the same tag.
+Это правило позволяет сделать определенные варианты видимыми/невидимыми для отмеченных клиентов. Для работы этого правила необходимо отметить клиента и вариант товара в вашей товарной номенклатуре \(не в списке товаров производителя\) с той же меткой.
 
-In the example below the 1 kg variant of delux muesli has been tagged 'member'. It would thus be possible to set up tag rules such that by default only the smaller 500 g \(non-tagged\) variant of delux muesli appears on the shop front unless the customer belongs to a group of buyers all tagged 'member' \(in which case they would be able to view the 1 kg option too\).
+В приведенном ниже примере 1 кг вариант делюкс-мюсли помечен как 'участник'. Таким образом, можно было бы установить правила меток таким образом, чтобы по умолчанию только меньший вариант делюкс-мюсли 500 г \(без меток\) появлялся на витрине магазина, если только клиент не принадлежит к группе покупателей, которые помечены как 'участник' \(в этом случае они также смогут просматривать вариант 1 кг\).
 
 ![](../../../.gitbook/assets/varianttags%20%281%29.jpg)
 
-### **Show/Hide shipping methods**
+### **Показать/Скрыть методы доставки**
 
-This rule lets you make particular shipping methods specifically available or unavailable to certain customers. For this rule to operate you need to have tagged the customer and the shipping method with the same tag. To tag a shipping method, go to **edit** [**shipping method**](../shipping-methods.md) _\*\*_and apply the relevant tag.
+Это правило позволяет сделать определенные способы доставки доступными или недоступными для определенных клиентов. Для работы этого правила необходимо пометить клиента и способ доставки одной и той же меткой. Чтобы пометить способ доставки, перейдите к редактированию [**способа доставки**](../shipping-methods.md) и \*\*примените соответствующую метку.
 
 ![](../../../.gitbook/assets/tagshipping.jpg)
 
-In this example, the shipping method 'Collect in Person' has been assigned to customers with the tag 'member'. One could then set up the following:
+В этом примере метод доставки 'Забрать Лично' был назначен клиентам с тегом 'участник'. Затем можно настроить следующее:
 
-* a default tag rule: shipping methods tagged 'member' is invisible
-* a conditional tag rule: for customers tagged 'member' the shipping method tagged 'member' is visible
+* правило метки по умолчанию: методы доставки с меткой 'участник' невидимы
+* правило условной метки: для клиентов с тегом ''участник' виден метод доставки с меткой 'участник'
 
-Thus, only members would be able to opt to collect their purchases in person.
+Таким образом, только участники смогут собирать свои покупки лично.
 
-### **Show/Hide payment methods**
+### **Показать/Скрыть методы оплаты**
 
-This rule lets you make particular payment methods specifically available or unavailable to particular customers.
+Это правило позволяет сделать определенные способы оплаты доступными или недоступными для определенных клиентов.
 
 {% hint style="info" %}
-This tag rule might be useful if you only wish to offer members the option to pay by cash on collection \(but make non-members pay upfront by card or PayPal\), or if you would like to offer your wholesale customers only the option to pay by BACS.
+Это правило тега может быть полезно, если вы хотите предложить участникам только возможность оплачивать наличными при сборе \(но сделать так, чтобы лица, не являющиеся участниками, платили авансом с помощью карты или PayPal\) или если вы хотели бы предложить своим оптовым клиентам только возможность платить безналичным расчетом.
 {% endhint %}
 
-For this conditional tag rule to operate you first need to have tagged the customer and the payment method with the same tag. To apply a tag to a [payment method](../payment-methods.md) visit go to Enterprises-&gt; Settings -&gt; Payment methods and select edit.
+Чтобы правило условной метки работало, сначала необходимо пометить клиента и способ оплаты одной и той же меткой. Чтобы применить метку к [методу оплаты](../payment-methods.md), перейдите в Предприятия -&gt; Настройки -&gt; Способы оплаты и выберите Изменить.
 
 ![](../../../.gitbook/assets/tagspayment.jpg)
 
-In this example, the payment method 'Cash' has been assigned to customers with the tag 'member'. One could then set up the following:
+В этом примере метод оплаты 'Наличные' был назначен клиентам с меткой 'участник'. Затем можно настроить следующее:
 
-* a default tag rule: payment methods tagged 'member' is invisible
-* a conditional tag rule: for customers tagged 'member' the payment method tagged 'member' is visible
+* правило метки по умолчанию: методы оплаты, помеченные как 'участник', невидимы
+* правило условной метки: для клиентов с тегом 'участник' виден способ оплаты с меткой 'участник'
 
-Thus, only members would be able to opt to pay for their purchases in cash on collection.
+Таким образом, только участники смогут оплачивать свои покупки наличными при самовывозе.
 
-### **Show/Hide order cycles at my shopfront**
+### **Показать/Скрыть циклы заказа на моей ветрине**
 
-This rule lets you make certain order cycles visible only to certain customers.
+Это правило позволяет сделать определенные циклы заказов видимыми только для определенных клиентов.
 
 {% hint style="info" %}
-This tag rule might be useful if you wish to open two order cycles concurrently with different enterprise fees associated to each. For example, one might be for wholesale customers- displaying bulk buy goods and lower enterprise fees, while another would be visible to the public and list products in smaller quantities but with a higher margin.
+Это правило метки может быть полезно, если вы хотите открыть два цикла заказов одновременно с разными сборами предприятия, связанными с каждым. Например, один может быть предназначен для оптовых покупателей - отображать товары для оптовых закупок и более низкие сборы предприятия, тогда как другой будет публично виден и перечислять товары в меньших количествах, но с более высокой маржинальностью.
 {% endhint %}
 
-For this rule to operate you need to have tagged the customer and the order cycle with the same tag. To tag an order cycle, see the Tags tab in the outgoing section of an order cycle \(page 3 of the [Order Cycle](../order-cycle/order-cycles-for-hubs.md#3-outgoing-products)\).
+Для работы этого правила необходимо пометить клиента и цикл заказа одной и той же меткой. Чтобы отметить цикл заказа, см. закладку Метки в разделе Исходящие цикла заказа \(стр. 3 [Цикла Заказа](../order-cycle/order-cycles-for-hubs.md#3-outgoing-products)\).
 
 ![](../../../.gitbook/assets/tagsorder.jpg)
 
-In this example, the above Order Cycle has been assigned to customers with the tag 'member'. One could then set up the following:
+В этом примере вышеуказанный Цикл Заказа был присвоен клиентам с тегом 'участник'. Затем можно настроить следующее:
 
-* a default tag rule: order cycles tagged 'member' are invisible
-* a conditional tag rule: for customers tagged 'member' an order cycle tagged 'member' is visible
+* правило метки по умолчанию: циклы заказа, помеченные как 'участник', невидимы
+* правило условной метки: для клиентов с тегом 'участник' виден цикл заказа с меткой 'участник'
 
-Thus, only members would be able to purchase goods from this order cycle.
+Таким образом, только участники смогут покупать товары из этого цикла заказа.
 
-## Customer Specific Pricing
+## Ориентированная на клиента оценка
 
-Sometimes our users want to charge different prices for different customers, often based on their member vs non-member \(or wholesale vs retail\) status. Currently, there’s no way to automatically charge different prices for members vs non-members, but there are some round about ways of achieving the same thing.
+Иногда наши пользователи хотят взимать разные цены с разных клиентов, часто в зависимости от их статуса 'участника' и 'не участника' \(или оптовой и розничной торговли\). В настоящее время нет возможности автоматически взимать различные цены для 'участников' и 'не участников', но есть несколько способов достичь того же эффекта.
 
-You can use **customer tagging**, with tag rules to achieve this by:
+Вы можете использовать **метки клиентов** с правилами меток для достижения этого:
 
-* Make certain [variants](tags-and-tag-rules.md#show-or-hide-variants-in-my-shopfront) available only to specific customer groups: for example 'bulk buys' at a reduced rate per weight available only to customers with a wholesale tag.
-* Run more than one [Order Cycle](tags-and-tag-rules.md#show-hide-order-cycles-at-my-shopfront) concurrently with only members \(or wholesale customers\) able to view and purchase from the order cycle carrying a lower enterprise fee.
-* You could use [shipping method fees](tags-and-tag-rules.md#show-hide-shipping-methods) to charge different prices to different customers. To ensure that only members select the reduced 'member rate' you would need to add a tag to this shipping method \(else anyone could 'cheat' and select the lower cost shipping rate\).
-* If you make a [payment method](tags-and-tag-rules.md#show-hide-payment-methods) is cash on collection available to members only then you would add a mark up to all other payment methods, such that non-members are charged more for their goods.
+* Сделайте определенные [варианты](tags-and-tag-rules.md#show-or-hide-variants-in-my-shopfront) доступными только для определенных групп клиентов: например, 'оптовые закупки' по сниженной ставке на вес, доступны только для клиентов с меткой оптовой продажи.
+* Выполните более одного [Цикла Заказа](tags-and-tag-rules.md#show-hide-order-cycles-at-my-shopfront) одновременно с участием только тех участников \(или оптовых клиентов\), которые могут просматривать и покупать из цикла заказа с более низким сбором предприятия.
+* Вы можете использовать [сборы в методе доставки](tags-and-tag-rules.md#show-hide-shipping-methods), чтобы взимать разную стоимость с разных клиентов. Чтобы гарантировать, что только участники выбирают сниженную 'ставку участника', вам необходимо добавить метку к этому методу доставки \(иначе любой может 'обмануть' и выбрать более низкую стоимость доставки\).
+* Если вы сделаете [способ оплаты](tags-and-tag-rules.md#show-hide-payment-methods) 'наличными при получении', доступный только для участников, то добавьте отметку ко всем остальным способам оплаты, чтобы с 'не участников' взималась дополнительная плата за их товары.
 
 {% hint style="info" %}
-Beyond the use of tags, some enterprises opt to set up two hubs: one for wholesale customers/members only \(see Private Shop front\) and one for everyone else.
+Помимо использования меток, некоторые предприятия предпочитают создавать два центра: один для оптовых покупателей/участников \(см. раздел 'Частный магазин'\) и один для всех остальных.
 
-By using the [Inventory](../../products-1/inventory-tool.md) feature the two shops could offer the same products but you can set the pricing for each independently.
-
-This method offers the most flexibility: prices can be fine-tuned for customer groups on a case-by-case basis rather than a blanket percentage or fixed price difference.
+Используя функцию [Товарной Номенклатуры](../../products-1/inventory-tool.md), два магазина могут предлагать одни и те же товары, но вы можете независимо  устанавливать цены для каждого из них  
+  
+Этот метод обеспечивает наибольшую гибкость: цены можно точно настраивать для групп клиентов в каждом конкретном случае, а не в виде общего процента или фиксированной разницы в ценах.
 {% endhint %}
 
