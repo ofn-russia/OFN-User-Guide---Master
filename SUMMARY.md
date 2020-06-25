@@ -35,7 +35,7 @@
       * [Открытие более одного цикла заказа](basic-features/shopfront/order-cycle/opening-more-than-one-order-cycle.md)
       * [Разрешения в циклах заказов нескольких предприятий](basic-features/shopfront/order-cycle/permissions-in-multi-enterprise-order-cycles.md)
     * [Управление клиентами и условные отображения/цены](basic-features/shopfront/customer-management-and-conditional-displays-prices/README.md)
-      * [Customer Management](basic-features/shopfront/customer-management-and-conditional-displays-prices/customers.md)
+      * [Управление Клиентами](basic-features/shopfront/customer-management-and-conditional-displays-prices/customers.md)
       * [Tags and Tag Rules](basic-features/shopfront/customer-management-and-conditional-displays-prices/tags-and-tag-rules.md)
     * [Частная витрина магазина](basic-features/shopfront/private-shopfront.md)
     * [Display only shopfront](basic-features/shopfront/display-only-order-cycles.md)
