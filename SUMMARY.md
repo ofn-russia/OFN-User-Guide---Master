@@ -38,7 +38,7 @@
       * [Управление Клиентами](basic-features/shopfront/customer-management-and-conditional-displays-prices/customers.md)
       * [Метки и Правила Меток](basic-features/shopfront/customer-management-and-conditional-displays-prices/tags-and-tag-rules.md)
     * [Частная витрина магазина](basic-features/shopfront/private-shopfront.md)
-    * [Display only shopfront](basic-features/shopfront/display-only-order-cycles.md)
+    * [Показать только витрину](basic-features/shopfront/display-only-order-cycles.md)
   * [Orders](basic-features/orders/README.md)
     * [View Orders](basic-features/orders/view-orders.md)
     * [Create orders manually](basic-features/orders/create-orders-manually.md)
