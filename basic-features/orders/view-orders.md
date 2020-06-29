@@ -1,46 +1,47 @@
-# View Orders
+# Просмотр Заказов
 
-Within the admin interface there are two places where orders can be viewed and modified \(if necessary\): the [Orders](view-orders.md#listing-orders) page itself, and the [Bulk Order Management](view-orders.md#bulk-order-management) page.  
-The features of both these two pages are discussed below.
+В интерфейсе администратора есть два места, где можно просматривать и изменять заказы \(при необходимости\): сама страница [Заказов](view-orders.md#listing-orders) и страница [Пакетное Управление Заказами](view-orders.md#bulk-order-management).  
+Особенности обеих этих страниц обсуждаются ниже.
 
-## Listing orders
+## Список заказов
 
-The listing order page shows a list view of all orders placed through your shop\(s\). From here you can access details of individual orders, edit orders and track the status of their payment and shipping. For details of how to create a new order manually for your customer see [here](create-orders-manually.md).
+На странице списка заказов отображается список всех заказов, размещенных в вашем магазине \(ах\). Отсюда вы можете получить доступ к деталям отдельных заказов, редактировать заказы и отслеживать статус их оплаты и доставки. Подробнее о том, как создать новый заказ вручную для вашего клиента, смотрите [здесь](create-orders-manually.md).
 
-The page has filters which allow you to select which orders you want to view. You can filter by date, status or the email and name of the customer.
+На странице есть фильтры, которые позволяют вам выбирать, какие заказы вы хотите просмотреть. Вы можете фильтровать по дате, статусу или электронной почте и имени клиента.
 
 ![](../../.gitbook/assets/listingorders1new.jpg)
 
-**Distributor:** This is the enterprise through who's shop the order was placed.
+**Дистрибьютор**: это предприятие, через магазин которого был сделан заказ.
 
-**Completed at:** This is the date that the order was placed.
+**Завершен в**: Это дата размещения заказа.
 
-**Number:** This is an arbitrarily assigned order number. An exclamation mark symbol with with word 'Note' to the left of it will show if the customer included a comment with their order at checkout. Hover you mouse above the exclamation mark to view the comment.
+**Номер**: Это произвольно назначенный номер заказа. Символ восклицательного знака со словом 'Примечание' слева от него покажет, включил ли клиент комментарий при оформлении заказа. Наведите курсор на восклицательный знак, чтобы просмотреть комментарий.
 
-**State:**
+**Статус:**
 
-* Complete- the customer has finished checkout
-* Cancelled- if admin edits the order and chooses to ‘cancel it’
-* Cart- The customer is in the process of shopping, but hasn’t checked out
+* Завершен - клиент закончил оформлять заказ
+* Отменен - если администратор редактирует заказ и решает 'отменить его'
+* Корзина - клиент находится в процессе покупки, но еще не оформил заказ
 
-**Payment State:**
+**Статус Оплаты:**
 
-* Balance Due- if it’s cash, or bank transfer or eftpos \(ie all non automated payments\), then the order will be ‘balance due’ by default, until admin members of the distributing enterprise manually mark that the payment has been received, at which point the payment state will change to 'Paid'.
+* Баланс - если это наличные или банковский перевод, то по умолчанию заказ будет 'Задолжность' до тех пор, пока администраторы предприятия-дистрибьютора вручную не отметят, что платеж получен, при этом указать, что состояние платежа изменится на 'Оплачен'.
 
 ![](../../.gitbook/assets/balancedue.jpg)
 
-* Paid- For automated payments \(PayPal, Stripe, PIN for instance\), the payment portal will automatically mark an order as 'paid' when it has been processed.  Non-automated payments \(cash, bank transfer etc\) will also be marked as 'paid' when manually updated. 
-* Credit Owed- If someone has paid for their order, but then you edit their order, and remove an item, the cost of that item becomes ‘credit owed’.
+* Оплачен - Для автоматических платежей \(например, PayPal\) портал оплаты автоматически помечает заказ как 'оплачен' после его обработки. Неавтоматические платежи \(наличные, банковский перевод и т.п.\) также будут помечены как 'оплачен' при обновлении вручную. 
+* Кредит- Если кто-то оплатил свой заказ, но затем вы изменили его и удалили товар, стоимость этого товара становится 'кредитом'.
 
 ![](../../.gitbook/assets/creditowed.jpg)
 
-**Shipment state:**
+**Статус доставки:**
 
-* Pending- When the payment state is ‘balance due’ the shipping state will be pending, meaning that until payment is received, shipping should not commence.
-* Ready- When payment has been received \(paid, or credit owed status\) the shipping state becomes ‘ready’.
-* Shipped- After delivery or collection, an order can be manually updated by shop/hub management \(edit order\) so that the shipment state becomes 'Shipped'.
+* В ожидании - если состояние платежа равно 'задолжность', то состояние доставки будет в состоянии ожидания, это означает, что до получения оплаты доставка не должна выполняться.
+* Готово - когда платеж получен \(оплачен или имеет кредитный статус\), состояние доставки становится 'готово'.
+* Отправлен - после доставки или сбора заказ может быть обновлен вручную менеджером магазина/центра \(редактировать заказ\), так что состояние доставки становится 'Отправлен'.
 
 {% hint style="warning" %}
+Вы можете ТОЛЬКО вручную обновить заказ до 'Отправлен', если состояние платежа 'Оплачен' или «Кредит принадлежит»  
 You can ONLY manually update an order to 'Shipped' if the payment state is 'Paid' or 'Credit Owed'
 {% endhint %}
 
