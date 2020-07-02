@@ -43,7 +43,7 @@
     * [Просмотр Заказов](basic-features/orders/view-orders.md)
     * [Создание заказов вручную](basic-features/orders/create-orders-manually.md)
     * [Возврат и Корректировка Платежей](basic-features/orders/refund-payments.md)
-    * [Thermally printed receipts](basic-features/orders/thermally-printed-receipts.md)
+    * [Термально напечатанные квитанции](basic-features/orders/thermally-printed-receipts.md)
   * [Subscriptions](basic-features/subscriptions/README.md)
     * [Configuration](basic-features/subscriptions/subscriptions-configuration.md)
     * [Subscriptions- Creating & Managing orders](basic-features/subscriptions/subscriptions-creating-and-managing-orders.md)
