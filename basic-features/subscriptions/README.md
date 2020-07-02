@@ -1,47 +1,47 @@
-# Подписки
+# Subscriptions
 
 {% hint style="info" %}
-Подписки на текущий момент в режиме 'бета', что означает, что это новая функция, которая может иметь некоторые глюки. Пожалуйста, [свяжитесь с нами ](https://www.openfoodnetwork.org/find-your-local-open-food-network/), если у вас есть какие-либо отзывы о том, что работает, что нужно улучшить или как это лучше объяснить.
+Subscriptions is in 'beta' mode, meaning it's a new feature that may still have some glitches. Please [contact us](https://www.openfoodnetwork.org/find-your-local-open-food-network/) with any feedback about what works, what needs improving or how it could be better explained.
 {% endhint %}
 
-## Что такое подписки? <a id="what-are-subscriptions"></a>
+## What are subscriptions? <a id="what-are-subscriptions"></a>
 
-Подписки - это периодические или постоянные заказы, которые можно настроить для клиентов любого Предприятия с витриной. После настройки эти заказы будут автоматически обрабатываться через определенные интервалы \(например, еженедельно, раз в две недели, ежемесячно\).
+Subscriptions are recurring or standing orders that can be set up for the customers of any Enterprise with a shopfront. Once set up, these orders will be automatically processed at defined intervals \(eg. weekly, fortnightly, monthly\).
 
 {% hint style="success" %}
-Подписки удобны для клиентов, так как они могут знать, что их заказ будет обработан без необходимости размещать заказ.
+Subscriptions are convenient for customers, as they can know that their order will be processed without needing to remember to place their order.
 {% endhint %}
 
 {% hint style="success" %}
-Подписки также правильный путь Предприятия по повышению лояльности клиентов и повышения предсказуемости объема их заказов.
+Subscriptions are also a good way for an Enterprise to boost customer loyalty and make their order volumes more predictable.
 {% endhint %}
 
-**Особенности Подписок**
+**Features of Subscriptions**
 
-* Клиенты могут выбрать, чтобы 'обычный заказ' размещался автоматически.
-* Клиенты могут настроить автоматическую оплату кредитной картой \(используя [Stripe](../shopfront/payment-methods.md#integrated-payment-providers)\) для своей подписки
-* Предприятия и/или клиенты могут приостанавливать, отменять и/или добавлять/удалять товары из своего стандартного заказа по подписке.
+* Customers can choose to have their 'usual order' placed automatically.
+* Customers can set up an automatic credit card payment \(using [Stripe](../shopfront/payment-methods.md#integrated-payment-providers)\) for their subscription
+* Enterprises and/or customers can pause, cancel and/or add/remove products from their standard subscription order.
 
-## Настройка подпискок: Пошаговое руководство
+## Set up subscriptions: Step-by-Step guide
 
-### [Конфигурация](subscriptions-configuration.md): на этой странице описаны действия, чтобы сделать ваше придприятие 'Готовым к подписке'.
+### [Configuration](subscriptions-configuration.md): this page describes the steps to make your enterprise 'Subscription Ready'
 
-* [Включите Подписки](subscriptions-configuration.md#activate-subscriptions) в ваших Настройках Предприятия.
-* Убедитесь, что у вас для клиентов настроены [методы Доставки и Оплаты](subscriptions-configuration.md#shipping-and-payment-methods-for-subscriptions)
-* [Соберите информация от своих клиентов](subscriptions-configuration.md#gather-information-from-your-customers), включая их контактные данные, какие товары они хотели бы получить в своей подписке и какие способы доставки и оплаты они будут использовать.
-* [Добавьте своих клиентов-подписчиков в список Клиентов](subscriptions-configuration.md#add-your-subscribers-to-your-customer-list) и попросите их зарегистрироваться в ОСП.
-* Настройте[ Расписания](subscriptions-configuration.md#schedules), которые будут определять частоту обработки подписок.
+* [Enable Subscriptions](subscriptions-configuration.md#activate-subscriptions) in your Enterprise Settings.
+* Make sure you have [Shipping and Payment methods](subscriptions-configuration.md#shipping-and-payment-methods-for-subscriptions) setup for customers.
+* [Gather information from your customers](subscriptions-configuration.md#gather-information-from-your-customers), including their contact details, which items they'd like in their subscription and which shipping and payment methods they'll use.
+* [Add your subscription customers to your Customers list](subscriptions-configuration.md#add-your-subscribers-to-your-customer-list), and then ask them to signup to OFN.
+* Setup [Schedules](subscriptions-configuration.md#schedules), which will dictate how frequently subscriptions are processed.
 
-### _\*\*\*\*_[**Создание и Управление Заказами**](subscriptions-creating-and-managing-orders.md): на этой странице описываются шаги, необходимые для создания новой подписки и последующей обработки заказа.
+### \*\*\*\*[**Creating and Managing Orders**](subscriptions-creating-and-managing-orders.md)**: this page describes the steps involved in actually creating a new subscription and subsequently processing the order.**
 
-* [Создайте подписки](subscriptions-creating-and-managing-orders.md#create-subscriptions) для каждого клиента.
-* [Изменение](subscriptions-creating-and-managing-orders.md#edit-a-customers-subscription), [приостановка](subscriptions-creating-and-managing-orders.md#pause-a-subscription) и [уадаление](subscriptions-creating-and-managing-orders.md#delete-a-subscription) подписок.
-* Понимание [Как подписки обрабатываются](subscriptions-creating-and-managing-orders.md#how-are-subscriptions-processed) \(например, как они появляются в вашем 'списке заказов'\)
+* [Create subscriptions](subscriptions-creating-and-managing-orders.md#create-subscriptions) for each customer.
+* [Edit](subscriptions-creating-and-managing-orders.md#edit-a-customers-subscription), [pause](subscriptions-creating-and-managing-orders.md#pause-a-subscription) and [delete](subscriptions-creating-and-managing-orders.md#delete-a-subscription) subscriptions.
+* Understand [How subscriptions are processed](subscriptions-creating-and-managing-orders.md#how-are-subscriptions-processed) \(ie how they appear in your 'order list'\)
 
-### \*\*\*\*[**Настрока Клиента**](subscriptions-the-customers-perspective.md)**: н**а этой странице описывается взгляд клиента на подписки.
+### \*\*\*\*[**Customer Set Up**](subscriptions-the-customers-perspective.md)**: this page describes a customer's perspective of subscriptions.**
 
 {% hint style="info" %}
-Если у вас возникли проблемы с настройкой подписки для вашего предприятия, вы можете посмотреть наши [Часто Задаваемые Вопросы](subscriptions-faqs.md)
+If you struggle with any aspect of setting up subscriptions for your enterprise you may like to have a look at our [Frequently Asked Questions](subscriptions-faqs.md).
 {% endhint %}
 
 ### \*\*\*\*

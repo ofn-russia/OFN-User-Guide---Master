@@ -45,7 +45,7 @@
     * [Возврат и Корректировка Платежей](basic-features/orders/refund-payments.md)
     * [Термально напечатанные квитанции](basic-features/orders/thermally-printed-receipts.md)
   * [Подписки](basic-features/subscriptions/README.md)
-    * [Configuration](basic-features/subscriptions/subscriptions-configuration.md)
+    * [Настройка](basic-features/subscriptions/subscriptions-configuration.md)
     * [Subscriptions- Creating & Managing orders](basic-features/subscriptions/subscriptions-creating-and-managing-orders.md)
     * [Subscriptions - the customer's perspective](basic-features/subscriptions/subscriptions-the-customers-perspective.md)
     * [Subscriptions - FAQs](basic-features/subscriptions/subscriptions-faqs.md)
