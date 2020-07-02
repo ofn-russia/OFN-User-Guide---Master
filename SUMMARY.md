@@ -41,7 +41,7 @@
     * [Показать только витрину](basic-features/shopfront/display-only-order-cycles.md)
   * [Заказы](basic-features/orders/README.md)
     * [Просмотр Заказов](basic-features/orders/view-orders.md)
-    * [Create orders manually](basic-features/orders/create-orders-manually.md)
+    * [Создание заказов вручную](basic-features/orders/create-orders-manually.md)
     * [Refunds and Adjusting Payments](basic-features/orders/refund-payments.md)
     * [Thermally printed receipts](basic-features/orders/thermally-printed-receipts.md)
   * [Subscriptions](basic-features/subscriptions/README.md)
