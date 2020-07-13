@@ -78,12 +78,11 @@
 {% endhint %}
 
 {% hint style="warning" %}
-Если вы хотите дебетовать клиента по его заказу на подписку с помощью Stripe, он должен быть добавлен в ваш список клиентов ДО того, как они смогут разрешить вашему предприятию принимать платежи со своей кредитной / дебетовой карты.  
-If you wish to debit a customer for their subscription order by Stripe then they must be added to your [Customer list](../shopfront/customer-management-and-conditional-displays-prices/customers.md) BEFORE they can [authorise your enterprise to take payments ](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges)from their credit/debit card.  
-Hence we recommend the following procedure:
+Если вы хотите списать средства клиента по его заказу на подписку с помощью Stripe, он должен быть добавлен в ваш [список Клиентов](../shopfront/customer-management-and-conditional-displays-prices/customers.md) ДО того, как он сможет [разрешить вашему предприятию принимать платежи](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) со своей кредитной/дебетовой карты.  
+Поэтому мы рекомендуем следующую процедуру:
 
-1. Contact the customer and obtain all the info you require \(see [above](subscriptions-configuration.md#gather-information-from-your-customers)\)
-2. Add them to your [customer list](../shopfront/customer-management-and-conditional-displays-prices/customers.md).
+1. Свяжитесь с клиентом и получите всю необходимую вам информацию \(см. [выше](subscriptions-configuration.md#gather-information-from-your-customers)\)
+2. Дбавьте его в ваш [список Клиентов](../shopfront/customer-management-and-conditional-displays-prices/customers.md).
 3. Email the customer, asking them to [register with OFN](subscriptions-the-customers-perspective.md#signing-up-to-ofn) for an account and [add their credit/debit card details](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) to that account.
 4. [Create the subscription](subscriptions-creating-and-managing-orders.md).
 {% endhint %}
