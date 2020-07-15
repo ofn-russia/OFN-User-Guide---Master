@@ -83,74 +83,73 @@
 
 1. Свяжитесь с клиентом и получите всю необходимую вам информацию \(см. [выше](subscriptions-configuration.md#gather-information-from-your-customers)\)
 2. Дбавьте его в ваш [список Клиентов](../shopfront/customer-management-and-conditional-displays-prices/customers.md).
-3. Email the customer, asking them to [register with OFN](subscriptions-the-customers-perspective.md#signing-up-to-ofn) for an account and [add their credit/debit card details](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) to that account.
-4. [Create the subscription](subscriptions-creating-and-managing-orders.md).
+3. Отправьте электронное письмо клиенту, попросив его [зарегистрироваться в ОСП](subscriptions-the-customers-perspective.md#signing-up-to-ofn) для создания учетной записи и [добавить данные своей банковской карты](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) в эту учетную запись.
+4. [Создайте подписку](subscriptions-creating-and-managing-orders.md).
 {% endhint %}
 
-## Schedules
+## Распиания
 
 {% hint style="info" %}
-If you are new to OFN we encourage you to get familiar with setting up [order cycles](../shopfront/order-cycle/) before setting up schedules and subscriptions
+Если вы новичок в ОСП, мы рекомендуем вам ознакомиться с настройкой [циклов заказов](../shopfront/order-cycle/) перед настройкой расписаний и подписок.
 {% endhint %}
 
-### About Schedules
+### О Расписаниях
 
-Subscriptions are setup so that every time an enterprise opens an order cycle, orders can be automatically generated for customers who have a subscription with that shop. The frequency with which a subscription order is placed for a particular customer \(ie which of your active order cycles triggers their subscription\) is controlled by a facility called '**Schedules**'.
+Подписки настраиваются таким образом, чтобы каждый раз, когда предприятие открывало цикл заказов, заказы, у которых есть подписка на этот магазин, могли автоматически генерироваться. Частота, с которой оформляется заказ на подписку для конкретного клиента \(т.е. какой из ваших активных циклов заказов запускает их подписку\), контролируется средством под названием '**Расписания'**.
 
-Schedules are groups that order cycle can be assigned to. Once a schedule has been created, customer subscriptions are applied to the schedule, so that an order for their subscription will only be generated for new order cycles in that schedule.
+Расписания - это группы, которым можно назначить цикл заказа. После создания расписания, подписки клиентов применяются к расписанию, поэтому заказ на их подписку будет создаваться только для новых циклов заказов в этом распиании.
 
 {% hint style="info" %}
-You may have some customers who would like a regular order every week, in which case you would add their subscriptions to a schedule which includes all of your weekly order cycles. For other groups of customers, desiring their orders only fortnightly/monthly you can create additional schedules which only include alternate/one-in-four of your weekly order cycles.
+У вас могут быть клиенты, которым нужен регулярный заказ каждую неделю, и в этом случае вы добавляете их подписки в распиание, которое включает все ваши еженедельные циклы заказов. Для других групп клиентов, желая, чтобы их заказы выполнялись только раз в две недели/в месяц, вы можете создавать дополнительные расписания, которые включают только чередование/один из четырех ваших еженедельных циклов заказов.
 {% endhint %}
 
 {% hint style="success" %}
-There's lots of flexibility in this arrangement and so feel free to experiment to come up with the order cycle-schedule combination which works best for your enterprise. For example you may wish to have 'odd week' and 'even week' schedules, 'wholesale' schedules, 'monthly meat' schedules....
+Эта схема обладает большой гибкостью, поэтому не стесняйтесь экспериментировать, чтобы найти комбинацию цикл заказов - расписание, которая лучше всего подходит для вашего предприятия. Например, вы можете захотеть иметь распиания 'нечетная неделя' и 'четная неделя', 'оптовые' распиания, расписание 'ежемесячное мясо' ....
 {% endhint %}
 
-### Create a schedule
+### Создание расписания
 
-Having completed all the steps outlined above, the **+New Schedule** button will appear at the top of your Order Cycles menu:
+Выполнив все описанные выше шаги, кнопка **+Новое Расписание** появится в верхней части меню Циклы Заказов:
 
 ![](../../.gitbook/assets/ordercycle1.jpg)
 
 {% hint style="warning" %}
-You must have at least one open or due to open order cycle to be able to create a new schedule.
+Для создания нового расписания необходимо наличие хотя бы одного открытого цикла заказа.
 {% endhint %}
 
 ![](../../.gitbook/assets/new-schedule.bin)
 
-**Name:** Give the schedule a logical name which describes this group of order cycles. E.g. ‘weekly’, ‘monthly’, ‘Tuesday Deliveries’, ‘wholesale’ or ‘retail’. This name is not visible to customers.
+**Имя**: Присвойте расписанию логическое имя, описывающее эту группу циклов заказа. Например, 'еженедельно', 'ежемесячно', 'Поставки по Вторникам', 'оптом' или 'в розницу'. Это имя не видно клиентам.
 
 {% hint style="info" %}
-If you manage several OFN enterprises, with subscriptions being enabled in more than one, then naming your schedules clearly is essential eg. weekly\_hubA, weekly\_hubB, fortnightly\_hubA, fortnightly\_hubB.  
-Each enterprise will need a different schedule but when you create a subscription for a customer the schedules for all your enterprises will be visible. Hence, the descriptive name will help you make sure the subscription is created for the correct enterprise for that particular customer.
+Если Вы управляете несколькими предприятиями ОСП, при этом подписки включены больше чем в одном, то обозначение Ваших расписаний очень важно, например. еженедельно\_центрА, еженедельно\_центрБ, двухнедельно\_центрА, двухнедельно\_центрБ. Каждому предприятию потребуется отдельное расписание, но при создании подписки для клиента расписания для всех предприятий будут видны. Следовательно, описательное имя поможет вам убедиться, что подписка создана для правильного предприятия для данного клиента.
 {% endhint %}
 
-You can add existing order cycles into and out of the new schedule by clicking the &lt; and &gt; buttons.
+Можно добавить существующие циклы заказов в новое расписание и из него, нажав кнопки &lt; и &gt;.
 
-Click **create** when you are finished.
+По завершении нажмите кнопку **Создать**.
 
-### Edit or Delete a schedule
+### Изменение или Удаление расписания
 
-To edit or delete a schedule, click on the schedule’s name next to a corresponding order cycle, in the ‘schedules’ column. \(The 'Schedules' column may need to be made visible by ticking it in the drop-down columns menu at the top right.\)
+Чтобы изменить или удалить расписание, щелкните на имя расписания рядом с соответствующим циклом заказа в столбце 'расписания'. \(Столбец 'Расписания' может потребоваться сделать видимым, установив флажок в раскрывающемся меню столбцов вверху справа.\)
 
 ![](../../.gitbook/assets/show-schedules.bin)
 
-You can change the name of the schedule, add/remove order cycles from it or delete the schedule.
+Можно изменить имя расписания, добавить/удалить из него циклы заказа или удалить расписание.
 
 ![](../../.gitbook/assets/delete-schedule.bin)
 
 {% hint style="danger" %}
-You can not delete a schedule if there are subscriptions associated with it.
+Невозможно удалить расписание, если с ним связаны подписки.
 {% endhint %}
 
-### Adding or removing order cycles from schedules
+### Добавление или удаление циклов заказа из расписаний
 
-You can add and remove order cycles from schedules by either editing the schedule \([above](subscriptions-configuration.md#edit-or-delete-a-schedule)\), or by editing the order cycle and adding/removing the schedule in the ‘schedules’ field:
+Можно добавлять и удалять циклы заказов из расписаний путем редактирования графика \([выше](subscriptions-configuration.md#edit-or-delete-a-schedule)\) или путем редактирования цикла заказа и добавления/удаления расписания в поле 'расписания':
 
 ![](../../.gitbook/assets/ordercycle3.jpg)
 
 {% hint style="success" %}
-Order cycles can be in more than one schedule. For example if your order cycles are weekly but you have three schedules \(weekly, fortnightly-odd weeks and fortnightly-even weeks\) then one order cycle might be associated with both the 'weekly' and 'fortnightly-odd' week schedules.
+Циклы заказа могут иметь несколько расписаний. Например, если циклы заказа являются еженедельными, но у вас есть три расписания \(еженедельные, двухнедельные-нечетные недели и двухнедельные-четные недели\), то один цикл заказа может быть связан как с 'недельными', так и 'двухнедельными-нечетными' недельными расписаниями.
 {% endhint %}
 
