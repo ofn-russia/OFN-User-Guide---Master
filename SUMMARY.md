@@ -47,7 +47,7 @@
   * [Подписки](basic-features/subscriptions/README.md)
     * [Настройка](basic-features/subscriptions/subscriptions-configuration.md)
     * [Подписки - Создание заказов и Управление ими](basic-features/subscriptions/subscriptions-creating-and-managing-orders.md)
-    * [Subscriptions - the customer's perspective](basic-features/subscriptions/subscriptions-the-customers-perspective.md)
+    * [Подписки - со стороны клиента](basic-features/subscriptions/subscriptions-the-customers-perspective.md)
     * [Subscriptions - FAQs](basic-features/subscriptions/subscriptions-faqs.md)
   * [Reports](basic-features/reports.md)
   * [Groups](basic-features/groups/README.md)
