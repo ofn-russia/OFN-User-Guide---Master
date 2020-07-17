@@ -48,7 +48,7 @@
     * [Настройка](basic-features/subscriptions/subscriptions-configuration.md)
     * [Подписки - Создание заказов и Управление ими](basic-features/subscriptions/subscriptions-creating-and-managing-orders.md)
     * [Подписки - со стороны клиента](basic-features/subscriptions/subscriptions-the-customers-perspective.md)
-    * [Subscriptions - FAQs](basic-features/subscriptions/subscriptions-faqs.md)
+    * [Подписки - ЧаВо](basic-features/subscriptions/subscriptions-faqs.md)
   * [Reports](basic-features/reports.md)
   * [Groups](basic-features/groups/README.md)
     * [Create and manage a Group page](basic-features/groups/group-page.md)
