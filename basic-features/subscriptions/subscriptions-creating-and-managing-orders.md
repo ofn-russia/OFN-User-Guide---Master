@@ -130,57 +130,57 @@
 Если вы удалите подписку во время открытого цикла заказа, вас спросят, хотите ли вы сохранить открытый заказ клиента или же он хочет удалить текущий заказ.
 {% endhint %}
 
-### Pause a subscription
+### Приостановка подписки
 
-A customer may want to pause their order while on holiday for instance. In this case, click on the **pause** button \(two vertical lines\) to the right hand side of the subscriptions table. This will prevent all future orders in the subscription from being generated, until it is activated again.
+Клиент может захотеть приостановить свой заказ, например, в отпуске. В этом случае нажмите кнопку **паузы** \(две вертикальные линии\) справа от таблицы подписок. Это предотвратит создание всех будущих заказов в подписке, пока она не будет активирована снова.
 
 ![](../../.gitbook/assets/pausesub.jpg)
 
-To un-pause \(re-activate\) a subscription, click on the **play** \(arrow\) button.
+Чтобы отменить \(повторно активировать\) подписку, нажмите кнопку **воспроизведения** \(стрелка\).
 
 {% hint style="warning" %}
-If you pause a subscription while an order cycle is still open, you'll be asked whether you'd like to keep the current order or not.
+Если вы приостановите подписку, когда цикл заказа еще открыт, вас спросят, хотите ли вы сохранить текущий заказ или нет.
 
-Subscriptions re-activated in the middle of an open order cycle will generate orders immediately.
+Подписки, повторно активированные в середине цикла открытого заказа, будут сразу генерировать заказы.
 {% endhint %}
 
-## How are subscriptions processed?
+## Как обрабатываются подписки?
 
-You have set up a subscription for a customer. What happens now, each time an order cycle opens and closes?
+Вы настроили подписку для клиента. Что происходит сейчас, каждый раз, когда цикл заказа открывается и закрывается?
 
-### **Order Cycle belonging to the subscription schedule opens:**
+### Цикл заказа, принадлежащий расписанию подписки, открывается:
 
-* Your customer's order will be created immediately.  They will receive an email notifying them of this.
-* Stock levels of products ordered by the subscription will be deducted accordingly at this time.
-* An email will be sent to the [manager of the enterprise](../enterprise-profile/enterprise-settings.md#users) coordinating the order cycle concerned summarising how many subscription have been placed, and how many had issues \(e.g. insufficient stock\). 
-* If your enterprise is configured such that 'Orders can be changed/canceled while an order cycle is open' \(see [here](subscriptions-configuration.md#activate-subscriptions)\) then customers with a subscription generated order can edit or cancel.
+* Заказы вашего клиента будут немедленно созданы. Он получит электронное письмо с уведомлением об этом.
+* В это время уровень запасов товаров, заказанных по подписке, будет вычтен соответствующим образом.
+* [Менеджеру предприятия](../enterprise-profile/enterprise-settings.md#users), координирующему соответствующий цикл заказа, будет отправлено электронное письмо, в котором будет указано, сколько подписок было размещено и у скольких возникли проблемы \(например, недостаточный запас\).
+* Если ваше предприятие настроено таким образом, что 'Заказы могут быть изменены/отменены во время открытого цикла заказа' \(см. [здесь](subscriptions-configuration.md#activate-subscriptions)\), тогда клиенты с подписанным заказом могут редактировать или отменять.
 
 {% hint style="info" %}
-Note, if you create a subscription while there's an open order cycle in the schedule, _an order will be immediately created_ for that subscriber.
+Обратите внимание, если вы создаете подписку, когда в расписании есть открытый цикл заказа, для этого подписчика _будет немедленно создан заказ_.
 {% endhint %}
 
-### **The Order Cycle Closes**
+### Цикл Заказа Закрывается
 
-* When the Order cycle closes the subscription orders will be _confirmed_.  Customers will be sent an _order confirmation email_.
-* Customers who opted to pay for their subscription by Stripe will have their credit/debit card debited at this point.
-* An email will be sent to the [manager of the enterprise](../enterprise-profile/enterprise-settings.md#users) coordinating the order cycle concerned confirming how many subscription have been processed. It will also detail possible errors \(eg. a credit card that couldn't be billed\).
+* Когда цикл Заказов завершится, заказы на подписку будут _подтверждены_. Клиентам будет отправлено _письмо с подтверждением заказа_.
+* Клиенты, которые решили оплатить свою подписку с помощью Stripe, в этот момент с их карты будут списаны средства.
+* [Менеджеру предприятия](../enterprise-profile/enterprise-settings.md#users), координирующему соответствующий цикл заказа, будет отправлено электронное письмо, подтверждающее, сколько подписок было обработано. Это также детализирует возможные ошибки \(например, банковская карта, которая не могла быть обработана\).
 
-### Planning for future subscriptions
+### Планирование будущих подписок
 
-There are several ways in which you may opt to plan future order cycles for your enterprise, now that you offer customers the option of a regular automated subscription order:
+Существует несколько способов планирования будущих циклов заказов для вашего предприятия, теперь, когда вы предлагаете клиентам возможность регулярной автоматической подписки:
 
-* Create all order cycles for the season in advance. A quick way of doing this is to copy an order cycle and modify open/closing dates and name to span the period of time desired.  Add order cycles to the subscription schedules as desired.
+* Заранее создайте все циклы заказов на сезон. Быстрый способ сделать это - скопировать цикл заказа и изменить даты открытия/закрытия и имя, чтобы охватить желаемый период времени. Добавьте циклы заказа к подписке по расписанию, если желаете.
 
 {% hint style="info" %}
-If you set up lots of order cycles in advance, be sure to check with your suppliers about seasonal availability of items!
+Если вы заранее настроили большое количество циклов заказов, обязательно проконсультируйтесь с поставщиками о сезонной доступности товаров!
 {% endhint %}
 
-* Create order cycles on a weekly \(or monthly\) basis. On creation, make sure you also add it to the relevant subscription schedule.
+* Создание циклов заказов на еженедельной \(или ежемесячной\) основе. При создании убедитесь, что вы также добавили его в соответствующую подписку по расписанию.
 
 {% hint style="success" %}
-Tips:
+Советы:
 
-* You may like to promote the fact you offer subscriptions. This may attract potential customers to purchase items from your enterprise. Veg Box schemes are very popular and can be replicated using the subscription functionality.
-* If you notice a number of customers order the same items regularly then offering them the option of an automated order \(subscription\) might be greatly appreciated.
+* Вы можете рекламировать тот факт, что вы предлагаете подписку. Это может привлечь потенциальных клиентов для покупки товаров на вашем предприятии. Схемы 'Коробка Овощей' очень популярны и могут быть воспроизведены с использованием функциональности подписки.
+* Если вы заметили, что несколько клиентов регулярно заказывают одни и те же товары, то им будет очень полезна возможность автоматического заказа \(подписка\).
 {% endhint %}
 
