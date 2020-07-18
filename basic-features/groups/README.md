@@ -1,8 +1,8 @@
-# Группы
+# Groups
 
-Группа представляет собой подмножество предприятий на платформе Открытая Сеть Продуктов. Страница группы действует как подкаталог в ОСП. Вы можете создать группу, указать детали своей группы и выбрать предприятия, которые входят в ее состав. Эти данные появятся на странице вашей общедоступной группы.
+A group is a subset of enterprises on the Open Food Network platform. A group page acts as a sub-directory within the OFN. You can create a group, specify the details of your group and select the enterprises which are part of it. These details will appear on your public group page.
 
-Предприятия в группе обычно имеют некоторые общие черты или характеристики. Это может быть группа предприятий, связанных с органом по сертификации, региональной группой производителей, производителями в сети фермерского рынка или сложной многоузловой сетью с несколькими дистрибьюторами и многими производителями.
+Enterprises within a group usually share some feature or characteristic in common. It could be a set of enterprises associated with a certification body, a regional producer group, producers in a farmers market network or a complex multi-hub network with several distributors and many producers.
 
-В этом разделе вы можете узнать, как [создать страницу группы и управлять ею](group-page.md), а также как [встроить страницу группы ОСП в свой веб-сайт](embed-a-group-page.md).
+In this section you can find out how to [create and manage a group page](group-page.md), and how to [embed your OFN group page in your website](embed-a-group-page.md).
 
