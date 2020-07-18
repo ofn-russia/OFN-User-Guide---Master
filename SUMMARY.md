@@ -52,7 +52,7 @@
   * [Reports](basic-features/reports.md)
   * [Группы](basic-features/groups/README.md)
     * [Создание и управление страницей Группы](basic-features/groups/group-page.md)
-    * [Embed a Group Page in a Website](basic-features/groups/embed-a-group-page.md)
+    * [Встраивание Групповой Страницы на Веб-сайт](basic-features/groups/embed-a-group-page.md)
 * [Complementary software and tools](complementary-tools-software/README.md)
   * [Newsletters & Promotional Emails](complementary-tools-software/communication.md)
   * [Accounting and Invoicing Packages](complementary-tools-software/finances/README.md)
