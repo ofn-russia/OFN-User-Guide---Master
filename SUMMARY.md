@@ -2,7 +2,7 @@
 
 * [Добро Пожаловать в Руководство Пользователя ОСП](README.md)
 * [Местные ОСП организации и контакты](local-ofn-organizations-and-contacts.md)
-* [Где мой бизнес вписывается в ОСП?](your-quick-start-on-ofn-given-who-you-are.md)
+* [Куда вписывается мой бизнес в ОСП?](your-quick-start-on-ofn-given-who-you-are.md)
 * [Краткое Руководство](quick-start-guides/README.md)
   * [Центр](quick-start-guides/multi-producers-shop-hub-quick-setup-guide.md)
   * [Магазин](quick-start-guides/producer-shop-quick-setup-guide.md)
