@@ -1,18 +1,30 @@
-# Местные ОСП организации и контакты
+# Local OFN organisations and contacts
 
-Вы можете получить доступ к платформе Открытая Сеть Продуктов на различных языках и от различных провайдеров, в зависимости от того, где вы находитесь.
+You can access the Open Food Network platform in various languages, and from various providers, depending on where you are located.
 
-Локальные организации предоставляют вам услугу "Saas" \(Программное обеспечение как услуга, поэтому вам не нужно самостоятельно развертывать и запускать код\), но вы всегда можете найти исходный код [здесь](https://github.com/openfoodfoundation/openfoodnetwork#boards?repos=6257856), так как это программное обеспечение с открытым исходным кодом, выпущенное под лицензией AGPL 3.
+The local entities provide you with a “Saas”’ service \(Software as a service, so you don’t have to deploy and run the code yourself\), but you can always find the source code [here](https://github.com/openfoodfoundation/openfoodnetwork#boards?repos=6257856), as it is an open source software released under the AGPL 3 licence.
 
-Как правило, местные структуры, которые предоставляют эту услугу Saas, также предоставляют другие услуги для поддержки в более общем плане развития местного продовольственного сектора, такие как обучение, консультирование, инкубационные программы и т.д. Свяжитесь с ними через их веб-сайт, чтобы узнать больше о них! Смотрите [здесь](https://www.openfoodnetwork.org/find-your-local-open-food-network/).
+Usually the local entities that provide this Saas service also provide other services to support more generally the development of the local food sector, like training, consulting, incubation programs, etc. Get in touch with them through their website to learn more about them ! See [here](https://www.openfoodnetwork.org/find-your-local-open-food-network/).
 
-Хотите узнать больше о том, что такое Открытая Сеть Продуктов? [Проверьте наш глобальный веб-сайт](https://www.openfoodnetwork.org/)!
+Want to learn more about what is the Open Food Network? [Check our global website](https://www.openfoodnetwork.org/)!
 
-| Местоположение | Доступ к платформе предоставлен | Ссылка на локальный доступ | Предоставленные языки локальной платформой |
-| :--- | :--- | :--- | :--- |
-
-
-| Australia | Open Food Services | [https://openfoodnetwork.org.au/](https://openfoodnetwork.org.au/) | English |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Location</th>
+      <th style="text-align:left">
+        <p>Access to platform</p>
+        <p>provided by</p>
+      </th>
+      <th style="text-align:left">Link to the local access</th>
+      <th style="text-align:left">
+        <p>Languages provided</p>
+        <p>by the local platform</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>| Australia | Open Food Services | [https://openfoodnetwork.org.au/](https://openfoodnetwork.org.au/) | English |
 | :--- | :--- | :--- | :--- |
 
 
@@ -33,9 +45,7 @@
     </tr>
   </thead>
   <tbody></tbody>
-</table>
-
-| Brasil\*\* | [REDE de Intecâmbio de Tecnologias Alternativas](http://redemg.org.br/) | Coming soon | Portuguese |
+</table>| Brasil\*\* | [REDE de Intecâmbio de Tecnologias Alternativas](http://redemg.org.br/) | Coming soon | Portuguese |
 | :--- | :--- | :--- | :--- |
 
 
@@ -53,9 +63,7 @@
     </tr>
   </thead>
   <tbody></tbody>
-</table>
-
-<table>
+</table><table>
   <thead>
     <tr>
       <th style="text-align:left">France</th>
@@ -69,9 +77,7 @@
     </tr>
   </thead>
   <tbody></tbody>
-</table>
-
-| Italy\*\* | Under construction | [https://staging.pixelwise.it/](https://staging.pixelwise.it/%20) \(testing mode\) | Italian English |
+</table>| Italy\*\* | Under construction | [https://staging.pixelwise.it/](https://staging.pixelwise.it/%20) \(testing mode\) | Italian English |
 | :--- | :--- | :--- | :--- |
 
 
@@ -98,9 +104,7 @@
     </tr>
   </thead>
   <tbody></tbody>
-</table>
-
-| South Africa | Open Food Network South Africa | [https://openfoodnetwork.org.za/](https://openfoodnetwork.org.za/) | English |
+</table>| South Africa | Open Food Network South Africa | [https://openfoodnetwork.org.za/](https://openfoodnetwork.org.za/) | English |
 | :--- | :--- | :--- | :--- |
 
 
@@ -112,5 +116,5 @@
 | :--- | :--- | :--- | :--- |
 
 
-_\*\*Локальный провайдер находится в процессе настройки локальной платформы и создания предложения и поддержки для локальных пользователей._
+_\*\*Local provider is in the process of setting up the local platform and building the offer and support to local users._
 
