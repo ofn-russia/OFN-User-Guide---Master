@@ -1,103 +1,102 @@
-# Permissions in multi-enterprise order cycles
+# Разрешения в циклах заказов нескольких предприятий
 
-This page explains the varying rights each enterprise has in the context of complex multiple enterprise order cycles. Be it:
+На этой странице объясняются различные права каждого предприятия в контексте сложных циклов заказов нескольких предприятий. Будь это:
 
-* the producer \([profile](../../../your-quick-start-on-ofn-given-who-you-are.md#profile) or [shop](../../../your-quick-start-on-ofn-given-who-you-are.md#shop)\) who supplies the order cycle only,
-* a [hub](../../../your-quick-start-on-ofn-given-who-you-are.md#hub) which distributes goods only,
-* or a hub which [coordinates](permissions-in-multi-enterprise-order-cycles.md#the-coordinator) the order cycle \(and may or may not also supply or distribute goods\).
+* производитель \([профиль](../../../your-quick-start-on-ofn-given-who-you-are.md#profile) или [магазин](../../../your-quick-start-on-ofn-given-who-you-are.md#shop)\), который поставляет только цикл заказа.
+* [центр](../../../your-quick-start-on-ofn-given-who-you-are.md#hub), который только распространяет товары.
+* или центр, который [координирует](permissions-in-multi-enterprise-order-cycles.md#the-coordinator) цикл заказа \(также может или нет поставлять или распространять товары\)
 
-For more details about simple order cycles involving a single producer selling their own stock only \([producer shop](../../../your-quick-start-on-ofn-given-who-you-are.md#shop)\), see [here](order-cycles-for-producers.md).
+Для получения дополнительной информации о простых циклах заказа с участием одного производителя, продающего только свои собственные товары \([магазин производителя](../../../your-quick-start-on-ofn-given-who-you-are.md#shop)\), см. [здесь](order-cycles-for-producers.md).
 
-_**The coordinator has the highest degree of control over an order cycle. Other enterprises can view the order cycles they are involved in, but only edit settings which affect them.**_
+_**Координатор имеет высшую степень контроля над циклом заказа. Другие предприятия могут просматривать циклы заказов, в которых они участвуют, но редактировать только те настройки, которые на них влияют.**_
 
-## The Coordinator
+## Координатор
 
 {% hint style="info" %}
-**Full order cycle functionality** can only be obtained if an enterprise is registered as a [Hub](../../../your-quick-start-on-ofn-given-who-you-are.md#hub). To change your enterprise type see [here](../../enterprise-profile/package-types.md#changing-your-profile-type).
+**Функциональность полного цикла заказа** может быть получена только в том случае, если предприятие зарегистрировано как [Центр](../../../your-quick-start-on-ofn-given-who-you-are.md#hub). Чтобы изменить тип вашего предприятия см. [здесь](../../enterprise-profile/package-types.md#changing-your-profile-type).
 {% endhint %}
 
 {% hint style="warning" %}
-Once an order cycle has been created it is not possible to change the coordinator.
+После создания цикла заказа нельзя изменить координатора.
 {% endhint %}
 
-The Coordinator of an [Order Cycle](order-cycles-for-hubs.md) can:
+Координатор [Цикла Заказа](order-cycles-for-hubs.md) может:
 
-* Create the order cycles
-* Set and edit the name of the order cycle as well as the opening and closing dates.
-* Apply enterprise fees to all products \(coordinator fee\), to products supplied by producers \(in the [incoming](permissions-in-multi-enterprise-order-cycles.md#incoming) section\), and/or to products distributed by hubs \(in the [outgoing](permissions-in-multi-enterprise-order-cycles.md#outgoing) section\).
+* Создавать циклы заказа
+* Установать и изменять название цикла заказа, а также даты открытия и закрытия.
+* Применять сборы предприятия ко всем товарам \(сбор координатора\), к товарам, поставляемым производителями \(во [входящем](permissions-in-multi-enterprise-order-cycles.md#incoming) разделе\) и/или к товарам, распространяемым через центры \(в [исходящем](permissions-in-multi-enterprise-order-cycles.md#outgoing) разделе\).
 
-### **Incoming**
+### **Входящие**
 
-* The coordinator can add enterprises as suppliers. However, to do this the supplying enterprise \(registered as a [Producer](../../enterprise-profile/package-types.md#for-producers) with OFN\) must have granted the coordinating hub [permission to add their products to an order cycle](../../enterprise-profile/enterprise-to-enterprise-permissions-e2es.md#granting-and-managing-permissions).
-* The coordinator can select all or a subset of products from their suppliers that they wish include in the order cycle.
-* The coordinator can apply differential [enterprise fees](../enterprise-fees.md) to each supplier. For example, they may wish to charge a supplying butcher a higher rate \(to cover the extra cost of refrigerated transport\) than a baker.
+* Координатор может добавить предприятия в качестве поставщиков. Однако, чтобы сделать это, предприятие-поставщик \(зарегистрированное как [Производитель](../../enterprise-profile/package-types.md#for-producers) в ОСП\) должно предоставить центру-координатору [разрешения для добавления своих товаров в цикл заказа.](../../enterprise-profile/enterprise-to-enterprise-permissions-e2es.md#granting-and-managing-permissions)
+* Координатор может выбрать все или подмножество товаров от своих поставщиков, которые они хотят включить в цикл заказа.
+* Координатор может применять дифференцированные [сборы предприятия ](../enterprise-fees.md)для каждого поставщика. Например, они могут взимать с мясника-поставщика более высокую ставку \(чтобы покрыть дополнительные расходы на транспортировку в холодильнике\), чем с пекаря.
 
   \*\*\*\*
 
-### **Outgoing**
+### **Исходящие**
 
-The coordinator can choose which enterprises the products listed in an order cycle are distributed through \(including themselves\).
+Координатор может выбрать, на какие предприятия распространяются товары, перечисленные в цикле заказов \(включая их самих\).
 
-To do this each potential distributor must be:
+Для этого каждый потенциальный дистрибьютор должен быть:
 
-1. Registered as a [Hub](../../../your-quick-start-on-ofn-given-who-you-are.md#hub).
-2. Have granted the coordinating hub [permission to add products](../../enterprise-profile/enterprise-to-enterprise-permissions-e2es.md#granting-and-managing-permissions) to an order cycle.
-3. Have at least one active [shipping](../shipping-methods.md) and [payment](../payment-methods.md) method. 
+1. Зарегистрирован как [Центр](../../../your-quick-start-on-ofn-given-who-you-are.md#hub).
+2. Центру-координатору предоставлено [разрешение на добавление товаров](../../enterprise-profile/enterprise-to-enterprise-permissions-e2es.md#granting-and-managing-permissions) в цикл заказа.
+3. Иметь хотя бы один активный способ [доставки ](../shipping-methods.md)и [оплаты](../payment-methods.md).
 
 {% hint style="info" %}
-If a potential distributing enterprise appears in the list of possible options in the outgoing section of the order cycle but can not be selected then it is probable that they haven't set up shipping and/or payment methods yet.
+Если потенциальное предприятие-дистрибьютор появляется в списке возможных вариантов в исходящем разделе цикла заказа, но не может быть выбрано, тогда, возможно, они еще не настроили способы доставки и/или оплаты.
 {% endhint %}
 
-The coordinator can choose from the complete list of incoming products, which will be displayed on each distributing Hub's shopfront. _**The supplier \(producer profile or shop\) must have set up an**_ [_**enterprise permission**_](../../enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) _**of 'add to order cycle' between themselves and the specific distributing hub \(as well as the coordinator\)**_.
+Координатор может выбрать из полного списка поступающих товаров, который будет отображаться на каждой витрине Центра.   
+_**Поставщик \(профиль производителя или магазин\) должен установить**_ [_**разрешения предприятия**_](../../enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) _**на 'добавление в цикл заказа' между собой и конкретным распределительным центром \(а также координатором\).**_
 
-The coordinator can apply differential [enterprise fees](../enterprise-fees.md) to each distributing hub if desired. This might be advantageous if one hub is further away from the coordinator than another, and hence would have a higher transport overhead associated with it.
+При желании координатор может применять различные [сборы приедприятия](../enterprise-fees.md) к каждому распределительному центру. Это может быть выгодно, если один центр находится дальше от координатора, чем другой и следовательно, будет иметь более высокие транспортные издержки, связанные с ним.
 
-## Supplying \(Incoming\) Enterprises
+## Предприятия Поставщики \(Входящие\)
 
-The supplier \([producer](../../enterprise-profile/package-types.md#for-producers)\) can view all the order cycles they’re involved with by visiting the order cycle summary page \(from the top horizontal blue menu\), even if they haven't created the order cycles themselves.  
-By clicking on the order cycle an incoming producer can see their details only, not the products or details of others involved in the order cycle. They can edit items relating to themselves: for example they can remove a product which is out of stock from an order cycle.  
-A supplying enterprise can not alter the name nor dates of an order cycle.
+Поставщик \([проивзодитель](../../enterprise-profile/package-types.md#for-producers)\) может просмотреть все циклы заказов, с которыми он связан, посетив страницу сводной информации о циклах заказов \(из верхнего горизонтального синего меню\), даже если он не создавал циклы заказов. При нажатии на цикл заказа, входящий производитель может видеть только свои данные, а не товары или детали других, участвующих в цикле заказа. Они могут редактировать позиции, относящиеся к себе: например, они могут удалить товар  из цикла заказа, которого нет на складе. Предприятие-поставщик не может изменить ни название, ни дату цикла заказа.
 
-In the Reports section \(top horizontal blue menu\) an incoming supplying producer can view the orders they have received for the order cycle
+В разделе Отчеты \(верхнее горизонтальное синее меню\) входящий производитель-поставщик может просмотреть заказы, которые он получил за цикл заказов.
 
 {% hint style="warning" %}
-An incoming supplying enterprise can not see the names of customers who bought their products if they are not also the order cycle coordinator. We hope in future updates of the platform to include this functionality.
+Предприятие-поставщик не может видеть имена клиентов, которые купили их продукцию, если они не являются также координатором цикла заказа. Мы надеемся, что в будущих обновлениях платформы эта функциональность будет включена.
 {% endhint %}
 
-### **Incoming**
+### **Входящие**
 
-* A supplier can view, add and remove _**their**_ products from the 'Incoming Products' section of an order cycle.
-* A supplier can add/remove enterprise fees which are applied to _**their**_ products in the 'Incoming Products' section of the order cycle.  This might be useful for producers who supply several hubs, some of which are much further away from them than others. They may wish to add an extra levy to more distant hubs to cove transport costs.
+* Поставщик может просматривать, добавлять и удалять _**свои**_ товары из раздела 'Входящие Товары' цикла заказа.
+* Поставщик может добавить/удалить сборы предприятия, которые применяются к его товарам, в разделе 'Входящие Товары' цикла заказа. Это может быть полезно для производителей, которые поставляют в несколько центров, некоторые из которых гораздо дальше от них, чем другие. Они могут пожелать добавить дополнительный сбор в более отдаленные центры, чтобы покрыть транспортные расходы.
 
-### **Outgoing**
+### **Исходящие**
 
-The degree of influence a supplier has over their products in the 'Outgoing Products' section of an order cycle depends on the specific enterprise permissions they granted the distributing hub and vice versa.
+Степень влияния поставщика на свои товары в разделе 'Исходящие Товары' цикла заказа зависит от конкретных разрешений предприятия, которые он предоставил распределительному центру и наоборот.
 
-* If the distributing hub granted the supplying producer \(profile, shop or hub\) the right to 'add to \[the hub's\] order cycle' then the supplier can view, add and remove products from the list in the 'Outgoing Products' section of the order cycle.
-* If the distributing hub did not grant the supplying producer \(profile, shop or hub\) the right to 'add to \[the hub's\] order cycle' then the supplier can view but NOT add and remove products from the list in the 'Outgoing Products' section of the order cycle.
-* A supplier is never able to change the pickup/delivery details, or the enterprise fees applied to the distributor.
+* Если распределительный центр предоставил производителю-поставщику \(профилю, магазину или центру\) право 'добавить к \[центру\] цикл заказа', то поставщик может просматривать, добавлять и удалять товары из списка в разделе 'Исходящие Товары' цикла заказа..
+* Если распределительный центр не предоставил производителю-поставщику \(профилю, магазину или концентратору\) право 'добавлять в \[центр\] цикл заказа', то поставщик может просматривать, но НЕ добавлять и удалять товары из списка в 'Исходящих Товарах' раздела цикла заказа.
+* Поставщик не может изменить детали получения/доставки или сборы предприятия, применяемые к дистрибьютору.
 
-## Distributing \(Outgoing\) Enterprise
+## Предприятие Дистрибьютор \(Исходящие\)
 
-A distributor can view Order Cycles they’re involved with in their Order Cycle summary page, even if they did not create them themselves \(ie. they are not the order cycle coordinator\).  
-By clicking on an order cycle, the outgoing distributing enterprise can see the details of an order cycle which relate to them only. \(For example, if they are not the sole distributor of the order cycle they will not be able to see who the other distributing enterprises are nor the products they will offer on their shop front.\)  
-The outgoing distributing hub can view and edit details of their distribution- delivery dates and methods, and enterprise fees for distribution- but no the name nor period of the order cycle itself.
+Дистрибьютор может просматривать Циклы Заказов, с которыми он связан, на своей сводной странице Цикла Заказов, даже если он сам их не создавал \(т.е. не является координатором цикла заказов\).  
+Нажав на цикл заказа, исходящее предприятие-дистрибьютор может увидеть детали цикла заказа, которые относятся только к нему. \(Например, если оно не являются единственным дистрибьютором цикла заказа, оно не сможет увидеть, кто другие предприятия-дистрибьюторы или товары, которые они предлагают в своем магазине.\)  
+Исходящий центр дистрибьютор может просматривать и редактировать детали своих дат и способов доставки, а также сборы предприятия за распространение, но не может менять ни название, ни период самого цикла заказа.
 
-In the 'Reports' menu, a order cycle distributor can view the orders which have been placed \(along with customer names\) to aid delivery/dispatch of goods.
+В меню 'Отчеты' дистрибьютор цикла заказов может просматривать размещенные заказы \(вместе с именами клиентов\), чтобы облегчить доставку/отправку товара.
 
-### **Incoming**
+### **Входящие**
 
-A distributor can _**view**_ the incoming products of supplier who have granted them the enterprise permission 'add to order cycle' but they can not edit stock levels/availability nor apply/remove producer specific enterprise fees.
+Дистрибьютор может **просматривать** входящие товары поставщика, который предоставил им разрешение предприятия 'добавить в цикл заказа', но они не могут редактировать уровни запасов/доступность, а также применять/удалять специфические для производителя сборы предприятия.
 
 {% hint style="warning" %}
-At present, only the coordinator of an order cycle can add extra suppliers \(producers\) to it.
+В настоящее время только координатор цикла заказа может добавить к нему дополнительных поставщиков \(производителей\).
 {% endhint %}
 
-### **Outgoing**
+### **Исходящие**
 
-The degree of influence the distributing hub has over the products in the 'outgoing products' section of an order cycle, depends on the enterprise permissions between them and the supplying producer.
+Степень влияния центра-дистрибьютора на товары в разделе эисходящие продукты' цикла заказа зависит от разрешений предприятия между ним и производителем-поставщиком.
 
-* The distributing hub can add/remove products from its outgoing exchange. This only applies to product from producers who been added to the order cycle by the coordinator, and have granted the distributor the enterprise permission 'add to order cycle'.
-* Can change the pickup/delivery details
-* Can add/remove their enterprise fee
+* Центр-дистрибьютор может добавлять/удалять товары из своего исходящего обмена. Это относится только к товару от производителей, которые были добавлены в цикл заказов координатором и предоставили дистрибьютору разрешение предприятия 'добавить в цикл заказов'.
+* Можно изменить детали самовывоза/доставки
+* Может добавить/удалить свой сбор предприятия
 

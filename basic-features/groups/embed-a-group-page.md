@@ -1,52 +1,52 @@
-# Embed a Group Page in a Website
+# Встраивание Групповой Страницы на Веб-сайт
 
-It is now possible to embed a group page into a website external to OFN. Here you will find step by step instructions for setting this up. This feature is relatively new, and has not been comprehensively tested across all platforms. Please [contact your local OFN ](https://www.openfoodnetwork.org/find-your-local-open-food-network/)if you experience issues with embedding a group page in your website.
+Теперь можно встраивать страницу группы в веб-сайт, внешний по отношению к ОСП. Здесь вы найдете пошаговые инструкции по настройке. Эта функция является относительно новой и не была всесторонне протестирована на всех платформах. Пожалуйста, [свяжитесь с вашим местным ОСП](https://www.openfoodnetwork.org/find-your-local-open-food-network/), если у вас возникли проблемы с встраиванием страницы группы на вашем веб-сайте.
 
-## Pre-requisites for Embedding a Group Page
+## Предварительные условия для Встраивания Страницы Группы
 
-### Platform
+### Платформа
 
-It is possible to embed a group page on any website where you can add custom html to the destination page, including platforms such as WordPress, Squarespace or Wix.
+Можно встроить страницу группы на любом веб-сайте, где можно добавить пользовательский html на страницу назначения, включая такие платформы, как WordPress, Squarespace или Wix.
 
-Below are some platform specific resources:
+Ниже приведены некоторые ресурсы, специфичные для платформы:
 
-* [Go to Squarespace](https://support.squarespace.com/hc/en-us/articles/206543167) for more information about adding custom html using “codeblocks” 
+* Для дополнительной информации о добавлении пользовательского html с помощью "кодовых блоков",  [перейдите на Squarespace](https://support.squarespace.com/hc/en-us/articles/206543167)
 
-### Security
+### Безопасность
 
-Because OFN is an eCommerce platform, and handles monetary transactions, it has a higher security requirement than some websites. Therefore, you’ll need to have SSL/TLS set up on the website you want to embed your group page into. You can get a free security certificate from [Let’s Encrypt](https://letsencrypt.org/) or for around $10-$30 for other paid service.
+Поскольку ОСП является платформой электронной коммерции и обрабатывает денежные операции, она имеет более высокое требование к безопасности, чем некоторые веб-сайты. Поэтому необходимо настроить SSL/TLS на веб-сайте, в который необходимо встроить страницу группы. Вы можете получить бесплатный сертификат безопасности от [Let’s Encrypt](https://letsencrypt.org/) или примерно за $10-$30 на другом платном сервисе.
 
-### OFN Group page
+### ОСП страница Группы
 
-Before proceeding, you should complete [setting up your group page on the Open Food Network](group-page.md). You’ll need to know your OFN group page URL to complete the setup steps below.
+Прежде чем продолжить, необходимо завершить [настройку вашей групповой страницы в Открытой Сети Продуктов](group-page.md). Чтобы выполнить следующие действия по настройке, необходимо знать URL-адрес страницы группы ОСП.
 
-## How to Embed a Group Page
+## Как встроить страницу группы
 
-**1\) Contact your local OFN team**
+**1\) Свяжитесь с вашим местным ОСП**
 
-First of all, you’ll need to contact [your local OFN team](https://openfoodnetwork.org/ofn-local/) and let them know you want to embed your OFN group page in your website. You’ll need to provide them with your external domain. eg. regionalgroup.com.au so they can grant permission for your website to communicate with OFN.
+Прежде всего, вам нужно будет связаться с [вашей местной командой ОСП](https://openfoodnetwork.org/ofn-local/) и сообщить им, что вы хотите внедрить свою страницу группы ОСП на вашем личном сайте. Необходимо предоставить им имя вашего внешнего домена, например regionalgroup.ru, чтобы они могли разрешить вашему веб-сайту обращаться к ОСП.
 
-**2\) Adding Custom HTML to your website**
+**2\) Добавление Пользовательского HTML в ваш веб-сайт**
 
-Embedding your group page is as simple as inserting a line of code into your website. Below is an example of the HTML that you should insert into the page where you want to embed your OFN group page. You will need to replace ‘flavour-crusader’ with your shop’s unique OFN permalink.
+Встраивание страницы группы так же просто, как вставка строки кода на ваш веб-сайт. Ниже приведен пример HTML-кода, который следует вставить на страницу, куда необходимо встроить страницу группы ОСП. Вам нужно будет заменить 'regional-hub' на уникальную постоянную ОСП-ссылку вашего магазина.
 
 ```text
-<iframe src="/groups/flavour-crusader?embedded_shopfront=true"style="width:100%;min-height:35em"></iframe>
+<iframe src="/groups/regional-hub?embedded_shopfront=true"style="width:100%;min-height:35em"></iframe>
 ```
 
-Once you’ve done this, you should see your OFN group page appear within your website at the location where you inserted the HTML.
+После этого страница группы ОСП появится на веб-сайте в месте вставки HTML.
 
-NOTE: See the instructions on [creating and managing a group page](group-page.md) to find out how to edit your unique OFN permalink.
+ПРИМЕЧАНИЕ: Смотрите инструкции по [созданию и управлению страницей группы](group-page.md), чтобы узнать, как редактировать вашу уникальную постоянную ссылку ОСП.
 
-**3\) Styling**
+**3\) Оформление**
 
-Depending on the styling of your website you may need to edit the CSS. If you are not familiar with CSS you may need to engage the services of your website administrator. CSS may be needed to avoid having two scroll bars, and to make sure the length and width of the embedded group page is visually appealing. Make sure to test the display of your group page on a mobile device as well as this may require further changes.
+В зависимости от стиля вашего веб-сайта может потребоваться редактирование CSS. Если вы не знакомы с CSS, возможно, вам потребуется воспользоваться услугами администратора веб-сайта. CSS может потребоваться, чтобы избежать наличия двух полос прокрутки и убедиться, что длина и ширина встраиваемой страницы группы является визуально привлекательной. Проверьте отображение страницы группы на мобильном устройстве, т.к. это может потребовать дальнейших изменений.
 
-## Instructions for Visitors
+## Инструкции для Посетителей
 
 ### Cookies
 
-Most people have cookies enabled on their web browsers. But if a visitor doesn’t enable cookies they may see an error message similar to the one below, and not be able to view the embedded group.
+У большинства пользователей в веб-браузерах включены файлы cookie. Но если посетитель не включает файлы cookie, он может увидеть сообщение об ошибке, похожее на приведенное ниже и не сможет просмотреть встроенную группу.
 
 ![](../../.gitbook/assets/cookies.png)
 

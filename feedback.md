@@ -1,10 +1,10 @@
-# Feedback
+# Обратная связь
 
-Do you have an idea for how a feature could be improved?
+У вас есть идея, как можно улучшить функцию?
 
-Is there something you need help with that you can't find in the guide?
+Вам нужна помощь, которую вы не можете найти в руководстве?
 
-Please get in touch, we're here to help.
+Пожалуйста, свяжитесь, мы здесь, чтобы помочь.
 
-Email: hello@openfoodnetwork.org
+Email: hello@openfoodnetwork.ru
 

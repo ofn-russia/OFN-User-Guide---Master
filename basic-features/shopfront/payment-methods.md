@@ -1,92 +1,92 @@
-# Payment Methods
+# Методы Оплаты
 
 {% hint style="danger" %}
-You **must** create at least one payment method before you can open your shop.
+Вы **должны** создать хотя бы один способ оплаты, прежде чем открыть свой магазин.
 {% endhint %}
 
-Before you read on, you might like to look at a quick demonstration of how to set up your first payment method:
+Прежде чем читать дальше, вам может понадобиться краткая демонстрация того, как настроить свой первый способ оплаты:
 
 ![](../../.gitbook/assets/paymentmethod.gif)
 
-## Setting up a Payment Method
+## Настройка Спопоба Оплаты
 
-* Go to the Payment Methods page by clicking on **Enterprises** in the blue horizontal menu, and then click **Settings** next to your enterprise. The **Payment Methods** page is found in the menu on the left hand side.
-* Click **Create new payment method +** . You will be directed to a page like this:
+* Перейдите на страницу **Способы оплаты**, нажав **Предприятия** в синем горизонтальном меню, а затем нажмите **Настройки** рядом с вашим предприятием. Страница **Способы оплаты** находится в меню слева.
+* Нажмите **Создать новый способ оплаты +**. Вы будете перенаправлены на такую страницу:
 
 ![](../../.gitbook/assets/paymentmethod1%20%281%29.jpg)
 
-* Tick your enterprise, in the box on the right hand side of the page titled Hubs. This indicates which enterprise the payment method you are about to create will apply to. You can select more than one enterprise.
-* **Name:** Choose a name for this payment method. \(eg 'Pay with credit card using Paypal'\). This name is displayed at checkout and on customers' order confirmation emails.
+* Отметьте свое предприятие в поле с правой стороны страницы под названием Центры. Это указывает, к какому предприятию будет применяться способ оплаты, который вы собираетесь создать. Вы можете выбрать более одного предприятия.
+* **Название**: выберите название для этого способа оплаты. \(например, 'Оплатить с помощью кредитной карты, используя Paypal'\). Это имя отображается при оформлении заказа и в электронном письме с подтверждением заказа.
 
 ![](../../.gitbook/assets/paymentmethod2.jpg)
 
-* **Description:** provide further details about the payment method. For example, for a bank transfer, you would enter the bank account details in this box into which you would like a customer to make the BACS payment. This description is displayed at checkout and in order confirmation emails.
-* **Active:** Select whether this payment method is currently visible and available, or not.
-* **Tags:** Use tag rules if you want to make certain payment methods available/unavailable for specific customers \(for example you may wish to allow only wholesale customers to pay by BACS but 'force' domestic customers to pay by Credit Card or PayPal.\). For more information read [here](customer-management-and-conditional-displays-prices/).
-* **Payment providers**: Select the option which is relevant to the payment method you are creating. There are five options:
-  * Cash / EFT / etc. \(Cash, cheque or bank transfer. These payments do not go through an online payment portal and do not involve automatic validation\) 
-  * MasterCard Internet Gateway Service \(MIGS\) 
-  * PayPal Express 
-  * [Pin Payments](https://pinpayments.com/) \(Australia only\) 
-  * Stripe
-* **Calculator:** Select how you would like any charges associated with the payment method to apply to an order. Note that payment method fees can be set to zero. See below for more information about [Payment Method Fees](payment-methods.md#fee-calculators). 
+* **Описание**: предоставьте дополнительную информацию о способе оплаты. Например, для банковского перевода вы можете ввести банковские реквизиты счета в это поле, на который клиент должен выполнить оплату. Это описание отображается при оформлении заказа и в письмах с подтверждением заказа.
+* **Активно**: выберите, будет ли данный способ оплаты видимым и доступным или нет.
+* **Метки**: используйте правила меток, если вы хотите сделать определенные способы оплаты доступными/недоступными для определенных клиентов \(например, вы можете разрешить оплату оптовым клиентам только безналичным расчетом, но "заставить" внутренних клиентов платить с помощью кредитной карты или PayPal.\). Для получения дополнительной информации читайте[ здесь](customer-management-and-conditional-displays-prices/).
+* **Платежные системы**: выберите вариант, который соответствует способу оплаты, который вы создаете. Есть пять вариантов:
+  * Наличные/Банковский перевод. \(Наличными или банковским переводом. Эти платежи не проходят через портал онлайн-платежей и не включают автоматическую проверку\) 
+  * MasterCard Интернет Шлюз \(MIGS\) 
+  * PayPal Express
+  * [Pin Payments](https://pinpayments.com/) \(Только Австралия\). Недоступно для России
+  * Stripe. Недоступно для России
+* **Калькулятор**: выберите, каким образом любые платежи, связанные с методом оплаты, будут применяться к заказу. Обратите внимание, что сбор за метод оплаты может быть установлена в ноль. См. ниже для получения дополнительной информации о [Сборы Метода Оплаты](payment-methods.md#fee-calculators)
 
-By clicking Create, the payment method will be created and you will have new fields to define payment method fees. These fields visible depend on which 'Calculator' you selected.
+При нажатии кнопки Создать будет создан способ оплаты и у вас появятся новые поля для определения комиссий за способ оплаты. Видимые поля зависят от того, какой Калькулятор вы выбрали.
 
 {% hint style="info" %}
-If you change the Payment Method fee 'Calculator' field you must first save your changes \(Update\) for the new associated fields to become visible.
+Если вы измените поле Калькулятор в поле сборы Способа оплаты, вы должны сначала сохранить изменения \(Обновить\), чтобы новые связанные поля стали видимыми.
 {% endhint %}
 
-## Integrated Payment Providers
+## Интегрированные Платежные Системы
 
-For Paypal, MasterCard, Stripe and Pin Payments \(Australia only\) additional instructions are below.
+Для Paypal, MasterCard ниже дополнительные инструкции.
 
 {% tabs %}
 {% tab title="Paypal" %}
-To setup a PayPal payment method, you need a PayPal business or merchant account. You can create one [here](https://www.paypal.com/au/webapps/mpp/merchant). Once you have that, you can set up ‘API access’ within PayPal, which will enable OFN to connect customers directly with your PayPal account.
+Чтобы настроить способ оплаты PayPal, вам понадобится коммерческая или торговая учетная запись PayPal. Вы можете создать его[ здесь](https://www.paypal.com/au/webapps/mpp/merchant). После этого вы можете настроить 'API доступ' в PayPal, что позволит ОСП напрямую связывать клиентов с вашей учетной записью PayPal.
 
-1. Login to your PayPal Account
-2. Under your account name on the top right there is a drop down menu with 'Account Settings'
+1. Войдите в ваш аккаунт PayPal
+2. Под именем вашей учетной записи в правом верхнем углу есть раскрывающееся меню с 'Настройки учетной записи'
 
 ![](../../.gitbook/assets/paypalmay1.jpg)
 
-1. Select 'Update' from API Access
+1. Выберите 'Update' из API Access
 
 ![](../../.gitbook/assets/paypalmay2.jpg)
 
-1. Select 'Manage API credentials' from the custom checkout experience option.
+1. Выберите 'Manage API credentials' из пользовательского варианта оформления заказа.
 
 ![](../../.gitbook/assets/paypalmay3.jpg)
 
-From here you will be able to access your API username, password and signature.
+Отсюда вы сможете получить доступ к своему имени пользователя API, паролю и подписи.
 
 ![](../../.gitbook/assets/paypalmay4.jpg)
 
-**In OFN,** make sure you are logged in as your Enterprise User. Go to an Enterprise and create a Payment Method. Select PayPal and fill in the details from the PayPal site.
+**В ОСП** убедитесь, что вы вошли как пользователь Предприятия. Перейдите на Предприятие и создайте Способ Оплаты. Выберите PayPal и введите данные с сайта PayPal.
 
-**Server:** Change the ‘server’ field to ‘live’ – this is case sensitive.
+**Server:** Измените поле ‘server’ на ‘live’ – это чувствительно к регистру.
 
-**Login:**Type the API Username.
+**Login:** Введите the API Username.
 
-**Password:**Type the API Password.
+**Password:** Введите API Password.
 
-**Signature:**Type the API Signature in this field.
+**Signature:** Введите API Signature в этом поле.
 
 ![](../../.gitbook/assets/paypal3.jpg)
 
-**Solution:** Solution determines whether or not a user needs a PayPal account to check out.
+**Solution:** Solution определяет, нужен ли пользователю аккаунт PayPal для оформления заказа.
 
-Type “Mark” if you do want users to have a paypal account, or “Sole” if they can checkout without a Paypal account \(with credit card\).
+Введите “Mark” если выхотите, чтобы пользователи имели paypal аккаунт или “Sole” если они могут оформлять заказ не имея Paypal аккаунта \(с кредитной картой\).
 
-**Landing Page:** You can select which page to show customers once they’re redirected to PayPal.
+**Landing Page:** Вы можете выбрать, какую страницу показывать клиентам, после того как они будут перенаправлены на PayPal.
 
-Type “Login” to direct customer to the login form for PayPal \(if you selected “Mark” above\). Or type “Billing” to show show customers a form where they can enter their credit card data and possibly sign up for a PayPal account \(if you selected “Sole” above\).
+Введите "Login", чтобы направить клиента к форме входа в PayPal \(если выше вы выбрали "Mark"\). Или введите "Billing", чтобы показать клиентам форму, в которой они могут ввести данные своей кредитной карты и возможно, зарегистрировать учетную запись PayPal \(если выше вы выбрали "Sole"\).
 {% endtab %}
 
 {% tab title="MIGS" %}
-MasterCard Internet Gateway Service \(MIGS\)
+MasterCard Интернет Шлюз \(MIGS\)
 
-Set up of this service needs to be done through your bank. So far it has been tested with Bendigo Bank.
+Настройка этой услуги должна быть сделана через ваш банк. Пока что это было проверено с Бендиго Банком.
 {% endtab %}
 
 {% tab title="Stripe" %}
@@ -164,49 +164,49 @@ For Pin Payments you only require your API key. You need to set up an account wi
 {% endtab %}
 {% endtabs %}
 
-## Payment Method Fees
+## Сборы Метода Оплаты
 
 ![](../../.gitbook/assets/fee-calculators.png)
 
-You can attach a fee to payment methods. Most commonly this is used to pass on a payment portal's fees to the customer. For example, you may wish to charge the customer for the convenience of paying by PayPal to cover the fee charged by PayPal.
+Вы можете прикрепить сборы к способам оплаты. Чаще всего это используется, чтобы возложить оплату комиссии платежного портала на клиента. Например, вы можете взимать с клиента плату за удобство оплаты через PayPal, чтобы покрыть плату, взимаемую PayPal.
 
 {% hint style="danger" %}
-Payment Method Fees DO NOT include tax \(VAT\)
+Сбор Метода Оплаты не включает налог \(НДС\)
 {% endhint %}
 
-### Fee Calculators
+### Калькуляторы Сбора
 
-**Flat Percent:** This fee is charged as a percentage of the total amount charged in the order.
+**Фиксированный Процент** - эта комиссия взимается в процентах от общей суммы, потраченной в заказе.
 
-**Flat Rate \(per order\):** This fee is applied as standard fee to all orders, regardless of the size of the order.
+**Фиксированный Процент \(за заказ\)** - этот сбор применяется в качестве стандартного сбора для всех заказов, независимо от размера заказа.
 
-**Flexible Rate** – This fee calculator is especially useful if you'd like to encourage customers to place large orders: the cost of payment can be reduced or zero when the threshold number of items has been reached.
+**Гибкая Ставка** - этот калькулятор сборов особенно полезен, если вы хотите поощрять клиентов размещать крупные заказы: стоимость доставки может быть уменьшена или равна нулю при достижении порогового количества товаров.
 
-* ‘First Item Cost’: The fee charged for the first item in the order.
-* ‘Additional Item Cost’: The fee charged for items beyond the first item.
-* ‘Max Items’: The maximum number of items on which the fee will be applied. Items purchased beyond this amount will be not be charged the fee.
+* 'Стоимость первого товара': сбор за первый товар в заказе.
+* 'Дополнительная стоимость товара': сбор взимаемая за товары, не входящие в первую позицию.
+* 'Максимальное количество позиций': максимальное количество предметов, на которые будет взиматься сбор. За товары, приобретенные сверх этой суммы, плата не взимается.
 
 ![](../../.gitbook/assets/paymentflex.jpg)
 
-> For Example: if the 'First Item Cost' is set to £0.20, 'Additional Item Cost' is £0.10 and 'Max Items' is 3 then a customer who purchases 5 items will be charged £0.40 in payment fees \(£0.20 for the first item, £0.10 for items two and three, and £0.00 for items four and five\).
+> Например: 'Стоимость первого товара' установлена в 0.20руб, 'Дополнительная стоимость товара' равна 0.10руб. и 'Максимальное количество позиций' равно 3, тогда клиент, покупающий 5 позиций заплатит сбор/комиссию 0.40руб\(0.20руб за первую позицию, по 0.10руб за позиции два и три и 0.00руб за позиции четыре и пять\).
 
-**Flat Rate \(per item\):** This fee is a constant fee, applied to products listed as ‘items’. \(It is not applied to products sold by weight or volume. Hence there will be no associated payment method fee charged to a customer who, for example, buys rice by kg.\)
+**Единая ставка \(за единицу\)** - эта сумма является постоянной и применяется к товарам, перечисленным как 'предметы'. \(Не применяется к товарам, продаваемым по весу или объему. Следовательно, с клиента не взимается соответствующая стоимость доставки, например, покупая рис по кг\).
 
-**Price Sack:** This is a flexible payment fee method charged by _total monetary sale_, rather than number of items purchased \(Flexible Rate above\)
+**Ценовой пакет** - это гибкий метод оплаты за доставку, который определяется _общей суммой продаж_, а не количеством приобретенных товаров \(Гибкая Ставка выше\)
 
-* ‘Minimum Amount’: Monetary value of the threshold between Normal Payment Method fee and Discounted Payment Method fee. 
-* 'Normal Amount': Payment Method fee applied to sales below the threshold stated in 'Minimum Amount'.
-* ‘Discount Amount’: Payment Method fee applied to sales above the threshold stated in 'Minimum Amount'.
+* 'Минимальная сумма': Денежное значение порога между Обычной стоимостью доставки и стоимостью Скидки на доставку.
+* 'Обычная сумма': Стоимость доставки применяется к продажам ниже порогового значения, указанного в 'Минимальной сумме'.
+* ‘Сумма скидки’: стоимость доставки применяется к продажам, превышающим порог, указанный в 'Минимальной сумме'.
 
 ![](../../.gitbook/assets/paymentpc.jpg)
 
 {% hint style="info" %}
-Payment portals often charge businesses a fixed amount per transaction plus a small % of the total cost. Thus fees encountered by a Hub or Shop for customers who purchase the same total amount in multiple small sales will be higher than if the customer did all their shopping at once.
+Порталы оплаты часто взимают с компаний фиксированную сумму за транзакцию плюс небольшой % от общей стоимости. Таким образом, комиссионные, с которыми сталкиваются Центр или Магазин, для клиентов, которые покупают одну и ту же общую сумму в нескольких небольших покупках будут выше, чем если бы покупатель делал все свои покупки одновременно.
 
-The Flexible Rate and Price Sack calculators, applied to payment method fees, may prove useful to counter balance this.
+Калькуляторы Гибких Тарифов и Ценовых Пакетов, применяемые к сбору за метод оплаты, могут оказаться полезными для противодействия этому балансу.
 {% endhint %}
 
-## Refunds
+## Возвраты
 
-Issuing and managing refunds depends on how a customer originally paid for their order. More details are found [here](../orders/refund-payments.md).
+Выдача и управление возвратами зависит от того, как клиент изначально оплатил свой заказ. Более подробную информацию можно найти [здесь](../orders/refund-payments.md).
 
