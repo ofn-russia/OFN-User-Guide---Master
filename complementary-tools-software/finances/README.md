@@ -1,10 +1,10 @@
-# Accounting and Invoicing Packages
+# Отчетность и Пакеты Счетов
 
 {% hint style="info" %}
-This section is under development. If there are specific accounting software platforms or tools which you would like to use to help the smooth operation of your OFN enterprise please get in touch with your [local support](../../local-ofn-organizations-and-contacts.md) team.
+Этот раздел находится в стадии разработки. Если есть конкретные программные платформы или инструменты бухгалтерского учета, которые вы хотели бы использовать для обеспечения бесперебойной работы вашего предприятия ОСП, свяжитесь с [местной службой поддержки](../../local-ofn-organizations-and-contacts.md).
 {% endhint %}
 
-Step-by-step instructions for downloading OFN sale data and importing into **Xero** can be found [here](../../basic-features/reports.md#xero-invoices).
+Пошаговые инструкции по загрузке ОСП данных о продажах и импорту в Xero можно найти [здесь](../../basic-features/reports.md#xero-invoices).
 
-The option for Hubs to reimburse their supplying producers for goods supplied by **ABA files** is available for Australian OFN users only. [Read on for details on how to implement this](paying-suppliers.md).
+Возможность для Центров возмещать своим поставщикам-производителям товары, предоставленные в **файлах ABA**, доступна только для пользователей австралийского ОСП. [Читайте как это реализовать](paying-suppliers.md)
 
