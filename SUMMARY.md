@@ -61,6 +61,6 @@
   * [Facebook советы](hub-management-tips/facebook-tips.md)
   * [Your farm on Facebook](hub-management-tips/your-farm-on-facebook.md)
 * [Устранение неполадок](trouble-shooting.md)
-* [Glossary of OFN Terms](glossary-of-ofn-terms.md)
+* [Словарь терминов ОСП](glossary-of-ofn-terms.md)
 * [Feedback](feedback.md)
 
