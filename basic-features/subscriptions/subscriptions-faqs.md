@@ -1,22 +1,22 @@
-# Подписки - ЧаВо
+# Subscriptions - FAQs
 
-**Если я удалю Цикл Заказов из расписания, когда к нему уже прикреплены открытые заказы на подписку, что произойдет с этими заказами? Будут ли эти подписки удалены?**
+**If I remove an Order Cycle from a schedule when it already has open subscription orders attached to it, what will happen to those orders? Will those subscriptions get deleted?**
 
-Эти заказы останутся открытыми. В конце цикла заказа заказы на подписку будут обрабатываться как обычные заказы на подписку. Если вы хотите отменить все заказы на подписку, которые были прикреплены к этому циклу заказов, вам нужно будет [удалить каждый заказ по подписке поп отдельности](subscriptions-creating-and-managing-orders.md#edit-a-customers-subscription).
+Those orders will remain open. At the close of the order cycle the subscription orders will be processed like normal subscription orders. If you wanted to cancel all subscription orders that were attached to that order cycle you would need to [delete each subscription order individually](subscriptions-creating-and-managing-orders.md#edit-a-customers-subscription).
 
-**Если я добавлю новую подписку в середине открытого цикла заказа, будет ли создана подписка для этого клиента?**
+**If I add a new subscription in the middle of an open order cycle, will there be a subscription generated for that customer?**
 
-Да, если вы создаете подписку, когда в этом расписании есть открытый цикл заказа, для этого клиента будет создан заказ. Если вы не хотите, чтобы подписка применялась к текущему открытому циклу заказов, вам необходимо установить дату начала подписки, которая будет после закрытия этого цикла заказа.
+Yes, if you create a subscription while there is an open order cycle in that schedule, an order will be generated for that customer. If you don't want the subscription to apply to the current open order cycle you'll need to set the start date of the subscription to be after the close of that order cycle.
 
-**Что, если часть запаса доступна, но не все? Какие клиенты получают ограниченный запас?**
+**What if part of the stock is available but not all? Which customers get the limited stock?**
 
-В случае если объем товаров В Наличии? недостаточен для удовлетворения всех заказов на подписку, ограниченный запас не будет распределяться равномерно между клиентами, вместо этого он будет выполнять заказы клиентов с имеющимся запасом до тех пор, пока он не закончится. Некоторые клиенты получат свой полный заказ, другие не получат ни одного.
+In the case that a product’s In Stock? value is not adequate to meet all subscription orders, the limited stock won’t be allocated evenly across customers, instead it will fulfill customers orders with available stock until it runs out. Some customers will receive their full order, others will receive none.
 
-**Что если я поменяю подписку, пока она 'открыта'?**
+**What if I change the subscription while it’s ‘open’?**
 
-Любые изменения, которые вы вносите в основную подписку, пока открыт Цикл Заказа, будут применяться к порядку открытой подписки. Второе подтверждение по электронной почте, отправляемое клиенту в конце цикла заказа, будет отражать сделанные вами изменения. Если вы не хотите, чтобы изменения применялись к открытому заказу, вам нужно будет отредактировать подписку после закрытия цикла заказа.
+Any changes you make to the core subscription, while an OC is open, will carry on to the open subscription order. The second email confirmation going to the customer at the close of the order cycle will reflect the changes you make. If you don’t want the changes to apply to the open order, you’ll need to edit the subscription after the close of the order cycle.
 
-**Что если запас ограничен, но клиент отменит свой заказ, будет ли этот запас автоматически распределен среди других подписчиков, которые хотели получить этот товар, но не смогли получить его из-за недостаточного запаса?**
+**What if there’s limited stock, but then a customer cancels their order, will this stock get automatically allocated to other subscribers who wanted that product but couldn’t have it due to insufficient stock?**
 
-Нет, если клиент отменяет свой заказ на подписку или удаляет из него товар, этот запас будет возвращен в товары В Наличии?. Он не будет автоматически распределен среди других клиентов, но теперь вы можете добавить этот запас в заказ другого клиента вручную, [отредактировав его заказ](../orders/view-orders.md#editing-an-order).
+No, if a customer cancels their subscription order or removes a product from it, that stock will be returned to the products's In Stock? value. It won't automatically be allocated to other customers, but you could now add this stock to another customer's order manually by [editing their order](../orders/view-orders.md#editing-an-order).
 

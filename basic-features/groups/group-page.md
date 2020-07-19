@@ -1,59 +1,59 @@
-# Создание и управление страницей Группы
+# Create and manage a Group page
 
-**Что такое страница группы?** Групповые страницы - это способ коллекции предприятий, которые существуют в реальном мире, чтобы иметь свой собственный настраиваемый каталог в ОСП. Страницы групп подходят для:
+**What is a group page?** Group pages are a way for a collection of businesses which exist in the real world to have their own customisable directory on OFN. Group pages are suited to:
 
-* региональных групп производителей
-* предприятий с общей сертификацией
-* фермерских рынков
-* крупных многоузловых предприятий.
+* regional producer groups
+* enterprises with a common certification
+* farmer's markets
+* large multi-hub enterprises.
 
-Любая коллекция предприятий в ОСП может создать страницу группы.
+Any collection of enterprises on the OFN can create a group page.
 
-**Как выглядит страница группы?** Вы можете увидеть некоторые [Групповые Страницы в Открытой Сети Продуктов Австралии](https://openfoodnetwork.org.au/groups).
+**What does a group page look like?** You can see some [Group Pages on Open Food Network Australia](https://openfoodnetwork.org.au/groups).
 
-**Как создать страницу группы?** Чтобы создать группу и управлять ею, необходимо [связаться с вашим локальным ОСП](https://www.openfoodnetwork.org/find-your-local-open-food-network/), чтобы мы настроили вас как администратора.
+**How can I create a group page?** To create and manage a group, you’ll need to [contact your local OFN ](https://www.openfoodnetwork.org/find-your-local-open-food-network/)so we can set you up as an administrator.
 
-## Управление Страницей Группы
+## Managing a Group Page
 
-После того как вы будете настроены как администратор группы, вы сможете просматривать и изменять свою группу, щелкнув **Группы** в горизонтальном синем меню. Затем щелкните значок **редактирования** рядом с группой.
+Once you’ve been set up as the administrator of a group, you’ll be able to view and edit your group by clicking on **Groups** in the horizontal blue menu. Then click on the **edit** icon next to your group.
 
 ![](../../.gitbook/assets/screen-shot-2019-11-14-at-11.28.47-am.png)
 
-### **Основная Информация**
+### **Primary Details**
 
-Здесь можно ввести и изменить сведения о группе, а также изменить то, что будет отображаться на странице вашей группы в Открытой Сети Продуктов. Чтобы увидеть пример существующей страницы группы, перейдите на [Страницы Групп Открытой Сети Продуктов Австралии](https://openfoodnetwork.org.au/groups).
+This is where you can enter and edit the details of your group, and change what will appear on your group's page on the Open Food Network. To see an example of an existing group page, go to [Group Pages on Open Food Network Australia](https://openfoodnetwork.org.au/groups).
 
 ![](../../.gitbook/assets/screen-shot-2019-11-14-at-11.31.45-am.png)
 
-**Имя**: Введите имя группы для отображения в качестве заголовка страницы группы в ОСП.
+**Name:** Enter a name for your group, to appear as the title of your group page on the OFN.
 
-**Описание**: Напишите краткое описание вашей группы, чтобы появиться под заголовком вашей страницы группы в ОСП.
+**Description:** Write a brief description of your group, to appear below the title of your group page on the OFN.
 
-**На Первой странице:** Установите этот флажок, чтобы сделать вашу группу видимой в ОСП. Перед этим убедитесь, что в группу добавлены некоторые предприятия и введено содержимое в разделе О Нас. Не устанавливайте этот флажок, если страница группы еще не готова к просмотру.
+**On Front Page:** Select this check box to make your group visible on the OFN. Before you do this, make sure you have added some enterprises to your group and entered content in the About section. Do not check this box if your group page is not ready to be visible yet.
 
-Предприятия: Выберите предприятия, которые требуется добавить в группу. Можно выполнить поиск по всем предприятиям, находящимся в настоящее время в ОСП и добавить их в группу. Перед этим убедитесь, что у вас есть разрешение на добавление предприятий в группу. Обратите внимание, что если предприятие уже добавлено в группу, они больше не будут отображаться в поле поиска. Эти предприятия будут перечислены на странице вашей группы на ОСП в разделах **Наши Производители** и **Наши Центры**, и каждый список будет содержать ссылку на их профиль ОСП
+**Enterprises:** Select the enterprises that you want to add to your group. You can search through all of the enterprises currently on the OFN and add them to your group. Please make sure you have permission to add enterprises to your group before doing so. Note, if you have already added an enterprise to your group, they will no longer appear in the search box. These enterprises will be listed on your group page on the OFN in the **Our Producers** and **Our Hubs** sections, and each listing will include a link to their OFN profile
 
-**Постоянная ссылка**: Здесь можно настроить URL-адрес страницы группы. То, что вы здесь введете, будет добавлено в конец следующего URL: openfoodnetwork.ru/groups/ Например, если вы введете здесь **regional-hub**, URL-адрес страницы группы будет: openfoodnetwork.ru/groups/regional-hub
+**Permalink:** This is where you can customise the URL for your group page. What you enter here will be added to the end of the following URL: www.openfoodnetwork.org.au/groups/ For example if you enter **regional-hub** here, your group page URL will be: www.openfoodnetwork.org.au/groups/**regional-hub**
 
-### Пользователи
+### Users
 
-**Владелец**: Это владелец страницы группы. Только этот пользователь имеет право редактировать страницу и управлять предприятиями в группе. Пожалуйста, [свяжитесь с вашим локальным ОСП](https://www.openfoodnetwork.org/find-your-local-open-food-network/), если вы хотите сменить владельца вашей группы.
+**Owner:** This is the owner of the group page. Only this user has permission to edit the page and manage the enterprises in the group. Please [contact your local OFN](https://www.openfoodnetwork.org/find-your-local-open-food-network/) if you wish to change the owner of your group.
 
-### О Нас
+### About
 
-Здесь вы можете предоставить более подробную информацию о вашей группе, которая появится в разделе **О Нас** на странице вашей группы в ОСП. Кнопки форматирования можно использовать для добавления заголовков и абзацев, а также для редактирования формата и внешнего вида вводимого содержимого.
+This is where you can provide more detailed information about your group to appear in the **About Us** section of your group page on the OFN. You can use the formatting buttons to add headings and paragraphs, and edit the layout and appearance of the content you enter here.
 
-### Изображения
+### Images
 
-**Логотип**: Здесь можно добавить логотип для страницы группы. Это должно быть квадратное изображение. Оно будет отображаться на главной странице списка групп в ОСП и слева от **Заголовка** и **Описания** на странице вашей группы в ОСП.
+**Logo:** This is where you can add a logo for your group page. It should be a square image. It will show in the main group listing page on the OFN and to the left of the **Title** and **Description** on your group’s page on the OFN.
 
-**Промо-изображение**: Это изображение в стиле баннера, которое будет располагаться в верхней части страницы вашей группы. Лучше всего, если это изображение будет широким и не слишком высоким. Мы рекомендуем 1200 х 260 пикселей.
+**Promo Image:** This is a banner style image and will sit across the top of your group page. It’s best if this image is wide and not too tall. We recommend 1200 x 260 pixels.
 
-### Контакты
+### Contact
 
-Здесь можно ввести контактные данные группы, которые будут отображаться в правой части страницы группы на ОСП. Для группы можно ввести номер телефона, адрес электронной почты и физический адрес.
+This is where you can enter contact details for your group to appear on the right side of your group page on the OFN. You can enter a phone number, email address and physical address for your group.
 
-### Веб Ресурсы
+### Web
 
-Здесь вы можете предоставить ссылки на любые веб-сайты и каналы социальных сетей, которые у вас могут быть для вашей группы. Эти ссылки будут отображаться в виде URL-адресов или значков социальных сетей в правой части страницы группы на ОСП.
+This is where you can provide links to any websites and social media channels you may have for your group. These links will appear as either URLs or social media icons on the right side of your group page on the OFN.
 

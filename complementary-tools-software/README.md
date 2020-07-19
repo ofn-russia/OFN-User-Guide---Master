@@ -1,6 +1,6 @@
-# Дополнительное программное обеспечение и инструменты
+# Complementary software and tools
 
-В качестве продовольственного предприятия, работающего на платформе Открытая Сеть Продуктов, вы можете также использовать внешнее программное обеспечение для конкретных дополнительных функций. Например, для большей гибкости при выставлении счетов, более глубокого учета, маркетинга или даже анализа ваших продаж ОСП.
+As a food enterprise operating on the Open Food Network platform, you may wish to also use external software for specific, additional functionalities. For example, for increased flexibility over invoicing, more in depth accounting, marketing or even analysing your OFN sales.
 
-Некоторые пользователи уже нашли гениальные способы использования данных платформы с другим программным обеспечением, некоторые интересные способы их использования, которые мы вам опишем. Мы также постепенно развиваем возможности интеграции, поэтому не стесняйтесь обращаться к нам, если у вас есть особые потребности, чтобы мы могли их изучить!
+Some users have already found ingenious ways to use the platform's data with other software, some interesting uses of which we will describe to you. We are also gradually developing integration possibilities, so do not hesitate to contact us if you have a specific need so that we can study it!
 

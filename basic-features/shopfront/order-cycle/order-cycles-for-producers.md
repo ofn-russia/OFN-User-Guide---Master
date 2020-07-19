@@ -1,3 +1,7 @@
+---
+description: '1'
+---
+
 # Циклы Заказа \(для Магазинов\)
 
 {% hint style="warning" %}

@@ -1,3 +1,7 @@
+---
+description: '1'
+---
+
 # Профиль предприятия
 
 [Создав проифиль вашего Предприятия](../register-and-create-your-profile.md#create-your-first-enterprise-account), вы должны войти в вашу [Панель](../dashboard.md) Управления, чтобы продолжить настройку профиля вашего Предприятия.

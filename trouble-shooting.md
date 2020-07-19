@@ -1,3 +1,7 @@
+---
+description: '1'
+---
+
 # Устранение неполадок
 
 {% hint style="success" %}

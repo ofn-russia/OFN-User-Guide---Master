@@ -2,59 +2,59 @@
 
 | Язык | Ссылка на руководство пользователя |
 | :--- | :--- |
-| ![](.gitbook/assets/capture-du-2019-09-26-00-38-19.png) | [English version](https://guide.openfoodnetwork.org/) |
+| ![](.gitbook/assets/capture-du-2019-09-26-00-38-19.png) | _You are reading the English version !_ |
 | ![](.gitbook/assets/capture-du-2019-09-26-00-38-01.png) | [Accéder à la version française du guide utilisateur Open Food Network](https://ofnuserguidefr.gitbook.io/guide-utilisateur-open-food-network/) |
 | ![](.gitbook/assets/capture-du-2019-09-26-00-37-35.png) | [Accediu a la versió catalana de la guia d'usuari de Open Food Network](https://guia.katuma.org/) |
 
-**Это руководство предназначено для того, чтобы максимально эффективно использовать платформу Открытая Сеть Продуктов для поддержки работы местных продовольственных предприятий и "коротких продовольственных сетей", где бы вы ни жили.**
+**This user guide is designed to help you get the most out of the Open Food Network platform to support the operation of local food enterprises and “short food chains” wherever you live.**
 
 ## Обзор
 
-Открытая Сеть Продуктов позволяет местному населению создавать более эффективные и справедливые источники питания на местном уровне и непосредственно у садоводов, фермеров и производителей. Широкие сети мелких производителей продуктов питания, дистрибьюторов, розничных торговцев, продовольственных центров, продовольственных кооперативов и закупочных групп могут объединиться с помощью Открытой Сети Продуктов, чтобы найти наилучший способ сокращения цепочки поставок продуктов питания. И в процессе он помогает строить сильные сообщества.
+The Open Food Network enables local people to build better, fairer ways to source their food locally and directly from growers, farmers and producers. Expansive networks of small food producers, distributors, retailers, food hubs, food co-ops and buying groups can come together with the aid of the Open Food Network to find the best way of shortening the food supply chain. And in the process it helps to build strong communities.
 
-Открытая Сеть Продуктов является глобальным проектом, который оказывает поддержку оперативной организации фермеров, групп потребителей, кооперативов и т.д. в распределении местных продуктов питания. Создаваемое нами программное обеспечение с открытым исходным кодом и мы сотрудничаем с удивительными людьми со всего мира, чтобы продолжать совершенствовать его! Мы также оказываем поддержку в организационных аспектах по созданию и управлению продовольственным центром. Пожалуйста, свяжитесь с [вашим местным ОСП](local-ofn-organizations-and-contacts.md), чтобы узнать больше о нас!
+The Open Food Network is a global project that supports the operational organisation of farmers, groups of consumers, cooperatives, etc. in the distribution of local food. The software we build is open source, and we collaborate with amazing people from all over the world to keep improving it! We also provide support in the organisational aspects of setting up and running a food hub. Please get in touch with [your local OFN contact](local-ofn-organizations-and-contacts.md) to learn more about us!
 
-Это короткое видео даст вам краткое представление о том, как работает Открытая Сеть Продуктов и что мы можем сделать для вашего продовольственного бизнеса или организации.
+This short video will give you a brief introduction to how the Open Food Network works, and what we can do for your food business, or organisation.
 
 {% embed url="http://www.youtube.com/embed/eA3IcMUnU14" caption="" %}
 
-## Как использовать это руководство?
+## How to use this guide?
 
-### &gt; Краткие руководства по настройке, сделанные для вашего предприятия
+### &gt; Quick setup guides tailored to your enterprise
 
-Начните с нуля, откройте интернет-магазин, который идеально соответствует вашим потребностям [в несколько простых шагов](your-quick-start-on-ofn-given-who-you-are.md)!
+Starting scratch, open an online shop that perfectly fits your needs [in a few simple steps](your-quick-start-on-ofn-given-who-you-are.md)!
 
 {% hint style="info" %}
-Мы рекомендуем эти руководства пользователям, которые впервые начинают работать на платформе Открытая Сеть Продуктов.
+We recommend these guides to users starting out on the Open Food Network platform for the first time.
 {% endhint %}
 
-### &gt; Функции, отвечающие вашим потребностям
+### &gt; Features to meet your needs
 
-Найдите [подробное разъяснение каждой функцииe, прдлагаемой нашей платформой](basic-features/), чтобы вы могли настроить свое предприятие Открытой Сети Продуктов для удовлетворения ваших специфичных местных потребностей.
+Find a [detailed explanation of every feature our platform offers](basic-features/), so you can set up your Open Food Network enterprise to specifically meet your local needs.
 
 {% hint style="info" %}
-Мы рекомендуем эти руководства пользователям, которые хотели бы настроить свое предприятие Открытой Сети Продуктов для удовлетворения потребностей своего бизнеса или клиентов.
+We recommend these guides to users who would like to customise their Open Food Network enterprise specifically to meet the needs of their business or customers.
 {% endhint %}
 
 {% hint style="success" %}
-Они также являются отличным ресурсом для ответов на любые ваши вопросы.
+They are also a great resource for answering any questions you may have.
 {% endhint %}
 
-### _&gt;_ Руководство по дополнительному программному обеспечению, которое вы могли бы использовать в сочетании с Открытой Сетью Продуктов
+### _&gt;_ Guidelines on complementary software you might like to use in combination with the Open Food Network
 
-Открытая Сеть Продуктов делает много вещей, но ни один инструмент не может соответствовать всем потребностям. Мы перечислили [некоторые потребности, для которых вам может понадобиться дополнительное программное обеспечение и как вы можете его настроить ](complementary-tools-software/)для работы рука об руку с вашей местной платформой Открытая Сеть Продуктов.
+The Open Food Network does a lot of things, but no one tool can fit all needs. We have listed [some needs for which you might need complementary software, and how you can set them up](complementary-tools-software/) to work hand in hand with your local Open Food Network platform.
 
-### &gt; Решение проблем
+### &gt; Trouble shooting
 
-Все еще не находишь, что тебе нужно? Проверьте в [разделе Устранение неполадок](trouble-shooting.md), есть ли у других те же вопросы, что и у вас!
+Still not finding what you need ? Check the [Trouble Shooting section](trouble-shooting.md) to see if others had the same questions as you!
 
-### &gt; Поиск
+### &gt; Search
 
-Ищете информацию о чем-то конкретном? Используйте панель поиска в левом верхнем углу, чтобы найти необходимую информацию.
+Looking for information on something specific? Use the search bar in the top left corner to find the information you need.
 
 ![](.gitbook/assets/capture-du-2019-09-26-00-49-08.png)
 
-## Обратная связь
+## Feedback
 
-Есть ли трудности с этим руководством пользователя? Отсутствует какая-либо информация? Или, может быть, вы хотите поделиться некоторыми функциями, которые вы хотели бы увидеть в будущем? Свяжитесь с [вашим местным ОСП](local-ofn-organizations-and-contacts.md) для любых отзывов!
+Any difficulty with that user guide? Any information missing? Or maybe you want to share some features you would like to see in the future? Get in touch with [your local OFN entity](local-ofn-organizations-and-contacts.md) for any feedback!
 
