@@ -1,46 +1,50 @@
-# Create orders manually
+---
+description: '1'
+---
 
-Sometimes you may wish to manually put an order into the system. This may be on behalf of a customer, or so that your reports will capture an order from a different sales stream. You can create an order by going to **Orders** and clicking on the **+ New Order** button.
+# Создание заказов вручную
+
+Иногда может потребоваться вручную поместить заказ в систему. Это может быть от имени клиента или для того, чтобы в ваших отчетах был зафиксирован заказ из другого потока продаж. Чтобы создать заказ, перейдите в раздел **Заказы** и нажмите кнопку **+Новый заказ**.
 
 ![](../../.gitbook/assets/manorder1.jpg)
 
-There you are then lead through a step-by-step process to place the order:
+Затем вы проведете пошаговую процедуру размещения заказа:
 
 ![](../../.gitbook/assets/manorder2.jpg)
 
-Firstly you will be prompted to select the distributor that the order will be placed with.  
-Next you will need to select the order cycle that you want the order to be placed in. You choice of order cycle will dictate which products will be available to be added into the order and the fees applied.  
-You will then be redirected to the following page where you can select products. You must type at least the first 3 characters of the product for it to appear as an option in the drop down list:
+Сначала вам будет предложено выбрать дистрибьютора, у которого будет размещен заказ.  
+Затем вам нужно будет выбрать цикл заказа, в котором вы хотите разместить заказ. Выбор цикла заказа будет определять, какие товары будут доступны для добавления в заказ и применяемые сборы.  
+После этого вы будете перенаправлены на следующую страницу, где сможете выбрать товары. Вы должны ввести как минимум первые 3 символа товара, чтобы он появился в раскрывающемся списке в качестве параметра:
 
 ![](../../.gitbook/assets/manorder3.jpg)
 
-After finding the product you'd like to order, enter the quantity and click the **+** button to the right of the product to add it to the cart.
+Найдя товар, который вы хотите заказать, введите количество и нажмите кнопку + справа от товара, чтобы добавить его в корзину.
 
 ![](../../.gitbook/assets/manorder4.jpg)
 
-Once a product is added you can edit \(quantity for example\) by selecting the pen and paper icon to the right of the item:
+После добавления товара его можно редактировать \(например, количество\), выбрав значок ручки и бумаги справа от элемента:
 
 ![](../../.gitbook/assets/manorder5.jpg)
 
-After editing any aspect of the cart, click **update and recalculate fees** to update the price.
+После редактирования любого аспекта корзины, нажмите **обновить и пересчитайте сборы**, чтобы обновить цену.
 
-The next step is to add in the customer’s details \(right hand menu, second option down\). If it is a customer who is on your customer list, you can select them from the dropdown menu, otherwise you can fill in the customer’s details details and check them out as a guest.
+Следующим шагом является добавление информации о клиенте \(меню справа, второй вариант внизу\). Если это клиент, который находится в вашем списке клиентов, вы можете выбрать его из выпадающего меню, в противном случае вы можете заполнить данные клиента и проверить его как гость.
 
 ![](../../.gitbook/assets/manorder6.jpg)
 
-Click **Update** and go back to Order Details \(top option on right hand menu\). You will now be able to select a shipping method for the customer.
+Нажмите **Обновить** и вернитесь в Детали Заказа \(верхний параметр в правом меню\). Теперь вы сможете выбрать способ доставки для клиента.
 
 ![](../../.gitbook/assets/manorder7.jpg)
 
-Tick to update changes and cross to cancel.
+Галочка, чтобы обновить изменения и крестик для отмены.
 
 {% hint style="danger" %}
-You can not select a shipping method prior to adding the customer's details.
+Вы не можете выбрать способ доставки до добавления данных клиента.
 {% endhint %}
 
-The final step is to add the customer’s payment method. This is found from the bottom option of the right hand menu:
+Последний шаг - добавить способ оплаты клиента. Это можно найти в нижней части меню справа:
 
 ![](../../.gitbook/assets/manorder8.jpg)
 
-Clicking **update** will finalise this order and send an email confirmation to the customer.
+Нажатие на **обновление** завершит этот заказ и отправит клиенту подтверждение по электронной почте.
 

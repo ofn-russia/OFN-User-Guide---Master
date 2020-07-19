@@ -1,9 +1,15 @@
-# Orders
+---
+description: '1'
+---
 
-Once your shop is online \(ie you have an active [Order Cycle](../shopfront/order-cycle/)\) , customers are able to place orders. This section explains how to:
+# Заказы
 
-* [manage and modify orders](view-orders.md)
-* [create orders manually for customers](create-orders-manually.md)
-* [adjust payments](refund-payments.md) \(refunds etc\)
-* print [receipts](thermally-printed-receipts.md).
+Как только ваш магазин стал доступен \(т.е. у вас есть активный [Цикл Заказа](../shopfront/order-cycle/)\), клиенты могут размещать заказы. В этом разделе объясняется, как:
+
+* [управлять заказами и изменять их](view-orders.md)
+* [вручную создавать заказы для клиентов](create-orders-manually.md)
+* [корректировать платежи](refund-payments.md) \(возвраты и т.д.\)
+* распечатывать [квитанции](thermally-printed-receipts.md).
+
+
 

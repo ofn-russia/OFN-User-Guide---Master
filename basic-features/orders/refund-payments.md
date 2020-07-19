@@ -1,21 +1,22 @@
-# Refunds and Adjusting Payments
+---
+description: '1'
+---
 
-Occasionally, you may have to adjust the amount a customer pays for their order. Common scenarios include:
+# Возврат и Корректировка Платежей
 
-* Orders containing products with variable weights which are unknown at time of ordering \(such as [meat or large vegetables](../products-1/pricing-irregular-items-kg.md), sold priced by weight but as complete items\)
-* A product ordered was not delivered by the producer.
-* A customer contacts you to add extra items to their basket.
-* One \(or more\) of the items ordered is not of the expected quality and you wish to compensate the customer.
+Иногда вам может потребоваться изменить сумму, которую клиент платит за свой заказ. Общие сценарии включают в себя:
 
-  There are two main cases:
+* Заказы, содержащие товары с переменным весом, которые неизвестны на момент заказа \(например, [мясо или большие овощи](../products-1/pricing-irregular-items-kg.md), продаются по весу, но как готовые изделия\)
+* Заказанный товар не был доставлен производителем.
+* Клиент связывается с вами, чтобы добавить дополнительные товары в свою корзину.
+* Один \(или более\) заказанный товар не соответствует ожидаемому качеству и вы хотите компенсировать это покупателю. Есть два основных случая:
+* Заказчик **оплачивает свою продукцию при самовывозе**, поэтому оплата не была произведена заранее. В этом случае вы можете откорректировать заказ клиента, повторно отправить электронное письмо с подтверждением заказа и денежные средства, полученные в день самовывоза, отражают обновленную сумму к оплате.
+* **Заказ был оплачен во время его офрмления** \(Stripe, PayPal или банковский перевод\). В этом случае есть три варианта:
+  1. Остаток в КРЕДИТЕ \(вы должны деньги клиенту\) и вы хотите вернуть их.
+  2. Остаток в КРЕДИТЕ и вы хотите, чтобы клиент мог использовать этот кредит для будущих покупок.
+  3. Остаток в ДОЛГЕ \(клиент должен вам деньги\)
 
-* The customer is due to _**pay for their produce on collection**_ and so no payment has been made in advance. In this case, you can adjust the customer's order, resend their order confirmation email, and the monies exchanged on the day of collection reflect the updated amount due.
-* The _**order was paid for at the time it was placed**_ \(Stripe, PayPal, or bank transfer\). In this case there are three options:
-  1. The balance is in CREDIT \(you owe the customer money\) and you wish to refund them.
-  2. The balance is in CREDIT and you wish the customer to be able to use this credit on future purchases.
-  3. The balance is in DEBT \(the customer owes you money\) 
-
-## How to refund a Payment
+## Как вернуть Платеж
 
 ### Refunding a Stripe Payment
 
@@ -48,30 +49,30 @@ If an order has been totally cancelled you can issue a full refund \(if the cust
 
 ![](../../.gitbook/assets/stripefullrefund.png)
 
-### Refunding a PayPal payment
+### Возврат платежа PayPal
 
-Automated partial or full refunds to customers who paid for their orders by PayPal are not supported on the OFN platform at the moment. You will need to visit your business PayPal account and issue a refund through their platform.  
-This is a functionality we hope to add in the future.
+Автоматическое частичное или полное возмещение средств клиентам, оплатившим свои заказы через PayPal на данный момент не поддерживается платформой ОСП. Вам нужно будет посетить свой бизнес-аккаунт PayPal и вернуть деньги через их платформу.  
+Эта функциональность, которую мы надеемся добавить в будущем.
 
-### Refunding a Bank Transfer Payment
+### Возврат Оплаты Банковским Переводом
 
-_A customer pays for their purchases by bank transfer or any other non-automated method \(ie any method except Stripe or PayPal\) and you recorded their payment. At a later date, it is necessary to_ [_edit their order_](view-orders.md#editing-an-order) _\(an item is not available or was supplied faulty\). After making this adjustment the over-payment made by the customer displays as credit against their order._  
-To issue a refund by BACS you will need to do so through your business bank account.
+_Клиент оплачивает свои покупки банковским переводом или любым другим неавтоматизированным способом \(т. е. любым способом, кроме Stripe или PayPal\) и вы регистрируете его платеж. Позднее необходимо_ [_отредактировать его заказ_](view-orders.md#editing-an-order) _\(товар недоступен или был доставлен бракованным\). После выполнения этой корректировки переплата, сделанная клиентом, отображается как кредит по его заказу._  
+Чтобы оформить возврат банковского перевода, вам нужно будет сделать это через свой банковский аккаунт.
 
-## How to issue a customer Credit against their next order
+## Как оформить Кредит клиента под его следующий заказ
 
-An alternative to issuing a refund might be to manually deduct the customer's credit from their next order.
+Альтернативой возврату переплаты может быть ручное удержание кредита клиента из его следующего заказа.
 
 {% hint style="info" %}
-Currently, as Shop or Hub manager, you would need to manually adjust the customers balance to take account of their credit. In the future we would like to automate this process. Please [contact us](https://www.openfoodnetwork.org/find-your-local-open-food-network/) if it is something which would be useful for your enterprise.
+В настоящее время, будучи менеджером Магазина или Центра, вам необходимо вручную настроить баланс клиентов, чтобы учесть их кредит. В будущем мы хотели бы автоматизировать этот процесс. Пожалуйста, [свяжитесь с нами](https://www.openfoodnetwork.org/find-your-local-open-food-network/), если что-то будет полезно для вашего предприятия.
 {% endhint %}
 
-## How to bill a customer for additional funds
+## Как выставить счет клиенту на дополнительные средства
 
-For example, a customer might ask to you add an additional item to an order they have already paid for, or, you might find after receipt of meat \([or other complete items priced by weight](../products-1/pricing-irregular-items-kg.md)\) that the total invoice is increased slightly.  
-Any additional funds paid must be recorded manually. The customer will not be able to pay the excess by Stripe or PayPal through the OFN platform.
+Например, клиент может попросить вас добавить дополнительный товар к заказу, за который он уже заплатил или вы можете обнаружить, что после получения мяса \([или других готовых изделий, оцененных по весу](../products-1/pricing-irregular-items-kg.md)\) общая сумма счета увеличивается незначительно.  
+Любые дополнительные оплаченные средства должны быть записаны вручную. Клиент не сможет оплатить превышение по Stripe или PayPal через платформу ОСП.
 
 {% hint style="info" %}
-If a customer wishes to add an item they forgot originally to their basket but pays by Stripe or PayPal then it might be simpler to ask them to create another order, rather than editing their existing order.
+Если клиент желает добавить товар в свою корзину, который он первоначально забыл, но оплачивает его через Stripe или PayPal, то может быть проще попросить его создать другой заказ, чем редактировать существующий заказ.
 {% endhint %}
 
