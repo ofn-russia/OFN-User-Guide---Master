@@ -1,156 +1,159 @@
-# Configuration
+---
+description: '1'
+---
 
-## Activate subscriptions
+# Настройка
 
-To activate the subscription functionality for your enterprise, go to Enterprises-&gt; Settings-&gt; [shop preferences](../enterprise-profile/enterprise-settings.md#shop-preferences).
+## Активация подписок
 
-At the bottom of the page change Subscriptions to 'enabled'
+Чтобы активировать функцию подписки для вашего предприятия, выберите Предприятия -&gt; Настройки -&gt; [настройки магазина](../enterprise-profile/enterprise-settings.md#shop-preferences).
+
+Внизу страницы измените Подписки на 'включено'
 
 ![](../../.gitbook/assets/subscriptions1.jpg)
 
-**Guest orders**: For enterprises with subscriptions enabled, we recommend that you require all customers to login before they can shop with you. This will ensure that any customer with a subscription will login and see their existing subscription order, and not accidentally place a duplicate order.
+**Гостевые заказы:** Для предприятий с включенными подписками мы рекомендуем, чтобы все клиенты входили в систему, прежде чем они смогут совершать покупки у вас. Это гарантирует, что любой клиент с подпиской войдет в систему и увидит свой существующий заказ на подписку, а случайно не разместит повторный заказ.
 
-**Change orders**: For customers with a regular repeating order from your enterprise on subscription, then the following options imply:
+**Изменение заказов**: для клиентов с регулярным повторяющимся заказом на вашем предприятии по подписке, следующие варианты подразумевают:
 
-* _Placed Orders cannot be changed/cancelled:_ The customer will need to contact you to modify their regular order \(alter quantities of each product requested or cancel the order\). 
-* _Customers can change/cancel orders white order cycle is open:_ The customer can modify the quantities of products they request in their subscription and/or cancel the entire order.
+* _Размещенные заказы не могут быть изменены/отменены_: клиент должен будет связаться с вами, чтобы изменить свой обычный заказ \(изменить количество каждого запрошенного товара или отменить заказ\).
+* _Клиенты могут изменять/отменять заказы пока цикл заказа открыт_: клиент может изменить количество товаров, которое он запрашивает в своей подписке и/или отменить весь заказ.
 
 {% hint style="info" %}
-In all cases, if a customer with a subscription order wishes to purchase a product which is not part of their regular order they will have to make a second basket and checkout. _Neither you nor they can not add new products to their subscription order once the order cycle is open._
+Во всех случаях, если клиент с заказом на подписку желает приобрести товар, который не является частью его обычного заказа, он должен будет сделать вторую корзину и оформить заказ. _Ни вы, ни они не могут добавлять новые товары в свой заказ на подписку после того, как цикл заказа открыт._
 {% endhint %}
 
-## Shipping and Payment methods for Subscriptions
+## Способы Доставки и Оплаты для Подписок
 
-When you are creating the customer's subscription, you'll need to select which shipping method they'll use and which payment method they'll be billed with. This will then subsequently apply to all following orders placed on their behalf by the subscriptions
+Когда вы создаете подписку клиента, вам нужно выбрать способ доставки, который он будет использовать и способ оплаты, по которому будет выставлен счет. Это впоследствии будет применяться ко всем следующим заказам, размещенным от его имени посредством подписок.
 
-### **Shipping methods**
+### **Методы доставки**
 
-You can apply any [shipping/delivery method](../shopfront/shipping-methods.md) to a subscription.
+К подписке вы можете применить любой [метод дотавки/оплаты](../shopfront/shipping-methods.md).
 
-### **Payment methods**
+### **Методы оплаты**
 
-You can only assign two types of [payment methods](../shopfront/payment-methods.md) to subscriptions.
+Вы можете назначить подписке только два [метода оплаты](../shopfront/payment-methods.md).
 
-1. **Manual payment methods:** Cash, cheque, bank transfer \(ie. any method which does not involve automatic validation online by the OFN platform\).
-2. **Stripe:** Stripe is a payment gateway that takes payment with credit cards.  Details on how to configure Stripe payments for your enterprise can be found [here](../shopfront/payment-methods.md#integrated-payment-providers). 
+1. **Ручные способы оплаты**: наличными, чеком, банковским переводом \(т.е. любым способом, который не предполагает автоматической проверки в режиме онлайн платформой ОСП\).
+2. **Stripe:** Stripe - это платежный шлюз, который принимает платежи с помощью кредитных карт. Подробную информацию о настройке платежей Stripe для вашего предприятия можно найти [здесь](../shopfront/payment-methods.md#integrated-payment-providers).
 
 {% hint style="info" %}
-With each order automatically placed by a subscription, the customer's bank card will be debited for the order \(on closure of the associated order cycle\). The amount debited will reflect any modifications made by you or them to the order.  
-Customers will not be charged if they cancel their subscription order.
+С каждым заказом, автоматически размещаемым по подписке, с банковской карты клиента будет списываться сумма для оплаты заказа \(после закрытия соответствующего цикла заказа\). Сумма списания будет отражать любые изменения, внесенные вами или ими в заказ.  
+С клиентов не будет взиматься плата, если они отменят свой заказ подписки.
 {% endhint %}
 
 {% hint style="warning" %}
-For the customer to be debited correctly, it is necessary for them to have an account on the Open Food Network platform. To their OFN account they must have registered a default credit card and given their authorisation for your enterprise to debit from that card. More information can be found [here](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges).
+Для правильного списания средств с клиентов, необходимо иметь учетную запись на платформе Открытая Сеть Продуктов. На свою учетную запись ОСП они должны иметь зарегистрированную кредитную карту по умолчанию и дать разрешение вашему предприятию на списание средств с этой карты. Более подробную информацию можно найти [здесь](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges).
 {% endhint %}
 
 {% hint style="success" %}
-If you use Stripe as the payment method for subscriptions it is helpful to the customer if you add a clear, detailed explanation of how the payment will be processed, should they choose this option.
+Если вы используете Stripe в качестве способа оплаты подписок, клиенту будет полезно, если вы добавите четкое и подробное объяснение того, как будет обрабатываться платеж, если он выберет эту опцию.
 
-For example, rather than calling the [payment method](../shopfront/payment-methods.md) 'Credit card' you might like to call it 'automated credit card billing for subscriptions'. A possible description could be 'Your default credit card saved in your OFN account will be charged when your subscription order is confirmed on Wednesday nights'. This name and description will show on the email confirmation to subscription customers \(see example below\), so it's good to make it details so the customer knows what to expect.
+Например, вместо того, чтобы называть [способ оплаты](../shopfront/payment-methods.md) 'Кредитная карта', вы можете назвать его 'автоматическим выставлением счетов по кредитной карте за подписки'. Возможным описанием может быть 'С вашей кредитной карты по умолчанию, сохраненной в вашей учетной записи ОСП, будет списана сумма, когда ваш заказ на подписку будет подтвержден в среду вечером'. Это имя и описание будут отображаться в электронном письме с подтверждением клиентам-подписчикам \(см. пример ниже\), поэтому лучше указать подробности, чтобы клиент знал, чего ожидать.
 {% endhint %}
 
 ![](../../.gitbook/assets/image%20%2815%29.png)
 
-## Gather information from your customers
+## Сбор информации с ваших клиентов
 
-To setup a subscription for a customer you'll need to get some information from them, as detailed below:
+Чтобы настроить подписку для клиента, вам необходимо получить от него некоторую информацию, как описано ниже:
 
-**Name**, **phone number** and **email address:** Remember that any customer wishing to have an automated regular order \(subscription\) with your enterprise MUST have a registered and confirmed user account on the OFN platform. Customers with subscriptions must be on your enterprise [Customer List](../shopfront/customer-management-and-conditional-displays-prices/customers.md). See [below](subscriptions-configuration.md#add-your-subscribers-to-your-customer-list) for more details.
+**Имя, номер телефона** и **email:** Помните, что любой клиент, желающий иметь автоматический регулярный заказ \(подписку\) на вашем предприятии, ДОЛЖЕН иметь зарегистрированную и подтвержденную учетную запись пользователя на платформе ОСП. Клиенты с подписками должны быть в [Списке Клиентов](../shopfront/customer-management-and-conditional-displays-prices/customers.md) вашего предприятия. Подробности смотрите [ниже](subscriptions-configuration.md#add-your-subscribers-to-your-customer-list).
 
-**Billing and shipping address**
+**Адрес для выставления счетов и доставки**
 
-**Products:** Which items do they want to include in their subscription?
+**Товары**: Какие товары они хотят включить в свою подписку?
 
-**Shipping/Delivery method**: You need to assign a shipping/delivery/collection method to their subscription order. How would they prefer to receive the goods?
+**Метод Доставки**: Вам необходимо назначить метод доставки/самовывоза для их заказа по подписке. Как бы они предпочли получить товар?
 
-**Payment method**: Customers can select from your manual payment methods \(e.g. cash, bank transfer\), or paying with their credit card through your shop's Stripe account. If the customer wishes to pay for their subscription orders by Stripe then they will need to add a default payment card and give authorisation. See [here](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) for more details.
+**Метод Оплаты**: клиенты могут выбрать один из способов оплаты вручную \(например, наличными, банковским переводом\) или оплатить с помощью кредитной карты через счет Stripe в вашем магазине. Если клиент желает оплатить свои заказы на подписку через Stripe, ему нужно будет добавить платежную карту по умолчанию и дать разрешение. Смотрите [здесь](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) для более подробной информации.
 
-**Start and End Dates for their subscription orders:** Remember, for a subscription order to be created for a given order cycle it must have a start date either before or after the order cycle opening date, and the subscription end date must be after the order cycle close date.
+**Начальная и конечная даты их заказов по подписке**: Помните, что для заказа по подписке, который будет создан для данного цикла заказа, он должен иметь дату начала либо до, либо после даты открытия цикла заказа, а дата окончания подписки должна быть после даты закрытия цикла заказа.
 
-## Add your subscribers to your customer list
+## Добавьте своих подписчиков в свой список клиентов
 
-Before you can setup a subscription order for a customer they need to be added to your [Customers list](../shopfront/customer-management-and-conditional-displays-prices/customers.md).
+Прежде чем вы сможете настроить заказ подписки для клиента, его необходимо добавить в [список Клиентов](../shopfront/customer-management-and-conditional-displays-prices/customers.md).
 
-**After you've added your customers to your customer list email them** and [ask them to sign up for an account on OFN](subscriptions-the-customers-perspective.md#signing-up-to-ofn). If you plan to bill customers using Stripe, you need to also request that they follow the additional steps outlined [here](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) for adding a default credit/debit card to their OFN user account and giving your enterprise authorisation to take payments.
+**После того, как вы добавили своих клиентов в свой список клиентов, отправьте им электронное письмо** и [попросите их зарегистрировать учетную запись в ОСП](subscriptions-the-customers-perspective.md#signing-up-to-ofn). Если вы планируете выставлять счета клиентам, использующим Stripe, вам также необходимо попросить их выполнить дополнительные действия, описанные [здесь](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges), для добавления кредитной/дебетовой карты по умолчанию к их учетной записи пользователя ОСП и предоставления вашему предприятию разрешения на прием платежей.
 
 {% hint style="info" %}
-You can add customers to your Customer list before or after they've signed up for an account with OFN. However, before a subscription order can be successfully setup the customer must have confirmed the email address to which their OFN account is registered.
+Вы можете добавлять покупателей в свой список Клиентов до или после того, как они зарегистрируют учетную запись в ОСП. Однако, прежде чем заказ на подписку может быть успешно настроен, клиент должен подтвердить адрес электронной почты, на который зарегистрирована его учетная запись ОСП.
 {% endhint %}
 
 {% hint style="warning" %}
-If you wish to debit a customer for their subscription order by Stripe then they must be added to your [Customer list](../shopfront/customer-management-and-conditional-displays-prices/customers.md) BEFORE they can [authorise your enterprise to take payments ](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges)from their credit/debit card.  
-Hence we recommend the following procedure:
+Если вы хотите списать средства клиента по его заказу на подписку с помощью Stripe, он должен быть добавлен в ваш [список Клиентов](../shopfront/customer-management-and-conditional-displays-prices/customers.md) ДО того, как он сможет [разрешить вашему предприятию принимать платежи](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) со своей кредитной/дебетовой карты.  
+Поэтому мы рекомендуем следующую процедуру:
 
-1. Contact the customer and obtain all the info you require \(see [above](subscriptions-configuration.md#gather-information-from-your-customers)\)
-2. Add them to your [customer list](../shopfront/customer-management-and-conditional-displays-prices/customers.md).
-3. Email the customer, asking them to [register with OFN](subscriptions-the-customers-perspective.md#signing-up-to-ofn) for an account and [add their credit/debit card details](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) to that account.
-4. [Create the subscription](subscriptions-creating-and-managing-orders.md).
+1. Свяжитесь с клиентом и получите всю необходимую вам информацию \(см. [выше](subscriptions-configuration.md#gather-information-from-your-customers)\)
+2. Дбавьте его в ваш [список Клиентов](../shopfront/customer-management-and-conditional-displays-prices/customers.md).
+3. Отправьте электронное письмо клиенту, попросив его [зарегистрироваться в ОСП](subscriptions-the-customers-perspective.md#signing-up-to-ofn) для создания учетной записи и [добавить данные своей банковской карты](subscriptions-the-customers-perspective.md#saving-credit-cards-and-authorising-charges) в эту учетную запись.
+4. [Создайте подписку](subscriptions-creating-and-managing-orders.md).
 {% endhint %}
 
-## Schedules
+## Распиания
 
 {% hint style="info" %}
-If you are new to OFN we encourage you to get familiar with setting up [order cycles](../shopfront/order-cycle/) before setting up schedules and subscriptions
+Если вы новичок в ОСП, мы рекомендуем вам ознакомиться с настройкой [циклов заказов](../shopfront/order-cycle/) перед настройкой расписаний и подписок.
 {% endhint %}
 
-### About Schedules
+### О Расписаниях
 
-Subscriptions are setup so that every time an enterprise opens an order cycle, orders can be automatically generated for customers who have a subscription with that shop. The frequency with which a subscription order is placed for a particular customer \(ie which of your active order cycles triggers their subscription\) is controlled by a facility called '**Schedules**'.
+Подписки настраиваются таким образом, чтобы каждый раз, когда предприятие открывало цикл заказов, заказы, у которых есть подписка на этот магазин, могли автоматически генерироваться. Частота, с которой оформляется заказ на подписку для конкретного клиента \(т.е. какой из ваших активных циклов заказов запускает их подписку\), контролируется средством под названием '**Расписания'**.
 
-Schedules are groups that order cycle can be assigned to. Once a schedule has been created, customer subscriptions are applied to the schedule, so that an order for their subscription will only be generated for new order cycles in that schedule.
+Расписания - это группы, которым можно назначить цикл заказа. После создания расписания, подписки клиентов применяются к расписанию, поэтому заказ на их подписку будет создаваться только для новых циклов заказов в этом распиании.
 
 {% hint style="info" %}
-You may have some customers who would like a regular order every week, in which case you would add their subscriptions to a schedule which includes all of your weekly order cycles. For other groups of customers, desiring their orders only fortnightly/monthly you can create additional schedules which only include alternate/one-in-four of your weekly order cycles.
+У вас могут быть клиенты, которым нужен регулярный заказ каждую неделю, и в этом случае вы добавляете их подписки в распиание, которое включает все ваши еженедельные циклы заказов. Для других групп клиентов, желая, чтобы их заказы выполнялись только раз в две недели/в месяц, вы можете создавать дополнительные расписания, которые включают только чередование/один из четырех ваших еженедельных циклов заказов.
 {% endhint %}
 
 {% hint style="success" %}
-There's lots of flexibility in this arrangement and so feel free to experiment to come up with the order cycle-schedule combination which works best for your enterprise. For example you may wish to have 'odd week' and 'even week' schedules, 'wholesale' schedules, 'monthly meat' schedules....
+Эта схема обладает большой гибкостью, поэтому не стесняйтесь экспериментировать, чтобы найти комбинацию цикл заказов - расписание, которая лучше всего подходит для вашего предприятия. Например, вы можете захотеть иметь распиания 'нечетная неделя' и 'четная неделя', 'оптовые' распиания, расписание 'ежемесячное мясо' ....
 {% endhint %}
 
-### Create a schedule
+### Создание расписания
 
-Having completed all the steps outlined above, the **+New Schedule** button will appear at the top of your Order Cycles menu:
+Выполнив все описанные выше шаги, кнопка **+Новое Расписание** появится в верхней части меню Циклы Заказов:
 
 ![](../../.gitbook/assets/ordercycle1.jpg)
 
 {% hint style="warning" %}
-You must have at least one open or due to open order cycle to be able to create a new schedule.
+Для создания нового расписания необходимо наличие хотя бы одного открытого цикла заказа.
 {% endhint %}
 
 ![](../../.gitbook/assets/new-schedule.bin)
 
-**Name:** Give the schedule a logical name which describes this group of order cycles. E.g. ‘weekly’, ‘monthly’, ‘Tuesday Deliveries’, ‘wholesale’ or ‘retail’. This name is not visible to customers.
+**Имя**: Присвойте расписанию логическое имя, описывающее эту группу циклов заказа. Например, 'еженедельно', 'ежемесячно', 'Поставки по Вторникам', 'оптом' или 'в розницу'. Это имя не видно клиентам.
 
 {% hint style="info" %}
-If you manage several OFN enterprises, with subscriptions being enabled in more than one, then naming your schedules clearly is essential eg. weekly\_hubA, weekly\_hubB, fortnightly\_hubA, fortnightly\_hubB.  
-Each enterprise will need a different schedule but when you create a subscription for a customer the schedules for all your enterprises will be visible. Hence, the descriptive name will help you make sure the subscription is created for the correct enterprise for that particular customer.
+Если Вы управляете несколькими предприятиями ОСП, при этом подписки включены больше чем в одном, то обозначение Ваших расписаний очень важно, например. еженедельно\_центрА, еженедельно\_центрБ, двухнедельно\_центрА, двухнедельно\_центрБ. Каждому предприятию потребуется отдельное расписание, но при создании подписки для клиента расписания для всех предприятий будут видны. Следовательно, описательное имя поможет вам убедиться, что подписка создана для правильного предприятия для данного клиента.
 {% endhint %}
 
-You can add existing order cycles into and out of the new schedule by clicking the &lt; and &gt; buttons.
+Можно добавить существующие циклы заказов в новое расписание и из него, нажав кнопки &lt; и &gt;.
 
-Click **create** when you are finished.
+По завершении нажмите кнопку **Создать**.
 
-### Edit or Delete a schedule
+### Изменение или Удаление расписания
 
-To edit or delete a schedule, click on the schedule’s name next to a corresponding order cycle, in the ‘schedules’ column. \(The 'Schedules' column may need to be made visible by ticking it in the drop-down columns menu at the top right.\)
+Чтобы изменить или удалить расписание, щелкните на имя расписания рядом с соответствующим циклом заказа в столбце 'расписания'. \(Столбец 'Расписания' может потребоваться сделать видимым, установив флажок в раскрывающемся меню столбцов вверху справа.\)
 
 ![](../../.gitbook/assets/show-schedules.bin)
 
-You can change the name of the schedule, add/remove order cycles from it or delete the schedule.
+Можно изменить имя расписания, добавить/удалить из него циклы заказа или удалить расписание.
 
 ![](../../.gitbook/assets/delete-schedule.bin)
 
 {% hint style="danger" %}
-You can not delete a schedule if there are subscriptions associated with it.
+Невозможно удалить расписание, если с ним связаны подписки.
 {% endhint %}
 
-### Adding or removing order cycles from schedules
+### Добавление или удаление циклов заказа из расписаний
 
-You can add and remove order cycles from schedules by either editing the schedule \([above](subscriptions-configuration.md#edit-or-delete-a-schedule)\), or by editing the order cycle and adding/removing the schedule in the ‘schedules’ field:
+Можно добавлять и удалять циклы заказов из расписаний путем редактирования графика \([выше](subscriptions-configuration.md#edit-or-delete-a-schedule)\) или путем редактирования цикла заказа и добавления/удаления расписания в поле 'расписания':
 
 ![](../../.gitbook/assets/ordercycle3.jpg)
 
 {% hint style="success" %}
-Order cycles can be in more than one schedule. For example if your order cycles are weekly but you have three schedules \(weekly, fortnightly-odd weeks and fortnightly-even weeks\) then one order cycle might be associated with both the 'weekly' and 'fortnightly-odd' week schedules.
+Циклы заказа могут иметь несколько расписаний. Например, если циклы заказа являются еженедельными, но у вас есть три расписания \(еженедельные, двухнедельные-нечетные недели и двухнедельные-четные недели\), то один цикл заказа может быть связан как с 'недельными', так и 'двухнедельными-нечетными' недельными расписаниями.
 {% endhint %}
 

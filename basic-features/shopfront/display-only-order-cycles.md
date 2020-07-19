@@ -1,24 +1,23 @@
-# Display only shopfront
+# Показать только витрину
 
-In some cases, shop owners may want to be able to display products in their shop but not actually allow customers to checkout. For example to show their full product range \(which may vary seasonally\), or to give potential customers an idea of the products which will be on offer in the next order cycle, before it opens.
+В некоторых случаях владельцы магазинов могут захотеть иметь возможность показывать товары в своем магазине, но фактически не разрешать покупателям оформлять заказы. Например, чтобы показать их полный ассортимент продукции \(который может варьироваться в зависимости от сезона\) или дать потенциальным клиентам представление о товарах, которые будут предлагаться в следующем цикле заказа, до его открытия.
 
-To setup a display only order cycle:
+Чтобы настроить цикл заказа только для отображения:
 
-* Open an [Order Cycle](order-cycle/order-cycles-for-hubs.md) as usual, with the products you wish to display and date range for the order cycle to remain open.
-* Deactivate all your [Payment Methods](payment-methods.md)- this can be done from Enterprises -&gt; Settings -&gt; Payment Methods and then un-checking all options:
+* Как обычно, откройте [Цикл Заказа](order-cycle/order-cycles-for-hubs.md) с товарами, которые вы хотите отобразить и диапазоном дат, чтобы цикл заказа оставался открытым.
+* Отключите все ваши [Способы Оплаты](payment-methods.md) - это можно сделать в Предприятия -&gt; Настройки -&gt; Способы оплаты, а затем отмените выбор всех параметров:
 
 ![](../../.gitbook/assets/dummypay.jpg)
 
-Your shop will now be in the ‘display only’ state.  
-Below is an example of how the shop appears to customers. It’s clearly marked as closed, but customers can see the product range. If they do try to add items to cart or checkout, they’ll be stopped.
+Ваш магазин теперь будет в состоянии 'только показ'. Ниже приведен пример того, как магазин выглядит для покупателей. Он помечен как закрытый, но клиенты могут видеть ассортимент продукции. Если они попытаются добавить товары в корзину или оформить заказ, они будут остановлены.
 
 ![](../../.gitbook/assets/display-only.png)
 
 {% hint style="warning" %}
-When you next open a live order cycle from which you wish to sell produce, you will need to reactivate at least one payment method.
+Когда вы в следующий раз откроете существующий цикл заказа из которого вы хотите продавать продукцию, вам нужно будет повторно активировать хотя бы один способ оплаты.
 {% endhint %}
 
 {% hint style="warning" %}
-In order to create the order cycle for your 'display only' shop front you will need to have at least one Payment Method active else the order cycle will not work. It is **only after it has been set up** that you must deactivate the Payment methods in order to create a display only shop front.
+Чтобы создать цикл заказа для режима вашей витрины 'только показ', вам нужно иметь хотя бы один метод оплаты, иначе цикл заказа не будет работать. **Только после того, как он был настроен**, вы должны деактивировать Способы оплаты, чтобы создать витрину магазина в режиме 'только показ'.
 {% endhint %}
 

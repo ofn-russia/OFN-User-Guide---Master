@@ -199,23 +199,23 @@ description: >-
 
 **Сортировать циклы заказов на витрине магазина по:** если в вашей витрине магазина [открыто более одного цикла заказов](../shopfront/order-cycle/opening-more-than-one-order-cycle.md) вы можете выбрать порядок, в котором они отображаются в витрине магазина. Вы можете отсортировать их по дате закрытия \(сначала самое позднее закрытие\) или по дате открытия \(самое раннее открытие\).
 
-**Публично видимая витрина?** Если вы выберете 'доступно всем', любой покупатель сможет получить доступ к вашей витрине и оформить заказ. Если вы выберете 'только зарегистрированным клиентам', покупателям, которые приходят в ваш магазин, будет предложено войти в систему и только те пользователи, которые находятся в вашем списке клиентов, получат доступ к вашему магазину. Узнайте больше о [private shop feature](../shopfront/private-shopfront.md).
+**Публично видимая витрина?** Если вы выберете 'доступно всем', любой покупатель сможет получить доступ к вашей витрине и оформить заказ. Если вы выберете 'только зарегистрированным клиентам', покупателям, которые приходят в ваш магазин, будет предложено войти в систему и только те пользователи, которые находятся в вашем списке клиентов, получат доступ к вашему магазину. Узнайте больше о [возможностях частного магазина](../shopfront/private-shopfront.md).
 
-**Guest Orders?** If you select ‘allow guest checkout’ shoppers won’t need to login to the OFN to shop with you, so they don't need to sign up and have a user account. If you want the extra security of knowing your customers must have an OFN account in order to have placed an order then select "require login to order".
+**Гостевые заказы?** Если вы выберете 'разрешить гостям оформлять заказ', покупателям не нужно будет входить в ОСП, чтобы увас делать покупки, поэтому им не нужно регистрироваться и иметь учетную запись пользователя. Если вы хотите, чтобы ваши клиенты предварительно входили в свой профиль ОСП для покупок в вашем магазине, выберите 'требуется логин для заказа'.
 
-In order for a customer to have an OFN account they must have confirmed the email sent to them when registering with us. Thus, by selected "require login to order" it may help limit the number of orders placed that are subsequently never collected as you know that the customer's order confirmation email will be sent to an active email account.
+Чтобы клиент имел учетную запись ОСП, он должен зарегистрироваться и подтвердить электронное письмо, отправленное ему при регистрации. Таким образом, выбор 'требуется логин для заказа' может помочь ограничить количество размещенных заказов, которые впоследствии не будут оформлены.
 
 {% hint style="warning" %}
-The 'Guest orders' setting is not applicable if you have opted for 'visible to registered customers only'.
+Параметр 'Гостевые заказы' не применимы, если вы выбрали 'Просмотр доступен только зарегистрированным клиентам'.
 {% endhint %}
 
-### Users
+### Пользователи
 
-**Owner:** This is the email of the primary user responsible for this enterprise. They have the power to change all aspects of the profile. Only the owner can change the owner, choosing among the enterprise managers list. This user will have a star next to their name in the managers' field.
+**Владелец:** Это электронная почта основного пользователя, ответственного за это предприятие. Они имеют право изменить все аспекты профиля. Только владелец может сменить владельца, выбрав из списка менеджеров предприятия. Этот пользователь будет иметь звездочку рядом с его именем в поле менеджера.
 
-**Notifications:** This is the email of the user to whom the OFN system correspondence will be directed, i.e. order confirmations etc. Only the owner can nominate the user who will receive the notifications, among the enterprise managers list. This user will have an envelope symbol next to their name in the managers' field.
+**Уведомления:** Электронная почта пользователя, которому будут направлены системные сообщения ОСП, например подтверждения заказа и т.д. Только владелец может назначить пользователя из списка менеджеров предприятия, который будет получать уведомления. Этот пользователь будет иметь символ конверта рядом с его именем в поле менеджера.
 
-**Managers:** Other OFN users who have been granted permission to manage this account. Want to add a new manager? You can search for existing emails of users who have registered for an OFN account and add them as managers. If you don't find any user for the email you are looking for, the user doesn't exist yet on the OFN, you need to invite them \(see next point\).
+**Менеджеры:** Другие пользователи ОСП, которым предоставлено разрешение на управление этой учетной записью. Хотите добавить нового менеджера? Вы можете посмотреть существующие адреса электронной почты пользователей, которые зарегистрировались для учетной записи ОСП и добавить их в качестве менеджеров. Если вы не нашли ни одного пользователя по электронной почте, то пользователь еще не существует в ОСП, вам необходимо пригласить его \(см. следующий пункт\).
 
-**Invite manager:** This is for adding a manager who is not registered with OFN. When you add them, they'll be sent an email confirmation and when they confirm their email they'll be able to set a password, and login to administer this enterprise.
+**Пригласить Менеджера:** Это для добавления менеджера, который не зарегистрирован в ОСП. Когда вы добавите его, ему будет отправлено подтверждение по электронной почте и когда он подтвердит, то сможет установить пароль и войти в систему для администрирования этого предприятия.
 

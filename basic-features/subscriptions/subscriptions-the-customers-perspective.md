@@ -1,50 +1,54 @@
-# Subscriptions - the customer's perspective
+---
+description: '1'
+---
 
-This page details what a customer with a subscription can expect. It also highlights some things that shops offering subscriptions should be aware of.
+# Подписки - со стороны клиента
 
-## Signing up to OFN
+На этой странице подробно описывается, чего может ожидать клиент с подпиской. Это также подчеркивает некоторые вещи, о которых должны знать магазины, предлагающие подписки.
 
-Customers must have an account with OFN before you can process subscription orders for them.
+## Регистрация в ОСП
 
-To create an account, direct the customer to the local Open Food Network home page and 'Login' at the top right hand corner. They'll be guided through registering with OFN. _**Customers must have an active email address to register**_.
+Клиенты должны иметь учетную запись в ОСП, прежде чем вы сможете обрабатывать их заказы по подписке.
 
-After signing up they'll be sent a confirmation email. Once they click on the link in this email their account will be confirmed and they will be able to login.
+Чтобы создать учетную запись, направьте клиента на домашнюю страницу Открытой Сети Продуктов и выберите 'Войти' в правом верхнем углу. Они пройдут регистрацию в ОСП. _**Клиенты должны иметь активный адрес электронной почты, чтобы зарегистрироваться.**_
+
+После регистрации им будет отправлено электронное письмо с подтверждением. Как только они нажмут на ссылку в этом письме, их учетная запись будет подтверждена и они смогут войти.
 
 {% hint style="info" %}
-Due to over zealous email filters \(designed to ward off spam\) sometimes customers won't receive their confirmation email from us \(or it will be directed to their junk folder\). If this occurs ask them to add open food network to their 'safe' list in their email account settings.
+Из-за чрезмерно усердных фильтров электронной почты \(предназначенных для защиты от спама\) иногда клиенты не получают от нас подтверждающее письмо \(или оно будет перенаправлено в папку нежелательной почты/СПАМ\). Если это произойдет, попросите их добавить открытую сеть продуктов в их 'безопасный' список в настройках учетной записи электронной почты.
 {% endhint %}
 
-## Saving credit cards and authorising charges
+## Сохранение банковских карт и авторизация платежей
 
-Customer who want to pay for their subscription orders via automated charges onto their credit/debit card \(Stripe\) need to a\) save their preferred card in their OFN account and b\) grant the shop permission to charge that card.
+Клиенту, который хочет оплатить свои заказы по подписке с помощью автоматических платежей по своей банковской карте \(Stripe\), необходимо а\) сохранить предпочитаемую карту на своей учетной записи ОСП и б\) предоставить разрешение магазину на списание этой карты.
 
-### Saving credit card details in the customer account
+### Сохранение данных кредитной карты в учетной записи клиента
 
-The Customer's Account page can be accessed after logging into OFN by the top right hand 'Profile' button:
+Страницу учетной записи клиента можно открыть после входа в ОСП с помощью правой верхней кнопки 'Профиль':
 
 ![](../../.gitbook/assets/subcard1.jpg)
 
-Your customer can save one or more cards in their account, in the **credit cards** tab.
+Ваш клиент может сохранить одну или несколько карт в своей учетной записи на вкладке **банковских карт**.
 
 ![](../../.gitbook/assets/subcard2.jpg)
 
-If a customer registers more than one debit/credit card, then the card which is denoted as 'default' will be the one which is charged automatically by Stripe \(if they have a subscription with Stripe as the chosen payment method\).
+Если клиент регистрирует более одной банковской карты, то карта, которая обозначена как 'по умолчанию', будет автоматически списываться с помощью Stripe \(если у него есть подписка с Stripe в качестве выбранного способа оплаты\).
 
 {% hint style="danger" %}
-If none of their cards are selected as 'default' their credit card payments won't be processed.
+Если ни одна из их карт не выбрана в качестве 'по умолчанию', то платежи по банковским картам не будут обрабатываться.
 {% endhint %}
 
 ![](../../.gitbook/assets/image%20%2826%29.png)
 
-If your customer saves credit cards in their account, they'll also be able to quickly select these when they shop in your shop at checkout.
+Если ваш клиент хранит банковские карты в своей учетной записи, они также смогут быстро выбрать их, когда совершают покупки в вашем магазине при оформлении заказа.
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
-### **Authorising a shop to charge their default card**
+### **Разрешение магазину списывать с карты 'по умолчанию'**
 
-**You should add your customers to your** [**Customer List**](../shopfront/customer-management-and-conditional-displays-prices/customers.md) **before you ask them to save their credit card details and authorise your shop to bill their card. The customer will not see your enterprise under the 'Authorised Shops' list on the right if you have not done so.**
+**Вы должны добавить своих клиентов в свой** [**Список Клиентов**](../shopfront/customer-management-and-conditional-displays-prices/customers.md)**, прежде чем попросить их сохранить данные своей банковской карты и разрешить вашему магазину выставлять счета на их карты. Клиент не увидит ваше предприятие в списке 'Авторизованные Магазины' справа, если вы этого не сделали.**
 
-For the Stripe payment method to work for a subscription the customer has with your enterprise they must check the 'Allow Charges' box:
+Чтобы способ оплаты Stripe работал для подписки, которую клиент имеет на вашем предприятии, он должен установить флажок 'Разрешить сборы':
 
 ![](../../.gitbook/assets/subcard2%20%281%29.jpg)
 

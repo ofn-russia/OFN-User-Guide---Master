@@ -1,35 +1,35 @@
-# Customer Management
+# Управление Клиентами
 
-A list of all customers who have placed an order with your enterprise can be viewed from the Customers menu in the admin dashboard.
+Список всех клиентов, разместивших заказ на вашем предприятии, можно просмотреть в меню Клиенты на панели администратора.
 
-You can also manually add a customer by the **+New Customer** button.
+Вы также можете вручную добавить клиента с помощью кнопки **+Новый клиент**.
 
 ![](../../../.gitbook/assets/customer1%20%281%29.jpg)
 
 {% hint style="warning" %}
-Only people who are in your customer list can be assigned a Tag and hence be assigned to a category.  
-_Hence if you have a_ [_private shop_](../private-shopfront.md) _front you will have to manually add all new customers and assign them the correct tag before they can shop._
+Только людям, входящим в список клиентов, может быть присвоена метка и следовательно, присвоена категория.   
+_Следовательно, если у вас есть_ [_частный магазин_](../private-shopfront.md)_, вам придется вручную добавить всех новых клиентов и назначить им правильную метку, прежде чем они смогут совершать покупки._
 {% endhint %}
 
-## Customer Billing and Shipping Address
+## Адрес Клиента для Выставления Счета и Доставки
 
-Each customer can have a default billing and shipping address. If a customer has a registered OFN account and has completed their details fully their addresses will be copied to this section automatically.  
-Storing a default billing and shipping address can make online purchases quicker for the customer.
+Каждый клиент может иметь адрес выставления счета и адрес доставки по умолчанию. Если клиент имеет зарегистрированную учетную запись ОСП и полностью заполнил свои данные, его адреса будут автоматически скопированы в этот раздел.  
+Сохранение адреса выставления счетов и доставки по умолчанию может ускорить покупки для клиента.
 
 ![](../../../.gitbook/assets/customeraddress.jpg)
 
-## Tags \(to group customers in to categories\)
+## Метки \(для группировки клиентов по категориям\)
 
-You can assign your customers to groups and then offer [group-specific pricing and/or product listings](tags-and-tag-rules.md#customer-specific-pricing).
+Вы можете назначить своих клиентов в группы, а затем предлагать [групповые цены и/или списки товаров](tags-and-tag-rules.md#customer-specific-pricing).
 
-On the OFN platform this is achieved by assigning all customers belonging to a common group \(ie all your wholesale customers\) the same tag.  
-To add a tag, simply type its name in the 'Tags' column on the Customers page. A customer can have several tags and of course the same tag can be linked to several people.
+На платформе ОСП это достигается назначением всем клиентам, принадлежащим к общей группе \(то есть всем оптовым покупателям\) одной метки.  
+Чтобы добавить метку, просто введите ее имя в столбце 'Метки' на странице 'Клиенты'. У клиента может быть несколько меток и конечно, одна и та же метка может быть связана с несколькими людьми.
 
 {% hint style="info" %}
-Careful when you are adding the same tag to multiple customers \(so that they belong to a common group\) to select the identical word \(tags are case sensitive\) from the drop down menu on offer.
+Будьте внимательны, когда добавляете одну и ту же метку к нескольким клиентам \(чтобы они принадлежали к общей группе\), чтобы выбрать идентичное слово \(метки чувствительны к регистру\) в раскрывающемся меню.
 {% endhint %}
 
 ![](../../../.gitbook/assets/tags1.jpg)
 
-Tags also appear in [reports](../../reports.md). You can use them during csv / excel exports to quickly filter data.
+Метки также появляются в [отчетах](../../reports.md). Вы можете использовать их во время экспорта в CSV/Excel для быстрой фильтрации данных.
 

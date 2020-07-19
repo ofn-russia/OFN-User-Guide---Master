@@ -1,231 +1,228 @@
-# View Orders
+# Просмотр Заказов
 
-Within the admin interface there are two places where orders can be viewed and modified \(if necessary\): the [Orders](view-orders.md#listing-orders) page itself, and the [Bulk Order Management](view-orders.md#bulk-order-management) page.  
-The features of both these two pages are discussed below.
+В интерфейсе администратора есть два места, где можно просматривать и изменять заказы \(при необходимости\): сама страница [Заказов](view-orders.md#listing-orders) и страница [Пакетное Управление Заказами](view-orders.md#bulk-order-management).  
+Особенности обеих этих страниц обсуждаются ниже.
 
-## Listing orders
+## Список заказов
 
-The listing order page shows a list view of all orders placed through your shop\(s\). From here you can access details of individual orders, edit orders and track the status of their payment and shipping. For details of how to create a new order manually for your customer see [here](create-orders-manually.md).
+На странице списка заказов отображается список всех заказов, размещенных в вашем магазине \(ах\). Отсюда вы можете получить доступ к деталям отдельных заказов, редактировать заказы и отслеживать статус их оплаты и доставки. Подробнее о том, как создать новый заказ вручную для вашего клиента, смотрите [здесь](create-orders-manually.md).
 
-The page has filters which allow you to select which orders you want to view. You can filter by date, status or the email and name of the customer.
+На странице есть фильтры, которые позволяют вам выбирать, какие заказы вы хотите просмотреть. Вы можете фильтровать по дате, статусу или электронной почте и имени клиента.
 
 ![](../../.gitbook/assets/listingorders1new.jpg)
 
-**Distributor:** This is the enterprise through who's shop the order was placed.
+**Дистрибьютор**: это предприятие, через магазин которого был сделан заказ.
 
-**Completed at:** This is the date that the order was placed.
+**Завершен в**: Это дата размещения заказа.
 
-**Number:** This is an arbitrarily assigned order number. An exclamation mark symbol with with word 'Note' to the left of it will show if the customer included a comment with their order at checkout. Hover you mouse above the exclamation mark to view the comment.
+**Номер**: Это произвольно назначенный номер заказа. Символ восклицательного знака со словом 'Примечание' слева от него покажет, включил ли клиент комментарий при оформлении заказа. Наведите курсор на восклицательный знак, чтобы просмотреть комментарий.
 
-**State:**
+**Статус:**
 
-* Complete- the customer has finished checkout
-* Cancelled- if admin edits the order and chooses to ‘cancel it’
-* Cart- The customer is in the process of shopping, but hasn’t checked out
+* Завершен - клиент закончил оформлять заказ
+* Отменен - если администратор редактирует заказ и решает 'отменить его'
+* Корзина - клиент находится в процессе покупки, но еще не оформил заказ
 
-**Payment State:**
+**Статус Оплаты:**
 
-* Balance Due- if it’s cash, or bank transfer or eftpos \(ie all non automated payments\), then the order will be ‘balance due’ by default, until admin members of the distributing enterprise manually mark that the payment has been received, at which point the payment state will change to 'Paid'.
+* Баланс - если это наличные или банковский перевод, то по умолчанию заказ будет 'Задолжность' до тех пор, пока администраторы предприятия-дистрибьютора вручную не отметят, что платеж получен, при этом указать, что состояние платежа изменится на 'Оплачен'.
 
 ![](../../.gitbook/assets/balancedue.jpg)
 
-* Paid- For automated payments \(PayPal, Stripe, PIN for instance\), the payment portal will automatically mark an order as 'paid' when it has been processed.  Non-automated payments \(cash, bank transfer etc\) will also be marked as 'paid' when manually updated. 
-* Credit Owed- If someone has paid for their order, but then you edit their order, and remove an item, the cost of that item becomes ‘credit owed’.
+* Оплачен - Для автоматических платежей \(например, PayPal\) портал оплаты автоматически помечает заказ как 'оплачен' после его обработки. Неавтоматические платежи \(наличные, банковский перевод и т.п.\) также будут помечены как 'оплачен' при обновлении вручную. 
+* Кредит- Если кто-то оплатил свой заказ, но затем вы изменили его и удалили товар, стоимость этого товара становится 'кредитом'.
 
 ![](../../.gitbook/assets/creditowed.jpg)
 
-**Shipment state:**
+**Статус доставки:**
 
-* Pending- When the payment state is ‘balance due’ the shipping state will be pending, meaning that until payment is received, shipping should not commence.
-* Ready- When payment has been received \(paid, or credit owed status\) the shipping state becomes ‘ready’.
-* Shipped- After delivery or collection, an order can be manually updated by shop/hub management \(edit order\) so that the shipment state becomes 'Shipped'.
+* В ожидании - если состояние платежа равно 'задолжность', то состояние доставки будет в состоянии ожидания, это означает, что до получения оплаты доставка не должна выполняться.
+* Готово - когда платеж получен \(оплачен или имеет кредитный статус\), состояние доставки становится 'готово'.
+* Отправлен - после доставки или сбора заказ может быть обновлен вручную менеджером магазина/центра \(редактировать заказ\), так что состояние доставки становится 'Отправлен'.
 
 {% hint style="warning" %}
-You can ONLY manually update an order to 'Shipped' if the payment state is 'Paid' or 'Credit Owed'
+Вы можете ТОЛЬКО вручную обновить заказ до 'Отправлен', если состояние платежа 'Оплачен' или 'Кредит'
 {% endhint %}
 
-**Customer email:**The customer’s contact email. A full list of customer emails can be downloaded in the ‘mailing list’[report](../reports.md).
+**Email клиента:** контактная электронная почта клиента. Полный список email клиентов можно загрузить в [отчете](../reports.md) 'список рассылки'.
 
-**Total:**The total value of the customer’s order
+**Итого**: общая стоимость заказа клиента
 
-### **Changing the payment and shipping state of an order**
+### Изменение статуса оплаты и доставки заказа
 
-On the right hand side of the listing view you can update the payment/shipping state of an order.
+В правой части окна списка вы можете обновить статус оплаты/доставки заказа.
 
-Click on the tick icon to indicate that payment has been received \(this records full payments only\).
+Нажмите на значок галочки, чтобы указать, что платеж был получен \(при этом регистрируются только полные платежи\).
 
 ![Update to Paid icon](../../.gitbook/assets/tick%20%281%29.png)
 
-Click on the road icon to indicate that the order has been shipped.
+Нажмите на значок дороги, чтобы указать, что заказ был отправлен.
 
 ![Update to Shipped icon](../../.gitbook/assets/shipped.png)
 
 {% hint style="info" %}
-The payment and shipping status of an order can also be updated when editing the order \(see below\).
+Статус оплаты и доставки заказа также может быть обновлен при редактировании заказа \(см. ниже\).
 {% endhint %}
 
 {% hint style="danger" %}
-When a shop or hub manager updates the 'Shipment state' to 'shipped' _**this will automatically send the customer an email**_ to say that their products have been shipped, irrespective of the shipping method. Hence it can cause confusion for orders due to be collected \(rather than shipped\).  
-Another source of potential confusion to be aware of is when customers pay for an order on collection. Updating the payment \(and then shipping\) status of the order after the goods have been collected will send an email to the customer, even though they have their goods in practice.
+Когда менеджер магазина или центра обновляет 'Статус доставки' на 'Отправлен', _**это автоматически отправит клиенту электронное письмо**_ с сообщением о том, что его товары были отправлены, независимо от способа доставки. Следовательно, это может привести к путанице для заказов, которые должны быть собраны \(а не отправлены\).  
+Еще один источник потенциальной путаницы, о котором следует знать, это когда клиенты оплачивают заказ на месте самовывоза. Обновление статуса оплаты \(а затем и доставки\) заказа после того, как товары были получены, отправит электронное письмо клиенту, даже если на практике у него есть свои товары.
 {% endhint %}
 
-### **Editing an order**
+### **Изменение заказа**
 
-To the right of an order you will see a pen and paper icon. Click on this to access the order management page where you can edit, modify and cancel:
+Справа от заказа вы увидите значок ручки и бумаги. Нажмите на эту кнопку, чтобы перейти на страницу управления заказами, где вы можете редактировать, изменять и отменять:
 
 ![](../../.gitbook/assets/edit-order.png)
 
-You can also access full information concerning an order by clicking on the order number \(fourth column of the table\).
+Вы также можете получить полную информацию о заказе, нажав на номер заказа \(четвертый столбец таблицы\).
 
-This is what the order management page looks like:
+Так выглядит страница управления заказами:
 
 ![](../../.gitbook/assets/editorder.jpg)
 
-#### **Adding and removing products from an order**
+#### Добавление и удаление товаров из заказа
 
-You can add a product to the order by selecting the variant you require from a drop down list of those available \(at least 3 letters must be typed in to the field box 'Select Variant' for list of options to appear\).  
-To remove a product from an order click the rubbish bin icon on the right hand side of the product.  
-You can also change the quantity of each item ordered. Remember to click the **update and recalculate fees** button to save changes \(this will also update enterprise, shipping and payment method fees accordingly, where appropriate\).
+Вы можете добавить товар в заказ, выбрав нужный вариант из выпадающего списка доступных \(по крайней мере, 3 буквы должны быть введены в поле 'Выбор варианта', чтобы отобразился список вариантов\). Чтобы удалить товар из заказа, щелкните значок мусорного ведра с правой стороны товара.  
+Вы также можете изменить количество каждого заказанного товара. Не забудьте нажать кнопку **обновления и пересчета сборов**, чтобы сохранить изменения \(это обновит сборы предприятия, доставки и способа оплаты соответственно, где необходимо\).
 
-**Additional options available under 'Actions'**
+**Дополнительные параметры доступны в разделе 'Действия'**
 
 ![](../../.gitbook/assets/orderactions.jpg)
 
-* **Resend Confirmation**: If you have edited a customer's order, you may wish to resend them an updated order confirmation email.
-* **Send Invoice**: This will automatically send the customer an invoice \(in .pdf format\) by email.
+* **Повторная отправка подтверждения**: если вы отредактировали заказ клиента, вы можете отправить ему обновленное электронное письмо с подтверждением заказа.
+* **Отправить Счет**: Это автоматически отправит клиенту счет \(в формате .pdf\) по электронной почте.
 
 ![](../../.gitbook/assets/invoicenew.jpg)
 
 {% hint style="danger" %}
-Please check regional regulations regarding the information legally required to be on an invoice. Currently our invoices are not compliant to French law. Invoices for enterprises which are registered for VAT are not compliant under UK law.  
-We hope to bring about updates to correct these aspects. In the meantime you may wish to invoice through a [complementary software package](../../complementary-tools-software/).
+Пожалуйста, ознакомьтесь с региональными правилами, касающимися информации, которая должна быть указана в счете. В настоящее время наши счета не соответствуют французскому законодательству. Счета для предприятий, которые зарегистрированы для НДС, не соответствуют законодательству Великобритании.  
+Мы надеемся внести обновления, чтобы исправить эти аспекты. В то же время вы можете захотеть выставить счет через [дополнительный пакет программного обеспечения](../../complementary-tools-software/).
 {% endhint %}
 
-* Print Invoice: This will generate the invoice in the form of a pdf for printing.
-* Cancel Order: Cancel the order
+* **Распечатать Счет**: Будет создан счет в формате PDF для печати.
+* **Отменить Заказ**: отменить заказ
 
-#### **View customer details**
+#### Посмотреть информацию о клиенте
 
-Customer information \(email, billing, shipping addresses and phone numbers\) are accessible from the menu on the right of the page:
+Информация о клиенте \(электронная почта, счета, адреса доставки и номера телефонов\) доступна из меню в правой части страницы:
 
 ![](../../.gitbook/assets/ordermenu.jpg)
 
-#### **Modify an Order**
+#### **Изменить Заказ**
 
-Click on 'Adjustments' in the right hand menu \(screen shot above\). On this page you can add or subtract from the order total by selecting the **+ New Adjustment button**.
+Нажмите 'Корректировки' в правом меню \(снимок экрана выше\). На этой странице вы можете добавить или вычесть из суммы заказа, нажав кнопку **+Новая Корректировка**.
 
 ![](../../.gitbook/assets/orderadjust.jpg)
 
-You may wish to use this functionality to:
+Вы можете использовать эту функцию для:
 
-* grant a discount on an order if a product is damaged
-* deduct credit owed to the customer from their total balance
-* refund a customer \(for more information about Refunds visit [here](refund-payments.md).\)
+* предоставить скидку на заказ, если товар поврежден
+* вычесть кредит, причитающийся клиенту, из его общего остатка
+* Возврат клиенту \(для получения дополнительной информации о Возвратах смотрите [тут](refund-payments.md).\)
 
-#### Record Partial Payment
+#### Запись Частичного Платежа
 
-Visit the 'Payments' page from the right hand menu in screen shot above to record partial payments.
+Перейдите на страницу 'Платежи' в правом меню на снимке экрана выше, чтобы записать частичные платежи.
 
-### Batch Print Invoices
+### Пакетная Печать Счетов
 
-To save time you can print multiple invoices at once \(rather than visiting each order in turn and selecting Actions-&gt; Print Invoice\).  
-On the Listing Orders page check the box to the left of orders for which you would like to send an invoice. You can increase the number of orders per page from 15 to 100 and select all at once, if desired.  
-Then click 'Print Invoices' button to the top right of the table:
+Чтобы сэкономить время, вы можете распечатать несколько счетов одновременно \(вместо того, чтобы открывать каждый заказ по очереди и выбирать Действия -&gt; Распечатать Счет\). На странице Список Заказов установите флажок слева от заказов, для которых вы хотите отправить счет. Вы можете увеличить количество заказов на страницу с 15 до 100 и выбрать все сразу, если хотите. Затем нажмите кнопку 'Печать Счетов' в правом верхнем углу таблицы:
 
-![batch printing invoices](../../.gitbook/assets/batchprintinvoice.jpg)
+![&#x43F;&#x430;&#x43A;&#x435;&#x442;&#x43D;&#x430;&#x44F; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x44C; &#x441;&#x447;&#x435;&#x442;&#x43E;&#x432;](../../.gitbook/assets/batchprintinvoice.jpg)
 
-A Loading page will pop up while the invoices are generated. On completion you will be able to view \(and download\) a file containing all the invoices for the orders selected:
+Страница загрузки появится во время генерации счетов. По завершении вы сможете просмотреть \(и загрузить\) файл, содержащий все счета для выбранных заказов:
 
 ![](../../.gitbook/assets/compileinvoice.jpg)
 
-## Bulk order management
+## Пакетное управление заказами
 
-We have learned above that the [Listing Orders](view-orders.md#listing-orders) tab presents a table of the **orders per customer**. This page, on the other hand, details all the products that were purchased in your orders.  
-This functionality is useful for modifying multiple orders at once that may contain the same product \(quantity change, product out of stock etc\). The page looks like:
+Выше мы узнали, что на вкладке [Список Заказов](view-orders.md#listing-orders) представлена таблица **заказов на одного клиента**. С другой стороны эта страница подробно описывает все товары, которые были приобретены по вашим заказам.  
+Эта функция полезна для одновременного изменения нескольких заказов, которые могут содержать один и тот же товар \(изменение количества, товара не в наличии и т.д.\). Страница выглядит так:
 
 ![](../../.gitbook/assets/bom3.jpg)
 
-**Start/End Date:** You can filter to display all orders that were placed within a given window of time.
+**Дата Начала/Окончания**: Вы можете отфильтровать, чтобы отобразить все заказы, которые были размещены в данном окне времени.
 
-**Producer:** You can filter for a given producer. This can narrow down the display, if you’re only interested in one product, supplied by one producer.
+**Производитель**: Вы можете фильтровать для данного производителя. Это может сузить отображение, если вы заинтересованы только в одном товаре, поставляемом одним производителем.
 
-**Shop:** You can filter according to the shop at which the order was placed.
+**Магазин**: Вы можете фильтровать в соответствии с магазином, в котором был размещен заказ.
 
-**Order Cycle:** Perhaps the most useful filter, the order cycle filter, will display only those orders which were placed within a selected order cycle.
+**Цикл заказа**: Возможно, самый полезный фильтр, фильтр цикла заказа, будет отображать только те заказы, которые были размещены в выбранном цикле заказа.
 
-**Quick Search:** Before or after applying filters, you can narrow your search down even further by searching for a key word. This could be a name, product, hub, producer, date, order number…
+**Быстрый поиск**: до или после применения фильтров вы можете сузить область поиска еще больше, выполнив поиск по ключевому слову. Это может быть имя, товар, центр, производитель, дата, номер заказа ...
 
-**Actions:** You can select the check boxes of multiple orders \(left hand column\), to perform the same function to all of them, such as delete.
+**Действия**: Вы можете установить флажки для нескольких заказов \(левый столбец\), чтобы выполнить одну и ту же функцию для всех из них, например удалить.
 
-**Columns:** You can select which fields you do or do not want to be displayed in the table:
+**Столбцы**: вы можете выбрать, какие поля вы хотите или не хотите отображать в таблице:
 
 ![](../../.gitbook/assets/bomcol.jpg)
 
 {% hint style="success" %}
-Rows \('Name', 'Producer', 'Product: Unit'\) can be sorted according to their content by clicking on the relevant column heading: one click for sorting A-Z, two clicks for the reverse \(Z-A\).
+Строки \('Имя', 'Производитель', 'Товар: Единица'\) можно отсортировать по их содержанию, щелкнув соответствующий заголовок столбца: один щелчок для сортировки A-Z, два щелчка для обратного \(Z-A\).
 {% endhint %}
 
 {% hint style="warning" %}
-The **Price** column indicates price of an item including tax but excluding fees \(enterprise, shipping or payment method fees\). Fees are recalculated each time an order is modified.
+В столбце **Цена** указана цена товара, включая налоги, но без учета сборов \(сборы предприятия, способ доставки или оплаты\). Сборы пересчитываются каждый раз при изменении заказа.
 {% endhint %}
 
-### Examples of using Bulk Order Management:
+### Примеры использования Пакетного Управления Заказами:
 
-#### Example 1: You have a stock shortage, and must reduce customer order quantities for a certain product.
+#### Пример 1: у вас есть дефицит запаса и вы должны уменьшить количество заказов клиентов для определенного товара
 
-_In your current order cycle, customers placed orders for 20kg of tomatoes. Unfortunately there was a storm, and you were only able to harvest 10kg. You need to identify all customers who ordered tomatoes, and half their orders for tomatoes._
+_В текущем цикле заказов клиенты размещали заказы на 20 кг помидоров. К сожалению, был шторм и вы смогли собрать только 10 кг. Вам необходимо идентифицировать всех клиентов, которые заказали помидоры и споловинить их заказы на помидоры._
 
-This can be done in bulk order management, as follows:
+Это можно сделать при управлении массовыми заказами следующим образом:
 
-1. Filter according to the date range, or current order cycle.
-2. Search for ‘tomatoes’. All orders for tomatoes within the date range/order cycle you selected will now display.
-3. Click on the product ‘Tomatoes’ in the Product:Unit column.
-4. A box will appear at the top of the page, showing the total quantity ordered \(across the date range/order cycle you’ve selected\).
+1. Фильтруйте по диапазону дат или текущему циклу заказа.
+2. Найдите 'помидоры'. Все заказы на помидоры в выбранном диапазоне дат/цикле заказов теперь будут отображаться.
+3. Нажмите на товар 'Помидоры' в столбце 'Товар: Единица измерения'.
+4. В верхней части страницы появится окно с указанием общего количества заказанных товаров \(в выбранном вами диапазоне дат/цикле заказа\).
 
 ![](../../.gitbook/assets/bomtom1.jpg)
 
-You can then adjust the quantity \(or delete products\) of each unique order in the Quantity column. The Total Quantity Ordered in the box at the top will update automatically as you adjust orders.
+Затем вы можете исправить количество \(или удалить товары\) каждого уникального заказа в столбце Количество. Общее Количество Заказов в поле вверху будет обновляться автоматически при корректировке заказов.
 
 {% hint style="danger" %}
-No automated email will be sent to customers after you have adjusted their orders. It is good practice though, to manually do so else the customer may be disappointed on collection/delivery.
+Автоматические сообщения электронной почты не будут отправлены клиентам после корректировки их заказов. Однако рекомендуется сделать это вручную, иначе клиент может разочароваться в сборе/доставке.
 {% endhint %}
 
-Here, the amount of tomatoes allocated to each order has been reduced to meet the total available of 10kg:
+Здесь количество помидоров, выделенных для каждого заказа, было сокращено до общего количества в 10 кг:
 
 ![](../../.gitbook/assets/bomtom3.jpg)
 
-#### **The ‘Shared Resource’ checkbox**
+#### Флажок 'Общий ресурс'
 
-This checkbox allows you to make adjustments to all variants of the same product at once. For example, you may retail tomatoes in 1kg and 3kg bags. By selecting 'Shared Resource' you will be able to edit the quantities of both variants ordered at once.
+Этот флажок позволяет вносить коррективы во все варианты одного и того же товара одновременно. Например, вы можете продавать помидоры в мешках по 1 кг и 3 кг. Выбрав 'Общий ресурс', вы сможете одновременно редактировать количество заказанных вариантов.
 
 ![](../../.gitbook/assets/bomtomshared.jpg)
 
-#### Example 2: Updating the final weight of products.
+#### Пример 2: Обновление конечного веса товаров.
 
-When selling indivisible products such as legs of lamb, or whole pumpkins, you may not know the final weight and price of the product until after the customer has placed their order. \(Read more [here](../products-1/pricing-irregular-items-kg.md).\) You can use Bulk Order Management to update the item’s exact weight once you have the product in front of you.
+При продаже неделимых товаров, таких как бараньи ножки или целые тыквы, вы можете не знать окончательный вес и цену товара, пока клиент не разместит свой заказ. \(Подробнее читайте [здесь](../products-1/pricing-irregular-items-kg.md).\). Вы можете использовать Пакетное Управление Заказами, чтобы обновлять точный вес товара, когда он перед вами.
 
-For the example of a 1kg fish:
+Для примера 1 кг рыбы:
 
-1. Filter for the order cycle or date range of interest.
-2. Search for the desired product
-3. Make the **Weight/Volume** and **Price** columns visible.
-4. Enter the actual weight of the fish that each customer will receive in the weight/volume column. The price will automatically recalculate based on this weight.
-5. Click update.
+1. Отфильтруйте интересующий цикла заказа или диапазон дат.
+2. Найдите нужный товар
+3. Сделайте видимыми столбцы **Вес/Объем** и **Цена**.
+4. Введите фактический вес рыбы, которую каждый клиент получит в столбце вес/объем. Цена будет автоматически пересчитана на основе этого веса.
+5. Нажмите обновить.
 
 ![](../../.gitbook/assets/bomfish.jpg)
 
-## A **Customer’s view of their order**
+## Вид Клиента на свои заказы
 
-Your customers can view a list of their orders when they login to the OFN, and click on their account \(see below\).
+Ваши клиенты могут просматривать список своих заказов при входе в ОСП, нажав на свою учетную запись \(см. ниже\).
 
 ![](../../.gitbook/assets/account-login.png)
 
-Here your customers will be able to see the past orders and payments as well as a running balance at your shop \(and any others on OFN where they have placed an order\).
+Здесь ваши клиенты смогут увидеть прошлые заказы и платежи, а также текущий баланс в вашем магазине \(и любых других в ОСП, где они разместили заказ\).
 
 ![](../../.gitbook/assets/orders.png)
 
 {% hint style="warning" %}
-For non-automated payments \(cash, cheque, bank transfer etc\) the customer's 'balance' will display as 'owing' until you have [manually recorded the payment](view-orders.md#editing-an-order).  
-_**If payments are not updated regularly by a shop/hub manager this can be confusing to your customers as they may have in fact paid but it won't be documented above.**_
+Для неавтоматизированных платежей \(наличными, чеками, банковским переводом и т.д.\) 'баланс' клиента будет отображаться как 'задолженность', пока вы не [зарегистрируете платеж вручную](view-orders.md#editing-an-order).  
+_**Если платежи регулярно не обновляются менеджером магазина/центра, это может сбить с толку ваших клиентов, так как они могут фактически заплатить, но это не будет задокументировано выше.**_
 {% endhint %}
 
