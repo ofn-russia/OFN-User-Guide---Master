@@ -1,74 +1,76 @@
-# Устранение неполадок
+# Trouble shooting
 
 {% hint style="success" %}
-Всегда сохраняйте или обновляйте в конце каждого внесенного вами изменения. Изменения будут потеряны, если вы перейдете на другую страницу без сохранения. Иногда вам не будет предложено сохранить.
+Always save or update at the end of every change you make. Changes will be lost if you move to a different page without saving. Sometimes you will not be prompted to save.
 {% endhint %}
 
-## Это не 'позволит мне' настроить цикл заказа
+## It won't 'let me' set up an order cycle
 
-* У вас есть активный [способ оплаты](basic-features/shopfront/payment-methods.md) для вашего магазина или центра?
-* У вас есть активный [способ доставки](basic-features/shopfront/shipping-methods.md) для вашего магазина или центра?
-* Все ли [необходимые поля заполнены](basic-features/shopfront/order-cycle/)? Вам необходимо установить время открытия и закрытия для цикла заказа, дать ему уникальное имя и заполнить поле 'Готов К'.
+* Do you have an active [payment method](basic-features/shopfront/payment-methods.md) set up for your shop or hub?
+* Do you have an active [shipping method](basic-features/shopfront/shipping-methods.md) set up for your shop or hub?
+* Are all the [relevant required fields complete](basic-features/shopfront/order-cycle/)? You need to set open and closing times for the order cycle, give it a unique name, and complete the 'Ready for' field box.
 
-## Я хочу продавать цыплят, но не знаю вес отдельных птиц до дня забоя.
+## I want to sell whole chickens but don't know the weight of individual birds until day of slaughter.
 
-* Это не проблема! Прочитайте [здесь](basic-features/products-1/pricing-irregular-items-kg.md) ряд способов, как платформа ОСП была разработана, чтобы быть гибкой для удовлетворения конкретных потребностей производителей продуктов питания.
+* This is not a problem! Read [here](basic-features/products-1/pricing-irregular-items-kg.md) for a range of ways the OFN platform has been designed to be flexible to meet the specific needs of food producers.
 
-## Я поставляю 'Фармшоп А' картофель, который стоит 20руб/кг. Мой картофель выставляется на продажу клиентам по 25руб/кг
+## I supply 'Farmshop A' with potatoes which cost £1/kg. My potatoes are displaying for sale to customers at £1.20/kg
 
-'Фармшоп A' может потребоваться получить дополнительный доход от каждой продажи, чтобы покрыть свои накладные расходы. Они могут сделать это несколькими способами:
+Farmshop A may need to generate extra revenue from every sale to cover their overhead costs. They can do this in a number of ways:
 
-* Если вы настроили [разрешения предприятия](basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md), в соответствии с которым ваша компания разрешает 'Фармшоп A' добавлять ваши товары в свою товарную номенклатуру, таким образом они могут изменять цены, которые клиент платит за ваши товары.
-* 'Фармшоп A' может добавить [сборы предпрития](basic-features/shopfront/enterprise-fees.md) к себестоимости картофеля. Если это так, клиенты, приобретающие товары, смогут увидеть разбивку цены, которую они платят, щелкнув значок круговой диаграммы справа от цены товара в магазине.
+* If you set up an [enterprise permission](basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) whereby your business permits Farmshop A to add your products to their inventory then they can modify the prices a customer pays for your products that way. 
+* Farmshop A may add an [enterprise fee](basic-features/shopfront/enterprise-fees.md) to your cost price for the potatoes. If this is the case then customers purchasing the items will be able to see a break down of the price they pay by clicking on the pie chart icon to the right of the product price on the shop front.
 
-Хорошие рабочие отношения являются ключом к любой устойчивой продовольственной сети. Пообщайтесь с 'Фармшоп A' о том, как они организовали свои продажи вашей продукции \(лично, по телефону или по электронной почте\).
+Good working relationships are key to any sustainable food network. Chat to Farmshop A about how they have organised their sales of your produce \(either in person, over the phone or by email\).
 
-'Фармшоп A' должен \(морально\) заплатить вам 20руб/кг за каждый кг картофеля, который вы поставляете, чтобы удовлетворить их продажи. Оплата товаров \(от дистрибьютора к поставщику\) - частное соглашение, организованное вне платформы ОСП.
+Farmshop A should \(morally\) pay you £1/kg for every kg of potatoes you supply to meet their sales. Payment of goods \(from distributor to supplier\) is a private arrangement organised outside of the OFN platform.
 
-## Я добавил новые товары, но они не отображаются в магазине.
+## I've added new products but they aren't displaying on the shopfront.
 
-Новые добавленные товары должны быть добавлены в активный цикл заказа, прежде чем они будут видны покупателю на витрине для покупки.
+Newly added products must be added to an active order cycle before they are visible on a shopfront for customers to purchase.
 
-* Если вы _**поставляете товары в центр**_, то вы должны связаться с лицом, которое координирует данный цикл заказа. Это должно быть сделано вне платформы ОСП \(передайте им электронную почту или телефон, или поговорите лично\).
-* Если вы являетесь **Продавцом**, необходимо добавить новые товары в [активный, открый цикл заказа](basic-features/shopfront/order-cycle/order-cycles-for-producers.md).
-* Если вы **Центр**, тогда:
-  * Убедитесь, что новые товары добавлены как в входящие, так и в исходящие разделы [активного цикла заказа](basic-features/shopfront/order-cycle/order-cycles-for-hubs.md).
-  * Если новые товары недоступны для выбора для добавления в любой из входящих/исходящих разделов, тогда проверьте [настройки товарной номенклатуры](basic-features/enterprise-profile/enterprise-settings.md#inventory-settings). Возможно, вам придется [добавить товары в товарную номенклатуру](basic-features/products-1/inventory-tool.md#reviewing-new-products), прежде чем их можно будет добавить в магазин.
+* If you are _**supplying the goods to a hub**_, then you must get in touch with the person who is coordinating the order cycle in question.  This has to be done externally to the OFN platform \(drop them an email or phone/speak in person\).
+* If you are a **Shop**, then you must add the new products to your[ active, open order cycle](basic-features/shopfront/order-cycle/order-cycles-for-producers.md).
+* If you are a **Hub**, then:
+  * Make sure the new products are added to both the incoming and outgoing sections of the [active order cycle](basic-features/shopfront/order-cycle/order-cycles-for-hubs.md)
+  * If the new products are not available for selection to add to either incoming/outgoing sections then check your [inventory settings](basic-features/enterprise-profile/enterprise-settings.md#inventory-settings). You may have to [add the products to your inventory](basic-features/products-1/inventory-tool.md#reviewing-new-products) before they can be added to the shop front.
 
 {% hint style="info" %}
-Во всех случаях проверьте уровень запаса новых товаров. Только товары **В Наличии?** со значением 1 или более, или значения, помеченные как **Неограниченные**, будут видны покупателю при покупке.
+In all cases, check the stock level of the new products. Only items with an **In Stock?** value of 1 or greater or those marked as **Unlimited** will be visible for a customer to purchase.
 {% endhint %}
 
-## Не все товары поставщика доступны для добавления в цикл заказа.
+## Not all of my supplier's products are available for me to add to my order cycle.
 
-У вас могут быть [параметры Товарной Номенклатуры](basic-features/enterprise-profile/enterprise-settings.md#inventory-settings) 'Новые товары должны быть добавлены в мой запас, прежде чем их можно будет добавить в мой магазин'. В этом случае необходимо просмотреть товарную номенклатуру, [добавить новые/скрытые товары](basic-features/products-1/inventory-tool.md#managing-your-inventory-products) в запасы, чтобы они были доступны для выбора в цикле заказа.
+You may have your [Inventory settings](basic-features/enterprise-profile/enterprise-settings.md#inventory-settings) set to 'New products must be added to my inventory before they can be added to my shopfront'.  
+In which case, you must review your product inventory, [add new/hidden products](basic-features/products-1/inventory-tool.md#managing-your-inventory-products) to the inventory for them to be available for selection in the order cycle.
 
-При координации цикла заказов с участием нескольких поставщиков и дистрибьюторов, некоторые или все из которых могут использовать свои запасы товаров для размещения на своих ветринах, дважды проверьте все соответствующие разрешения предприятия. Подробнее читайте [здесь](basic-features/shopfront/order-cycle/permissions-in-multi-enterprise-order-cycles.md).
+If you are coordinating an order cycle involving multiple suppliers and distributors, some or all of which may use their product inventory to stock their shop fronts, double check all the relevant enterprise permissions have been granted. Read more [here](basic-features/shopfront/order-cycle/permissions-in-multi-enterprise-order-cycles.md).
 
-## Рядом заработал новый Производитель, но я не могу добавить его товары на витрину моего центра.
+## A new Producer has started up nearby but I can't add their products to my hub shop front.
 
-Вы должны запросить их разрешение, прежде чем сможете продавать товары, которые они делают или поставляют. Это формально делается на платформе ОСП новым производителем через [Разрешения Предприятия](basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md).
+You must seek their permission before you are able to retail the goods they make or supply. This is done formally on the OFN platform by the new producer through [Enterprise Permissions](basic-features/enterprise-profile/enterprise-to-enterprise-permissions-e2es.md).
 
-## У меня есть схема 'Коробка Овощей', но я хотел бы разрешить клиентам добавлять дополнительные товары, при желании, в свой заказ каждую неделю.
+## I have a veg box scheme but would like to allow customers to add extra items, if desired, each week to their order.
 
-**Первый Сценарий**: _Клиент приобретает 'Коробку Овощей' каждую неделю через автоматизированную_ [_подписку_](basic-features/subscriptions/)_, настроенную на платформе ОСП_: Измените [Настройки Предприятия](basic-features/enterprise-profile/enterprise-settings.md#shop-preferences) -&gt; Настройки Магазина -&gt; Изменить Заказы на 'Клиенты могут изменять/отменять заказы, пока открыт цикл заказов'.  
-При открытии цикла заказа клиенту будет отправлено автоматическое сообщение электронной почты с сообщением о том, что его заказ 'Коробка Овощей' был создан. Затем он должен до закрытия цикла заказа войти в свою учетную запись ОСП, отредактировать свой заказ и добавить дополнительные товары из вашего магазина в свою корзину.
+**Scenario One:** _The customer purchases the veg box each week through an automated_ [_subscription_](basic-features/subscriptions/) _set up on the OFN platform:_  
+Change your [Enterprise Settings](basic-features/enterprise-profile/enterprise-settings.md#shop-preferences)-&gt; Shop Preferences-&gt; Change Orders? to 'Customers can change/cancel orders while order cycle is open'.  
+When the order cycle opens, the customer will be sent an automated email to say that their veg box order has been created. They then have until the order cycle closes to login to their OFN account, edit their order and add extra items from your shop front to their basket.
 
-**Второй Сценарий**: _Клиент приобретает коробку овощей внешнюю платформу_. В этом случае, возможно, настройте [частный магазин](basic-features/shopfront/private-shopfront.md), который виден только клиентам, зарегистрированным на вашей внешней схеме 'Коробка Овощей'. Используйте внешнее программное обеспечение или электронные таблицы, чтобы сопоставить дополнительные товары, доставленные через магазин ОСП, с ящиками овощей для клиентов, так что вам придется делать поставки только один раз!
+**Scenario Two:** _The customer purchases a veg box through an external platform._ In this case, perhaps set up a [private shopfront](basic-features/shopfront/private-shopfront.md) which is only visible to customers registered to your external veg box scheme. Use external software or spreadsheets to match additional items brought through the OFN shop front to customers' veg boxes so that you only have to make deliveries once!
 
-## Был неурожай и у нас меньше помидоров, чем нужно, чтобы выполнить заказ каждого
+## There's been a crop failure and we have fewer tomatoes supplied than we need to meet everyone's order
 
-Не проблема - бывает со всеми раз за разом! Инструкции по одновременной корректировке заказов клиентов читайте [здесь](basic-features/orders/view-orders.md#example-1-you-have-a-stock-shortage-and-must-reduce-customer-order-quantities-for-a-certain-product).
+Not a problem - happens to everyone once in a while! Read [here](basic-features/orders/view-orders.md#example-1-you-have-a-stock-shortage-and-must-reduce-customer-order-quantities-for-a-certain-product) for steps to adjust all your customers' orders at once.
 
-## Производитель может поставить в мой центр только в том случае, если его заказы соответствуют минимальным критериям.
+## A producer is only willing to supply my hub if their orders meet a minimum criteria
 
-Описанная [здесь](basic-features/products-1/group-buy-for-bulk-ordering.md) функция 'групповой покупки' также может быть использована для этой цели!
+The 'group buy' functionality described [here](basic-features/products-1/group-buy-for-bulk-ordering.md) can be used for this purpose too!
 
-## Я не могу возместить деньги клиенту, который заплатил через PayPal
+## I can't refund a customer who paid by PayPal
 
-В настоящее время вы не можете выплачивать возмещения клиентам, которые оплачивали товары по PayPal непосредственно через платформу ОСП. Вам необходимо будет посетить ваш корпоративный счет PayPal и вручную возместить деньги клиенту. Это функциональность, которую мы надеемся развивать в будущем, если потребуют достаточного количества пользователей.
+Currently you are not able to issue refunds to customers who purchased goods by PayPal directly through the OFN platform. You will need to visit your business PayPal account and manually make the refund to the customer there. This is a functionality we hope to develop in the future, should user sufficient users demand it.
 
 {% hint style="warning" %}
-Если ни один из этих шагов не поможет или есть другая проблема, по которой вы хотели бы получить совет, то пожалуйста, свяжитесь с вашей [местной группой поддержки ОСП](local-ofn-organizations-and-contacts.md), которая сделает все возможное, чтобы вернуться к вам с решениями и помощью, как только они смогут.
+If none of these steps help, or there is another problem that you would like advice with, then please contact your[ local OFN support team](local-ofn-organizations-and-contacts.md), who will do their best to get back to you with solutions and help as soon as they can.
 {% endhint %}
 
