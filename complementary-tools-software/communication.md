@@ -1,40 +1,44 @@
-# Newsletters & Promotional Emails
+---
+description: '1'
+---
 
-A good way of keeping in touch with customers and potential customers is to set up a mailing list and periodically send out newsletters or information about product updates by email. For example, you may wish to send:
+# Информационные Бюллетени и Рекламные Письма
 
-* a monthly newsletter on the progress of your enterprise, new products, news from producers, etc.
-* an email notification each time a new sales cycle is launched.
+Хороший способ поддерживать связь с клиентами и потенциальными клиентами - это создать список рассылки и периодически рассылать информационные бюллетени или информацию об обновлениях товаров по электронной почте. Например, вы можете отправить:
 
-One of the most common tools online today is [Mailchimp](https://mailchimp.com/), so here are some tips and tricks for using Mailchimp to send your newsletters.
+* ежемесячный бюллетень о успехах вашего предприятия, новых товарах, новостях от производителей и т. д.
+* уведомление по электронной почте каждый раз, когда начинается новый цикл продаж.
+
+[Mailchimp](https://mailchimp.com/) сегодня является одним из наиболее распространенных онлайн-инструментов, поэтому вот несколько советов и рекомендаций по использованию Mailchimp для отправки ваших информационных бюллетеней.
 
 {% hint style="danger" %}
-Be sure to follow local legal guidelines when storing and processing customer contact information. For EU regulations see [here](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/).
+При хранении и обработке контактной информации клиента обязательно соблюдайте местное законодательство.
 {% endhint %}
 
-## Integrating MailChimp with OFN
+## Интеграция MailChimp с ОСП
 
-It is possible to "connect" your Open Food Network and MailChimp accounts. In doing so every new customer who places an order in your shop will automatically have their contact address added to your enterprise's MailChimp contact list.
+Можно «соединить» ваши учетные записи Открытой Сети Продуктов и MailChimp. При этом каждому новому клиенту, который размещает заказ в вашем магазине, автоматически будет добавлен его контактный адрес в список контактов MailChimp вашего предприятия.
 
-If you would like us to help you facilitate this automatic link between your OFN and MailChimp accounts please contact your local support team.
+Если вы хотите, чтобы мы помогли вам установить автоматическую связь между вашими учетными записями ОСП и MailChimp, обратитесь в местную службу поддержки ОСП.
 
-## Sending a weekly email to customers via MailChimp
+## Отправка еженедельного электронного письма клиентам через MailChimp
 
 {% hint style="info" %}
-A regular email to customers to remind them your next order cycle has just open \(or is about to close\) can be an effective reminder for them to place an order!
+Регулярное электронное письмо клиентам с напоминанием о том, что ваш следующий цикл заказа только что открылся \(или вот-вот завершится\), может стать для них эффективным напоминанием о размещении заказа!
 {% endhint %}
 
-This is a slight hack of the [standard MailChimp advice](https://mailchimp.com/help/share-your-blog-posts-with-mailchimp/) for sending automated, regular emails.
+Это небольшой хак [стандартного совета MailChimp](https://mailchimp.com/help/share-your-blog-posts-with-mailchimp/) для автоматической отправки регулярных электронных писем.
 
-* Once you have logged into your MailChimp account, select **Campaigns** and then **Create a Campaign**. Opt for the subcategory '**Email**'
-* Click **Automated** and then **Share Blog Updates**.
+* После входа в свою учетную запись MailChimp выберите **Кампании**, а затем **Создать Кампанию**. Выберите подкатегорию **'Email'**
+* Нажмите **Автоматический**, а затем **Поделиться Обновлениями Блога**.
 
 ![](../.gitbook/assets/mailchimp1.png)
 
-* You will be directed to add RSS feed and timing for your email updates to customers.  Select one of the following feeds: [https://www.lemonde.fr/rss/une.xml](https://www.lemonde.fr/rss/une.xml) [http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml](http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml) [https://www.theatlantic.com/feed/all/](https://www.theatlantic.com/feed/all/) [https://www.politico.com/rss/politicopicks.xml](https://www.politico.com/rss/politicopicks.xml) The exact URL entered doesn't matter- the fact that these RSS feeds post every day means that you can use it to trigger a regular email to your customers.
+* Вам будет предложено добавить RSS-канал и время для ваших обновлений электронной почты для клиентов. Выберите один из следующих каналов: [https://www.lemonde.fr/rss/une.xml](https://www.lemonde.fr/rss/une.xml) [http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml](http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml) [https://www.theatlantic.com/feed/all/](https://www.theatlantic.com/feed/all/) [https://www.politico.com/rss/politicopicks.xml](https://www.politico.com/rss/politicopicks.xml) Конкретный URL не имеет значения - тот факт, что эти RSS-каналы публикуются каждый день, означает, что вы можете использовать его для отправки регулярных писем своим клиентам.
 
 ![](../.gitbook/assets/mailchimp2%20%281%29.png)
 
-* Then choose when you want the email to be sent.  If your order cycle opens every Monday at noon you may enter to use these days and times.  Select **Next** to move on.
-* Choose whether you would like the email to go to your entire audience \(all of your mailing list\) or just a segment of it \(specific customers who you may have sub-grouped\).
-* From this point onwards, add details as you would normally in a MailChimp email or campaign.
+* Затем выберите, когда вы хотите, чтобы электронное письмо было отправлено. Если ваш цикл заказа открывается каждый Понедельник в полдень, вы можете это указать, чтобы использовать эти дни и время. Выберите **Далее**, чтобы продолжить.
+* Выберите, хотите ли вы, чтобы электронное письмо передавалось всей вашей аудитории \(всему списку рассылки\) или только его части \(конкретным клиентам, которых вы, возможно, сгруппировали\).
+* С этого момента, добавляйте детали, как обычно в электронном письме или кампании MailChimp.
 
