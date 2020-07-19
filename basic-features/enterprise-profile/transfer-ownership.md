@@ -1,36 +1,36 @@
-# Изменить Профиль Менеджеров/Владельцев
+# Change Profile Managers / Owners
 
-Обычно профиль производителя создается центром и тогда центр добавляет производителя в качестве менеджера этого профиля или даже передает "владение" \(первичный менеджер\) профиля производителю, когда производитель принимает самостоятельное управление своим профилем и каталогом продукции.
+It is common for a producer's profile to be created by a hub, and then the hub will add the producer as a manager of that profile, or even transfer the "ownership" \(primary manager\) of the profile to the producer, when the producer accepts to manage their profile and product catalog themself.
 
-Чтобы добавить нового менеджера и в конечном итоге передать право собственности, выполните следующую процедуру:
+To add a new manager and eventually transfer ownership, here is the procedure to follow:
 
-* На панели администратора перейдите в меню Менеджеры настроек вашего Предприятия \(Предприятие&gt;Настройки&gt;Менеджеры\):
+* On the admin dashboard, go to the Managers menu of your Enterprise settings \(Enterprise &gt; Settings &gt; Managers\):
 
 ![](../../.gitbook/assets/changeowner.jpg)
 
-* В разделе "Менеджеры" найдите адрес электронной почты производителя, которого хотите добавить в качестве менеджера.
+* Under "Managers", search for the email of the producer you would like to add as a manager.
 
-**Случай 1: Рассматриваемый производитель уже имеет учетную запись в ОСП:**  
-Их электронная почта уже зарегистрирована у нас и будет отображаться при наборе. Выберите и нажмите 'Обновить' \(красная кнопка, справа внизу\), чтобы сохранить.
+**Case 1: The Producer in question already has a user account with OFN:**  
+Their email will already be registered with us and so it will appear as you start to type. Select and click 'Update' \(red button, bottom right\) to save.
 
 {% hint style="warning" %}
-Предупреждение: вы должны искать полный адрес электронной почты. Мы рекомендуем искать в нашем списке пользователей, копируя и вставляя **весь** адрес электронной почты.
+Warning: you must search for the exact **full** email. We recommend searching our list of users by copying and pasting the **entire** email address.
 {% endhint %}
 
-**Случай 2: Рассматриваемый Производитель еще не имеет учетной записи в ОСП:**  
-В этом случае вы не можете найти их электронную почту, когда вводите в поле 'Добавить существующего пользователя'. Вы должны нажать 'Добавить не зарегистрированного пользователя' чуть ниже, рядом с полем 'Пригласить менеджера'.  
-После этого производитель получит от нас письмо, подтверждающее его регистрацию. Следуя инструкциям, приведенным в электронном письме, он смогут завершить настройку своей учетной записи ОСП, включая установку пароля.
+**Case 2: The Producer in question does not yet have a user account with OFN:**  
+In this case, you can not find their email when you type in the box 'Add an Existing User'. You must then click on "Add an Unregistered User" just below, next to the 'Invite Manager' field.  
+The producer will then receive an email from us to confirm their registration. On following the instructions detailed in the email they will be able to complete setting up their OFN account, including adding a password.
 
-Как только производитель станет менеджером профиля предприятия, который вы создали от его имени, вы можете назвать его главным менеджером и/или контактом для получения уведомления о заказе. На этом этапе в качестве менеджера центра вы можете удалить себя из списка менеджеров.
+Once the producer is a manager of the enterprise profile you created on their behalf, you can choose to name them the main manager and/or the contact to receive order notification. At this stage, as a hub manager you may wish to remove yourself from the list of managers.
 
 {% hint style="warning" %}
-Не забудьте нажать 'Обновить', чтобы сохранить изменения!
+Do not forget to click 'Update' to save your changes!
 {% endhint %}
 
 {% hint style="info" %}
-По умолчанию пользователь не может быть менеджером/владельцем **более 5 предприятий**.  
-Если вы получите сообщение о том, что _новый пользователь достиг своего лимита_, свяжитесь с нами и мы увеличим его ограничения.
+By default, a user can not be a manager / owner of **more than 5 enterprises**.  
+If you receive a message stating that _the new user has reached their limit_, contact us and we will increase their business limit.
 
-Эта мера предназначена для того, чтобы избежать массового создания профилей роботами, что может нагрузить наши сервера и сделать платформу недоступной. Это классическая профилактическая мера.
+This measure is intended to avoid the massive creation of profiles by robots, something that could blow our server and make the platform unavailable. It is a classic prevention measure.
 {% endhint %}
 

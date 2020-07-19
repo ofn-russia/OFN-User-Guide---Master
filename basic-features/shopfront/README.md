@@ -1,14 +1,14 @@
 # Витрина
 
-Чтобы открыть свой интернет-магазин в Открытой Сети Продуктов и начать продажи, ваше предприятие должно быть зарегистрировано либо в качестве Магазина Производителя, либо в качестве Центра Производителя/Не производителя. Узнайте больше о различных профилях Предприятия [здесь](../../your-quick-start-on-ofn-given-who-you-are.md) и [здесь](../enterprise-profile/).
+To open your online shop on Open Food Network and start selling, your enterprise must be registered as either a Producer Shop or Producer/Non-Producer Hub. Read more about the different Enterprise profiles[ here](../../your-quick-start-on-ofn-given-who-you-are.md) and [here](../enterprise-profile/).
 
-Следующим важным шагом является настройка Методов [Доставки](shipping-methods.md) и [Оплаты](payment-methods.md) для вашего предприятия. На этом этапе мы также предлагаем создать [Сборы Предприятия](enterprise-fees.md) \(наценка добавляется к цене каждого товара, взимаемой поставщиком для покрытия расходов на администрирование и распределение\).
+The next essential steps are to set up [Shipping](shipping-methods.md) and [Payment](payment-methods.md) Methods for your enterprise. At this stage we also suggest creating [Enterprise Fees](enterprise-fees.md) \(a mark up added to the price each product charged by the supplying producer to cover admin and distribution costs\).
 
-Время открытия и закрытия магазинов в ОСП, а также возможность выбора товаров на разные даты и время сбора контролируются [Циклами Заказа](order-cycle/).
+Opening and closing times of shop fronts on OFN, as well as the option to sub-select products for different dates and times of collection, are controlled by [Order Cycles](order-cycle/).
 
-Витрины на ОСП очень гибкие. Узнайте больше, если вы заинтересованы в:
+Shop fronts on OFN are highly flexible. Read more if you are interested in:
 
-* [Предоставление разлачных товаров и услуг для разных групп клиентов](customer-management-and-conditional-displays-prices/).
-* Хотелось бы, чтобы только зарегистрированные пользователи могли размещать заказы\([Частный Магазин](private-shopfront.md)\)
-* Хотелось бы [только показывать](display-only-order-cycles.md) витрину магазина
+* [Providing different products and services to different customer groups](customer-management-and-conditional-displays-prices/).
+* Would like only registered members to be able to place orders \([Private Shop](private-shopfront.md)\)
+* Would like a 'dummy' [display only](display-only-order-cycles.md) shop front
 

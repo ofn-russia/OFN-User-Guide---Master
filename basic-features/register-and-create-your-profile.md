@@ -32,7 +32,7 @@
 Ваш адрес будет использован для добавления вашей компании на нашу карту предприятий ОСП и следовательно, для повышения вашей видимости.
 {% endhint %}
 
-* Выберите между 'Производитель' \(Вы сами делаете/печете/выращиваете продукты\) и 'Не Производитель' \(Вы распространяете и продаете еду, сделанную другими\).
+* Выберите между 'Производитель' \(Вы сами делаете/печете/выращиваете продукты\) или 'Не Производитель' \(Вы распространяете и продаете еду, сделанную другими\).
 
 ![](../.gitbook/assets/laststep.jpg)
 
@@ -48,9 +48,13 @@
 
 ![](../.gitbook/assets/newchoose.jpg)
 
-**После этого ваше предприятие будет добавлено на карту ОСП!**
+**After doing so, your enterprise will added to the OFN map!**
 
-## Доступ к Панели Управления Предприятием
+**A short clip of registering your enterprise on OFN:**
 
-Создав Предприятие, вы можете управлять своим профилем с помощью панели инструментов. Чтобы получить доступ к корпоративной информационной панели, войдите в Открытую Сеть Продуктов и нажмите 'Профиль &gt; Управление' в правом верхнем углу. Для информации смотрите [Панель](dashboard.md).
+![](../.gitbook/assets/registration.gif)
+
+## Access your Enterprise Administration Dashboard
+
+Once you have created an Enterprise, you can manage your profile using the Dashboard. To access your Enterprise Dashboard log in to the Open Food Network and click on "Profile &gt; Administration" in the top right corner. See [Dashboard ](dashboard.md)for more information.
 

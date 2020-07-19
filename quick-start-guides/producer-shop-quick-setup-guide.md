@@ -1,36 +1,37 @@
 ---
-description: 'Простые шаги, чтобы начать свой переход на ОСП как Магазин'
+description: Simple steps to start your OFN journey as a SHOP
 ---
 
-# Магазин
+# Shop
 
-Начать работу с ОСП легко, просто следуйте инструкциям ниже:
+It's easy to get started on OFN, just follow the steps below:
 
-![&#x41F;&#x44F;&#x442;&#x44C; &#x448;&#x430;&#x433;&#x43E;&#x432; &#x434;&#x43B;&#x44F; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x44F; &#x432;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x430; &#x432; &#x41E;&#x421;&#x41F;.](../.gitbook/assets/set-up-in-5-steps-draft.png)
+![Five steps to opening your OFN shop.](../.gitbook/assets/set-up-in-5-steps-draft.png)
 
-1. [Зарегистрируйте ваше предприятие](../basic-features/register-and-create-your-profile.md). Выберите [типы пакетов](../basic-features/enterprise-profile/package-types.md) 'Производитель', а затем 'Магазин' и завершите [настройки вашего предприятия](../basic-features/enterprise-profile/enterprise-settings.md), указав юридическую информацию.
-2. Перечислите ваши [товары](../basic-features/products-1/products.md).
-3. Добавьте [способы оплаты](../basic-features/shopfront/payment-methods.md), доступные вашим клиентам \(наличные при получении, банковской картой и т.п.\).
-4. Добавьте [опции доставки](../basic-features/shopfront/shipping-methods.md), доступные вашим клиентам \('собрать и отложить' сервис, с временем когда и где можно забрать, доставка на дом и т.п.\).
-5. Добавьте [цикл заказа](../basic-features/shopfront/order-cycle/order-cycles-for-hubs.md) : это откроет ваш магазин в дату начала, которую вы определили!
+1. [Register your enterprise](../basic-features/register-and-create-your-profile.md).  Choose the 'Producer' and then 'Shop' [package types ](../basic-features/enterprise-profile/package-types.md)and complete your [enterprise settings](../basic-features/enterprise-profile/enterprise-settings.md) with your business details.
+2. List your [products](../basic-features/products-1/products.md).
+3. Set up a choice of [payment methods](../basic-features/shopfront/payment-methods.md) available to your customers  \(cash on delivery, credit card online payment, etc.\)
+4. Set up a choice of [shipping options](../basic-features/shopfront/shipping-methods.md) available to your customers  \('click and collect' service with a pick up time and location, home delivery, ...\)
+5. Set up an [order cycle](../basic-features/shopfront/order-cycle/order-cycles-for-producers.md) : this will open your shop at the start date you defined!
 
-Поздравляем! Ваш магазин готов!
+Congrats! Your shop is now live!
 
-Когда вы начнёте получать заказы, вы сможете управлять ими в разделе [заказы](../basic-features/orders/).
+When you start receiving orders, you can manage them in the[ orders](../basic-features/orders/) section.
 
-Все данные, необходимые для подготовки и доставки товаров вашим покупателям, можно найти в разделе [отчёты](../basic-features/reports.md).
+All the data you need to prepare and deliver the groceries to your customers can be found in the [reports](../basic-features/reports.md) section.
 
-## Более продвинутые функции, которые могут вам понадобиться
+## More advanced features you might need
 
-* Профиль вашего предприятия:
-  * Помимо продажи своих товаров, хотите разрешить другим продавцам, использующим ОСП \(местный ОСП Центр\), показывать ваши товары в их витринах? [Разрешите им продавать ваши товары](../basic-features/enterprise-profile/create-or-connect-with-your-supplying-producers.md).
-* Ваши товары: 
-  * Укажите специфичные [свойства](../basic-features/products-1/product-properties.md), которые они могут иметь \(напр. органический, без пластика и т.п.\)
-  * Если у вас есть товары, которые могут продаваться в различных формах \(напр. картофель продается по 1кг, 3кг, 5кг\) тогда вы можете упростить свои списки товаров, добавив [варианты](../basic-features/products-1/product-variants.md).
-  * Если вы продаете не регулярные товары, такие как мясо или овощи \(напр. целая курица или большая тыква\), которые оцениваются по весу, [узнаете тут](../basic-features/products-1/pricing-irregular-items-kg.md), что можно сделать.
-  * Вы можете [импоритровать](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products) весь ваш список товаров за раз, если он формате Excel таблицы.
-* Ветрина вашего магазина:
-  * Вы можете [ограничить доступ](../basic-features/shopfront/private-shopfront.md) к вашему магазину, если хотите, чтобы ваш магазин был доступен только 'членам' или приглашенным клиентам. Например, вы можете предлагать продукты со скидкой членам сообщества, которые внесли свой вклад в ваш бизнес, или если вы хотите продавать только определенным коммерческим клиентам.
-  * Вы можете предлагать разные цены или отображать разные товары для определенных групп клиентов, используя [группировку клиентов \(через "метки"\)](../basic-features/shopfront/customer-management-and-conditional-displays-prices/tags-and-tag-rules.md), а так же [настраиваемое отображение и цены](../basic-features/shopfront/customer-management-and-conditional-displays-prices/).
-  * Если вы хотите, чтобы вас только видели в ОСП, но не продавать товары через платформу, тогда вы можете настроить[ только отображение витрины магазина](../basic-features/shopfront/display-only-order-cycles.md).
+* Your enterprise profile:
+  * On top of selling your products, you want to allow another seller using the OFN \(a local OFN hub\) to display your products in their shopfront? [Give them permission to sell your products](../basic-features/enterprise-profile/create-or-connect-with-your-supplying-producers.md).
+* Your products: 
+  * Specify special [credentials](../basic-features/products-1/product-properties.md) they may have have \(eg. organic, plastic free...\)
+  * If you have a product which can be sold in different forms \(eg. potatoes sold in 500g, 1kg and 2 kg quantities\) then you can simplify your listings by adding [variants](../basic-features/products-1/product-variants.md).
+  * If you sell irregular items like meat or vegetables \(eg. a whole chicken, a large pumpkin\) which are priced by weight then you can learn [how to do this here.](../basic-features/products-1/pricing-irregular-items-kg.md)
+  * You can [import](../basic-features/products-1/product-and-inventory-import.md#1-import-new-products) your all your product listings at once if they are in an Excel spread sheet.
+* Your shopfront:
+  * You can [restrict access](../basic-features/shopfront/private-shopfront.md) to your shop if want your shop to be only accessible to "members" or invited customer.   For example you may offer discounted produce to members of the community who have all contributed to your business, or if you wished to only sell to specific commercial customers.
+  * You can offer different prices, or display different goods, to specific groups of customers using [customer grouping \(through "tags"\)](../basic-features/shopfront/customer-management-and-conditional-displays-prices/tags-and-tag-rules.md) and [custom display and pricing](../basic-features/shopfront/customer-management-and-conditional-displays-prices/).
+  * If you would like to be visible on OFN only but not actually sell goods through the platform then you can setup a [display only shopfront](../basic-features/shopfront/display-only-order-cycles.md).
+  * You would like to [embed](producer-shop-quick-setup-guide.md) the OFN shop front in your website.
 
