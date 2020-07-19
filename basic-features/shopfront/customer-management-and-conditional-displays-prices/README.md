@@ -1,12 +1,8 @@
----
-description: '1'
----
+# Customer management and conditional displays/prices
 
-# Управление клиентами и условные отображения/цены
+Often an enterprise may want to offer individual customers and wholesale retailers different prices \(or even different products- such as bulk buys\).
 
-Часто предприятие может предлагать индивидуальным покупателям и оптовым розничным продавцам разные цены \(или даже разные товары, например, оптовые покупки\).
+For some enterprises \(such as community food groups\) 'members' may be eligible to reduced rates in comparison to 'non members'.
 
-Для некоторых предприятий \(таких как общественные продовольственные группы\) 'участники' могут иметь право на более низкие ставки по сравнению с 'не участниками'.
-
-'[**Метки и правила Меток**](tags-and-tag-rules.md)**'** - это механизм на платформе ОСП, посредством которого дифференцированные цены и другие преимущества могут быть переданы конкретным группам клиентов, если это необходимо.
+'[**Tags and Tag rules**](tags-and-tag-rules.md)' are the mechanism on the OFN platform whereby differential pricing and other benefits can be imparted to specific customer groups, if desired.
 

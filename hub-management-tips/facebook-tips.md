@@ -1,12 +1,8 @@
----
-description: '1'
----
+# Facebook tips
 
-# Facebook советы
+## Facebook Tips
 
-## Facebook Советы
-
-### Зачем использовать Facebook?
+### Why use Facebook?
 
 There are lots of compelling reasons to get on Facebook, and invest in the time into doing it well. Here are just a few:
 

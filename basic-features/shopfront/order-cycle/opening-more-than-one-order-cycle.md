@@ -1,35 +1,31 @@
----
-description: '1'
----
+# Opening more than one order cycle
 
-# Открытие более одного цикла заказа
+It is possible to have more than one order cycle open at the same time. This has the effect of creating two \(or more\) open shopfronts, which the customer can choose between from the one website address \(URL\).  
+This feature is helpful when you want to have different ‘conditions’ in the two shopfronts such as different products \(wholesale or retail\), different enterprise fees \(such a non-member mark-ups\) or different order cycle opening and closing dates \(for different deliver runs\).
 
-Можно одновременно открыть более одного цикла заказа. Это приводит к созданию двух \(или более\) открытых витрин, которые клиент может выбрать из одного адреса веб-сайта \(URL\).  
-Эта функция полезна, когда вы хотите иметь разные 'условия' в двух витринах, такие как разные товары \(оптовая или розничная\), разные сборы предприятия \(например, наценки для не членов группы\) или разные даты открытия и закрытия цикла заказа \(для разных доставок\).
-
-Когда клиент впервые попадает на страницу вашего магазина, ему будет предложено выбрать цикл заказа, прежде чем товары будут видны:
+When the customer first lands on your shopfront page they will be requested to choose an order cycle before products are visible:
 
 ![](../../../.gitbook/assets/multipleoc2.jpg)
 
-Когда клиент выбирает цикл заказа, витрина магазина загружается с конкретными товарами, сборами и датами открытия и закрытия этого цикла заказа.
+When the customer selects an order cycle, the shopfront will load with the specific products, fees and opening and closing dates of that order cycle.
 
 {% hint style="danger" %}
-**Невозможно предложить разные способы** [**доставки**](../shipping-methods.md) **или** [**оплаты**](../payment-methods.md) **для разных циклов заказа**; на всех циклах заказа будут доступны все способы доставки / оплаты. Вместо настройки одновременных циклов заказов используйте [метки](../customer-management-and-conditional-displays-prices/tags-and-tag-rules.md), чтобы предлагать дифференцированные тарифы для конкретных клиентов.
+**It is not possible to offer different** [**shipping**](../shipping-methods.md) **or** [**payment**](../payment-methods.md) **methods to different order cycles**; all order cycles will have all of your shipping/payment methods available. Instead of setting up concurrent order cycles, use [tags](../customer-management-and-conditional-displays-prices/tags-and-tag-rules.md) to offer differential rates for specific customers.
 {% endhint %}
 
 {% hint style="success" %}
-[Метки](../customer-management-and-conditional-displays-prices/tags-and-tag-rules.md) могут также использоваться, чтобы сделать циклы заказа видимыми или невидимыми для конкретных клиентов. Например, если вы пометите своих оптовых покупателей как 'pro', то вы можете сделать цикл заказа с оптовыми ценами, видимыми только для 'pro'.
+[Tags](../customer-management-and-conditional-displays-prices/tags-and-tag-rules.md) can also be used to make order cycles visible or invisible to specific customers. For example, if you tag your wholesale customers as 'pro', then you can make an order cycle with wholesale pricing visible only to 'pro'.
 {% endhint %}
 
-## **Сортировка ваших циклов заказа**
+## **Ordering your order cycles**
 
-Вы можете выбрать, чтобы ваши циклы заказов были перечислены в раскрывающемся меню по дате закрытия \(первое закрытие будет первым\) или по дате открытия \(самое раннее открытие\).
+You can choose whether you want your order cycles to be listed in the dropdown menu by closing date \(closing soonest first\) or by opening date \(opened earliest first\).
 
-Это можно сделать в меню [настройки предприятия](../../enterprise-profile/enterprise-settings.md) -&gt; Настройки магазина -&gt; Сортировать Циклы Заказов На Витрине Магазина По
+This is setup in your [enterprise settings](../../enterprise-profile/enterprise-settings.md) -&gt; Shop Preferences -&gt; Sort Order Cycles On Shopfront By
 
 ![](../../../.gitbook/assets/ordercyclesort.jpg)
 
-Клиенты могут перемещаться между циклами заказа:
+Customers can navigate between order cycles:
 
 ![](../../../.gitbook/assets/multipleoc3.jpg)
 

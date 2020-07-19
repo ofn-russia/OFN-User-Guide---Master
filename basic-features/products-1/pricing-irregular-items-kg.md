@@ -1,80 +1,76 @@
----
-description: '1'
----
+# Pricing Meat & other 'complete' products of unknown weight
 
-# Цены на Мясо и другие 'готовые' товары с неизвестным весом
+Here we refer to products as _**'irregular'**_ if they are sold according to weight/volume but the exact quantity is not known until time of harvest/distribution.
 
-Здесь мы называем продукты 'не регулярными, если они продаются по весу/объему, но точное количество неизвестно до момента сбора/распределения.
+For example joints of meat, slices of cheese, large vegetables.
 
-Например куски мяса, ломтики сыра, крупные овощи.
+There are a number of different tools available on the OFN platform to help manage and organise these sales.
 
-Существует ряд различных инструментов, доступных на платформе ОСП, чтобы помочь управлять и организовать такие продажи.
+## Option One: Set an average weight / price and reimburse
 
-## Первый Вариант: Установить средний вес/цену и возвращать
+You can charge the average price of the product, and then reimburse or charge the customer extra, if the actual weight deviates from the mean.
 
-Вы можете назначить среднюю цену продукта, а затем возвращать или взимать с клиента дополнительную плату, если фактический вес отклоняется от среднего значения.
-
-Когда вы знаете точный вес продуктов \(т.е. когда вы готовите заказы для получения клиентами\), войдите в "Пакетное Управление Заказами" \(Заказы -&gt; Пакетное Управление Заказами\) и добавьте столбец Вес/Объем в таблицу.
+When you know the true weight of the products \(ie. when you are preparing orders for collection by customers\), log into "Bulk Order Management" \(Orders -&gt; Bulk Order Management\) and add the Weight / Volume column to the table.
 
 ![](../../.gitbook/assets/bom1.jpg)
 
-Затем вы можете изменить вес, указанный для каждого покупателя для данного заказа и данного товара. Цена автоматически будет пересчитана в соответствии с введенным количеством.
+You can then change the weight shown for each buyer for a given order and a given product. The price will be recalculated automatically according to the quantity entered.
 
 {% hint style="info" %}
-Не забудьте повторно отправить клиенту электронное письмо с подтверждением заказа, чтобы уведомить их о разнице в цене и любых денежных средствах, которые они могут впоследствии выплатить.
+Don't forget to resend an order confirmation email to the customer to notify them of the price difference and any monies they may subsequently owe.
 {% endhint %}
 
-## Второй Вариант: Показать ценовые диапазоны
+## Option Two: Display price ranges
 
-Та же логика, что и в первом варианте, но вместо того, чтобы первоначально отображать среднюю цену, указывается диапазон цен. Это решение имеет то преимущество, что четко указывает покупателю, что окончательная цена может быть изменена.
+Same logic as Option One, but simply instead of displaying an average price initially, indicate a price range. This solution has the advantage of clearly indicating to the buyer that the final price is likely to be modified.
 
-[Варианты](product-variants.md) также могут быть использованы для создания различных диапазонов.
+[Variants](product-variants.md) can also be utilised to create different ranges.
 
-> **Пример 1** \(один товар и один вариант\):   
-> Продукт = курица \(от 8 до 12кг с ценой в зависимости от веса, 100руб. / кг\)
+> **Example 1** \(single product and one variant\):  
+> Product = Chicken \(between 8 and 12 kg with price according to weight, £10 / kg\)
 >
-> **Пример 2** \(два варианта для одного товара\):  
-> Продукт = курица \(100руб. / кг\)  
-> Вариант 1 = маленькая курица \(от 8 до 12 кг, цена в соответствии с фактическим весом\)  
-> Вариант 2 = Крупная курица \(от 13 до 20 кг, цена зависит от фактического веса\) ...
+> **Example 2** \(two variants for one product\):  
+> Product = Chicken \(£10 / kg\)  
+> Variant 1 = Small chicken \(between 8 and 12 kg, price according to actual weight\)  
+> Variant 2 = Large chicken \(between 13 and 20 kg, price according to actual weight\) ...
 
-## Третий Вариант: Создание вариантов с фиксированными ценами
+## Option Three: Create variants with fixed prices
 
-Несколько более простая версия Второго Варианта заключается в создании вариантов для ваших продуктов на основе диапазонов веса, но с фиксированной ценой для всех элементов, попадающих в этот диапазон.  
-Например, если тыква с орехами стоит 100руб / кг, вы можете перечислить варианты со следующими фиксированными ценами:
+A slightly simpler version of Option Two is to create variants for your products based on weight ranges but charge a **fixed price** for all items that fall within the range.  
+For example if butternut squash costs £1/kg then you could list the variants with the following fixed prices:
 
-* Маленький \(0.7 - 0.9 кг\)           80руб
-* Средний \(0.9 - 1.1 кг\)      100руб
-* Большой \(1.1 - 1.3 кг\)           120руб
-* Очень Большой \(1.3 - 1.5 кг\) 140руб
+* Small \(0.7 - 0.9 kg\)           £0.80
+* Medium \(0.9 - 1.1 kg\)      £1.00
+* Large \(1.1 - 1.3 kg\)           £1.20
+* Extra Large \(1.3 - 1.5 kg\) £1.40
 
-## Четвёртый Вариант: Создание вариантов с известным весом
+## Option Four: Create variants with known weights
 
-Например, если вы заранее знаете вес всей своей рыбы, вы можете использовать функциональность варианта, чтобы напрямую отобразить точную цену для каждого товара. Пример:
+If you know the weight of all your whole fish, for example, in advance you can use the variant functionality to directly display the precise price for each item. Example:
 
 ![](../../.gitbook/assets/bom2.jpg)
 
-## Редактирование Заказов
+## Editing Orders
 
-Производителям мяса может быть сложно заранее узнать о наличии продуктов или соответствующим образом подготовить их упаковку. \(До того, как забить, вес курицы или бараньей ноги, возможно неизвестен.\)
+It may be difficult for meat producers to know in advance about product availability or prepare their packaging accordingly. \(Until slaughter the weight of a chicken or a leg of lamb maybe unknown.\)
 
-Это не проблема, так как заказы могут быть изменены \(путем добавления, изменения или удаления товаров\) при необходимости. Для получения дополнительной информации см. [Заказы](../orders/).
+This is not a problem since orders can be modified \(by adding, modifying or deleting products\) if necessary. For more information, see [Orders](../orders/).
 
-## Возврат сдачи клиентам или Доплата клиентами: Как это работает?
+## Reimbursing or Charging customers the difference: How does it work?
 
-Если клиент **оплачивает свои товары при их сборе** или доставке, то менеджер центра сможет изменить заказ до оплаты в соответствии с фактическим весом и фактически доставленными продуктами. Следовательно, в этом случае не будет необходимости возмещать или переплачивать клиенту.
+If a customer _**pays for their goods on their collection**_ or delivery, then the hub manager will have been able to modify the order before payment according to the actual weight and the products actually delivered. Hence in this instance there will be no need to reimburse or re-bill customer.
 
-Если заказ **оплачивается онлайн перед доставкой**, то вы должны возместить или выставить счет на разницу между уже полученными деньгами и суммой, необходимой для полной стоимости товаров. Нажмите здесь, чтобы увидеть [как](../orders/refund-payments.md).
+If an order is _**paid online before delivery**_, then you must refund or invoice for the the difference between monies already received and that owing for the precise products to be delivered. Click here to see [how](../orders/refund-payments.md).
 
 {% hint style="danger" %}
-Альтернативой является использование системы онлайн-платежей для временного хранения суммы "в ожидании", пока заказ не будет проверен.
+An alternative is to use an online payment system to temporarily store the amount "pending" until the order has been validated.
 
-_Эта функция еще не реализована в Открытой Сети Продуктов. Мы также работаем над автоматизированным внедрением "кредитов", позволяющих центру возмещать расходы в форме кредитного остатка, который клиент может использовать в качестве части оплаты для своего следующего заказа._
+_This feature is not yet implemented in Open Food Network. We are also working on the automated implementation of "credits" allowing a hub to reimburse in the form of a credit note which could be used by the customer as part payment for their next order._
 {% endhint %}
 
-## Сообщите покупателю о своей ценовой политике
+## Inform the buyer about your pricing policy
 
-Вы можете уведомить своих клиентов о своей политике ценообразования для товаров с переменным весом \(например, мяса\) в [окне сообщений](../enterprise-profile/enterprise-settings.md#shop-preferences), отображаемом в верхней части витрины вашего магазина. Это можно найти в Настройках Предприятия -&gt; Настройки магазина.
+You can notify your customers about your pricing policies for variable weight items \(such as meat\) in the [message box](../enterprise-profile/enterprise-settings.md#shop-preferences) displayed at the top of your shop front. This is found in the Enterprise Settings -&gt; Shop Preferences.
 
-Также может быть полезно добавить напоминание об этих ценовых политиках в поле описания [Методов Оплаты](../shopfront/payment-methods.md) способов оплаты. Например, вы можете добавить следующее: "Помните, что окончательная цена может отличаться на 10% в зависимости от веса, если вы приобрели неделимые товары, такие как мясо или овощи".
+It might be useful to also add a reminder of these pricing policies in the description box of [Payment Methods](../shopfront/payment-methods.md). For example, you may wish to add : "Remember that the final price may vary by 10% depending on weight if you have purchased non-divisible items such as meat or large vegetables.".
 

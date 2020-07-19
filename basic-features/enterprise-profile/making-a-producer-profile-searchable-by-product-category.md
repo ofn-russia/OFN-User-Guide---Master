@@ -1,26 +1,22 @@
----
-description: '1'
----
+# Making a producer profile searchable by product category
 
-# Сделать поиск профиля производителя по категории продукта
-
-Когда клиенты приходят в Открытую Сеть Продуктов, они могут искать производителей по названию или местонахождению. Также могут фильтровать производителей в зависимости от того, какие у них есть продукты \(см. ниже\).
+When customers come to the Open Food Network they are able to search for producers by name or location. They are also able to filter the producer profiles according to what kinds of products the producers stock \(see below\).
 
 ![](../../.gitbook/assets/filter-by-product.png)
 
-Производители с онлайн-магазинами на ОСП имеют товары в системе, которые выбираются в поиске фильтрами. Однако производители, у которых нет магазина ОСП \(только профиль\), не будут доступны для поиска таким образом, если они не добавят в систему псевдо-товары. Добавив псевдо-товар для нужной вам категории товаров, клиенты смогут вас найти при поиске этой категории товаров.
+Producers with online shops on the OFN have products in the system, which get picked up by the search filter tool. However, producers who don’t have an OFN shop \(just a profile\) won’t be searchable in this way, unless they add some fake products into the system. By adding a dummy product for each product category that you want to be searchable under, you’ll show up when customers search for your products.
 
-Вот как это сделать ...
+Here’s how to do this…
 
-Нажмите **Товары** в синем горизонтальном меню, а затем нажмите **+Новый Товар**, чтобы добавить псевдо-товары.
+Click **Products** in the horizontal blue menu, and then click **+ New Product** to add your dummy products.
 
 ![](../../.gitbook/assets/access-new-product.png)
 
-Поскольку у вас нет магазина ОСП, этот товар нигде не будет виден. Поэтому вы можете называть его как угодно и устанавливать цену, и единицы измерения как угодно. Важно то, чтобы вы выбирали правильную **Категорию Товаров**, в которой хотите, чтобы вас могли найти. Ниже приведен пример фиктивного мясного продукта. Профиль этого производителя теперь отображается, когда клиент ищет производителей мяса.
+Because you don’t have an OFN shopfront, this product won’t be visible anywhere. Therefore you can call it whatever you like, and set the price and units to anything. The important thing is that you select the correct **Product Category** that you wish to be found under. Below is an example of a dummy meat product. This producer’s profile will now show if a customer searches for producers of meat.
 
 ![](../../.gitbook/assets/dummy-meat-product.png)
 
-Их профиль также будет указывать, что они продают мясные продукты \(см. ниже\).
+Their summary profile will also indicate that they sell meat products \(below\).
 
 ![](../../.gitbook/assets/meat.png)
 

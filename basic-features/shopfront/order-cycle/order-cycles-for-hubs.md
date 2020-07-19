@@ -1,7 +1,3 @@
----
-description: '1'
----
-
 # Циклы Заказа \(для Центров\)
 
 {% hint style="warning" %}
@@ -10,113 +6,116 @@ description: '1'
 Посетите эту [страницу](order-cycles-for-producers.md), если вы зарегистрировались как '[Магазин Производителя](../../../your-quick-start-on-ofn-given-who-you-are.md#shop)' и хотите настроить цикл заказов для своего магазина.
 {% endhint %}
 
-Вы открываете свой магазин, создавая Цикл Заказа. Когда вы делаете цикл заказа, вы выбираете, когда вы открываете магазин \(С и До\), какие товары поступят в магазин и любые сборы, которые вы будете применять.
+You open you shop by creating an Order Cycle. When you make an order cycle you select when you shop is open \(from and until\), which products will go into the shop, and any fees that you'll apply.
 
-**Для чего Циклы Заказа?**  
-Некоторые центры могут захотеть иметь онлайн-магазин, который постоянно открыт и выполнять заказы один за другим по мере их поступления. Тем не менее, многие центры работают по системе периодических заказов, что позволяет им обрабатывать заказы оптом, делая их производство, упаковку и распределение более эффективными \(и уменьшая связанные накладные расходы\).
+**Why Order Cycles?**  
+Some hubs may wish to have an online store which is perpetually open, and to fulfill orders on a one by one basis, as they are received. However, many hubs operate on a periodic ordering system, which allows them to process orders in bulk, making their production, packing and distribution activities more efficient \(and reducing associated overhead costs\).
 
-Например, цикл заказа может быть открыт в течение двух недель. По истечении двухнедельного срока все заказы будут упакованы и доставлены одновременно в следующую среду. Как только эта партия заказов будет доставлена, новый цикл заказов может быть вновь открыт.
+For example, an order cycle might be open for two weeks. At the end of the fortnight, all orders will be packed and delivered at the same time on the following Wednesday. Once this batch of orders has been delivered, a new order cycle may reopen.
 
-Короткая демонстрация настройки нового цикла заказа:
+A quick demonstration of setting up a new order cycle:
 
 ![](../../../.gitbook/assets/ordercyclehub.gif)
 
-## Просмотр Циклов Заказа
+## Viewing Order Cycles
 
-Вы можете создать цикл заказа и просмотреть предыдущие циклы заказа, нажав на **Управление Циклами Заказа** в своей [панели](../../dashboard.md).
+You can create an order cycle, and view previous order cycles by clicking on **Manage Order Cycles** on your [dashboard](../../dashboard.md).
 
 ![](../../../.gitbook/assets/ordercycledash.jpg)
 
-Или из горизонтального меню вверху страницы.
+Or from the horizontal menu at the top of the page.
 
 ![](../../../.gitbook/assets/ordercycle1%20%282%29.jpg)
 
 {% hint style="warning" %}
-Вы не сможете публиковать текущий заказ, пока для вашего предприятия не будет настроен хотя бы один способ [оплаты](../payment-methods.md) и [доставки](../shipping-methods.md).
+You will not be able to publish a live order cycle until you have at least one [payment](../payment-methods.md) and [shipping](../shipping-methods.md) method set up for your enterprise.
 {% endhint %}
 
-## Создать Новый Цикл Заказа
+## Create a New Order Cycle
 
-Первый шаг - выбрать координатора для вашего цикла заказа. Только предприятие, которое координирует цикл заказа, имеет право изменять и управлять **всеми** аспектами цикла продаж.  
-Другие предприятия, участвующие в цикле заказа \(только в качестве поставщиков или дистрибьюторов\), будут иметь ограниченный доступ.  
-Для получения дополнительной информации об управлении между предприятиями в контексте циклов заказов, [нажмите здесь](permissions-in-multi-enterprise-order-cycles.md).
+The first step is to select a coordinator for your order cycle. Only the enterprise who coordinates an order cycle have permission to modify and manage **all** aspects of the sales cycle.  
+Other enterprises involved in an order cycle \(as suppliers or distributors only\) will have restricted access.  
+For more information on cross-enterprise management in the context of order cycles, [click here](permissions-in-multi-enterprise-order-cycles.md).
 
 ![](../../../.gitbook/assets/ordercycle2.jpg)
 
-После того, как координатор цикла заказа был выбран, процесс настройки делится на три этапа:
+Once the order cycle coordinator has been chosen, the process of setting up is divided into three steps:
 
-### 1\) Основные Настройки
+### 1\) General Settings
 
 ![](../../../.gitbook/assets/ordercycle3%20%281%29.jpg)
 
-**Имя \(обязательно\)**: Дайте циклу заказа имя, которое будет вам понятно. Мы рекомендуем следовать последовательному протоколу именования, например ПродуктовыйЦентр\_27Неделя\_2014. Мы также рекомендуем вам включить имя вашего центра в название цикла заказа, чтобы служба поддержки ОСП могла определить ваши циклы заказа, если вам потребуется помощь.
+**Name \(**_**required**_**\):** Give the order cycle a name which is meaningful to you. We recommend that you follow a consistent naming protocol e.g FoodHub\_Week27\_2014. We also recommend that you include the name of your hub in the order cycle name, so that OFN support can identify your order cycles if you need assistance.
 
-**Заказы Открываются в:** это дата и время, когда ваш магазин ОСП будет открыт, видимым и начнет принимать заказы от клиентов.
+**Orders Open at:** This is the date and time at when your OFN store will be open, visible and start to accept orders from customers.
 
-**Закрытие заказов:** это дата \(и время\), когда ваш магазин ОСП закроется и перестанет принимать заказы. Если вы хотите, чтобы цикл заказа был постоянно открыт, выберите дату закрытия в будущем.
+**Orders Close:** This is the date \(and time\) when your OFN store will close and stop accepting orders. If you intend to have an order cycle which is continuously open, select a close date which is well into the future.
 
-**Расписания:** оставьте пустым, если не используете [Подписки](../../subscriptions/).
+**Schedules:** Leave blank unless using [Subscriptions](../../subscriptions/).
 
-**Добавление Сбора Координатора:** как центр, координатор скорее всего вы. Здесь вы можете применить свой Сбор Предприятия, который действует как наценка. Сбор будет рассчитываться в соответствии с калькулятором, выбранным в [Сборах Предприятия](../enterprise-fees.md). Вы можете применять только тот сбор, который был создан ранее.
+**Add Coordinator Fee:** As a hub, the coordinator is most likely you. Here you can apply your Enterprise Fee which acts as the markup. The fee will be calculated according to the calculator selected in [Enterprise Fees](../enterprise-fees.md). You can only apply an enterprise fee which has previously been created.
 
-### 2\) Входящие Товары
+### 2\) Incoming Products
 
 ![](../../../.gitbook/assets/ordercycle4.jpg)
 
-На этой странице вы можете выбрать производителей и их продукцию, которые будут доступны в этом цикле заказов. В раскрывающемся меню вы увидите всех производителей, которые предоставили вам разрешение на добавление своей продукции в ваш цикл заказа \(см. раздел [Разрешения Предприятия](../../enterprise-profile/enterprise-to-enterprise-permissions-e2es.md)\). После выбора поставщика и нажатия на **Добавить Поставщика** будут видны все товары, связанные с этим поставщиком. Отметьте те товары, которые вы хотите добавить в магазин или нажмите **выбрать все**.
+On this page you can select the producers, and their produce, which will be available in this order cycle. In the dropdown menu you will see all producers who have granted you permission to add their produce to your order cycle \(See [Enterprise Permissions](../../enterprise-profile/enterprise-to-enterprise-permissions-e2es.md) section\).  
+After selecting a supplier and clicking **Add Supplier** all of the products associated with that supplier will be visible. Check those products you wish to add to the store, or click **select all.**
 
 {% hint style="info" %}
-Товары, которых нет в наличии \(т.е. их значение 'в наличии' равно нулю\), включены в этот список. Если они будут добавлены в цикл заказа, они не появятся в нашем магазине. Всегда полезно перепроверить уровень запасов.
+Products which are out of stock \(ie their 'in stock' value is zero\) are included in this list. If added to an order cycle they will not appear on our shop front. It is always good to double check stock levels.
 {% endhint %}
 
-Поле **Сведения о Получении** не является обязательным. Информация, добавленная в это поле, будет автоматически добавлена в любое электронное письмо, отправленное производителям в конце цикла заказа \(после нажатия 'Уведомить Производителей'\). Это может быть хорошей идеей, чтобы указать точный адрес доставки продукции до ее распространения среди покупателей.
+The **Receival Details** field is optional. Information added to this field will automatically added to any email sent to producers at the end of an order cycle \(after clicking 'Notify Producers'\). It might be a good idea to include an exact delivery address for produce prior to distribution to customers here.
 
-Кнопка **Добавить Сбор** в этом разделе, в конце каждой записи производителя в таблице, позволяет добавлять разные [сборы предприятия](../enterprise-fees.md) для разных поставщиков. Например, транспортировка муки или тяжелых товаров клиентам может быть более дорогой для центра, чем салат. Следовательно, центр может прозрачным образом добавить немного более высокий сбор предприятия ко всем товарам, поставляемым мукомольным заводом, чем фермером по производству салатов.
+The **Add Fee** button in this section, at the end of each producer's entry in the table, allows you to add different [enterprise fees](../enterprise-fees.md) to different suppliers. For example, transporting flour or heavy goods to customers may be more expensive for a hub than salad. Hence, a hub can, in a transparent manner, add a slightly higher enterprise fee to all goods supplied by the flour miller than the salad farmer.
 
-Выберите название предприятия в первом раскрывающемся списке, а затем щелкните название сбора предприятия во втором раскрывающемся списке. В приведенном ниже примере сбор предприятия с именем OrderAdmin применяется к Производителю Фруктов.
+Select the name of the enterprise in the first dropdown box, then click the name of the enterprise fee in the second dropdown box. In the example below, an enterprise fee named OrderAdmin is applied to the Producer of Fruit.
 
-![&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x43D;&#x438;&#x442;&#x44C; &#x441;&#x431;&#x43E;&#x440; &#x43F;&#x440;&#x435;&#x434;&#x43F;&#x440;&#x438;&#x44F;&#x442;&#x438;&#x44F; &#x43A; &#x432;&#x445;&#x43E;&#x434;&#x44F;&#x449;&#x435;&#x43C;&#x443; &#x43F;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x449;&#x438;&#x43A;&#x443;](../../../.gitbook/assets/enterprise-fee.png)
+![Apply enterprise fee to incoming supplier](../../../.gitbook/assets/enterprise-fee.png)
 
 {% hint style="warning" %}
-Этот сбор будет распространяться на все товары Производителя Фруктов, которые приобретаются. Сбор рассчитывается в соответствии с калькулятором сборов, который был выбран при создании [Сбора Предприятия](../enterprise-fees.md).
+This fee will be applied to all of the Producer of Fruit’s products which are purchased. The fee is calculated according to the fee calculator which was selected when the [Enterprise Fee](../enterprise-fees.md) was created.
 {% endhint %}
 
-### 3\) Исходящие Товары
+### 3\) Outgoing Products
 
-Здесь вы можете выбрать одного или нескольких центров-дистрибьюторов. Все центры, выбранные в качестве дистрибьютора в этом цикле заказа, будут иметь открытую витрину в течение всего цикла заказа. В **простой модели,** только один центр  указан в качестве единственного дистрибьютора для цикла заказа. Выберите центр и установите флажок 'Выбрать все', чтобы добавить все входящие товары в витрину магазина. Для большей гибкости один и тот же цикл заказа может иметь **несколько центров-дистрибьюторов**. В этом случае вы можете выбрать другое подмножество доступных входящих товаров для каждого дистрибьютора и/или добавить разные даты доставки для каждого.
+Here you can select one or more hub-distributors. All hubs chosen to be a distributor in this order cycle will have an open shop front for the duration of the order cycle.  
+In a **simple model**, only one hub is listed as the sole distributor for the order cycle. Select the hub, and check the box 'Select all' to add all incoming products to the shop front.  
+For more flexibility, the same order cycle may have **multiple hub distributors**. In this case you may wish to select a different subset of the available incoming products for each distributor, and/or, add different delivery dates for each.
 
 ![](../../../.gitbook/assets/oc3.jpg)
 
-В столбце **метки** можно пометить циклы заказов, чтобы настроить, будут ли они видимыми/невидимыми для определенных клиентов. Смотрите [метки и правила меток](../customer-management-and-conditional-displays-prices/tags-and-tag-rules.md) для получения дополнительной информации.
+The **tags** column is where you can tag your order cycles to customise whether they are visible/invisible to certain customers. See [tags and tag rules](../customer-management-and-conditional-displays-prices/tags-and-tag-rules.md) for more information.
 
-**'Готов к \(т.е. Дата/Время\)'** **\(обязательный\)**: это поле указывает клиенту, когда его заказ будет готов к сбору или доставке. Если ваш цикл заказа является бессрочным, который выполняет заказы на индивидуальной основе, а не пакетом, вы должны ввести что-то вроде 'Два дня после получения заказа'. В приведенном ниже примере показано, как на витрине магазина отображается цикл заказа с датой 'Суббота 7 Декабря'.
+The **‘ready for \(ie Date/Time\)’ \(**_**required**_**\):** This box tells the customer when their order will be ready for either collection or delivery. If your order cycle is a perpetual one, which fulfills orders on an individual basis rather then in bulk, you should enter something like ‘Two days after order is received’. The example below shows how an order cycle with a ready for date of 'Saturday 7th December’ is displayed on the shop front.
 
 ![](../../../.gitbook/assets/readyfor.jpg)
 
-Примечание также отображается при оформлении заказа, когда клиент выбирает способ доставки \(см. ниже\) и включается в электронное письмо подтверждения заказа.
+The note is also shown at check out, when the customer selects their shipping method \(see below\) and is included in the order confirmation email.
 
 ![](../../../.gitbook/assets/readyfor2.jpg)
 
-Сообщение с **Инструкциями по Вывозу** будет включено в электронное письмо с подтверждением заказа клиента под сообщением, которое соответствует выбранному способу доставки \(см. ниже\). Эта заметка предназначена для того, чтобы ее могли видеть только клиенты, поэтому вы можете включить более конфиденциальную информацию, такую как адреса, номера телефонов и т.д. Ниже приведен пример электронного письма с подтверждением заказа.
+The **Pick-Up Instructions** message will be included in the customer’s order confirmation email, below the message that corresponds to their chosen shipping method \(see below\). This note is designed to only be visible to customers, so you can include more sensitive information like addresses, or phone numbers etc. See below for an example of the order confirmation email.
 
 ![collection details message](../../../.gitbook/assets/collection-details.png)
 
-Добавить Сбор: Опять же, этому дистрибьютору может быть назначен ранее созданный сбор предприятия. Для простых моделей \(с одним центром-дистрибьютором, который также является координатором цикла заказа\) добавление сбора на этом этапе аналогично добавлению 'Сбора Координатора' \(она применяется ко всем товарам\).   
-Для сложных моделей координатор может пожелать добавить разные сборы ко всем продаваемым товарам через каждого дистрибьютора. Лучшее место для реализации этой функциональности здесь.
+**Add Fee:** Again, a previously created enterprise fee can be assigned to this distributor. For simple models \(with one hub distributor, who also is the coordinator of the order cycle\) adding a fee at this stage is the same as adding a 'Coordinator Fee' \(it will apply to all products\).  
+For complex models, the coordinator may wish to add different fees to all products sold though each distributor. The best place to implement this functionality is here.
 
-### Открыть витрину
+### Open the shopfront
 
-Нажмите **Сохранить**, чтобы запланировать цикл заказа. Если дата открытия уже прошла, ваш магазин мгновенно открыт! Если вы не готовы сразу открыть, введите даты в будущем, которые вы можете позже изменить.
+Click **Save** to schedule the order cycle. If the opening date has already passed, your shop is instantly open! If you are not ready to open right away, enter dates in the future, which you can change later.
 
-Для периодических, повторяющихся циклов заказа вы можете скопировать существующий цикл заказа и изменить даты, чтобы ускорить процесс. Смотрите ниже.
+For periodic, repetitive order cycles, you can copy an existing order cycle and change the dates, to make the process quicker. See below.
 
 ![](../../../.gitbook/assets/occpy.jpg)
 
-Циклы заказа будут отображаться зеленым цветом, когда они активны, желтым цветом, когда запланировано на будущую дату и серым цветом, когда они закрыты. Когда цикл заказа закрыт более месяца, он больше не будет отображаться в этом списке. Чтобы просмотреть все ваши прошлые циклы заказов,  вверху списка нажмите 'показать больше'.
+Order cycles will display as green when they are active, yellow when scheduled for a future date, and grey when they have closed. When an order cycle close over one month ago, it will no longer display on this list. To view all of your past order cycles click ‘show more’ at the top of the list.
 
-## **Кнопка ‘Уведомить Производителей’**
+## **‘Notify Producers’ Button**
 
-Используя эту кнопку в верхней части страницы, все производители, связанные с циклом заказа, получат электронное письмо, содержащее список товаров, заказанных для этого конкретного цикла заказа. Инструкции по доставке \(если это поле заполнено в разделе входящих товаров\) также будут отправлены по электронной почте.
+By using this button at the top of the page, all the producers linked to the order cycle will receive an email containing a list of the products ordered for that particular order cycle thus far. Delivery instructions \(if this field is completed in the incoming products section\) will be also sent in the email.
 
 ![](../../../.gitbook/assets/notifyproducers.jpg)
 

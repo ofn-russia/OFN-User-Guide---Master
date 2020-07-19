@@ -1,80 +1,75 @@
----
-description: '1'
----
-
-# Циклы Заказа \(для Магазинов\)
+# Order Cycles \(for Shops\)
 
 {% hint style="warning" %}
-Читайте дальше, если вы зарегистрированы как [Магазин Производителя](../../../your-quick-start-on-ofn-given-who-you-are.md#shop) и хотите открыть свой собственный магазин.
+Read on if you're registered as a [Producer Shop](../../../your-quick-start-on-ofn-given-who-you-are.md#shop) and wish to open your own store.
+
+Visit this [page](order-cycles-for-hubs.md) if you wish to open an online store for a multi-producer shop front \([hub](../../../your-quick-start-on-ofn-given-who-you-are.md#hub)\).
 {% endhint %}
 
-{% hint style="warning" %}
-Посетите эту [страницу](order-cycles-for-hubs.md), если вы хотите открыть интернет-магазин для многопрофильного магазина \([центр](../../../your-quick-start-on-ofn-given-who-you-are.md#hub)\).
-{% endhint %}
+In Open Food Network, Order Cycles are where shop managers open their shop. This involves selecting which of their products are in stock, what fees are applied and what dates the shop will open and close.
 
-В Открытой Сети Продуктов, Циклы Заказов - это то, где менеджеры магазинов открывают свои магазины. Это включает в себя выбор того, какие их товары есть в наличии, какие сборы применяются и в какие даты магазин будет открываться и закрываться.
+**Why use Order Cycles?**  
+Many producers, who are selling small quantities of products, may find it useful to have an order cycle that is perpetually open, and to fulfill orders individually, as they are placed.  
+Other producers, who sell large quantities of products, to multiple customers, find it useful to establish periodic order cycles, which are collectively fulfilled at the end of a period. For instance, a farmer may have an order cycle which is open \(accepting orders\) for two weeks. At the end of this order cycle, all of the orders are packed, sorted and distributed at the same time. Once this batch of orders has been fulfilled, a new order cycle is opened. Structuring order cycles in this way can make the tasks of packing and delivering orders more efficient.
 
-**Зачем Использовать Циклы Заказа?**  
-Многим производителям, которые продают небольшие количества товаров, может быть полезно иметь постоянно открытый цикл заказов и выполнять заказы по мере их размещения. Другие производители, которые продают большое количество товаров нескольким покупателям, считают целесообразным устанавливать периодические циклы заказов, которые в совокупности выполняются в конце периода. Например, у фермера может быть открытый цикл заказов \(прием заказов\) в течение двух недель. В конце этого цикла заказа, все заказы упаковываются, сортируются и распределяются одновременно. Как только эта партия заказов выполнена, открывается новый цикл заказов. Таким образом, структурирование циклов заказов может сделать задачи упаковки и доставки заказов более эффективными.
+## Access Order Cycles
 
-## Доступ к Циклам Заказа
-
-При входе в панель администратора вы можете получить доступ к циклам заказа с помощью этой кнопки:
+When logged into your admin dashboard you can access order cycles from this button:
 
 ![](../../../.gitbook/assets/ordercycledash.jpg)
 
-Или 'Циклы Заказа' в синем горизонтальном меню в верхней части страницы. Затем нажмите **+Новый Цикл Заказа**
+Or 'Order Cycles' on the blue horizontal menu across the top of the page. Then click on **+New Order Cycle**
 
 ![](../../../.gitbook/assets/ordercycle1%20%281%29.jpg)
 
 {% hint style="info" %}
-Обратите внимание, что вы не можете создать цикл заказа, пока не настроите \*\*хотя бы один [метод доставки ](../shipping-methods.md)и [оплаты](../payment-methods.md).
+Note you cannot create an order cycle until you have set up _\*\*_at least one [shipping ](../shipping-methods.md)and one [payment method](../payment-methods.md).
 {% endhint %}
 
-Вы будете перенаправлены на новый экран:
+You will now be redirected to a new screen:
 
 ![](../../../.gitbook/assets/ordercyclep1.jpg)
 
-**Имя \(обязательно\)**: выберите имя для этого цикла заказа. Это будет видно только вам, поэтому его можно назвать любым понятным вам именем. Мы рекомендуем вам следовать последовательному протоколу именования, например ПродуктовыйЦентр\_27Неделя\_2014.
+**Name \(**_**required**_**\):** Choose a name for this order cycle. This will only be visible to you, so it can be named anything which is meaningful for you. We recommend that you follow a consistent naming protocol e.g FoodHub\_Week27\_2014.
 
-**Заказы Открыты:** это дата, когда ваш магазин ОСП будет открыт и начнет принимать заказы.
+**Orders Open:** This is the date at which your OFN store will be open, and start to accept orders.
 
-**Заказы Закрыты:** это дата закрытия магазина ОСП и прекращения приема заказов. Если вы хотите, чтобы цикл заказа был постоянно открыт, выберите дату закрытия, которая в будущем.
+**Orders Close:** This is the date when your OFN store will close, and stop accepting orders. If you intend to have an order cycle which is continuously open, select a close date which is well into the future.
 
-**Расписания:** оставьте пустым, если не используете [Подписки](../../subscriptions/).
+**Schedules:** leave blank unless implementing [Subscriptions](../../subscriptions/).
 
-**Готов к \(т.е. Дата/Время\)** **\(обязательный\)**: это поле указывает клиенту, когда его заказ будет готов к сбору или доставке.
+**Ready for \(ie Date/Time\) \(**_**required**_**\):** This box tells the customer when their order will be ready for either collection or delivery.
 
 {% hint style="info" %}
-Если ваш цикл заказа постоянно открыт, а не периодический, используйте это поле, чтобы ввести что-то вроде 'Два дня после заказа'
+If your order cycle is constantly open, rather than periodic, then use this box to enter something like 'Two days after ordering'
 {% endhint %}
 
 {% hint style="info" %}
-Если у вас одновременно выполняются циклы заказа для конкретного продукта или местоположения, вы можете сделать 'хитрость' в этом текстовом поле, добавив дополнительную информацию, например, 'Мясо по Вторникам'
+If you have product or location specific order cycles running concurrently you may like to 'hack' this text field by adding extra information eg. 'Meat for Tues'
 {% endhint %}
 
-**Инструкции для Клиентов:** это сообщение будет включено в электронное письмо с подтверждением заказа клиента под сообщением, которое соответствует выбранному способу доставки \(см. ниже\). Эта заметка предназначена для того, чтобы ее могли видеть только клиенты, поэтому вы можете включить более конфиденциальную информацию, такую как адреса, номера телефонов и т.д.
+**Customer Instructions:** This message will be included in the customer’s order confirmation email, below the message that corresponds to their chosen shipping method \(see below\). This note is designed to only be visible to customers, so you can include more sensitive information like addresses, or phone numbers etc.
 
-**Товары:** Вы должны выбрать товары, которые будут отображаться в вашем интернет-магазине во время этого цикла заказа.
+**Products:** You must select the products which will be visible in your online store during this order cycle.
 
 {% hint style="info" %}
-Помните, что если вы добавляете новые товары после завершения цикла заказа, вам нужно будет выбрать их здесь, иначе они не появятся в Интернете!
+Remember, if you add new products after an order cycle is underway, you will need to select them here else they won't appear online!
 {% endhint %}
 
-**Добавить Сбор Координатора:** здесь есть опция, чтобы добавить сбор координатора. Вы можете применить [сбор предприятия](../enterprise-fees.md), созданный для вашего предприятия.
+**Add Coordinator Fee:** There is the option of adding a coordinator fee. Here you can apply an [enterprise fee](../enterprise-fees.md) that has been created for your enterprise.
 
-## Открыть витрину
+## Open the shopfront
 
-Нажмите Создать, чтобы сохранить этот цикл заказа.
+Click Create to save this order cycle.
 
 {% hint style="warning" %}
-Если дата открытия вашего цикла заказа уже истекла, то витрина вашего магазина будет сразу активна!  
-Если вы не готовы сейчас открыть магазин, установите дату 'Открывается в' на время в будущем.
+If the opening date of your order cycle has already lapsed then your shop front will be live immediately!  
+If you are not quite ready to open the shop, set the 'Opens At' date to a time in the future.
 {% endhint %}
 
-Для периодических повторяющихся циклов заказа вы можете скопировать существующий цикл заказа и изменить даты, чтобы ускорить процесс. Выберите значок с двумя листами бумаги справа от таблицы, как показано ниже:
+For periodic, repetitive order cycles, you can copy an existing order cycle and change the dates, to make the process quicker. Select the icon with two sheets of paper to the right of the table as highlighted below:
 
 ![](../../../.gitbook/assets/occpy%20%281%29.jpg)
 
-Циклы заказа будут отображаться зеленым цветом, когда они активны, желтым цветом, когда запланировано на будущую дату и серым цветом, когда они закрыты. Если цикл заказа закрылся более месяца назад, он больше не будет отображаться в этом списке. Чтобы просмотреть все ваши прошлые циклы заказов, нажмите **показать еще 30 дней** или **показать еще 90 дней** внизу списка.
+Order cycles will display as green when they are active, yellow when scheduled for a future date, and grey when they have closed. If an order cycle closed over one month ago, it will no longer display on this list. To view all of your past order cycles click **show 30 more days** or **show 90 more days** at the bottom of the list.
 

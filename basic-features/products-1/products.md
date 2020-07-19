@@ -1,104 +1,100 @@
----
-description: '1'
----
+# Add products
 
-# Добавить товары
+You can either add products to your catalog one by one \(detailed below\) or by [bulk import](product-and-inventory-import.md), if you have all the relevant details in a .csv file.
 
-Вы можете добавлять товары в свой каталог по одному \(подробности ниже\) или путем [массового испорта](product-and-inventory-import.md), если у вас есть все необходимые данные в .csv файле.
+## Adding products
 
-## Добавление товаров
-
-После входа в Панель Администратора выберите Товары в горизонтальном синем меню и нажмите +Новый Товар.
+Once logged into the Admin Dashboard, select on **Products** on the horizontal blue menu, and then click **+ New Product**.
 
 ![](../../.gitbook/assets/add-new-product.png)
 
-Вы попадете на страницу Новый Товар.
+This will take you to the New Product page.
 
 ![](../../.gitbook/assets/new-product2.png)
 
-**Поставщик**
+**Supplier**
 
-Выберите предприятие, которое производит и поставляет продукцию.
-
-{% hint style="info" %}
-Если вы производитель, это будете вы. Если вы являетесь центром, помните, что вы сможете добавлять товары только в созданные вами профили производителей или если вам предоставлено разрешение на управление товарами профилей производителей. Смотрите здесь для получения дополнительной информации.. Для получения дополнительной информации, смотрите [тут](../enterprise-profile/create-or-connect-with-your-supplying-producers.md).
-{% endhint %}
-
-**Название товара**: это название товара, отображаемое на витрине магазина.
-
-**Единица измерения**: Выберите единицу, в которой продается товар \(г, кг, л … или предмет \(связка, сумка, пакет\)\)
-
-Если вы выберете 'г', а затем введете 1000, товар для покупателя будет отображаться как 1кг. Имейте в виду, что некоторые единицы измерения будут влиять на работу определенных [сборов предприятия](../shopfront/enterprise-fees.md).
-
-Например, [фиксированный сбор по весу](../shopfront/enterprise-fees.md#fee-calculators) может применяться только к продуктам с единицами 'кг'. В этом случае вы можете ввести нецелые числа единиц, например 0.2кг и продукт будет отображаться как 200г, но будет записан в 'кг' в отчетах и при расчете цен.
-
-**Значение**: введите значение единиц, в которых продается этот товар \(например, если он продается за 100г, введите здесь '100' и выберите 'г' для 'единиц' или, если он продается в виде букетов цветов, введите '1' и 'единицы = штук'.
-
-**Показывать как**: Это поле автоматически показывает, как будут отображаться поля единиц измерения и значения, после того как вы заполните поля единиц измерения и значения. \(т.е. единицы измерения = кг, значение = 2, показывать как = 2 кг\)
+Select the enterprise who produces and supplies the product.
 
 {% hint style="info" %}
-Примечание: Если вы выбрали 'элементы' в качестве единицы измерения, поле 'Показывать как' изменится на 'имя элемента'. Заполните это типом предмета. \(то есть баночка, бутылка или гроздь\)
+If you are a producer, this will be you. If you're a hub, remember you’ll only be able to add products to producer profiles which you have created, or if you have been granted permission to manage the products of a producer profile. See [here](../enterprise-profile/create-or-connect-with-your-supplying-producers.md) for more info.
 {% endhint %}
 
-**Категория товара**: выберите наиболее подходящую категорию для этого продукта. Назначение категории продукту облегчает клиентам поиск товаров, которые они хотят купить; покупатели могут отфильтровать ваш список товаров по категориям в вашем магазине.
+**Product name:** This is the title of the product when displayed on the shop front.
 
-**Цена**: введите цену, упомянутую выше. Обратите внимание, что это базовая цена, взимаемая производителем и сумма, которую они будут получать за каждую покупку. Наценки и сборы \(для администраторов дистрибьюции и т.д.\) добавляются в [Сборах Предприятия](../shopfront/enterprise-fees.md), [Методах Доставки](../shopfront/shipping-methods.md#fee-calculators) и [Методах Оплаты](../shopfront/payment-methods.md#fee-calculators).
+**Units:** Choose the unit the product is sold in? \(g, kg, L… or item \(bunch, bag, packet\)\)
+
+If you choose g and then enter 1000, the product will be displayed as 1kg for the buyer. Keep in mind that some units of measurement will impact on the operation of certain [enterprise fees](../shopfront/enterprise-fees.md).
+
+For example, a [fixed fee by weight](../shopfront/enterprise-fees.md#fee-calculators) can only be applied to products with units of **kg**. In this case, you can enter non-integer unit numbers, such as 0.2 kg, and the product will be displayed as 200 g but will be recorded in kg on the reports and when prices are calculated.
+
+**Value:** Enter the value of units that this product is sold in \(for example if it is sold as 100 g then enter '100' here and choose 'g' for 'units'; or if it is sold as bunches of flowers, enter '1' here and 'units= items'.
+
+**Display As:** This field automatically shows you how the units and value fields will display, once you have filled the units and value fields. \(i.e. units = kg, value = 2, Display as = 2kg\)
 
 {% hint style="info" %}
-Если ваше предприятие зарегистрировано для налогообложения или вы решили, что этот продукт облагается налогом, то цена, указанная здесь, **включает Налог**. Если вы решите, что этот продукт не облагается налогом, введенная вами цена будет безналоговой.
+Note: If you have selected ‘**items**’ as your unit, the **display as** field will change to ‘**item name’**. Fill this in with the type of item it is. \(i.e. jar, bottle, or bunch\)
 {% endhint %}
 
-**В наличии**: укажите, сколько у вас есть в наличии этого товара и готового к продаже.
+**Product category:** Select the most appropriate category for this product. Assigning a product category makes it easier for customers to locate the items they wish to buy; shoppers can filter your product list by category on your shop front.
 
-Используйте это поле, если вы хотите отслеживать уровень запасов в наличии. По мере того, как клиенты размещают заказы, уровень складских запасов снижается, а когда количество на складе достигает нуля, товар больше не будет виден в вашем магазине. Если вы не хотите отслеживать товар таким образом, нажмите 'по запроу'.
+**Price:** Enter the price for the value noted above. Note, this is the base price charged by the producer and the amount they will receive for each purchase. Mark-ups and fees \(for distribution admin etc\) are added in [Enterprise Fees](../shopfront/enterprise-fees.md), [Shipping Fees](../shopfront/shipping-methods.md#fee-calculators) and [Payment Methods](../shopfront/payment-methods.md#fee-calculators).
 
-**По запросу:** Если вы выберете это поле, это будет означать, что товар всегда доступен. Платформа перестает отслеживать уровни запасов для товаров и вместо этого всегда будет показывать, что товар есть в наличии.
+{% hint style="info" %}
+If your enterprise is registered for tax or you select that this product carries tax, then the price you put here is **inclusive of Tax**. If you select that this product is tax free, the price you enter will be the tax free price.
+{% endhint %}
 
-**Изображение**: Загрузить фото этого товара.
+**In Stock:** State how much/many of this product you have available and ready for sale.
+
+Use this field if you want to track your stock levels. As customers place orders, the stock level will reduce, and when the in stock amount reaches zero, the product will no longer be visible in your shop. If you don’t want to track inventory in this way, click 'on demand'.
+
+**Unlimited:** If you select this box, it will indicate that this product is always available. This stops the software from tracking inventory levels for products, and instead it will always show that the product is in stock.
+
+**Image:** Upload a photo of this product.
 
 {% hint style="success" %}
-Мы рекомендуем использовать фотографии хорошего качества в квадратном \(1:1\) форме и крайне желательно реальную фотографию ваших товаров, а не стандартное изображение из Интернете. Это делает продукт более привлекательным для потребителя. Всегда делайте свои фотографии при хорошем освещении.
+We recommend using good quality photos, in a square \(1:1\) format, and preferably a real photo of your products rather than the standard image of the web. This makes the product more attractive to the consumer. Always take your photographs in good light.
 
-Если вы используете изображение из Интернета, убедитесь, что оно не имеет авторских прав.
+If you use an image of the web, check that it is free of rights.
 {% endhint %}
 
-Налоговая Категория: выберите соответствующую категорию налога из выпадающего списка. Налог \(НДС\) зависит от характера товара и страны, в которой вы продаете.
+**Tax category:** Select the applicable tax category from the drop-down list. Tax \(VAT in the UK\) depends on the nature of the product and the country in which you are retailing in.
 
 {% hint style="danger" %}
-Налог будет взиматься только в том случае, если предприятия выбрали 'Сбор налога с продаж = Да' в настройках своего предприятия -&gt; Юридическая информация.
+Tax will only be collected when enterprises have selected 'charges VAT = yes' under their enterprise settings -&gt; Business Details.
 {% endhint %}
 
-**Описание продукта**: Расскажите своим покупателям об этом продукте. Возможно, вы захотите включить рассказ о конкретном сорте томата, включить гиперссылки на любую сертификацию, которую он может иметь и т.д.
+**Product description:** Tell your customers a little bit about this product. You might like to include a story about the specific tomato variety, include hyperlinks to any certification it may have etc.
 
 {% hint style="info" %}
-После того как все обязательные поля будут заполнены \(которые отмечены красной звездочкой\), не забудьте нажать кнопку "Создать" или "Создать и добавить новый" внизу страницы.
+Don't forget to click on the "create" or "create and add new" button at the bottom of the page once all mandatory fields have been entered \(those indicated by a red asterisk\).
 {% endhint %}
 
-Короткая демонстрация шагов, изложенных выше:
+A short demonstration of the steps outlined above:
 
 ![](../../.gitbook/assets/productsadd.gif)
 
-Когда вы закончите создавать товар, вы будете перенаправлены на страницу 'Товары', где вы найдете все свои товары:
+When you have finished creating a product, you are redirected to the "products" page where you will find all your products:
 
 ![](../../.gitbook/assets/productspage.jpg)
 
-## Список Похожих/вариаций Товара
+## Listing Similar / variations of a Product
 
-Если вы делаете список товаров, которые имеют несколько различных вариантов \(скажем, разных размеров или вкусов, каждый из которых может иметь или не иметь разную стоимость\), лучше создать 'вариант' этого товара, чем создавать несколько отдельных. Создание вариантов товара обсуждается на [следующей странице](product-variants.md).
+If you are listing a product which comes in a number of different options \(say different sizes or flavours, each of which may or may not have a different price\), it is best to create a ‘variant’ for that product, rather than creating multiple, separate products. Creating product variants is discussed fully on the [next page](product-variants.md).
 
 {% hint style="success" %}
-Варианты полезны, например, когда вы продаете лимоны как по отдельности, так и в упаковках по 5 штук. Вместо того, чтобы иметь два товара, для одного и того же продукта могут быть доступны два варианта.
+Variants are useful if, for example, you sell lemons singularly as well as in 'packs' of 5. Rather than have two product listings the two options can be available for the same product.
 {% endhint %}
 
-Если вы хотите создать ПОХОЖИЙ товар, вы можете продублировать товары, выбрав значок двойной страницы справа от элемента \(красная рамка\). При последующем выборе значка карандаша и бумаги \(зеленая рамка\), скопированный продукт можно редактировать, а детали изменять для второго элемента.
+If you would like to create a SIMILAR product then you can duplicate products by selecting the double page icon to the right of an item \(red box\). By subsequently selecting the pencil and paper icon \(green box\) the copied product can be edited and the details amended for the second item.
 
 ![](../../.gitbook/assets/productspagecopy.jpg)
 
-## Уточнить атрибуты товара
+## Refine product attributes
 
-Используя ОСП, вы можете добавлять **свойства или метки** к вашим продуктам. Это позволяет клиентам находить ваши товары при поиске по определенным критериям \(например, сертифицированным органическим\) и подчеркивает конкретные качества, которые могут иметь ваши продукты. Узнайте больше [здесь](product-properties.md).
+Using OFN you can add **properties or labels** to your products. This allows customers to find your items when searching for specific criteria \(eg. certified Organic\) and highlights specific qualities your products may have. Find out more [here](product-properties.md).
 
-Для получения советов о том, как управлять продажами "**не регулярных**" продуктов, таких как мясо или крупные овощи, продаваемые в единицах, но рассчитанные по весу, пожалуйста, прочитайте [здесь](pricing-irregular-items-kg.md).
+For tips on how to manage sales of **"irregular" products** such as meat or large vegetables sold in units but costed by weight, please read [here](pricing-irregular-items-kg.md).
 
-Наш инструмент для Групповых Покупок позволяет вам управлять и организовывать продажи продуктов партиями. Узнать больше [здесь](group-buy-for-bulk-ordering.md).
+Our **Group Buy** tool enables you to manage and organise sales of products in bulk lots. Find out more [here](group-buy-for-bulk-ordering.md).
 

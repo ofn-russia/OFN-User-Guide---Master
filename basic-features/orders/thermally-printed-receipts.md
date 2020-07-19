@@ -1,35 +1,31 @@
----
-description: '1'
----
-
-# Термально напечатанные квитанции
+# Thermally printed receipts
 
 {% hint style="danger" %}
-Эта функция в настоящее время доступна только для пользователей ОСП во Франции. Свяжитесь с вашим местным ОСП для получения более подробной информации или запросите использование этой функции.
+This functionality is currently only available to OFN users in France. Contact your local OFN to for more details, or to request use of this feature.
 {% endhint %}
 
-## Принтер
+## Printer
 
-На каком принтере мне нужно распечатать "квитанцию", например ту, которую вы обычно получаете в магазине? Вам нужен термопринтер, который говорит на языке управления ESC/P \(большинство из них\).
+What printer do I need to print a “receipt”, like the one you usually get in a store? You need a thermal printer that talks ESC/P control language \(most of them do\).
 
-Например:
+For instance:
 
-Epson one \(чаще всего в магазинах\). Доступен на Amazon примерно за 135 долларов США  
-Безымянный. Доступен на Amazon примерно за 33 доллара США
+Epson one \(most common in shops\). Available on Amazon for approx USD $135  
+Low cost no-name one \(USD $33\): Available on Amazon for approx USD $33
 
-## Настройка
+## Setup
 
-Как мне настроить аппарат, чтобы он мог печатать квитанции от ОСП?
+How do I setup my machine to be able to print receipts from the OFN?
 
-Сначала вам необходимо установить принтер, следуя инструкциям для вашей операционной системы, предоставленным вашим поставщиком. \(Для принтера USB вам может не потребоваться указывать URI; просто убедитесь, что вы используете соответствующий драйвер.\)
+First you need to install the printer by following the instructions for your operating system provided by your supplier. \(For an USB printer you might not have to specify the URI; just make sure you use the relevant driver.\)
 
-Затем вам нужно установить QZ Tray, который является плагином для принтеров и который запускает печать чека, без необходимости выбирать принтер и нажимать "печать". Вы можете скачать QZ Tray [с этого сайта](https://qz.io/download/#).
+Then you need to install QZ Tray which is a plug-in for printers that will launch the printing of the receipt without you having to select the printer and click on “print”. You can download the QZ Tray [from this site](https://qz.io/download/#).
 
-Запустите QZ Tray, если он не запускался автоматически. Затем откройте страницу "print\_ticket.html" в своем браузере, цифровые сертификаты не будут работать, но вы сможете распечатать тестовую страницу.
+Launch QZ Tray if it didn’t launch automatically. Then open the page “print\_ticket.html” in your browser, digital certificates will not work but you will be able to print a test page.
 
-## Печать квитанций в ОСП
+## Printing receipts in OFN
 
-Нажмите заказы в синем меню, нажмите на заказ клиента. Под меню действий вы увидите Печать квитанции. Нажмите на нее. Должна открыться новая вкладка, после разрешения связи с QZ Tray отобразится список ваших принтеров, выберите термальный и распечатается чек.
+Click orders in the blue menu, click on a customer order. Under the actions menu you will see print receipt. Click on it. A new tab should open, after allowing the communication with QZ Tray it will show a list of your printers, select the thermal one and it will print the receipt.
 
-Выбранный принтер будет сохранен в вашем браузере, если вы хотите изменить его, есть кнопка для этого в том же меню "действий", что и для печати чека.
+The selected printer will be saved in your browser, if you wish to change it there is a button for this under the same “actions” menu as for printing the receipt.
 

@@ -1,68 +1,64 @@
----
-description: '1'
----
+# Group Buy - for bulk ordering
 
-# Групповая Покупка - для массового заказа
+The **Group Buy** function is designed for enterprises who purchase some of their incoming stock in bulk quantities and resell them in smaller units \(for example, purchasing a 25 kg bag of rice and retailing to customers per kg\).
 
-Функция **Групповая покупка** предназначена для предприятий, которые покупают некоторые входящие запасы в больших количествах и перепродают их небольшими единицами \(например, покупая мешок риса по 25 кг и продавая его покупателям по 1 кг\).
+Bulk purchasing is a common practice for **buying groups**, who, by buying large volumes, can benefit from wholesale prices in the same way as conventional distributors. By dong so, members to access food much cheaper than they might be able to from high street retailers.
 
-Массовые закупки - обычная практика для групп покупателей, которые, покупая большие объемы, могут получить выгоду от оптовых цен так же, как обычные дистрибьюторы. Таким образом, участники получают доступ к продуктам намного дешевле, чем они могли бы получить от розничных продавцов.
+For such enterprises, the decision of whether to order a certain product is dependent on whether customers have collectively ordered enough to justify a bulk purchase. This may be due to volume discounts, or delivery fees. The group buy function makes it easier for the hub to achieve bulk buying efficiencies.
 
-Для таких предприятий решение о том, заказывать ли определенный товар, зависит от того, достаточно ли заказали заказчики в совокупности, чтобы оправдать оптовую покупку. Это может быть связано с величиной скидки или платой за доставку. Функция групповой покупки позволяет центру достичь эффективности массовых закупок.
-
-Когда товар распределен по групповой покупке, он будет отображаться по-разному на витрине магазина \(см. ниже\), с отображением в столбце мин / макс количества:
+When a product is allocated to group buy it will display differently in the shopfront \(see below\), with a double column Min/Max quantity visible:
 
 ![](../../.gitbook/assets/group-buy%20%281%29.png)
 
-Клиента просят указать:
+Customer are asked to indicate:
 
-* Их **минимальное** количество - это количество товара, которое они в идеале хотят.
-* Их **максимальное** количество - это максимальная сумма, которую они готовы купить.
+* Their **minimum** quantity- this is the amount of the product they ideally want.
+* Their **maximum** quantity- this is the maximum amount they would be willing to buy.
 
 {% hint style="info" %}
-По сути, для клиента это способ клиента сказать: 'У вас есть мое разрешение увеличить мой заказ до этого момента, если это означает, что как группа, мы можем достичь большого количества заказа'.
+Essentially this is a way for the customer to say _‘you have my permission to increase my order up to this point, if it means that as a group, we can achieve the bulk order quantity’._
 {% endhint %}
 
-[В Пакетном Управлении Заказами](../orders/view-orders.md#bulk-order-management)  вы можете просмотреть общие минимальные и максимальные объемы заказов для товара от всех ваших клиентов. Затем вы можете либо поднять заказы клиента в пределах их допустимого диапазона, чтобы достичь массового количества, либо, если максимальный объем заказа не дотягивает, вы можете удалить все заказы для этого товара.
+In [Bulk Order Management](../orders/view-orders.md#bulk-order-management) you can view the total minimum and maximum order quantities for the product, from all of your customers. Then you can either raise customer orders, within their acceptable range, to achieve the bulk quantity, or if the maximum order quantity falls short, you can delete all orders for this product.
 
-## Включение Групповой Покупки для товара
+## Enabling Group Buy for a product
 
-На панели администратора перейдите в '**Товары'** в синем горизонтальном меню. Выберите **Изменить** товар, щелкнув значок карандаша и бумаги справа от соответствующего товара:
+On the admin dashboard, go to '**Products**' on the blue horizontal menu. Select to **Edit** a product by clicking on the pencil and paper icon to the right of the product in question:
 
 ![](../../.gitbook/assets/productedit.jpg)
 
-Затем выберите **Параметры Групповой Покупки** в меню справа.
+Then select **Group Buy Options** in the menu to the right.
 
 ![](../../.gitbook/assets/groupbuy.jpg)
 
-Выберите **Да** в **Групповая Покупка?**, чтобы активировать эту функцию для товара.
+Select **Yes** under **Group Buy? to activate this feature for the product.**
 
-**Размер Оптовой Единицы** - это кол-во, которое должен достичь коллективный заказ группы.
+The **Bulk Unit Size** is the amount that the group’s collective order needs to reach.
 
 {% hint style="warning" %}
-**Единицы** Размера Оптовой Единицы зависят от единиц, выбранных для розничной продажи товара покупателям.
+The **units** for the Bulk Unit Size quantity depend on the units selected for retailing the product to customers.
 
-Если товар продается по:
+If the product is sold by:
 
-* **Вес**: единицы измерения в гр \(поэтому, если общий вес должен быть равен 5кг, введите в этом поле '5000'\)
-* **Объем**: единицы измерения в литрах \(поэтому, если общий объем должен составлять 10л, введите '10' в это поле\)
-* **Предметы**: например продажа букетов цветов, но в общей сложности необходимо купить 100 букетов, а тогда необходимо ввести '100' в этом поле.
+* **Weight**: units are in g \(so if collective total must equal 5 kg then enter '5000' in this field\)
+* **Volume**: units are in litres \(so if collective total must be 10 l then enter '10' in this field\)
+* **Items**: eg. selling bunches of flowers but must purchase 100 bunches in total then enter '100' in this field.
 {% endhint %}
 
-## Корректировка Заказов для создания полных Партий
+## Adjusting Orders to make complete Batches
 
-В разделе 'Заказы' -&gt; [пакетное управление заказами](../orders/view-orders.md#bulk-order-management) вы можете просматривать и редактировать заказы клиентов для товаров Групповой Покупки, чтобы объединенный заказ от всех клиентов достиг требуемого порога.
+Under Orders-&gt; [bulk order management](../orders/view-orders.md#bulk-order-management) you can view and edit customer orders for Bulk Buy products to make the combined order from all customers reach your required threshold.
 
-1. Выберите интересующий цикл заказа или диапазон дат.
-2. Найдите товар \(Рыба в примере ниже\).
-3. Убедитесь, что отображается столбец 'Макс', чтобы вы могли видеть верхний предел, который каждый покупатель готов приобрести.
-4. Затем щелкните значение \(«test fish: Fish One» в приведенном ниже примере\) в столбце '**Товар: Единица**', чтобы отобразить поле общей суммы заказов \(синим цветом\) для рассматриваемого товара. 
-5. Используя информацию в столбце **Максимум**, вы можете увеличить количество, заказанное для достижения порогового значения для полной партии. 
-6. Нажмите Обновить, чтобы сохранить изменения в заказах клиентов.
+1. Select the order cycle or date range of interest.
+2. Search for the product \(Fish in the example below\).
+3. Make sure the ‘Max’ column is displayed so you can see the upper limit each customers is prepared to purchase.
+4. Next, click on the value \('test fish: Fish One' in the example below\) in the **Product : Unit** column, to display the orders total box \(in blue\) for the product in question. 
+5. Using the information in the column **Max**, you can increase the quantities ordered to reach the threshold for a complete batch. 
+6. Click update to save changes to customer orders.
 
 ![](../../.gitbook/assets/bulkorder2.jpg)
 
-**Текущие Выполненные Единицы** делят ваше общее количество, упорядоченное по размеру единицы групповой покупки. Если этот показатель больше 1, это говорит о том, что существующий заказ клиента удовлетворяет или превышает требуемый размер групповой покупки. Если этот показатель меньше 1, существующие заказы клиентов не соответствуют этому пороговому значению. По мере увеличения количества заказов клиентов эта цифра будет расти.
+**Current Fulfilled Units** divides your total quantity ordered by the group buy unit size. If this figure is greater than 1, it tells you that the existing customer order satisfy or exceed your required group buy unit size. If this figure is less than 1, existing customer orders don’t meet that threshold. As you raise the quantity of customer orders, this figure will raise.
 
-**Максимальное количество выполненных единиц** берет сумму или всё МАКС количество заказов клиентов и делится на Размер Групповой Закупки. Если число превышает 1, то вы знаете, что общее МАКС количество заказов превышает требуемое количество групповой покупки. Если он ниже нуля, это означает, что даже МАКС количество заказа не достиг порогового значения.
+**Max Fulfilled Units** takes the sum or all of the customer’s MAX order quantities and divides this by the Group Buy Unit Size. If the number is over 1, then you know that the total of your MAX orders exceeds the required group buy quantity. If it’s below zero, it means that even the MAX order quantities won’t reach the threshold.
 

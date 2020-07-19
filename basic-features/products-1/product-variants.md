@@ -1,46 +1,42 @@
----
-description: '1'
----
+# Product variants
 
-# Варианты товара
+If you are listing two or more products which are very similar, but only vary on price, or size, or something like flavour, it is best to create a ‘variant’ for that product, rather than creating multiple, separate products. This will make the listing clearer to customers and prevent your store from becoming cluttered.
 
-Если вы создаете два или более продукта, которые очень похожи, но различаются только по цене, размеру или по вкусу, лучше создать 'вариант' для этого продукта, а не создавать несколько отдельных продуктов. Это сделает список более понятным для покупателей и предотвратит засорение вашего магазина.
+![Shop display for Corn Cobs sold with two variants.](../../.gitbook/assets/corncob-variants.png)
 
-![&#x41C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x44B;&#x432;&#x430;&#x435;&#x442;, &#x447;&#x442;&#x43E; &#x43A;&#x443;&#x43A;&#x443;&#x440;&#x443;&#x437;&#x430; &#x43F;&#x440;&#x43E;&#x434;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x432; &#x434;&#x432;&#x443;&#x445; &#x432;&#x430;&#x440;&#x438;&#x430;&#x43D;&#x442;&#x430;&#x445;.](../../.gitbook/assets/corncob-variants.png)
+## How do I create a Product Variant?
 
-## Как создать Вариант Товара?
+First of all, it is necessary to create a product, which will automatically be also the first variant of this product. For more details on adding simple products, click [here](products.md).
 
-Прежде всего, необходимо создать продукт, который автоматически станет и первым вариантом этого продукта. Для получения дополнительной информации о добавлении простых продуктов, нажмите [здесь](products.md).
-
-На панели инструментов администратора перейдите на страницу товаров, где вы найдете список товаров для компаний 'производитель', которыми вы управляете. Чтобы увидеть **все варианты**, связанные с вашими продуктами, нажмите на 'Развернуть все' \(красный цвет\) в левом верхнем углу таблицы.
+In your admin dashboard, go to the products page where you will find the list of products for companies of "producer" nature that you manage. To see **all the variants** associated with your products, click on "Expand All" in red at the top left of the table.
 
 ![](../../.gitbook/assets/variants1.jpg)
 
-Чтобы увидеть только варианты конкретного продукта, нажмите на "&gt;" слева от первого столбца таблицы. Если вы хотите создать новый вариант для этого продукта, нажмите на маленький плюс "+", который отображается чуть ниже, как показано выше.
+To see see the variants of a specific product only, click on the angle "&gt;" to the left of the first column of the table. If you wish to create a new variant for this product, click on the small plus "+" which is displayed just below as shown above.
 
-Это добавит новую строку, позволяющую быстро ввести информацию о втором варианте:
+This will add a new line allowing you to quickly enter information about the second variant:
 
 ![](../../.gitbook/assets/variants2.jpg)
 
-Первая строка соответствует 'родительскому продукту', который будет предлагаться покупателям в виде нескольких вариантов. Поэтому некоторая информация об уровне продукта будет применяться ко всем вариантам, например, единица измерения, название единицы, если продукт продается отдельно, свойства, условия перевозки и т.д.
+The first line corresponds to the 'parent product' which will be offered for sale to customers in the form of several variants. Some product-level information will therefore apply to all variants, such as the unit of measure, the name of the unit if the product is sold individually, the properties, the conditions of transport, etc.
 
-2-я и 3-я строки - это 2 варианта продукта. Каждый вариант отличается от других по меньшей мере одним дифференцирующим элементом, таким как единица измерения \(например, упаковка в 500г вместо 100г для первого варианта\) и очень часто, установленная цена. Незначительные изменения в характере продукта \(например, вкус\) могут быть детализированы путем изменения названия каждого варианта \(например, вариант один имеет название = 'козий сыр - травы', а второй вариант имеет название = 'козий сыр - чеснок'\) ,
+The 2nd and 3rd lines are here the 2 variants of the product. Each variant is distinguished from the others by at least one differentiating element, such as the unit \(eg. packaging per 500g instead of 100g for the first variant\) and, very often, the associated price. Slight variations in the nature of a product \(eg. flavour\) can be detailed by changing the name of each variant \(eg. variant one has name = 'goats cheese- herbs' and variant two has name= 'goats cheese- garlic'\).
 
 {% hint style="info" %}
-Чтобы избежать ошибок при чтении отчетов, мы настоятельно рекомендуем всегда называть каждый вариант по-разному.
+To avoid errors when reading reports, we strongly recommend that you always name each variant differently.
 {% endhint %}
 
 {% hint style="danger" %}
-На данный момент уровни запасов могут быть определены только **на уровне варианта**.
+At the moment, stock levels can only be defined **at the level of the variant.**
 
-Мы знаем, что это может быть проблемой, если у вас есть фиксированное количество товара, но вы хотите продавать его и оптом, и в розницу. \(например, если у вас всего 5 кг помидоров, но вы хотите продать их по 100г и 1кг, вам придется вручную управлять уровнем запасов между двумя вариантами.\)
+We know this might be a problem if you have a fixed amount of an item but wish to retail in bulk quantities as well as singularly. \(eg if you have only 5 kg of tomatoes in total but wish to sell as variants of 100 g and 1 kg you will have to manage your stock levels between the two variants manually.\)
 {% endhint %}
 
 {% hint style="success" %}
-Не существует ограничений по количеству вариантов для продукта. Вы можете добавить столько, сколько вам нужно.
+There is no maximum number of variants for a product. You can add as many as you need.
 {% endhint %}
 
 {% hint style="info" %}
-Когда вы закончите, всегда выбирайте 'сохранить изменения' в красном поле в правом нижнем углу экрана.
+When you are finished always select 'save changes' in the red box at the bottom right of the screen.
 {% endhint %}
 

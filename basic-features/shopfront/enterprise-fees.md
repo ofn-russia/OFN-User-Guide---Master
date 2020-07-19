@@ -1,79 +1,75 @@
----
-description: '1'
----
+# Enterprise Fees
 
-# Сборы Предприятия
+Enterprise fees are useful for producers and hubs who are working together: it allows costs associate with admin, packing, transport, sales and fundraising to be allocated to different parties.
 
-Сборы Предприятия полезны для производителей и центров, которые работают вместе: это позволяет распределять расходы, связанные с администрированием, упаковкой, транспортировкой, продажами и сбором средств, между различными сторонами.
+For example a hub may choose to add an enterprise fee of 10% to all the products they sell, to cover their administration costs \(storage of products prior to distribution, salaries of people who manage and coordinate sales...\)
 
-Например, центр может выбрать добавление корпоративного сбора в размере 10% ко всем товарам, которые они продают, чтобы покрыть свои административные расходы \(хранение товаров до распределения, зарплаты людей, которые управляют продажами и координируют их ...\)
+For producers selling their own products directly, these costs are already present in the price of the product, so applying Enterprise Fees may not seem necessary.
 
-Для производителей, продающих свои собственные товары напрямую, эти затраты уже присутствуют в стоимости товара, поэтому необходмости в применении Сборов Предприятия нет.
+One of the many benefits to OFN customers is price transparency. Shoppers can see the percentage of an item's price assigned to admin, packing etc. This information is displayed by clicking on the pie chart next to the price of a product on the shop front:
 
-Одним из многих преимуществ для клиентов ОСП является прозрачность цен. Покупатели могут видеть процент от цены товара, назначенной администратору, упаковке и т.д. Эта информация отображается при нажатии на круговую диаграмму рядом с ценой товара на витрине магазина:
+![An enterprise fee in a shopfront](../../.gitbook/assets/enterprsie-fee-in-shopfront.png)
 
-![&#x421;&#x431;&#x43E;&#x440; &#x41F;&#x440;&#x435;&#x434;&#x43F;&#x440;&#x438;&#x44F;&#x442;&#x438;&#x44F; &#x432; &#x432;&#x438;&#x442;&#x440;&#x438;&#x43D;&#x435; &#x43C;&#x430;&#x433;&#x430;&#x437;&#x438;&#x43D;&#x430;](../../.gitbook/assets/enterprsie-fee-in-shopfront.png)
-
-Прежде чем двигаться дальше, вы можете взглянуть на быструю демонстрацию настройки вашего первого сбора предприятия:
+Before you move on you might like to have a look at a quick demonstration of setting up your first enterprise fee:
 
 ![](../../.gitbook/assets/enterprisefeefirst.gif)
 
-## Настройка Сборов Предприятия
+## Setting up an Enterprise Fee
 
-* Перейдите на страницу Сборы Предприятия, нажав на **Предприятия** в синем горизонтальном меню, а затем нажмите **Настройки** рядом с вашим предприятием. Страница **Сборы Предприятия** находится в меню слева.
-* Нажмите **Создать сейчас** \(или **Управление Сборами Предприятия**, если вы уже настроили и хотите изменить\). Вы будете перенаправлены на такую страницу:
+* Go to the Enterprise Fee page by clicking on **Enterprises** in the blue horizontal menu, and then click **Settings** next to your enterprise. The **Enterprise Fee** page is found in the menu on the left hand side.
+* Click **Create one now**  \(or **Manage Enterprise Fees** if you have already set one up and would like to edit it\). You will be directed to a page like this:
 
 ![](../../.gitbook/assets/enterprisefeecreate.jpg)
 
-**Предприятие**: в первом столбце выберите предприятие, к которому применяется сбор.
+**Enterprise:** In the first column, select the enterprise to which the fee applies.
 
-**Тип Сбора**: выберите услугу, к которой применяется данный сбор. Возможные варианты: Оплата Упаковки, Транспортный Сбор, Административный Сбор, Сбор с Продаж или Сбор на Пожертвования.
+**Fee Type:** Select the service that this fee applied to. The options are Packing Fee, Transport Fee, Admin Fee, Sales Fee or Fundraising Fee.
 
-**Название**: выберите имя для этого сбора.
+**Name:** Choose a name for this fee.
 
-**Налоговая Категория**: выберите соответствующую налоговую ставку. В большинстве случаев ставка НДС для сбора с предприятия будет унаследована от товара. Если сбор предприятия связан с услугой, добавленной к товару, этот сбор может облагаться НДС, а сам товар - нет. В этом случае выберите 'Нулевая ставка', 'Полная ставка' и 'Пониженная ставка' НДС, применяемого к Cборам Предприятия.
+**Tax Category:** Select the appropriate tax rate. In most cases the VAT rate for the enterprise fee will be inherited from the product. If the enterprise fee is associated with a service added to the product the fee may be subject to VAT but the product itself not. In which case choose between 'Zero rated', 'Full Rate' and 'Reduced Rate' of VAT to applied to Enterprise fees.
 
-**Калькулятор:** сбор может быть рассчитан несколькими способами. Выберите калькулятор, который лучше всего подходит.
+**Calculator:** The fee can be calculated in a number of ways. Select the calculator which best applies.
 
-Нажмите Обновить, чтобы создать сбор предприятия.
+Click Update, to create the enterprise fee.
 
 {% hint style="info" %}
-Вы сможете указывать только тарифы или значения \(в столбце 'значения калькулятора' после создания Cбора Предприятия\).
+You will only be able to specify rates or values \(in the 'calculator values' column after the Enterprise Fee has been created.
 {% endhint %}
 
 ![](../../.gitbook/assets/enterprisefee2.jpg)
 
-## Калькуляторы Сбора
+## Fee Calculators
 
 ![](../../.gitbook/assets/enterprisefee3.jpg)
 
-**Фиксированный Процент** - эта комиссия взимается в процентах от общей суммы, потраченной в заказе.
+**Flat Percent** – This fee is charged as a percentage of the total amount charged in the order.
 
-**Вес \(за кг\)** - этот сбор применяется к товарам за килограмм. Плата будет _применяться только к товарам, которые оцениваются по цене за килограмм_, а не к товарам, перечисленным в качестве предметов \(например, товар, обозначенный как '1 пучок петрушки', не будет вноситься в общую плату, которая взымается с клиента за доставку\)
+**Weight \(per kg\)** – this fee is applied to products on a per kg basis. The fee will _only be applied to products which are priced at a per kg rate_, not products listed as items \(e.g. A product listed as ‘1 bunch of parsley’ will not have an associated enterprise fee with this option.\)
 
-**Фиксированный Процент \(за заказ\)** - этот сбор применяется в качестве стандартного сбора для всех заказов, независимо от размера заказа.
+**Flat Rate \(per order\)** – This fee is applied as standard fee to all orders, regardless of the size of the order.
 
-**Гибкая Ставка** - этот калькулятор сборов особенно полезен, если вы хотите поощрять клиентов размещать крупные заказы: стоимость доставки может быть уменьшена или равна нулю при достижении порогового количества товаров.
+**Flexible Rate** – This fee calculator is especially useful if you'd like to encourage customers to place large orders: the enterprise can be reduced or zero when the threshold number of items has been reached.
 
-* 'Стоимость первого товара': сбор за первый товар в заказе.
-* 'Дополнительная стоимость товара': сбор взимаемая за товары, не входящие в первую позицию.
-* 'Максимальное количество позиций': максимальное количество предметов, на которые будет взиматься сбор. За товары, приобретенные сверх этой суммы, плата не взимается.
+* ‘First Item Cost’: The fee charged for the first item in the order.
+* ‘Additional Item Cost’: The fee charged for items beyond the first item.
+* ‘Max Items’: The maximum number of items on which the fee will be applied. Items purchased beyond this amount will be not be charged the fee.
 
 ![](../../.gitbook/assets/enterprisefeeflex.jpg)
 
-> Например: 'Стоимость первого товара' установлена в 0.20руб, 'Дополнительная стоимость товара' равна 0.10руб. и 'Максимальное количество позиций' равно 3, тогда клиент, покупающий 5 позиций заплатит сбор/комиссию 0.40руб\(0.20руб за первую позицию, по 0.10руб за позиции два и три и 0.00руб за позиции четыре и пять\).
+> For Example: if the 'First Item Cost' is set to £0.20, 'Additional Item Cost' is £0.10 and 'Max Items' is 3 then a customer who purchases 5 items will be charged £0.40 in enterprise fees \(£0.20 for the first item, £0.10 for items two and three, and £0.00 for items four and five\).
 
-**Единая ставка \(за единицу\)** - эта сумма является постоянной и применяется к товарам, перечисленным как 'предметы'. \(Не применяется к товарам, продаваемым по весу или объему. Следовательно, с клиента не взимается соответствующая стоимость доставки, например, покупая рис по кг\).
+**Flat Rate \(per item\):** This fee is a constant fee, applied to products listed as ‘items’. \(It is not applied to products sold by weight or volume. Hence there will be no associated enterprise fee charged to a customer who, for example, buys rice by kg.\)
 
-**Ценовой пакет** - это гибкий метод оплаты за доставку, который определяется _общей суммой продаж_, а не количеством приобретенных товаров \(Гибкая Ставка выше\)
+**Price Sack:** This is a flexible enterprise fee method charged by _total monetary sale_, rather than number of items purchased \(Flexible Rate above\)
 
-* 'Минимальная сумма': Денежное значение порога между Обычной стоимостью доставки и стоимостью Скидки на доставку.
-* 'Обычная сумма': Стоимость доставки применяется к продажам ниже порогового значения, указанного в 'Минимальной сумме'.
-* ‘Сумма скидки’: стоимость доставки применяется к продажам, превышающим порог, указанный в 'Минимальной сумме'.
+* ‘Minimum Amount’: Monetary value of the threshold between Normal Enterprise fee and Discounted Enterprise fee. 
+* 'Normal Amount': Payment Method fee applied to sales below the threshold stated in 'Minimum Amount'.
+* ‘Discount Amount’: Payment Method fee applied to sales above the threshold stated in 'Minimum Amount'.
 
 ![](../../.gitbook/assets/enterprisefeepc.jpg)
 
 {% hint style="warning" %}
-Теперь, когда вы создали свои Сборы Предприятия, помните, что **они не будут применяться в вашем магазине пока не добавлены в цикл заказа**. Для получения дополнительной информации см. страницы цикла заказа для [производителей ](order-cycle/order-cycles-for-producers.md)или [центров](order-cycle/order-cycles-for-hubs.md).
+Now that you've created your Enterprise Fee remember that **it will not apply in your shop unless it's added to an order cycle**. See the order cycle pages for [producers](order-cycle/order-cycles-for-producers.md) or [hubs ](order-cycle/order-cycles-for-hubs.md)for more details.
 {% endhint %}
 
