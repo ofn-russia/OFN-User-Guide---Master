@@ -54,7 +54,7 @@
     * [Создание и управление страницей Группы](basic-features/groups/group-page.md)
     * [Встраивание Групповой Страницы на Веб-сайт](basic-features/groups/embed-a-group-page.md)
 * [Дополнительное программное обеспечение и инструменты](complementary-tools-software/README.md)
-  * [Newsletters & Promotional Emails](complementary-tools-software/communication.md)
+  * [Информационные Бюллетени и Рекламные Письма](complementary-tools-software/communication.md)
   * [Accounting and Invoicing Packages](complementary-tools-software/finances/README.md)
     * [Paying suppliers with ABA files \(Australia\)](complementary-tools-software/finances/paying-suppliers.md)
 * [Советы по управлению центром](hub-management-tips/README.md)
@@ -62,5 +62,5 @@
   * [Your farm on Facebook](hub-management-tips/your-farm-on-facebook.md)
 * [Устранение неполадок](trouble-shooting.md)
 * [Словарь терминов ОСП](glossary-of-ofn-terms.md)
-* [Feedback](feedback.md)
+* [Обратная связь](feedback.md)
 
